@@ -24,6 +24,8 @@ To develop a structured relational database, we initiated a comprehensive data c
 
 [Updated ERD and data dictionary](https://clif-consortium.github.io/website/data-dictionary.html) 
 
+## CLIF table POCs
+
 Each CLIF table has an assigned clinician who serves as the primary point of contact for any inquiries related to the schema or common data elements specific to that table.
 
 | Tables                       | Point of Contact                              | Email                                         | GitHub Username       |
