@@ -36,22 +36,22 @@ Each CLIF table has an assigned clinician who serves as the primary point of con
 | provider                     | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
 | adt                          | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
 | vitals                       | Catherine Gao, MD                             | catherine.gao@northwestern.edu                | cloverbunny           |
-| scores                       | Snigdha Jain, MD                              | snigdha.jain@yale.edu                         | snigdhajainyale       |
 | dialysis                     | Jay Koyner, MD                                | jkoyner@uchicago.edu                          |                       |
 | intake_output                |                                               |                                               |                       |
 | procedures                   | J.C. Rojas, MD                                | juan_rojas@rush.edu                           | sajor2000             |
-| therapy_session              | William Parker, MD, PhD & Bhakti Patel, MD    | wparker@uchicago.edu; bpatel@bsd.uchicago.edu | 08wparker             |
 | therapy_details              | William Parker, MD, PhD & Bhakti Patel, MD    | wparker@uchicago.edu; bpatel@bsd.uchicago.edu | 08wparker             | 
 | respiratory_support          | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
 | position                     | Chad Hochberg, MD                             | chochbe1@jh.edu                               | chochbe1              |
+| patient_assessment           | Snigdha Jain, MD                              | snigdha.jain@yale.edu                         | snigdhajainyale       |
 | ecmo_mcs                     | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
 | labs                         | Catherine Gao, MD                             | catherine.gao@northwestern.edu                | cloverbunny           |
-| microbiology_culture         | Kevin Buell, MBBS                             | kevin.buell@uchicagomedicine.org              |                       |
-| microbiology_nonculture      | Kevin Buell, MBBS                             | kevin.buell@uchicagomedicine.org              |                       |
-| sensitivity                  | Kevin Buell, MBBS                             | kevin.buell@uchicagomedicine.org              |                       |
+| microbiology_culture         | Kevin Buell, MBBS                             | kevin.buell@uchicagomedicine.org              | kevingbuell           |
+| microbiology_nonculture      | Kevin Buell, MBBS                             | kevin.buell@uchicagomedicine.org              | kevingbuell           |
+| sensitivity                  | Kevin Buell, MBBS                             | kevin.buell@uchicagomedicine.org              | kevingbuell           |
 | medication_orders            | Anna Barker, MD, PhD                          | baanna@med.umich.edu                          | baanna23              |
 | medication_admin_intermittent| Anna Barker, MD, PhD                          | baanna@med.umich.edu                          | baanna23              |
 | medication_admin_continuous  | Chad Hochberg, MD                             | chochbe1@jh.edu                               | chochbe1              |
+| code_status                  | Nathan Mesfin, MD                             |                                               |                       |
 
 
 ## Data Architecture 
