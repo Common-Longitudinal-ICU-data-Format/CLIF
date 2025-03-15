@@ -30,7 +30,7 @@ amiodarone,cardiac
 lidocaine,cardiac
 nicardipine,cardiac
 clevidipine,cardiac
-nitroglycerine,cardiac
+nitroglycerin,cardiac
 nitroprusside,cardiac
 esmolol,cardiac
 diltiazem,cardiac
@@ -60,7 +60,7 @@ sodium bicarbonate,fluids_electrolytes
 tpn,fluids_electrolytes
 tocolyttics,others
 magnesium,others
-pitossin,others
+pitocin,others
 dextrose,others
 sodium chloride,others
 aminocaproic,others
