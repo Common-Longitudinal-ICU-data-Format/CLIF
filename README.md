@@ -1,4 +1,4 @@
-# Common Longitudinal ICU Format (CLIF)
+# Common Longitudinal ICU data Format (CLIF)
 
 Official Website to the CLIF Consortium - [CLIF Consortium](https://clif-consortium.github.io/website/)
 
