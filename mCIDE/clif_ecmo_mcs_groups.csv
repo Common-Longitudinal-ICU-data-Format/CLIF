@@ -1,0 +1,21 @@
+device_category,mcs_group,side,site,status,notes
+Impella_2.5,temporary_LVAD,left,"[femoral, axillary]",Discontinued,
+Impella_CP,temporary_LVAD,left,"[femoral, axillary]",Active,
+Impella_5.0,temporary_LVAD,left,"[femoral, axillary]",Discontinued,
+Impella_5.5,temporary_LVAD,left,"[axillary, direct]",Active,
+Impella_LD,temporary_LVAD,left,[aortic],Discontinued,
+Impella_RP,RVAD,right,[femoral],Active,
+Impella_RP_Flex,RVAD,right,"[femoral, jugular]",Active,may want to combine w/ _RP
+iVAC,temporary_LVAD,left,[femoral],Active,
+TandemHeart_LV,temporary_LVAD,left,"[femoral, direct]",Active,
+TandemHeart_RV,RVAD,right,"[femoral, jugular, direct]",Active,
+CentriMag_LV,temporary_LVAD,left,"[femoral, axillary, direct]",Active,
+CentriMag_RV,RVAD,right,"[femoral, jugular, direct]",Active,
+IABP,IABP,left,"[femoral, axillary]",Active,"different brands, would just collapse into one"
+VA_ECMO,ECMO,both,"[femoral, axillary, direct]",Active,could be centrimag + oxygenator
+VV_ECMO,ECMO,right,"[femoral, jugular, direct]",Active,could be centrimag + oxygenator
+VAV_ECMO,ECMO,both,"[femoral, jugular, axillary, direct]",Active,may want to collapse into VV ecmo
+LAVA_ECMO,ECMO,left,"[femoral, direct]",Active,"may want to exclude, not common and may not be structured"
+HeartWare,durable_LVAD,left,[implanted],Discontinued,
+HMII,durable_LVAD,left,[implanted],Discontinued,
+HMIII,durable_LVAD,left,[implanted],Active,
