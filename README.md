@@ -1,6 +1,6 @@
 # Common Longitudinal ICU data Format (CLIF)
 
-Official Website to the CLIF Consortium - [CLIF Consortium](https://clif-consortium.github.io/website/)
+Official Website to the CLIF Consortium - [CLIF Consortium](https://clif-icu.com/)
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -22,7 +22,7 @@ In an iterative and ongoing fashion, we developed CLIF's schema, contents, and l
 
 To develop a structured relational database, we initiated a comprehensive data collection and cleaning effort at the eight health systems. We designed CLIF as an encounter-centric relational database with a clinically determined limited vocabulary for vitals, laboratory names, medications, patient locations, and respiratory device names. By consensus, we determined that CLIF would prioritize (1) completeness of routine clinical data, (2) temporal granularity, and (3) consistently measured clinical outcomes. The entity-relationship diagram from relational CLIF is presented below as a human-readable and clinically meaningful flow of information. Tables are organized into clinically relevant column categories (demographics, objective measures, respiratory support, orders and inputs-outputs)
 
-[Updated ERD and data dictionary](https://clif-consortium.github.io/website/data-dictionary.html) 
+[Updated ERD and data dictionary](https://clif-icu.com/data-dictionary/data-dictionary-2.0.0) 
 
 ## CLIF table POCs
 
@@ -56,44 +56,14 @@ Each CLIF table has an assigned clinician who serves as the primary point of con
 
 ## Data Architecture 
 
-One of CLIF's key contributions is an open-source web application that enables users to convert a relational database into a longitudinal dataset with custom time intervals, select study-specific variables, and choose a preferred programming language. This facilitates straightforward data processing and enables effortless cross-center comparisons and integrations, bypassing the need for DUAs when analytic queries do not need pooled patient-level data. CLIF's deployment across four of the planned eight health systems has successfully compiled a robust ICU encounter-centric relational database, documenting 87,120 ICU admissions and capturing data from 71,190 unique patients.
+One of CLIF's key contributions is an open-source web application for converting relational databases into longitudinal datasets, selecting study-specific variables, and generating code in multiple programming languages. This tool enables streamlined data processing and supports cross-center comparisons without requiring pooled patient-level data.  
 
-| ![Diagram_CLIF_ATS_v3.jpg](/images/Diagram_CLIF_ATS_v3.jpg) | 
-|:--:| 
-||
+For more information about our data architecture and tools, please visit our [website](https://clif-icu.com/about).
 
 
 ## Current team members 
 
-### Clinicians 
- * William Parker, MD, PhD 
- * Kevin Buell, MBBS
- * J.C. Rojas, MD
- * Catherine Gao, MD
- * Pat Lyons, MD
- * Chad Hochberg, MD
- * Nicholas Ingraham, MD 
- * Siva Bhavani, MD
- * Anna Barker, MD, PhD
- * Snigdha Jain, MD
-
-### Data Scientists 
- * Kaveri Chhikara, MS
- * Rachel Baccile, MPP
- * Kyle Carey, MS
- * Vaishvik C., MS
- * Saki Amagai, PhD
- * Brenna Park-Egan, MS
- * Muna Nour, MPH
-
-### Collaborators 
- * Jay Koyner, MD
- * Bhakti Patel, MD 
- * Kevin Smith, MD
- * Haley Beck, MA
- * Yuan Luo, PhD
- * Chengsheng Mao, PhD
- * Susan Han, MD
+Our team of clinicians, data scientists, and collaborators can be found on our [website](https://clif-icu.com/team).
 
 
 
