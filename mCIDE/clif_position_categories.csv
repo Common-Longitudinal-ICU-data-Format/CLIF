@@ -1,3 +1,3 @@
-position_category,description
-prone,Patient positioned prone (face down)
-not_prone,Patient not positioned prone
+position_category
+prone
+not_prone

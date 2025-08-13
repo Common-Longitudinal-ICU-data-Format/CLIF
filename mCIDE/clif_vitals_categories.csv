@@ -1,10 +1,10 @@
-vital_category,description
-temp_c,Temperature in Celsius
-heart_rate,Heart rate in beats per minute
-sbp,Systolic blood pressure in mmHg
-dbp,Diastolic blood pressure in mmHg
-spo2,Oxygen saturation percentage
-respiratory_rate,Respiratory rate in breaths per minute
-map,Mean arterial pressure in mmHg
-height_cm,Height in centimeters
-weight_kg,Weight in kilograms
+vital_category
+temp_c
+heart_rate
+sbp
+dbp
+spo2
+respiratory_rate
+map
+height_cm
+weight_kg
