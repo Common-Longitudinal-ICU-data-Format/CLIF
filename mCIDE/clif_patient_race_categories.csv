@@ -1,8 +1,8 @@
-﻿race_category
-Black or African American
-White
-American Indian or Alaska Native
-Asian
-Native Hawaiian or Other Pacific Islander
-Unknown
-Other
+race_category,description
+Black or African American,Black or African American
+White,White
+American Indian or Alaska Native,American Indian or Alaska Native
+Asian,Asian
+Native Hawaiian or Other Pacific Islander,Native Hawaiian or Other Pacific Islander
+Unknown,Race unknown or not reported
+Other,Other race not specified above

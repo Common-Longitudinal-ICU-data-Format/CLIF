@@ -1,0 +1,3 @@
+order_status_name,description
+sent,Order has been sent but not yet completed
+completed,Order has been completed

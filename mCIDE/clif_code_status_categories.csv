@@ -1,0 +1,10 @@
+code_status_category,description
+DNR,Do Not Resuscitate
+DNAR,Do Not Attempt Resuscitation
+UDNR,Universal Do Not Resuscitate
+DNR/DNI,Do Not Resuscitate/Do Not Intubate
+DNAR/DNI,Do Not Attempt Resuscitation/Do Not Intubate
+AND,Allow Natural Death
+Full,Full code status with all resuscitative measures
+Presume Full,Presumed full code status
+Other,Other code status not specified above
