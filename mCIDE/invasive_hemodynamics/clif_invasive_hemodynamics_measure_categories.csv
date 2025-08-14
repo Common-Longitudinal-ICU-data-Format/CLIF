@@ -1,8 +1,8 @@
 measure_category,description
-CVP,Central Venous Pressure
-RA,Right Atrial pressure
-RV,Right Ventricular pressure
-PA_systolic,Pulmonary Artery systolic pressure
-PA_diastolic,Pulmonary Artery diastolic pressure
-PA_mean,Pulmonary Artery mean pressure
-PCWP,Pulmonary Capillary Wedge Pressure
+cvp,Central Venous Pressure
+ra,Right Atrial pressure
+rv,Right Ventricular pressure
+pa_systolic,Pulmonary Artery systolic pressure
+pa_diastolic,Pulmonary Artery diastolic pressure
+pa_mean,Pulmonary Artery mean pressure
+pcwp,Pulmonary Capillary Wedge Pressure
