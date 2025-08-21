@@ -23,7 +23,7 @@ bumetanide,diuretics
 torsemide,diuretics
 heparin,anticoagulation
 argatroban,anticoagulation
-bivalirudin alteplase,anticoagulation
+bivalirudin,anticoagulation
 cangrelor,anticoagulation
 eptifibatide,anticoagulation
 amiodarone,cardiac
@@ -78,3 +78,4 @@ lactated_ringers_solution,fluids_electrolytes
 albumin_infusion,fluids_electrolytes
 plasma_lyte,fluids_electrolytes
 dextrose_in_water_d5w,fluids_electrolytes
+
