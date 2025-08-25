@@ -1,0 +1,129 @@
+metadata:
+  generated_at: '2025-08-25T14:44:26.220893'
+  comparison:
+    old_file: clif_2_0_data_dict.yaml
+    new_file: clif_2_1_data_dict.yaml
+    old_version: '2.0'
+    new_version: '2.1'
+  description: Changelog comparing CLIF data dictionary from version 2.0 to 2.1
+  status_changes:
+    concept_to_beta_count: 5
+    beta_to_concept_count: 0
+    concept_to_beta_details:
+    - table: hospital_diagnosis
+      old_status: concept
+      new_status: beta
+      description: Table "hospital_diagnosis" status changed from concept to beta
+    - table: patient_procedures
+      old_status: concept
+      new_status: beta
+      description: Table "patient_procedures" status changed from concept to beta
+    - table: crrt_therapy
+      old_status: concept
+      new_status: beta
+      description: Table "crrt_therapy" status changed from concept to beta
+    - table: ecmo_mcs
+      old_status: concept
+      new_status: beta
+      description: Table "ecmo_mcs" status changed from concept to beta
+    - table: microbiology_culture
+      old_status: concept
+      new_status: beta
+      description: Table "microbiology_culture" status changed from concept to beta
+    beta_to_concept_details: []
+summary:
+  tables_added: []
+  tables_removed: []
+  tables_modified:
+  - respiratory_support
+  - adt
+  tables_status_changed:
+  - hospital_diagnosis
+  - patient_procedures
+  - crrt_therapy
+  - ecmo_mcs
+  - microbiology_culture
+  concept_to_beta:
+  - hospital_diagnosis
+  - patient_procedures
+  - crrt_therapy
+  - ecmo_mcs
+  - microbiology_culture
+  beta_to_concept: []
+  total_changes: 7
+changes:
+  respiratory_support:
+    change_type: table_modified
+    description: 'Table "respiratory_support" modified: 1 variables added'
+    variables_added:
+    - name: device_id
+      type: string
+      description: ID variable for device used
+    variables_removed: []
+    variables_modified: []
+  adt:
+    change_type: table_modified
+    description: 'Table "adt" modified: 1 variables added, 1 variables modified'
+    variables_added:
+    - name: location_type
+      type: categorical
+      description: Maps ICU type to a standardized list of ICU categories
+      values:
+      - general_icu
+      - cardiac_icu
+      - cardiothoracic_surgical_icu
+      - mixed_cardiothoracic_icu
+      - surgical_icu
+      - burn_icu
+      - neuro_icu
+      - neurosurgical_icu
+      - mixed_neuro_icu
+      - medical_icu
+    variables_removed: []
+    variables_modified:
+    - name: hospital_type
+      changes:
+        description:
+          old: '{"description": "Maps *`hospital_id`* to a standardized list of hospital
+            types", "permissible": "academic, community}'
+          new: Maps *`hospital_id`* to a standardized list of hospital types
+  hospital_diagnosis:
+    change_type: table_status_changed
+    description: Table "hospital_diagnosis" status changed from concept to beta
+    old_status: concept
+    new_status: beta
+    variables_added: []
+    variables_removed: []
+    variables_modified: []
+  patient_procedures:
+    change_type: table_status_changed
+    description: Table "patient_procedures" status changed from concept to beta
+    old_status: concept
+    new_status: beta
+    variables_added: []
+    variables_removed: []
+    variables_modified: []
+  crrt_therapy:
+    change_type: table_status_changed
+    description: Table "crrt_therapy" status changed from concept to beta
+    old_status: concept
+    new_status: beta
+    variables_added: []
+    variables_removed: []
+    variables_modified: []
+  ecmo_mcs:
+    change_type: table_status_changed
+    description: Table "ecmo_mcs" status changed from concept to beta
+    old_status: concept
+    new_status: beta
+    variables_added: []
+    variables_removed: []
+    variables_modified: []
+  microbiology_culture:
+    change_type: table_status_changed
+    description: Table "microbiology_culture" status changed from concept to beta
+    old_status: concept
+    new_status: beta
+    variables_added: []
+    variables_removed: []
+    variables_modified: []

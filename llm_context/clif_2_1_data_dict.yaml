@@ -1,0 +1,1877 @@
+tables:
+  adt: #beta
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: ID variable for each patient encounter
+    - name: hospital_id
+      type: string
+      description: Assign a unique ID to each hospital within a healthsystem
+    - name: hospital_type
+      type: categorical
+      description: Maps *`hospital_id`* to a standardized list of hospital types
+      values:
+      - academic
+      - community
+      - LTACH
+    - name: in_dttm
+      type: datetime
+      description: Start date and time at a particular location. All datetime variables
+        must be timezone-aware and set to UTC.
+    - name: out_dttm
+      type: datetime
+      description: End date and time at a particular location. All datetime variables
+        must be timezone-aware and set to UTC.
+    - name: location_name
+      type: string
+      description: Location of the patient inside the hospital. This field is used
+        to store the patient location from the source data. It is not used for analysis.
+    - name: location_category
+      type: categorical
+      description: Maps location_name to a standardized list of ADT location categories
+      values:
+      - ed
+      - ward
+      - stepdown
+      - icu
+      - procedural
+      - l&d
+      - hospice
+      - psych
+      - rehab
+      - radiology
+      - dialysis
+      - other
+    - name: location_type
+      type: categorical
+      description: Maps ICU type to a standardized list of ICU categories
+      values:
+      - general_icu
+      - cardiac_icu
+      - cardiothoracic_surgical_icu
+      - mixed_cardiothoracic_icu
+      - surgical_icu
+      - burn_icu
+      - neuro_icu
+      - neurosurgical_icu
+      - mixed_neuro_icu
+      - medical_icu
+  crrt_therapy: #beta
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: Unique identifier for hospitalization episode
+    - name: device_id
+      type: string
+      description: Unique identifier for dialysis machine
+    - name: recorded_dttm
+      type: datetime
+      description: Timestamp when CRRT parameters were recorded
+    - name: crrt_mode_name
+      type: string
+      description: Name of CRRT mode (e.g., CVVHDF)
+    - name: crrt_mode_category
+      type: categorical
+      description: Standardized CRRT mode categories
+      values:
+      - scuf
+      - cvvh
+      - cvvhd
+      - cvvhdf
+    - name: dialysis_machine_name
+      type: string
+      description: Unique identifier for the dialysis machine
+    - name: blood_flow_rate
+      type: numeric
+      description: Rate of blood flow through the CRRT circuit (mL/hr)
+    - name: pre_filter_replacement_fluid_rate
+      type: numeric
+      description: Rate of pre-filter replacement fluid infusion (mL/hr)
+    - name: post_filter_replacement_fluid_rate
+      type: numeric
+      description: Rate of post-filter replacement fluid infusion (mL/hr)
+    - name: dialysate_flow_rate
+      type: numeric
+      description: Flow rate of dialysate solution (mL/hr)
+    - name: ultrafilteration_out
+      type: numeric
+      description: Net ultrafiltration output (mL)
+  ecmo_mcs: #beta
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: Unique identifier for the hospitalization event
+    - name: recorded_dttm
+      type: datetime
+      description: Date and time when the device settings and/or measurement was recorded
+    - name: device_name
+      type: string
+      description: Name of the ECMO/MCS device used including brand information, e.g.
+        Centrimag
+    - name: device_category
+      type: categorical
+      description: Maps device_name to a standardized mCIDE
+      values:
+      - Impella
+      - Centrimag
+      - TandemHeart
+      - HeartMate
+      - ECMO
+      - Other
+    - name: mcs_group
+      type: categorical
+      description: Maps device_category to a standardized mCIDE of MCS types
+      values:
+      - Impella_2.5
+      - Impella_CP
+      - Impella_5.0
+      - Impella_5.5
+      - Impella_LD
+      - Impella_RP
+      - Impella_RP_Flex
+      - iVAC
+      - TandemHeart_LV
+      - TandemHeart_RV
+      - CentriMag_LV
+      - CentriMag_RV
+      - IABP
+      - VA_ECMO
+      - VV_ECMO
+      - VAV_ECMO
+      - LAVA_ECMO
+      - HeartWare
+      - HMII
+      - HMIII
+    - name: device_metric_name
+      type: string
+      description: String that captures the measure of work rate of the device, e.g.,
+        RPMs
+    - name: device_rate
+      type: numeric
+      description: Numeric value of work rate, e.g., 3000 RPMs
+    - name: sweep
+      type: numeric
+      description: Gas flow rate in L/min
+    - name: flow
+      type: numeric
+      description: Blood flow in L/min
+    - name: fdO2
+      type: numeric
+      description: Fraction of delivered oxygen
+  hospitalization: #beta
+    variables:
+    - name: patient_id
+      type: string
+      description: Unique identifier for each patient, linking to the patient table
+    - name: hospitalization_id
+      type: string
+      description: Unique identifier for each hospitalization encounter. Each hospitalization_id
+        represents a unique stay in the hospital
+    - name: hospitalization_joined_id
+      type: string
+      description: Unique identifier for each continuous inpatient stay in a health
+        system which may span different hospitals (Optional)
+    - name: admission_dttm
+      type: datetime
+      description: Date and time the patient is admitted to the hospital. All datetime
+        variables must be timezone-aware and set to UTC
+    - name: discharge_dttm
+      type: datetime
+      description: Date and time the patient is discharged from the hospital. All
+        datetime variables must be timezone-aware and set to UTC
+    - name: age_at_admission
+      type: numeric
+      description: Age of the patient at the time of admission, in years
+    - name: admission_type_name
+      type: categorical
+      description: Type of inpatient admission. Original string from the source data
+      values:
+      - e.g. Direct admission
+      - Transfer
+      - Pre-op surgical
+    - name: admission_type_category
+      type: categorical
+      description: Admission disposition mapped to mCIDE categories
+      values:
+      - ed
+      - facility
+      - osh
+      - direct
+      - elective
+      - other
+    - name: discharge_name
+      type: categorical
+      description: Original discharge disposition name string recorded in the raw
+        data
+      values:
+      - No restriction
+      - e.g. home
+    - name: discharge_category
+      type: categorical
+      description: Maps discharge_name to a standardized list of discharge categories
+      values:
+      - Home
+      - Skilled Nursing Facility (SNF)
+      - Expired
+      - Acute Inpatient Rehab Facility
+      - Hospice
+      - Long Term Care Hospital (LTACH)
+      - Acute Care Hospital
+      - Group Home
+      - Chemical Dependency
+      - Against Medical Advice (AMA)
+      - Assisted Living
+      - Still Admitted
+      - Missing
+      - Other
+      - Psychiatric Hospital
+      - Shelter
+      - Jail
+    - name: zipcode_nine_digit
+      type: string
+      description: Patient 9 digit zip code, used to link with other indices such
+        as ADI and SVI
+    - name: zipcode_five_digit
+      type: string
+      description: Patient 5 digit zip code, used to link with other indices such
+        as ADI and SVI
+    - name: census_block_code
+      type: string
+      description: 15 digit FIPS code
+    - name: census_block_group_code
+      type: string
+      description: 12 digit FIPS code
+    - name: census_tract
+      type: string
+      description: 11 digit FIPS code
+    - name: state_code
+      type: string
+      description: 2 digit FIPS code
+    - name: county_code
+      type: string
+      description: 5 digit FIPS code
+  hospital_diagnosis: #beta
+    variables:
+    - name: patient_id
+      type: string
+      description: Unique identifier for each patient
+    - name: diagnostic_code
+      type: numeric
+      description: Numeric diagnosis code
+    - name: diagnosis_code_format
+      type: categorical
+      description: Description of the diagnostic code format
+      values:
+      - icd9
+      - icd10
+    - name: start_dttm
+      type: datetime
+      description: Date time the diagnosis was recorded
+    - name: end_dttm
+      type: datetime
+      description: Date time the diagnosis was noted as resolved (if resolved)
+  labs: #beta
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: ID variable for each patient encounter.
+    - name: lab_order_dttm
+      type: datetime
+      description: Date and time when the lab is ordered. All datetime variables must
+        be timezone-aware and set to UTC.
+    - name: lab_collect_dttm
+      type: datetime
+      description: Date and time when the specimen is collected. All datetime variables
+        must be timezone-aware and set to UTC.
+    - name: lab_result_dttm
+      type: datetime
+      description: Date and time when the lab results are available. All datetime
+        variables must be timezone-aware and set to UTC.
+    - name: lab_order_name
+      type: string
+      description: Procedure name for the lab, e.g. "Complete blood count w/ diff"
+    - name: lab_order_category
+      type: categorical
+      description: Maps lab_order_name to standardized list of common lab order names,
+        e.g. "CBC"
+      values:
+      - ABG
+      - BMP
+      - CBC
+      - Coags
+      - LFT
+      - Lactic Acid
+      - Misc
+      - VBG
+    - name: lab_name
+      type: string
+      description: Original lab component as recorded in the raw data, e.g. "AST (SGOT)".
+    - name: lab_category
+      type: categorical
+      description: Maps lab_name to a minimum set of standardized labs identified
+        by the CLIF consortium as minimum necessary labs for the study of critical
+        illness.
+      values:
+      - albumin
+      - alkaline_phosphatase
+      - alt
+      - ast
+      - basophils_percent
+      - basophils_absolute
+      - bicarbonate
+      - bilirubin_total
+      - bilirubin_conjugated
+      - bilirubin_unconjugated
+      - bun
+      - calcium_total
+      - calcium_ionized
+      - chloride
+      - creatinine
+      - crp
+      - eosinophils_percent
+      - eosinophils_absolute
+      - esr
+      - ferritin
+      - glucose_fingerstick
+      - glucose_serum
+      - hemoglobin
+      - phosphate
+      - inr
+      - lactate
+      - ldh
+      - lymphocytes_percent
+      - lymphocytes_absolute
+      - magnesium
+      - monocytes_percent
+      - monocytes_absolute
+      - neutrophils_percent
+      - neutrophils_absolute
+      - pco2_arterial
+      - po2_arterial
+      - pco2_venous
+      - ph_arterial
+      - ph_venous
+      - platelet_count
+      - potassium
+      - procalcitonin
+      - pt
+      - ptt
+      - so2_arterial
+      - so2_mixed_venous
+      - so2_central_venous
+      - sodium
+      - total_protein
+      - troponin_i
+      - troponin_t
+      - wbc
+    - name: lab_value
+      type: string
+      description: Recorded value corresponding to a lab. Lab values are often strings
+        that can contain non-numeric results (e.g. "> upper limit of detection").
+    - name: lab_value_numeric
+      type: numeric
+      description: Parse out numeric part of the lab_value variable (optional).
+    - name: reference_unit
+      type: string
+      description: Unit of measurement for that lab.
+    - name: lab_specimen_name
+      type: string
+      description: Original fluid or tissue name the lab was collected from as given
+        in the source data
+    - name: lab_specimen_category
+      type: categorical
+      description: Fluid or tissue the lab was collected from, analogous to the LOINC
+        "system" component.
+      values:
+      - working CDE c(blood/plasma/serum
+      - urine
+      - csf
+      - other)
+    - name: lab_loinc_code
+      type: string
+      description: '[LOINC](https://loinc.org/get-started/loinc-term-basics/) code
+        for the lab'
+  medication_admin_continuous: #beta
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: ID variable for each patient encounter
+    - name: med_order_id
+      type: string
+      description: Medication order ID. Foreign key to link this table to other medication
+        tables
+    - name: admin_dttm
+      type: datetime
+      description: Date and time when the medicine was administered. All datetime
+        variables must be timezone-aware and set to UTC.
+    - name: med_name
+      type: string
+      description: Original med name string recorded in the raw data which often contains
+        concentration e.g. NOREPInephrine 8 mg/250 mL
+    - name: med_category
+      type: categorical
+      description: Maps med_name to a limited set of active ingredients for important
+        ICU medications, e.g. norepinephrine
+      values: &id001
+      - norepinephrine
+      - epinephrine
+      - phenylephrine
+      - angiotensin
+      - vasopressin
+      - dopamine
+      - dobutamine
+      - milrinone
+      - isoproterenol
+      - propofol
+      - dexmedetomidine
+      - ketamine
+      - midazolam
+      - fentanyl
+      - hydromorphone
+      - morphine
+      - remifentanil
+      - pentobarbital
+      - lorazepam
+      - furosemide
+      - bumetanide
+      - torsemide
+      - heparin
+      - argatroban
+      - bivalirudin
+      - cangrelor
+      - eptifibatide
+      - amiodarone
+      - lidocaine
+      - nicardipine
+      - clevidipine
+      - nitroglycerin
+      - nitroprusside
+      - esmolol
+      - diltiazem
+      - labetalol
+      - procainamide
+      - papaverine
+      - adenosine
+      - cisatracurium
+      - vecuronium
+      - rocuronium
+      - treprostinil
+      - epoprostenol
+      - alprostadil
+      - octreotide
+      - pantoprazole
+      - esomeprazole
+      - albuterol
+      - terbutaline
+      - ipratropium
+      - narcan
+      - insulin
+      - thyroid replacement
+      - oxytocin
+      - cosyntropin
+      - repletion
+      - sodium bicarbonate
+      - tpn
+      - tocolyttics
+      - magnesium
+      - pitocin
+      - dextrose
+      - sodium chloride
+      - aminocaproic
+      - aminophylline
+      - terbutaline
+      - naloxone
+      - phentolamine
+      - liothyronine
+      - zidovudine
+      - tacrolimus
+      - ropivacaine
+      - bupivacaine
+      - baclofen
+      - lactated_ringers_solution
+      - albumin_infusion
+      - plasma_lyte
+      - dextrose_in_water_d5w
+    - name: med_group
+      type: string
+      description: Limited number of ICU medication groups identified by the CLIF
+        consortium, e.g. vasoactives
+    - name: med_route_name
+      type: categorical
+      description: Medicine delivery route
+      values:
+      - e.g. IV
+      - enteral
+    - name: med_route_category
+      type: string
+      description: Maps med_route_name to a standardized list of medication delivery
+        routes
+    - name: med_dose
+      type: numeric
+      description: Quantity taken in dose
+    - name: med_dose_unit
+      type: string
+      description: Unit of dose. It must be a rate, e.g. mcg/min. Boluses should be
+        mapped to med_admin_intermittent
+    - name: mar_action_name
+      type: string
+      description: MAR (medication administration record) action, e.g. stopped
+    - name: mar_action_category
+      type: string
+      description: Maps mar_action_name to a standardized list of MAR actions
+  microbiology_culture: #beta
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: ID variable for each patient encounter.
+    - name: order_dttm
+      type: datetime
+      description: Date and time when the test is ordered.
+    - name: collect_dttm
+      type: datetime
+      description: Date and time when the specimen is collected.
+    - name: result_dttm
+      type: datetime
+      description: Date and time when the results are available.
+    - name: fluid_name
+      type: string
+      description: Cleaned fluid name string from the raw data. This field is not
+        used for analysis.
+    - name: fluid_category
+      type: categorical
+      description: Fluid categories defined according to the NIH common data elements.
+      values:
+      - Blood/Buffy Coat
+      - Bone Cortex (Osteomyelitis)
+      - Bone Marrow
+      - Brain
+      - Cardiac (Endocardium, Myocardium, Pericardium)
+      - Catheter Tip
+      - Central Nervous System Unspecified
+      - Disseminated - Generalized, Isolated at 2 or More Distinct Sites
+      - Ears
+      - Esophagus
+      - Eyes
+      - Fallopian Tubes, Uterus, Cervix
+      - Feces/Stool
+      - Gallbladder and Billary Tree (Not Hepatitis), Pancreas
+      - Gastrointestinal Tract Unspecified
+      - Genital Area
+      - Genito-Urinary Tract Unspecified
+      - Joints
+      - Kidneys, Renal Pelvis, Ureters and Bladder
+      - Large Intestine
+      - Larynx
+      - Lips
+      - Liver
+      - Lower Respiratory Tract (Lung)
+      - Lymph Nodes
+      - Meninges and CSF
+      - Muscle (Excluding Cardiac)
+      - Other Unspecified
+      - Peritoneum
+      - Pleural Cavity, Pleural Fluid
+      - Prostate
+      - Rash, Pustules, or Abscesses Not Typical of Any of the Above
+      - Respiratory Tract Unspecified
+      - Sinuses
+      - Skin Unspecified
+      - Small Intestine
+      - Spinal Cord
+      - Spleen
+      - Stomach
+      - Testes
+      - Tongue, Oral Cavity, and Oro-Pharynx
+      - Upper Airway and Nasopharynx
+      - Vagina
+      - Woundsite
+    - name: method_name
+      type: string
+      description: Original method names from the source data.
+    - name: method_category
+      type: categorical
+      description: Maps method_name to a standardized list of method categories.
+      values:
+      - culture
+      - gram stain
+      - smear
+    - name: organism_category
+      type: categorical
+      description: Cleaned organism name string from the raw data. This field is not
+        used for analysis.
+      values:
+      - abiotrophia_defectiva
+      - achromobacter_sp
+      - achromobacter_xylosoxidans
+      - acidaminococcus_sp
+      - acinetobacter_baumanii
+      - acinetobacter_johnsonii
+      - acinetobacter_junii
+      - acinetobacter_lwoffi
+      - acinetobacter_lwoffii
+      - acinetobacter_pittii
+      - acinetobacter_radioresistens
+      - acinetobacter_sp
+      - acinetobacter_ursingii
+      - acremonium_sp
+      - actinomyces_europaeus
+      - actinomyces_meyeri
+      - actinomyces_naeslundii
+      - actinomyces_neuii
+      - actinomyces_odontolyticus
+      - actinomyces_radingae
+      - actinomyces_sp
+      - actinomyces_turicensis
+      - actinomyces_viscosus
+      - actinotignum_schaalii
+      - actinotignum_sp
+      - aerococcus_christensenii
+      - aerococcus_sanguicola
+      - aerococcus_sanguinicola
+      - aerococcus_sp
+      - aerococcus_urinae
+      - aerococcus_uriniae
+      - aerococcus_viridans
+      - aeromonas_caviae
+      - aeromonas_hydrophila
+      - aeromonas_sobria
+      - aeromonas_sp
+      - aggregatibacter_actinomycetemcomitans
+      - aggregatibacter_aphrophilus
+      - aggregatibacter_segnis
+      - agrobacterium_radiobacter
+      - alcaligenes_faecalis
+      - alcaligenes_xylosoxidans
+      - alistipes_finegoldii
+      - alistipes_onderdonkii
+      - alloiococcus_otitis
+      - alloiococcus_sp
+      - alternaria_alternata
+      - alternaria_sp
+      - anaerobic_sp
+      - anaerococcus_sp
+      - arcanobacterium_haemolyticum
+      - arthrobacter_cumminsii
+      - arthrobacter_sp
+      - arthrographis_sp
+      - aspergillus_flavus
+      - aspergillus_fumigatus
+      - aspergillus_nidulans
+      - aspergillus_niger
+      - aspergillus_ochraceus
+      - aspergillus_sp
+      - aspergillus_sydowii
+      - aspergillus_terreus
+      - aspergillus_versicolor
+      - atopobium_parvulum
+      - atopobium_sp
+      - atopobium_vaginae
+      - aureobasidium_sp
+      - bacillus_cereus
+      - bacillus_licheniformis
+      - bacillus_megaterium
+      - bacillus_simplex
+      - bacillus_sp
+      - bacillus_subtilis
+      - bacteroides_caccae
+      - bacteroides_capillosus
+      - bacteroides_eggerthii
+      - bacteroides_faecis
+      - bacteroides_fragilis
+      - bacteroides_ovatus
+      - bacteroides_pyogenes
+      - bacteroides_sp
+      - bacteroides_stercoris
+      - bacteroides_thetaiotaomicron
+      - bacteroides_uniformis
+      - bacteroides_vulgatus
+      - bacteroides_xylanisolvens
+      - bifidobacterium_sp
+      - bilophila_wadsworthia
+      - blastomyces_dermatitidis
+      - blastomyces_sp
+      - bordetella_bronchiseptica
+      - bordetella_hinzii
+      - bordetella_sp
+      - bordetella_trematum
+      - brevibacillus_sp
+      - brevibacterium_casei
+      - brevibacterium_luteolum
+      - brevibacterium_sp
+      - brevundimonas_diminuta
+      - brevundimonas_vesicularis
+      - brucella_intermedia
+      - burkholderia_cepacia
+      - burkholderia_gladioli
+      - burkholderia_sp
+      - campylobacter_ureolyticus
+      - candida_albicans
+      - candida_auris
+      - candida_colliculosa
+      - candida_dubliniensis
+      - candida_famata
+      - candida_fermentati
+      - candida_glabrata
+      - candida_guilliermondii
+      - candida_haemulonii
+      - candida_intermedia
+      - candida_kefyr
+      - candida_krusei
+      - candida_lambica
+      - candida_lipolytica
+      - candida_lusitaniae
+      - candida_nivariensis
+      - candida_orthopsilosis
+      - candida_parapsilosis
+      - candida_parapsolis
+      - candida_pararugosa
+      - candida_pelliculosa
+      - candida_pulcherrima
+      - candida_rugosa
+      - candida_sp
+      - candida_tropicalis
+      - candida_utilis
+      - capnocytophaga_gingivalis
+      - capnocytophaga_sp
+      - cardiobacterium_hominis
+      - cellulosimicrobium_cellulans
+      - chaetomium_sp
+      - chryseobacterium_indologenes
+      - chryseobacterium_sp
+      - citrobacter_amalonaticus
+      - citrobacter_farmeri
+      - citrobacter_freundii
+      - citrobacter_koseri
+      - citrobacter_koserii
+      - citrobacter_sp
+      - cladosporium_sp
+      - clostridioides_difficile
+      - clostridium_bifermentans
+      - clostridium_butyricum
+      - clostridium_cadaveris
+      - clostridium_clostridioforme
+      - clostridium_difficile
+      - clostridium_innocuum
+      - clostridium_paraputrificum
+      - clostridium_perfringens
+      - clostridium_ramosum
+      - clostridium_septicum
+      - clostridium_sordellii
+      - clostridium_sp
+      - clostridium_sporogenes
+      - clostridium_tertium
+      - cokeromyces_recurvatus
+      - collinsella_aerofaciens
+      - comamonas_testosteroni
+      - corynebacterium_accolens
+      - corynebacterium_afermentans
+      - corynebacterium_amycolatum
+      - corynebacterium_aurimucosum
+      - corynebacterium_bovis
+      - corynebacterium_coyleae
+      - corynebacterium_durum
+      - corynebacterium_freneyi
+      - corynebacterium_glucuronolyticum
+      - corynebacterium_imitans
+      - corynebacterium_jeikeium
+      - corynebacterium_macginleyi
+      - corynebacterium_propinquum
+      - corynebacterium_pseudodiphtheriticum
+      - corynebacterium_simulans
+      - corynebacterium_sp
+      - corynebacterium_striatum
+      - corynebacterium_tuberculostearicum
+      - corynebacterium_urealyticum
+      - cronobacter_malonaticus
+      - cronobacter_sakayakii
+      - cronobacter_sakazakii
+      - cryptococcus_albidus
+      - cryptococcus_neoformans
+      - cunninghamella_sp
+      - cupriavidus_pauculus
+      - curtobacterium_sp
+      - curvularia_sp
+      - cutibacterium_acnes
+      - cutibacterium_avidum
+      - delftia_acidovorans
+      - dematiaceous_sp
+      - dermabacter_hominis
+      - dermacoccus_nishinomiyaensis
+      - desulfovibri_sp
+      - dialister_pneumosintes
+      - dialister_sp
+      - dietzia_cinnamea
+      - dolosigranulum_pigrum
+      - dolosogranulum_pigrum
+      - edwardsiella_tarda
+      - eggerthella_lenta
+      - eggerthella_lentum
+      - eggerthella_sp
+      - eggerthia_catenaformis
+      - eikenella_corrodens
+      - elizabethkingia_anophelis
+      - elizabethkingia_meningoseptica
+      - elizabethkingia_sp
+      - enterobacter_aerogenes
+      - enterobacter_amnigenus
+      - enterobacter_cancerogenus
+      - enterobacter_cloacae
+      - enterobacter_sp
+      - enterococcus_avium
+      - enterococcus_casseliflavus
+      - enterococcus_durans
+      - enterococcus_faecalis
+      - enterococcus_faecium
+      - enterococcus_gallinarum
+      - enterococcus_hirae
+      - enterococcus_raffinosus
+      - enterococcus_saccharolyticus
+      - enterococcus_sp
+      - epicoccum_sp
+      - erysipelothrix_rhusiopathiae
+      - escherichia_coli
+      - escherichia_hermannii
+      - escherichia_sp
+      - eubacterium_callanderi
+      - eubacterium_sp
+      - ewingella_americana
+      - exiguobacterium_acetylicum
+      - exophiala_dermatitidis
+      - facklamia_hominis
+      - facklamia_sp
+      - finegoldia_magna
+      - francisella_tularensis
+      - fusarium_proliferatum
+      - fusarium_solani
+      - fusarium_sp
+      - fusobacterium_gonidiaformans
+      - fusobacterium_necrophorum
+      - fusobacterium_nucleatum
+      - fusobacterium_sp
+      - gardnerella_vaginalis
+      - gemella_morbillorum
+      - gemella_sp
+      - geotrichum_sp
+      - globicatella_sanguinis
+      - gordonia_bronchialis
+      - gram negative diplococci (nos)
+      - gram negative rod (nos)
+      - gram positive cocci (nos)
+      - gram positive rod (nos)
+      - granulicatella_adiacens
+      - granulicatella_elegans
+      - haemophilus_haemolyticus
+      - haemophilus_influenzae
+      - haemophilus_parainfluenzae
+      - hafnia_alvei
+      - hafnia_sp
+      - histoplasma_capsulatum
+      - kingella_denitrificans
+      - klebsiella_aerogenes
+      - klebsiella_oxytoca
+      - klebsiella_pneumoniae
+      - klebsiella_sp
+      - klebsiella_variicola
+      - kloeckera_sp
+      - kluyvera_sp
+      - kocuria_palustris
+      - kocuria_sp
+      - kodamaea_ohmeri
+      - lactobacillus_acidophilus
+      - lactobacillus_fermentum
+      - lactobacillus_sp
+      - lactococcus_sp
+      - leclercia_adecarboxylata
+      - legionella_bozemanae
+      - legionella_dumoffii
+      - legionella_feeleii
+      - legionella_pneumophila
+      - legionella_sp
+      - lelliottia_amnigena
+      - leptotrichia_buccalis
+      - lettiottia_amnigena
+      - leuconostoc_sp
+      - lichtheimia_sp
+      - listeria_monocytogenes
+      - lysinibacillus_fusiformis
+      - lysinibacillus_sp
+      - malassezia_furfur
+      - malassezia_pachydermatis
+      - microbacterium_flavescens
+      - microbacterium_sp
+      - micrococcus_luteus
+      - micrococcus_sp
+      - microsporum_gypseum
+      - moraxella_catarrhalis
+      - moraxella_nonliquefaciens
+      - moraxella_osloensis
+      - moraxella_sp
+      - morganella_morganii
+      - mucor_circinelloides
+      - mucor_sp
+      - mycobacterium_abscessus
+      - mycobacterium_avium
+      - mycobacterium_chelonae
+      - mycobacterium_farcinogenes
+      - mycobacterium_fortuitum
+      - mycobacterium_gordonae
+      - mycobacterium_kansasii
+      - mycobacterium_kubicae
+      - mycobacterium_lentiflavum
+      - mycobacterium_llatzerense
+      - mycobacterium_malmoense
+      - mycobacterium_mucogenicum
+      - mycobacterium_neoaurum
+      - mycobacterium_paraffinicum
+      - mycobacterium_scrofulaceum
+      - mycobacterium_szulgai
+      - mycobacterium_tuberculosis
+      - mycobacterium_xenopi
+      - mycoplasma_hominis
+      - mycoplasma_sp
+      - myroides_sp
+      - neisseria_gonorrhoeae
+      - neisseria_meningitidis
+      - neisseria_mucosa
+      - neisseria_sp
+      - neisseria_subflava
+      - no growth
+      - nocardia_abscessus
+      - nocardia_brasiliensis
+      - nocardia_cyriacigeorgica
+      - nocardia_farcinica
+      - nocardia_nova
+      - nocardia_sp
+      - nocardia_thailandica
+      - nocardia_veterana
+      - nocardia_wallacei
+      - ochraconis_sp
+      - ochrobactrum_anthropi
+      - ochrobactrum_intermedium
+      - ochrobactrum_sp
+      - odoribacter_splanchnicus
+      - oligella_ureolytica
+      - oligella_urethralis
+      - other bacteria
+      - other fungus
+      - paecilomyces_lilacinus
+      - paecilomyces_sp
+      - paenibacillus_sp
+      - pandoraea_sp
+      - pantoea_agglomerans
+      - pantoea_sp
+      - parabacteroides_distasonis
+      - parabacteroides_merdae
+      - parvimonas_micra
+      - pasteurella_canis
+      - pasteurella_multocida
+      - pasteurella_sp
+      - pediococcus_acidilactici
+      - penicillium_sp
+      - peptoniphilus_assacharolyticus
+      - peptoniphilus_harei
+      - peptoniphilus_sp
+      - peptostreptococcus_anaerobius
+      - peptostreptococcus_sp
+      - pithomyces_sp
+      - plasmodium_falciparum
+      - plasmodium_sp
+      - plesiomonas_shigelloides
+      - pluralibacter_gergoviae
+      - porphyromonas_asaccharolytica
+      - porphyromonas_sp
+      - prevotella_bivia
+      - prevotella_buccae
+      - prevotella_denticola
+      - prevotella_disiens
+      - prevotella_intermedia
+      - prevotella_melaninogenica
+      - prevotella_nigrescens
+      - prevotella_oralis
+      - prevotella_oris
+      - prevotella_sp
+      - propionibacterium_acnes
+      - propionibacterium_avidum
+      - propionibacterium_granulosum
+      - propionibacterium_sp
+      - proteus_mirabilis
+      - proteus_penneri
+      - proteus_sp
+      - proteus_vulgaris
+      - providencia_rettgeri
+      - providencia_stuartii
+      - pseudallescheria_boydii
+      - pseudoglutamicibacter_cumminsii
+      - pseudomonas_aeruginosa
+      - pseudomonas_alcaligenes
+      - pseudomonas_fluorescens
+      - pseudomonas_luteola
+      - pseudomonas_mendocina
+      - pseudomonas_oryzihabitans
+      - pseudomonas_putida
+      - pseudomonas_sp
+      - pseudomonas_stutzeri
+      - psychorbacter_sp
+      - psychrobacter_phenylpyruvicus
+      - psychrobacter_sp
+      - purpureocillium_lilacinum
+      - rahnella_aquatilis
+      - ralstonia_mannitolilytica
+      - ralstonia_pickettii
+      - raoultella_ornithinolytica
+      - raoultella_planticola
+      - raoultella_sp
+      - rhinocladiella_sp
+      - rhizobium_radiobacter
+      - rhizomucor_pusillus
+      - rhizomucor_sp
+      - rhizopus_sp
+      - rhodococcus_sp
+      - rhodotorula_mucilaginosa
+      - rhodotorula_sp
+      - roseomonas_sp
+      - rothia_dentocariosa
+      - rothia_mucilaginosa
+      - saccharomyces_cerevisiae
+      - saccharomyces_sp
+      - salmonella_enterica
+      - salmonella_enteritidis
+      - salmonella_paratyphi
+      - salmonella_sp
+      - saprochaete_capitata
+      - saprochaete_sp
+      - scedosporium_apiospermum
+      - scopulariopsi_sp
+      - scopulariopsis_brevicaulis
+      - scopulariopsis_sp
+      - serratia_fonticola
+      - serratia_liquefaciens
+      - serratia_marcescens
+      - serratia_odorifera
+      - serratia_rubidaea
+      - serratia_sp
+      - shewanella_putrefaciens
+      - shewanella_sp
+      - shigella_sonnei
+      - slackia_exigua
+      - sphingomonas_paucimobilis
+      - sphingomonas_sp
+      - sporobolomyces_salmonicolor
+      - staphyloccous_coagneg
+      - staphylococcus_aureus
+      - staphylococcus_auricularis
+      - staphylococcus_capitis
+      - staphylococcus_caprae
+      - staphylococcus_carnosus
+      - staphylococcus_coagneg
+      - staphylococcus_cohnii
+      - staphylococcus_epidermidis
+      - staphylococcus_haemolyticus
+      - staphylococcus_hominis
+      - staphylococcus_lugdunensis
+      - staphylococcus_pasteuri
+      - staphylococcus_pettenkoferi
+      - staphylococcus_pseudintermedius
+      - staphylococcus_saccharolyticus
+      - staphylococcus_saprophyticus
+      - staphylococcus_schleiferi
+      - staphylococcus_sciuri
+      - staphylococcus_simulans
+      - staphylococcus_sp
+      - staphylococcus_warneri
+      - staphylococcus_xylosus
+      - stenotrophomonas_maltophilia
+      - stenotrophomonas_rhizophila
+      - streptcoccus_agalactiae
+      - streptcoccus_gallolyticus
+      - streptcoccus_pyogenes
+      - streptococcus_agalactiae
+      - streptococcus_alphahemolytic
+      - streptococcus_anginosus
+      - streptococcus_bovis
+      - streptococcus_canis
+      - streptococcus_constellatus
+      - streptococcus_cristatus
+      - streptococcus_dysgalactiae
+      - streptococcus_equinus
+      - streptococcus_gallolyticus
+      - streptococcus_gordonii
+      - streptococcus_infantarius
+      - streptococcus_intermedius
+      - streptococcus_mitis
+      - streptococcus_mutans
+      - streptococcus_nonhemolytic
+      - streptococcus_parasanguinis
+      - streptococcus_pneumoniae
+      - streptococcus_pseudoporcinus
+      - streptococcus_pyogenes
+      - streptococcus_salivarius
+      - streptococcus_sanguinis
+      - streptococcus_sp
+      - streptococcus_viridans
+      - streptomyces_griseus
+      - streptomyces_sp
+      - sutterella_sp
+      - syncephalastrum_sp
+      - teichospora_sp
+      - tissierella_praeacuta
+      - trichoderma_sp
+      - trichophyton_rubrum
+      - trichophyton_tonsurans
+      - trichosporon_asahii
+      - trichosporon_sp
+      - trueperella_bernardiae
+      - tuberculosis (nos, afb, acid fast bacillus, koch bacillus)
+      - turicella_otitidis
+      - vagococcus_fluvialis
+      - veillonella_sp
+      - verticillium_sp
+      - vibrio_sp
+      - weeksella_virosa
+      - weisella_confusa
+      - weissella_confusa
+      - xanthomonas_sp
+      - yeast (nos)
+      - zygomycete_sp
+    - name: organism_group
+      type: categorical
+      description: Maps organism_name to the standardized list of organisms in the
+        NIH CDE.
+      values:
+      - acinetobacter (baumanii, calcoaceticus, lwoffi, other species)
+      - adenovirus
+      - agrobacterium radiobacter
+      - alcaligenes xylosoxidans
+      - amebiasis
+      - anaerobic bacteria (nos, except for bacteroides, clostridium)
+      - asperguillus (nos)
+      - asperguillus flavus
+      - asperguillus fumigatus
+      - asperguillus niger
+      - bacillus (cereus, other species)
+      - bacteroides (gracillis, uniformis, vulgaris, other species)
+      - borrelia (lyme disease)
+      - branhamelia or moraxella catarrhalis (other species)
+      - campylobacter (all species)
+      - candida (nos)
+      - candida albicans
+      - candida krusei
+      - candida parasilosis
+      - candida tropicalis
+      - chlamydia
+      - citrobacter (freundii, other species)
+      - clostridium (all species except difficile)
+      - clostridium diificile
+      - corynebacterium (all non-diptheria species)
+      - coxiella
+      - cryptococcus species
+      - cryptosporidium
+      - cytomegalovirus (cmv)
+      - echinoco ocalcyst
+      - enterobacter
+      - enterococcus (all species)
+      - enterovirus (coxsackie, echo, polio)
+      - epstein-barr virus (ebv)
+      - escherichia (also e. coli)
+      - flavimonas oryzihabitans
+      - flavobacterium
+      - fusarium species
+      - fusobacterium nucleatum
+      - giardia
+      - gram negative diplococci (nos)
+      - gram negative rod (nos)
+      - gram positive cocci (nos)
+      - gram positive rod (nos)
+      - haemophilus (all species including influenzae)
+      - helicobacter pylori
+      - hepatitis a (hav)
+      - hepatitis b (hbv, australian antigen)
+      - hepatitis c (includes non-a and non-b, hcv)
+      - herpes simplex (hsv1, hsv2)
+      - herpes zoster (chicken pox, varicella)
+      - hhv-6 (human herpes virus)
+      - hiv-1, hitlv-iii
+      - influenza (flu)
+      - klebsiella
+      - lactobacillus (bulgaricus, acidophilus, other species)
+      - legionella
+      - leptospira
+      - leptotrichia buccalis
+      - leuconostoc (all species)
+      - listeria
+      - measles (rubeola)
+      - methylobacterium
+      - micrococcus (nos)
+      - mucormycosis (zygomycetes, rhizopus)
+      - mumps
+      - mycobacteria (avium, bovium, haemophilum, intercellulare)
+      - mycobacterium tuberculosis
+      - mycoplasma
+      - mycoplasma
+      - neisseria (gonorrhoea, meningitidis, other species)
+      - nocardia
+      - other bacteria
+      - other fungus
+      - other mycobacterium
+      - other organism
+      - other protozoal (parasite)
+      - other viral
+      - papovavirus
+      - parainfluenza
+      - pharyngeal/respiratory flora
+      - pneumoncystis (pcp)
+      - polyomavirus
+      - propionbacterium (acnes, avidum, granulosum, other species)
+      - pseudomonas (all species except cepacia and maltophilia)
+      - pseudomonas or burkholderia cepacia
+      - pseudomonas or stenotrophomonas or xanthomonas maltophilia
+      - respiratory syncytial virus (rsv)
+      - rhinovirus (common cold)
+      - rhodococcus
+      - rickettsia
+      - rotavirus
+      - rubella (german measles)
+      - salmonella (all species)
+      - serratia marcescens
+      - shigella
+      - staphylococcus (coag +)
+      - staphylococcus (coag-)
+      - staphylococcus (nos)
+      - stomatococcus mucilaginosis
+      - streptococcus (all species except enterococcus)
+      - torulopsis galbrata (a subspecies of candida)
+      - toxoplasma
+      - treponema (syphilis)
+      - trichomonas (either vaginal or gingivitis)
+      - tuberculosis (nos, afb, acid fast bacillus, koch bacillus)
+      - typical tuberculosis (tb, tuberculosis)
+      - vibrio (all species)
+      - yeast (nos)
+  patient_assessments: #beta
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: Primary Identifier. Unique identifier linking assessments to a
+        specific patient hospitalization.
+    - name: recorded_dttm
+      type: datetime
+      description: The exact date and time when the assessment was recorded, ensuring
+        temporal accuracy. All datetime variables must be timezone-aware and set to
+        UTC.
+    - name: assessment_name
+      type: string
+      description: Assessment Tool Name. The primary name of the assessment tool used
+        (e.g., GCS, NRS, SAT Screen).
+    - name: assessment_category
+      type: categorical
+      description: Maps assessment_name to a standardized list of patient assessments
+      values:
+      - List of permissible assessment categories in CLIF
+    - name: assessment_group
+      type: categorical
+      description: Broader Assessment Group. This groups the assessments into categories
+        such as Sedation, Neurologic, Pain, etc.
+      values:
+      - List of permissible assessment groups in CLIF
+    - name: numerical_value
+      type: categorical
+      description: Numerical Assessment Result. The numerical result or score from
+        the assessment component.
+      values:
+      - Applicable for assessments with numerical outcomes (e.g.
+      - 0-10
+      - 3-15)
+    - name: categorical_value
+      type: categorical
+      description: Categorical Assessment Result. The categorical outcome from the
+        assessment component.
+      values:
+      - Applicable for assessments with categorical outcomes (e.g.
+      - Pass/Fail
+      - Yes/No)
+    - name: text_value
+      type: string
+      description: Textual Assessment Result. The textual explanation or notes from
+        the assessment component.
+  patient: #beta
+    variables:
+    - name: patient_id
+      type: string
+      description: Unique identifier for each patient. This is presumed to be a distinct
+        individual.
+    - name: race_name
+      type: string
+      description: Patient race string from source data
+    - name: race_category
+      type: categorical
+      description: A standardized CDE description of patient's race per the US Census
+      values:
+      - Black or African American
+      - White
+      - American Indian or Alaska Native
+      - Asian
+      - Native Hawaiian or Other Pacific Islander
+      - Unknown
+      - Other
+    - name: ethnicity_name
+      type: string
+      description: Patient ethnicity string from source data
+    - name: ethnicity_category
+      type: categorical
+      description: Description of patient's ethnicity per the US census definition
+      values:
+      - Hispanic
+      - Non-Hispanic
+      - Unknown
+    - name: sex_name
+      type: string
+      description: Patient's biological sex as given in the source data
+    - name: sex_category
+      type: categorical
+      description: Patient's biological sex
+      values:
+      - Male
+      - Female
+      - Unknown
+    - name: birth_date
+      type: date
+      description: Patient's date of birth
+    - name: death_dttm
+      type: datetime
+      description: Patient's death date, including time
+    - name: language_name
+      type: string
+      description: Patient's preferred language
+    - name: language_category
+      type: categorical
+      description: Maps language_name to a standardized list of spoken languages
+      values:
+      - English
+      - Spanish
+      - French
+      - Haitian Creole
+      - Italian
+      - Portuguese
+      - German
+      - Yiddish, Pennsylvania Dutch, or other West Germanic Languages
+      - Greek
+      - Russian
+      - Polish
+      - Serbo-Croatian
+      - Ukrainian or other Slavic languages
+      - Armenian
+      - Persian
+      - Gujarati
+      - Hindi
+      - Urdu
+      - Punjabi
+      - Bengali
+      - Nepali, Marathi, or other Indic languages
+      - Other European Indo-European languages
+      - Other Asian Indo-European languages
+      - Telugu
+      - Tamil
+      - Malayalam, Kannada, or other Dravidian languages
+      - Chinese
+      - Japanese
+      - Korean
+      - Vietnamese
+      - Khmer
+      - Thai, Lao, or other Tai-Kadai languages
+      - Other languages of Asia
+      - Tagalog
+      - Ilocano, Samoan, Hawaiian, or other Austronesian languages
+      - Arabic
+      - Hebrew
+      - Amharic, Somali, or other Afro-Asiatic languages
+      - Yoruba, Twi, Igbo, or other languages of Western Africa
+      - Swahili or other languages of Central, Eastern, and Southern Africa
+      - Navajo
+      - Other Native languages of North America
+      - Other and unspecified languages
+      - Sign Language
+      - Unknown or NA
+      - '*Descriptions include examples but may not be exhaustive. Categorization
+        is based on linguistic or geographic grouping.'
+  position: #beta
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: ID variable for each patient encounter. This table only includes
+        those encounters that have proning documented ever.
+    - name: recorded_dttm
+      type: datetime
+      description: Date and time when the vital is recorded. All datetime variables
+        must be timezone-aware and set to UTC.
+    - name: position_name
+      type: string
+      description: Description of the position from the source data. This field is
+        not used for analysis.
+    - name: position_category
+      type: categorical
+      description: Maps position_name to either prone or not prone.
+      values:
+      - prone
+      - not_prone
+  respiratory_support: #beta
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: ID variable for each patient encounter
+    - name: recorded_dttm
+      type: datetime
+      description: Date and time when the device settings and/or measurement was recorded.
+        All datetime variables must be timezone-aware and set to UTC.
+    - name: device_name
+      type: string
+      description: Raw string of the device. Not used for analysis.
+    - name: device_id
+      type: string
+      description: ID variable for device used
+    - name: device_category
+      type: categorical
+      description: Maps device_name to a standardized list of respiratory support
+        device categories
+      values:
+      - IMV
+      - NIPPV
+      - CPAP
+      - High Flow NC
+      - Face Mask
+      - Trach Collar
+      - Nasal Cannula
+      - Room Air
+      - Other
+    - name: vent_brand_name
+      type: string
+      description: Ventilator model name when device_category is IMV or NIPPV
+    - name: mode_name
+      type: string
+      description: Raw string of ventilation mode (e.g., CMV volume control)
+    - name: mode_category
+      type: categorical
+      description: Standardized list of modes of mechanical ventilation
+      values:
+      - Assist Control-Volume Control
+      - Pressure Control
+      - Pressure-Regulated Volume Control
+      - SIMV
+      - Pressure Support/CPAP
+      - Volume Support
+      - Blow by
+      - Other
+    - name: tracheostomy
+      type: categorical
+      description: Indicates if tracheostomy is present
+      values:
+      - 0 = No
+      - 1 = Yes
+    - name: fio2_set
+      type: categorical
+      description: Fraction of inspired oxygen set (e.g., 0.21)
+      values:
+      - No restriction
+      - see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)
+    - name: lpm_set
+      type: categorical
+      description: Liters per minute set
+      values:
+      - No restriction
+      - see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)
+    - name: tidal_volume_set
+      type: categorical
+      description: Tidal volume set (in mL)
+      values:
+      - No restriction
+      - see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)
+    - name: resp_rate_set
+      type: categorical
+      description: Respiratory rate set (in bpm)
+      values:
+      - No restriction
+      - see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)
+    - name: pressure_control_set
+      type: categorical
+      description: Pressure control set (in cmH2O)
+      values:
+      - No restriction
+      - see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)
+    - name: pressure_support_set
+      type: categorical
+      description: Pressure support set (in cmH2O)
+      values:
+      - No restriction
+      - see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)
+    - name: flow_rate_set
+      type: categorical
+      description: Flow rate set
+      values:
+      - No restriction
+      - see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)
+    - name: peak_inspiratory_pressure_set
+      type: categorical
+      description: Peak inspiratory pressure set (in cmH2O)
+      values:
+      - No restriction
+      - see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)
+    - name: inspiratory_time_set
+      type: categorical
+      description: Inspiratory time set (in seconds)
+      values:
+      - No restriction
+      - see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)
+    - name: peep_set
+      type: categorical
+      description: Positive-end-expiratory pressure set (in cmH2O)
+      values:
+      - No restriction
+      - see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)
+    - name: tidal_volume_obs
+      type: numeric
+      description: Observed tidal volume (in mL)
+    - name: resp_rate_obs
+      type: numeric
+      description: Observed respiratory rate (in bpm)
+    - name: plateau_pressure_obs
+      type: numeric
+      description: Observed plateau pressure (in cmH2O)
+    - name: peak_inspiratory_pressure_obs
+      type: numeric
+      description: Observed peak inspiratory pressure (in cmH2O)
+    - name: peep_obs
+      type: numeric
+      description: Observed PEEP (in cmH2O)
+    - name: minute_vent_obs
+      type: numeric
+      description: Observed minute ventilation (in liters)
+    - name: mean_airway_pressure_obs
+      type: numeric
+      description: Observed mean airway pressure
+  vitals: #beta
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: ID variable for each patient encounter.
+    - name: recorded_dttm
+      type: datetime
+      description: Date and time when the vital is recorded. All datetime variables
+        must be timezone-aware and set to UTC.
+    - name: vital_name
+      type: string
+      description: Description of the flowsheet measure from the source data. Not
+        used for analysis.
+    - name: vital_category
+      type: categorical
+      description: Maps vital_name to a list of standard vital sign categories.
+      values:
+      - temp_c
+      - heart_rate
+      - sbp
+      - dbp
+      - spo2
+      - respiratory_rate
+      - map
+      - height_cm
+      - weight_kg
+    - name: vital_value
+      type: categorical
+      description: Recorded value of the vital. Measurement unit should match the
+        vital category.
+      values:
+      - temp_c = Celsius
+      - height_cm = Centimeters
+      - weight_kg = Kg
+      - map = mmHg
+      - spo2 = %. No unit for heart_rate
+      - sbp
+      - dbp
+      - respiratory_rate
+    - name: meas_site_name
+      type: string
+      description: Site where the vital is recorded. Optional field with no associated
+        category.
+  intake_output: #concept
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: Unique identifier for the hospitalization event.
+    - name: intake_dttm
+      type: datetime
+      description: Date and time of intake. All datetime variables must be timezone-aware
+        and set to UTC.
+    - name: fluid_name
+      type: string
+      description: Name of the fluid administered.
+    - name: amount
+      type: numeric
+      description: Amount of fluid administered (in mL)
+    - name: in_out_flag
+      type: categorical
+      description: Indicator for intake or output (1 for intake, 0 for output)
+      values:
+      - 0 = Output
+      - 1 = Intake
+  invasive_hemodynamics: #concept
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: Unique identifier linking to the specific hospitalization.
+    - name: recorded_dttm
+      type: datetime
+      description: The date and time when the measurement was recorded. All datetime
+        variables must be timezone-aware and set to UTC.
+    - name: measure_name
+      type: categorical
+      description: Description of the site or context of the invasive hemodynamic
+        measurement.
+      values:
+      - Free text (e.g.
+      - Right Atrium)
+    - name: measure_category
+      type: categorical
+      description: Categorical variable specifying the type of invasive hemodynamic
+        measurement.
+      values:
+      - CVP
+      - RA
+      - RV
+      - PA_systolic
+      - PA_diastolic
+      - PA_mean
+      - PCWP
+    - name: measure_value
+      type: categorical
+      description: The numerical value of the invasive hemodynamic measurement in
+        mmHg.
+      values:
+      - Positive decimal values (e.g.
+      - '5.00'
+      - 25.65)
+  key_icu_orders: #concept
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: Unique identifier linking the order to a specific hospitalization.
+    - name: order_dttm
+      type: datetime
+      description: Date and time when the order was placed. All datetime variables
+        must be timezone-aware and set to UTC.
+    - name: order_name
+      type: string
+      description: Name of the specific order (e.g., PT Evaluation, OT Treatment).
+    - name: order_category
+      type: categorical
+      description: Category of the order.
+      values:
+      - 'Under-development. Some examples include: PT_evaluation'
+      - PT_treat
+      - OT_evaluation
+      - OT_treat
+    - name: order_status_name
+      type: categorical
+      description: Status of the order.
+      values:
+      - sent
+      - completed
+  medication_orders: #concept
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: Unique identifier for each hospitalization, linking medication
+        orders to a specific encounter
+    - name: med_order_id
+      type: string
+      description: Unique identifier for each medication order
+    - name: order_start_dttm
+      type: datetime
+      description: Date and time when the medication order was initiated. All datetime
+        variables must be timezone-aware and set to UTC.
+    - name: order_end_dttm
+      type: datetime
+      description: Date and time when the medication order ended or was discontinued.
+        All datetime variables must be timezone-aware and set to UTC.
+    - name: ordered_dttm
+      type: datetime
+      description: Date and time when the medication was actually ordered. All datetime
+        variables must be timezone-aware and set to UTC.
+    - name: med_name
+      type: string
+      description: Name of the medication ordered
+    - name: med_category
+      type: categorical
+      description: Maps med_name to a list of permissible medication names
+      values: *id001
+    - name: med_group
+      type: string
+      description: Limited number of medication groups identified by the CLIF consortium
+    - name: med_order_status_name
+      type: string
+      description: Status of the medication order, e.g. held, given
+    - name: med_order_status_category
+      type: string
+      description: Maps med_order_status_name to a standardized list of medication
+        order statuses
+    - name: med_route_name
+      type: categorical
+      description: Route of administration for the medication
+      values:
+      - No restriction. Examples include Oral
+      - Intravenous
+    - name: med_dose
+      type: numeric
+      description: Dosage of the medication ordered
+    - name: med_dose_unit
+      type: categorical
+      description: Unit of measurement for the medication dosage
+      values:
+      - Examples include mg
+      - mL
+      - units
+    - name: med_frequency
+      type: categorical
+      description: Frequency with which the medication is administered, as per the
+        order
+      values:
+      - Examples include Once Daily
+      - Every 6 hours
+    - name: prn
+      type: categorical
+      description: Indicates whether the medication is to be given as needed (PRN)
+      values:
+      - 0 = No
+      - 1 = Yes
+  patient_procedures: #beta
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: Unique identifier for each hospitalization, linking the procedure
+        to a specific encounter
+    - name: procedure_name
+      type: string
+      description: Name of the procedure performed on the patient
+    - name: procedure_category
+      type: string
+      description: Maps procedure_name to a list of standardized procedures
+    - name: diagnosis
+      type: string
+      description: The diagnosis or reason for performing the procedure
+    - name: start_dttm
+      type: datetime
+      description: Date and time when the procedure was initiated. All datetime variables
+        must be timezone-aware and set to UTC.
+  provider: #concept
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: Unique identifier for each hospitalization, linking the provider
+        to a specific encounter
+    - name: provider_id
+      type: string
+      description: Unique identifier for each provider. This represents individual
+        healthcare providers
+    - name: start_dttm
+      type: datetime
+      description: Date and time when the provider’s care or involvement in the patient’s
+        case began. All datetime variables must be timezone-aware and set to UTC.
+    - name: stop_dttm
+      type: datetime
+      description: Date and time when the provider’s care or involvement in the patient’s
+        case ended. All datetime variables must be timezone-aware and set to UTC.
+    - name: provider_role_name
+      type: string
+      description: The original string describing the role or specialty of the provider
+        during the hospitalization
+    - name: provider_role_category
+      type: string
+      description: Maps provider_role_name to list of standardized provider roles
+  sensitivity: #concept
+    variables:
+    - name: culture_id
+      type: string
+      description: Unique identifier linking to the culture from which the sensitivity
+        test was performed
+    - name: antibiotic
+      type: categorical
+      description: Name of the antibiotic tested for sensitivity
+      values:
+      - Examples include Penicillin
+      - Vancomycin
+    - name: sensitivity
+      type: categorical
+      description: The result of the sensitivity test, indicating the organism’s resistance
+        or susceptibility
+      values:
+      - Resistant
+      - Intermediate
+      - Susceptible
+    - name: mic
+      type: numeric
+      description: Minimum Inhibitory Concentration (MIC) value, which measures the
+        lowest concentration of an antibiotic needed to inhibit growth
+  therapy_details: #concept
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: Unique identifier for the hospitalization event.
+    - name: session_start_dttm
+      type: datetime
+      description: Date and time when the therapy session started. All datetime variables
+        must be timezone-aware and set to UTC.
+    - name: therapy_element_name
+      type: string
+      description: Name of the therapy element.
+    - name: therapy_element_category
+      type: string
+      description: Category of the therapy element.
+    - name: therapy_element_value
+      type: string
+      description: Value associated with the therapy element.
+  transfusion: #concept
+    variables:
+    - name: hospitalization_id
+      type: string
+      description: Unique identifier linking the transfusion event to a specific hospitalization
+        in the CLIF database.
+    - name: transfusion_start_dttm
+      type: datetime
+      description: The date and time the transfusion of the blood component began.
+        All datetime variables must be timezone-aware and set to UTC.
+    - name: transfusion_end_dttm
+      type: datetime
+      description: The date and time the transfusion of the blood component ended.
+        All datetime variables must be timezone-aware and set to UTC.
+    - name: component_name
+      type: categorical
+      description: The name of the blood component transfused.
+      values:
+      - E.g.
+      - Red Blood Cells
+      - Plasma
+      - Platelets
+    - name: attribute_name
+      type: categorical
+      description: Attributes describing modifications to the component.
+      values:
+      - E.g.
+      - Leukocyte Reduced
+      - Irradiated
+    - name: volume_transfused
+      type: categorical
+      description: The volume of the blood component transfused.
+      values:
+      - Numeric
+      - e.g.
+      - '300'
+    - name: volume_units
+      type: categorical
+      description: The unit of measurement for the transfused volume.
+      values:
+      - E.g.
+      - mL
+    - name: product_code
+      type: categorical
+      description: ISBT 128 Product Description Code representing the specific blood
+        product.
+      values:
+      - E.g.
+      - E0382
