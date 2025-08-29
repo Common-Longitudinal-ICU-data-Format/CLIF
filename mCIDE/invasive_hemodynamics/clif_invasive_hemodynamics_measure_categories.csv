@@ -6,3 +6,5 @@ pa_systolic,Pulmonary Artery systolic pressure
 pa_diastolic,Pulmonary Artery diastolic pressure
 pa_mean,Pulmonary Artery mean pressure
 pcwp,Pulmonary Capillary Wedge Pressure
+cardiac_output_thermodilution, 
+cardiac_output_fick, 
