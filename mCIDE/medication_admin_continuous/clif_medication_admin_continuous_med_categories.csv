@@ -41,9 +41,11 @@ adenosine,cardiac
 cisatracurium,paralytics
 vecuronium,paralytics
 rocuronium,paralytics
-treprostinil,pulmonary vasaldilators (IV)
-epoprostenol,pulmonary vasaldilators (IV)
-alprostadil,pulmonary vasaldilators (IV)
+treprostinil,pulmonary vasodilators (IV)
+epoprostenol,pulmonary vasodilators (IV)
+epoprostenol,pulmonary vasodilators (inhaled)
+alprostadil,pulmonary vasodilators (IV)
+nitric, pulmonary vasodilators (inhaled)
 octreotide,gastrointestinal
 pantoprazole,gastrointestinal
 esomeprazole,gastrointestinal
@@ -78,4 +80,6 @@ lactated_ringers_solution,fluids_electrolytes
 albumin_infusion,fluids_electrolytes
 plasma_lyte,fluids_electrolytes
 dextrose_in_water_d5w,fluids_electrolytes
+
+
 
