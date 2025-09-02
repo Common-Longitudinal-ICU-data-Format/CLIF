@@ -37,7 +37,7 @@ cisatracurium,paralytic,
 clarithromycin,CMS_sepsis_qualifying_antibiotics,
 clindamycin,CMS_sepsis_qualifying_antibiotics,
 colistin,CMS_sepsis_qualifying_antibiotics,
-cortisone,steroid,
+fludrocoritisone,steroid,
 daptomycin,CMS_sepsis_qualifying_antibiotics,
 dexamethasone,steroid,
 diazepam ,anxiolytic,iv and po
@@ -112,4 +112,5 @@ valganciclovir,CMS_sepsis_qualifying_antibiotics,
 valproate ,other,iv and po
 vancomycin,CMS_sepsis_qualifying_antibiotics,
 vecuronium,paralytic,
+
 voriconazole,CMS_sepsis_qualifying_antibiotics,
