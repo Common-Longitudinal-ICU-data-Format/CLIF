@@ -1,5 +1,6 @@
 ﻿med_route_category ,notes
-enteral ,"PO, feeding tube, etc."
+enteral ,"PO, subQ, feeding tube, etc."
 im ,
 iv ,
+buccal_sublingual ,
 intrapleural ,
