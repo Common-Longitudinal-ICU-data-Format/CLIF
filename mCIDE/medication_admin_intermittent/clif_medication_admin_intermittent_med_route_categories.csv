@@ -1,8 +1,9 @@
 ﻿med_route_category,notes
 enteral,"PO, feeding tube, etc."
-im,
+im,"Includes subcutaneous"
 iv,
 buccal_sublingual,
 intrapleural,
-subcutaneous,
+
+
 
