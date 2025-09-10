@@ -31,7 +31,7 @@ ceftriaxone,CMS_sepsis_qualifying_antibiotics,
 cefuroxime,CMS_sepsis_qualifying_antibiotics,
 cephalexin,CMS_sepsis_qualifying_antibiotics,
 chloramphenicol,CMS_sepsis_qualifying_antibiotics,
-ciltacabtagene autoleucel,car_t,
+ciltacabtagene_autoleucel,car_t,
 ciprofloxacin,CMS_sepsis_qualifying_antibiotics,
 cisatracurium,paralytic,
 clarithromycin,CMS_sepsis_qualifying_antibiotics,
@@ -114,5 +114,6 @@ vancomycin,CMS_sepsis_qualifying_antibiotics,
 vecuronium,paralytic,
 
 voriconazole,CMS_sepsis_qualifying_antibiotics,
+
 
 
