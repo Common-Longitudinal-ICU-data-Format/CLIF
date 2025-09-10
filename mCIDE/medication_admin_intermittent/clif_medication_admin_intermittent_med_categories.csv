@@ -66,7 +66,7 @@ itraconazole,CMS_sepsis_qualifying_antibiotics,
 ketamine ,sedation,iv and po
 levofloxacin,CMS_sepsis_qualifying_antibiotics,
 linezolid,CMS_sepsis_qualifying_antibiotics,
-lisocabtagene maraleucel,car_t,
+lisocabtagene_maraleucel,car_t,
 lorazepam ,anxiolytic,iv and po
 meropenem,CMS_sepsis_qualifying_antibiotics,
 meropenem_vaborbactam,CMS_sepsis_qualifying_antibiotics,
@@ -114,3 +114,4 @@ vancomycin,CMS_sepsis_qualifying_antibiotics,
 vecuronium,paralytic,
 
 voriconazole,CMS_sepsis_qualifying_antibiotics,
+
