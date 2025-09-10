@@ -59,7 +59,7 @@ hydrocodone_acetaminophen ,analgesia,combination pill only (po)
 hydrocortisone,steroid,
 hydromorphone ,analgesia,iv and po
 hydroxocobalamin,vasopressor,
-idecabtagene vicleucel,car_t,
+idecabtagene_vicleucel,car_t,
 imipenem,CMS_sepsis_qualifying_antibiotics,
 isavuconazole,CMS_sepsis_qualifying_antibiotics,
 itraconazole,CMS_sepsis_qualifying_antibiotics,
@@ -70,7 +70,7 @@ lisocabtagene_maraleucel,car_t,
 lorazepam ,anxiolytic,iv and po
 meropenem,CMS_sepsis_qualifying_antibiotics,
 meropenem_vaborbactam,CMS_sepsis_qualifying_antibiotics,
-methylene blue,vasopressor,
+methylene_blue,vasopressor,
 methylprednisolone,steroid,
 metronidazole,CMS_sepsis_qualifying_antibiotics,
 micafungin,CMS_sepsis_qualifying_antibiotics,
@@ -114,6 +114,7 @@ vancomycin,CMS_sepsis_qualifying_antibiotics,
 vecuronium,paralytic,
 
 voriconazole,CMS_sepsis_qualifying_antibiotics,
+
 
 
 
