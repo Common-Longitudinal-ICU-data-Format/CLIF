@@ -11,7 +11,7 @@ atracurium,paralytic,
 axicabtagene_ciloleucel,car_t,
 azithromycin,CMS_sepsis_qualifying_antibiotics,
 aztreonam,CMS_sepsis_qualifying_antibiotics,
-bethamethasone,steroid,
+betamethasone,steroid,
 brexucabtagene_autoleucel,car_t,
 cefadroxil,CMS_sepsis_qualifying_antibiotics,
 cefazolin,CMS_sepsis_qualifying_antibiotics,
@@ -114,6 +114,7 @@ vancomycin,CMS_sepsis_qualifying_antibiotics,
 vecuronium,paralytic,
 
 voriconazole,CMS_sepsis_qualifying_antibiotics,
+
 
 
 
