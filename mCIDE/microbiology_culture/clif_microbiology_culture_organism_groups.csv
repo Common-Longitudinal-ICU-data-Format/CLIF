@@ -1,4 +1,4 @@
-organism_group,NIH/notes
+organism_group,NIH group
 acinetobacter,"Acinetobacter (baumanii, calcoaceticus, lwoffi, other species)"
 adenovirus,Adenovirus
 agrobacterium_radiobacter,Agrobacterium radiobacter
@@ -108,3 +108,4 @@ vibrio,Vibrio (all species)
 viral_other ,Other Viral
 
 yeast ,Yeast (NOS)
+
