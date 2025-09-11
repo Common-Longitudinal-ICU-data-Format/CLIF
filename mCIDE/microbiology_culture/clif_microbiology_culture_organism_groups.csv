@@ -1,4 +1,4 @@
-NIH ,notes
+organism_group,NIH/notes
 acinetobacter,"Acinetobacter (baumanii, calcoaceticus, lwoffi, other species)"
 adenovirus,Adenovirus
 agrobacterium_radiobacter,Agrobacterium radiobacter
@@ -106,4 +106,5 @@ tuberculosis ,"Typical Tuberculosis (TB, Tuberculosis)"
 tuberculosis_nos_afb_kochbacillus,"Tuberculosis (NOS, AFB, acid fast bacillus, Koch bacillus)"
 vibrio,Vibrio (all species)
 viral_other ,Other Viral
+
 yeast ,Yeast (NOS)
