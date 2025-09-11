@@ -1,110 +1,109 @@
-﻿organism_group
-"acinetobacter (baumanii, calcoaceticus, lwoffi, other species)"
-adenovirus
-agrobacterium radiobacter
-alcaligenes xylosoxidans
-amebiasis
-"anaerobic bacteria (nos, except for bacteroides, clostridium)"
-asperguillus (nos)
-asperguillus flavus
-asperguillus fumigatus
-asperguillus niger
-"bacillus (cereus, other species)"
-"bacteroides (gracillis, uniformis, vulgaris, other species)"
-borrelia (lyme disease)
-branhamelia or moraxella catarrhalis (other species)
-campylobacter (all species)
-candida (nos)
-candida albicans
-candida krusei
-candida parasilosis
-candida tropicalis
-chlamydia
-"citrobacter (freundii, other species)"
-clostridium (all species except difficile)
-clostridium diificile
-corynebacterium (all non-diptheria species)
-coxiella
-cryptococcus species
-cryptosporidium
-cytomegalovirus (cmv)
-echinoco ocalcyst
-enterobacter
-enterococcus (all species)
-"enterovirus (coxsackie, echo, polio)"
-epstein-barr virus (ebv)
-escherichia (also e. coli)
-flavimonas oryzihabitans
-flavobacterium
-fusarium species
-fusobacterium nucleatum
-giardia
-gram negative diplococci (nos)
-gram negative rod (nos)
-gram positive cocci (nos)
-gram positive rod (nos)
-haemophilus (all species including influenzae)
-helicobacter pylori
-hepatitis a (hav)
-"hepatitis b (hbv, australian antigen)"
-"hepatitis c (includes non-a and non-b, hcv)"
-"herpes simplex (hsv1, hsv2)"
-"herpes zoster (chicken pox, varicella)"
-hhv-6 (human herpes virus)
-"hiv-1, hitlv-iii"
-influenza (flu)
-klebsiella
-"lactobacillus (bulgaricus, acidophilus, other species)"
-legionella
-leptospira
-leptotrichia buccalis
-leuconostoc (all species)
-listeria
-measles (rubeola)
-methylobacterium
-micrococcus (nos)
-"mucormycosis (zygomycetes, rhizopus)"
-mumps
-"mycobacteria (avium, bovium, haemophilum, intercellulare)"
-mycobacterium tuberculosis
-mycoplasma
-mycoplasma
-"neisseria (gonorrhoea, meningitidis, other species)"
-nocardia
-other bacteria
-other fungus
-other mycobacterium
-other organism
-other protozoal (parasite)
-other viral
-papovavirus
-parainfluenza
-pharyngeal/respiratory flora
-pneumoncystis (pcp)
-polyomavirus
-"propionbacterium (acnes, avidum, granulosum, other species)"
-pseudomonas (all species except cepacia and maltophilia)
-pseudomonas or burkholderia cepacia
-pseudomonas or stenotrophomonas or xanthomonas maltophilia
-respiratory syncytial virus (rsv)
-rhinovirus (common cold)
-rhodococcus
-rickettsia
-rotavirus
-rubella (german measles)
-salmonella (all species)
-serratia marcescens
-shigella
-staphylococcus (coag +)
-staphylococcus (coag-)
-staphylococcus (nos)
-stomatococcus mucilaginosis
-streptococcus (all species except enterococcus)
-torulopsis galbrata (a subspecies of candida)
-toxoplasma
-treponema (syphilis)
-trichomonas (either vaginal or gingivitis)
-"tuberculosis (nos, afb, acid fast bacillus, koch bacillus)"
-"typical tuberculosis (tb, tuberculosis)"
-vibrio (all species)
-yeast (nos)
+NIH ,notes
+acinetobacter,"Acinetobacter (baumanii, calcoaceticus, lwoffi, other species)"
+adenovirus,Adenovirus
+agrobacterium_radiobacter,Agrobacterium radiobacter
+alcaligenes_xylosoxidans,Alcaligenes xylosoxidans
+amebiasis,Amebiasis
+anaerobes_wo_bacteroides_clostridium ,"Anaerobic bacteria (NOS, except for Bacteroides, Clostridium)"
+aspergillus_nos,Aspergillus (NOS)
+aspergillus_flavus,Aspergillus Flavus
+aspergillus_fumigatus,Aspergillus Fumigatus
+aspergillus_niger,Aspergillus Niger
+bacillus,"Bacillus (cereus, other species)"
+bacteria_other ,Other Bacteria
+bacteroides,"Bacteroides (gracillis, uniformis, vulgaris, other species)"
+borrelia ,Borrelia (Lyme Disease)
+branhamelia_moraxella_catarrhalis ,Branhamelia or Moraxella catarrhalis (other species)
+campylobacter ,Campylobacter (all species)
+candida_albicans,Candida Albicans
+candida_krusei,Candida Krusei
+candida_nos,Candida (NOS)
+candida_parasilosis,Candida Parasilosis
+candida_tropicalis,Candida Tropicalis
+chlamydia,Chlamydia
+citrobacter,"Citrobacter (freundii, other species)"
+clostridium_difficile,Clostridium difficile
+clostridium_wo_difficile,Clostridium (all species except difficile)
+corynebacterium ,Corynebacterium (all non-diptheria species)
+coxiella,Coxiella
+cryptococcus,Cryptococcus Species
+cryptosporidium,Cryptosporidium
+cytomegalovirus,Cytomegalovirus (CMV)
+echinoco_ocalcyst,Echinoco ocalcyst
+enterobacter,Enterobacter
+enterococcus ,Enterococcus (all species)
+enterovirus ,"Enterovirus (Coxsackie, Echo, Polio)"
+epstein_barr_virus ,Epstein-Barr Virus (EBV)
+escherichia ,Escherichia (also E. coli)
+flavimonas_oryzihabitans,Flavimonas oryzihabitans
+flavobacterium,Flavobacterium
+fungus_other,Other Fungus
+fusarium,Fusarium Species
+fusobacterium_nucleatum,Fusobacterium nucleatum
+giardia,Giardia
+gram_negative_diplococci,Gram Negative Diplococci (NOS)
+gram_negative_rod,Gram Negative Rod (NOS)
+gram_positive_cocci,Gram Positive Cocci (NOS)
+gram_positive_rod,Gram Positive Rod (NOS)
+haemophilus,Haemophilus (all species including influenzae)
+helicobacter_pylori,Helicobacter pylori
+hepatitis_a ,Hepatitis A (HAV)
+hepatitis_b ,"Hepatitis B (HBV, Australian antigen)"
+hepatitis_c ,"Hepatitis C (includes non-A and non-B, HCV)"
+herpes_simplex ,"Herpes Simplex (HSV1, HSV2)"
+herpes_zoster ,"Herpes Zoster (Chicken Pox, Varicella)"
+hhv_6 ,HHV-6 (Human Herpes Virus)
+hiv_htlv,"HIV-1, HTLV-III"
+influenza,Influenza (Flu)
+klebsiella,Klebsiella
+lactobacillus ,"Lactobacillus (bulgaricus, acidophilus, other species)"
+legionella,Legionella
+leptospira,Leptospira
+leptotrichia_buccalis,Leptotrichia buccalis
+leuconostoc ,Leuconostoc (all species)
+listeria,Listeria
+measles ,Measles (Rubeola)
+methylobacterium,Methylobacterium
+micrococcus ,Micrococcus (NOS)
+mucormycosis_zygomycetes_rhizopus,"Mucormycosis (Zygomycetes, Rhizopus)"
+mumps,Mumps
+mycobacteria_avium_bovium_haemophilum_intercelluare,"Mycobacteria (avium, bovium, haemophilum, intercellulare)"
+mycobacterium_other ,Other Mycobacterium
+mycobacterium_tuberculosis,Mycobacterium Tuberculosis
+mycoplasma,Mycoplasma
+neisseria ,"Neisseria (gonorrhoea, meningitidis, other species)"
+nocardia,Nocardia
+other_organism,Other Organism
+papovavirus,Papovavirus
+parainfluenza,Parainfluenza
+pharyngeal_respiratory_flora,Pharyngeal/Respiratory Flora
+pneumocystis,Pneumocystis (PCP)
+polyomavirus,Polyomavirus
+propionbacterium ,"Propionbacterium (acnes, avidum, granulosum, other species)"
+protozoal_other,Other Protozoal (parasite)
+pseudomonas_burkholderia_cepacia,Pseudomonas or Burkholderia cepacia
+pseudomonas_stenotrophomonas_xanthomonas_maltophilia,Pseudomonas or Stenotrophomonas or Xanthomonas maltophilia
+pseudomonas_wo_cepacia_maltophilia,Pseudomonas (all species except cepacia and maltophilia)
+respiratory_syncytial_virus ,Respiratory Syncytial virus (RSV)
+rhinovirus ,Rhinovirus (Common Cold)
+rhodococcus,Rhodococcus
+rickettsia,Rickettsia
+rotavirus,Rotavirus
+rubella,Rubella (German Measles)
+salmonella ,Salmonella (all species)
+serratia_marcescens,Serratia marcescens
+shigella,Shigella
+staphylococcus_coag_neg,Staphylococcus (coag-)
+staphylococcus_coag_pos,Staphylococcus (coag +)
+staphylococcus_nos,Staphylococcus (NOS)
+stomatococcus_mucilaginosis,Stomatococcus mucilaginosis
+streptococcus ,Streptococcus (all species except Enterococcus)
+torulopsis_galbrata,Torulopsis Glabrata (a subspecies of Candida)
+toxoplasma,Toxoplasma
+treponema ,Treponema (syphilis)
+trichomonas ,Trichomonas (either vaginal or gingivitis)
+tuberculosis ,"Typical Tuberculosis (TB, Tuberculosis)"
+tuberculosis_nos_afb_kochbacillus,"Tuberculosis (NOS, AFB, acid fast bacillus, Koch bacillus)"
+vibrio,Vibrio (all species)
+viral_other ,Other Viral
+yeast ,Yeast (NOS)
