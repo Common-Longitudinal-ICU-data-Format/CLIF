@@ -55,7 +55,7 @@ fluconazole,CMS_sepsis_qualifying_antibiotics,
 fosfomycin,CMS_sepsis_qualifying_antibiotics,
 gentamicin,CMS_sepsis_qualifying_antibiotics,
 haloperidol ,antipsychotic,"po, iv and im"
-hydrocodone_acetaminophen ,analgesia,combination pill only (po)
+hydrocodone_acetaminophen ,analgesia,combination only (po)
 hydrocortisone,steroid,
 hydromorphone ,analgesia,iv and po
 hydroxocobalamin,vasopressor,
@@ -83,7 +83,7 @@ olanzapine ,antipsychotic,"po, iv and im"
 oseltamivir,CMS_sepsis_qualifying_antibiotics,
 oxacillin,CMS_sepsis_qualifying_antibiotics,
 oxycodone ,analgesia,po
-oxycodone_acetaminophen ,analgesia,combination pill only (po)
+oxycodone_acetaminophen ,analgesia,combination only (po)
 penicillin,CMS_sepsis_qualifying_antibiotics,
 piperacillin_tazobactam,CMS_sepsis_qualifying_antibiotics,
 polymyxin_b,CMS_sepsis_qualifying_antibiotics,
@@ -114,6 +114,7 @@ vancomycin,CMS_sepsis_qualifying_antibiotics,
 vecuronium,paralytic,
 
 voriconazole,CMS_sepsis_qualifying_antibiotics,
+
 
 
 
