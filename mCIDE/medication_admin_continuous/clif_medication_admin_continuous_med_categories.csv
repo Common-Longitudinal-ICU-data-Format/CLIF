@@ -52,7 +52,6 @@ esomeprazole,gastrointestinal
 albuterol,Inhaled
 terbutaline,Inhaled
 ipratropium,Inhaled
-narcan,analgesia
 insulin,endocrine
 thyroid replacement,endocrine
 oxytocin,endocrine
@@ -80,6 +79,7 @@ lactated_ringers_solution,fluids_electrolytes
 albumin_infusion,fluids_electrolytes
 plasma_lyte,fluids_electrolytes
 dextrose_in_water_d5w,fluids_electrolytes
+
 
 
 
