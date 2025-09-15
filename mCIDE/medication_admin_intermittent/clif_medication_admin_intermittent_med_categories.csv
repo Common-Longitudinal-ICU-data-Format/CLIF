@@ -40,52 +40,59 @@ colistin,CMS_sepsis_qualifying_antibiotics,
 fludrocortisone,steroid,
 daptomycin,CMS_sepsis_qualifying_antibiotics,
 dexamethasone,steroid,
+delafloxacin,CMS_sepsis_qualifying_antibiotics,iv and po
 diazepam ,anxiolytic,iv and po
 dicloxacillin,CMS_sepsis_qualifying_antibiotics,
 diphenhydramine ,other,iv and po
 doripenem,CMS_sepsis_qualifying_antibiotics,
 dornase_alfa,other,intrapleural route only
 doxycycline,CMS_sepsis_qualifying_antibiotics,
+eravacycline,CMS_sepsis_qualifying_antibiotics,iv
 ertapenem,CMS_sepsis_qualifying_antibiotics,
 erythromycin,CMS_sepsis_qualifying_antibiotics,
-etomidate ,sedation,iv
-fentanyl ,analgesia,iv
+etomidate,sedation,iv
+fentanyl,analgesia,iv
 fidaxomicin,CMS_sepsis_qualifying_antibiotics,
 fluconazole,CMS_sepsis_qualifying_antibiotics,
 fosfomycin,CMS_sepsis_qualifying_antibiotics,
 gentamicin,CMS_sepsis_qualifying_antibiotics,
-haloperidol ,antipsychotic,"po, iv and im"
+haloperidol,antipsychotic,"po, iv and im"
 hydrocodone_acetaminophen ,analgesia,combination only (po)
 hydrocortisone,steroid,
 hydromorphone ,analgesia,iv and po
 hydroxocobalamin,vasopressor,
 idecabtagene_vicleucel,car_t,
 imipenem,CMS_sepsis_qualifying_antibiotics,
+imipenem_relebactam,CMS_sepsis_qualifying_antibiotics,combination only iv
 isavuconazole,CMS_sepsis_qualifying_antibiotics,
 itraconazole,CMS_sepsis_qualifying_antibiotics,
-ketamine ,sedation,iv and po
+ketamine,sedation,iv and po
+lefamulin,CMS_sepsis_qualifying_antibiotics,po
 levofloxacin,CMS_sepsis_qualifying_antibiotics,
 linezolid,CMS_sepsis_qualifying_antibiotics,
 lisocabtagene_maraleucel,car_t,
-lorazepam ,anxiolytic,iv and po
+lorazepam,anxiolytic,iv and po
+maribavir,CMS_sepsis_qualifying_antibiotics,po
 meropenem,CMS_sepsis_qualifying_antibiotics,
 meropenem_vaborbactam,CMS_sepsis_qualifying_antibiotics,
 methylene_blue,vasopressor,
 methylprednisolone,steroid,
 metronidazole,CMS_sepsis_qualifying_antibiotics,
 micafungin,CMS_sepsis_qualifying_antibiotics,
-midazolam ,sedation,iv
-morphine ,analgesia,iv and po
+midazolam,sedation,iv
+morphine,analgesia,iv and po
 moxifloxacin,CMS_sepsis_qualifying_antibiotics,
 nitrofurantoin,CMS_sepsis_qualifying_antibiotics,
 nystatin,CMS_sepsis_qualifying_antibiotics,
 olanzapine ,antipsychotic,"po, iv and im"
+omadacycline,CMS_sepsis_qualifying_antibiotics,iv and po
 oseltamivir,CMS_sepsis_qualifying_antibiotics,
 oxacillin,CMS_sepsis_qualifying_antibiotics,
-oxycodone ,analgesia,po
+oxycodone,analgesia,po
 oxycodone_acetaminophen ,analgesia,combination only (po)
 penicillin,CMS_sepsis_qualifying_antibiotics,
 piperacillin_tazobactam,CMS_sepsis_qualifying_antibiotics,
+plazomicin,CMS_sepsis_qualifying_antibiotics,iv
 polymyxin_b,CMS_sepsis_qualifying_antibiotics,
 posaconazole,CMS_sepsis_qualifying_antibiotics,
 prednisolone,steroid,
@@ -93,11 +100,13 @@ prednisone,steroid,
 promethazine ,other,iv and po
 propofol ,sedation,iv
 quetiapine,antipsychotic,
+rezafungin,CMS_sepsis_qualifying_antibiotics,iv
 ribavirin,CMS_sepsis_qualifying_antibiotics,
 risperidone ,antipsychotic,"po, iv and im"
 rocuronium,paralytic,
 streptomycin,CMS_sepsis_qualifying_antibiotics,
 succinylcholine,paralytic,
+sulbactam_durlobactam,CMS_sepsis_qualifying_antibiotics,combination only (po)
 sulfamethoxazole,CMS_sepsis_qualifying_antibiotics,
 tetracycline,CMS_sepsis_qualifying_antibiotics,
 ticarcillin_clavulanate,CMS_sepsis_qualifying_antibiotics,
@@ -114,6 +123,7 @@ vancomycin,CMS_sepsis_qualifying_antibiotics,
 vecuronium,paralytic,
 
 voriconazole,CMS_sepsis_qualifying_antibiotics,
+
 
 
 
