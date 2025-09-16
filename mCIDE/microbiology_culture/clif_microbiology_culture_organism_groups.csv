@@ -73,6 +73,7 @@ mycobacterium_tuberculosis,Mycobacterium Tuberculosis
 mycoplasma,Mycoplasma
 neisseria ,"Neisseria (gonorrhoea, meningitidis, other species)"
 nocardia,Nocardia
+no_growth,
 other_organism,Other Organism
 papovavirus,Papovavirus
 parainfluenza,Parainfluenza
@@ -106,6 +107,6 @@ tuberculosis ,"Typical Tuberculosis (TB, Tuberculosis)"
 tuberculosis_nos_afb_kochbacillus,"Tuberculosis (NOS, AFB, acid fast bacillus, Koch bacillus)"
 vibrio,Vibrio (all species)
 viral_other ,Other Viral
-
 yeast ,Yeast (NOS)
+
 
