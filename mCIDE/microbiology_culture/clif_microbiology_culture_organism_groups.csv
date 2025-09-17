@@ -18,7 +18,7 @@ campylobacter ,Campylobacter (all species)
 candida_albicans,Candida Albicans
 candida_krusei,Candida Krusei
 candida_nos,Candida (NOS)
-candida_parasilosis,Candida Parasilosis
+candida_parapsilosis,Candida Parapsilosis
 candida_tropicalis,Candida Tropicalis
 chlamydia,Chlamydia
 citrobacter,"Citrobacter (freundii, other species)"
@@ -108,5 +108,6 @@ tuberculosis_nos_afb_kochbacillus,"Tuberculosis (NOS, AFB, acid fast bacillus, K
 vibrio,Vibrio (all species)
 viral_other ,Other Viral
 yeast ,Yeast (NOS)
+
 
 
