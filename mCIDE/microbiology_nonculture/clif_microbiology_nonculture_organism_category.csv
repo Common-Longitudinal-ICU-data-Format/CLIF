@@ -1,4 +1,4 @@
-﻿organism_category
-clostridium_difficile
-sars_cov2
-respiratory_syncytial_virus
+﻿organism_category,organism_group
+clostridium_difficile,clostridium_difficile
+sars_cov2,viral_other
+respiratory_syncytial_virus,respiratory_syncytial_virus
