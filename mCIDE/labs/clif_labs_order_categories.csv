@@ -1,10 +1,9 @@
-﻿lab_order_category
-abg
-bmp
-cbc
-coags
-lft
-lactic_acid
-misc
-vbg
+﻿lab_order_category, comments
+blood_gas, includes abg/vbg/mixed venous/etc
+bmp,
+cbc,
+coags,
+lft,
+misc, includes lactate
+
 
