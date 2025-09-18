@@ -69,7 +69,6 @@ mucormycosis_zygomycetes_rhizopus,"Mucormycosis (Zygomycetes, Rhizopus)"
 mumps,Mumps
 mycobacteria_avium_bovium_haemophilum_intercelluare,"Mycobacteria (avium, bovium, haemophilum, intercellulare)"
 mycobacterium_other ,Other Mycobacterium
-mycobacterium_tuberculosis,Mycobacterium Tuberculosis
 mycoplasma,Mycoplasma
 neisseria ,"Neisseria (gonorrhoea, meningitidis, other species)"
 nocardia,Nocardia
@@ -108,6 +107,7 @@ tuberculosis_nos_afb_kochbacillus,"Tuberculosis (NOS, AFB, acid fast bacillus, K
 vibrio,Vibrio (all species)
 viral_other ,Other Viral
 yeast ,Yeast (NOS)
+
 
 
 
