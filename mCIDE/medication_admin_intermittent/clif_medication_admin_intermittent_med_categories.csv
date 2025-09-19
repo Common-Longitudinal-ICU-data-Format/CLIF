@@ -1,134 +1,184 @@
-﻿med_category,med_group,route
-acetaminophen,analgesia,
-acyclovir,CMS_sepsis_qualifying_antibiotics,
-alteplase,other,intrapleural route only
-amikacin,CMS_sepsis_qualifying_antibiotics,
-amoxicillin_clavulanate,CMS_sepsis_qualifying_antibiotics,
-amphotericin_b,CMS_sepsis_qualifying_antibiotics,
-ampicillin_sulbactam,CMS_sepsis_qualifying_antibiotics,
-anakinra,other,
-atracurium,paralytic,
-axicabtagene_ciloleucel,car_t,
-azithromycin,CMS_sepsis_qualifying_antibiotics,
-aztreonam,CMS_sepsis_qualifying_antibiotics,
-betamethasone,steroid,
-brexucabtagene_autoleucel,car_t,
-cefadroxil,CMS_sepsis_qualifying_antibiotics,
-cefazolin,CMS_sepsis_qualifying_antibiotics,
-cefdinir,CMS_sepsis_qualifying_antibiotics,
-cefepime,CMS_sepsis_qualifying_antibiotics,
-cefiderocol,CMS_sepsis_qualifying_antibiotics,
-cefixime,CMS_sepsis_qualifying_antibiotics,
-cefotaxime,CMS_sepsis_qualifying_antibiotics,
-cefotetan,CMS_sepsis_qualifying_antibiotics,
-cefoxitin,CMS_sepsis_qualifying_antibiotics,
-ceftaroline,CMS_sepsis_qualifying_antibiotics,
-ceftazidime,CMS_sepsis_qualifying_antibiotics,
-ceftazidime_avibactam,CMS_sepsis_qualifying_antibiotics,
-ceftazidime_clavulanate,CMS_sepsis_qualifying_antibiotics,
-ceftolozane_tazobactam,CMS_sepsis_qualifying_antibiotics,
-ceftriaxone,CMS_sepsis_qualifying_antibiotics,
-cefuroxime,CMS_sepsis_qualifying_antibiotics,
-cephalexin,CMS_sepsis_qualifying_antibiotics,
-chloramphenicol,CMS_sepsis_qualifying_antibiotics,
-ciltacabtagene_autoleucel,car_t,
-ciprofloxacin,CMS_sepsis_qualifying_antibiotics,
-cisatracurium,paralytic,
-clarithromycin,CMS_sepsis_qualifying_antibiotics,
-clindamycin,CMS_sepsis_qualifying_antibiotics,
-colistin,CMS_sepsis_qualifying_antibiotics,
-fludrocortisone,steroid,
-daptomycin,CMS_sepsis_qualifying_antibiotics,
-dexamethasone,steroid,
-delafloxacin,CMS_sepsis_qualifying_antibiotics,iv and po
-diazepam ,anxiolytic,iv and po
-dicloxacillin,CMS_sepsis_qualifying_antibiotics,
-diphenhydramine ,other,iv and po
-doripenem,CMS_sepsis_qualifying_antibiotics,
-dornase_alfa,other,intrapleural route only
-doxycycline,CMS_sepsis_qualifying_antibiotics,
-eravacycline,CMS_sepsis_qualifying_antibiotics,iv
-ertapenem,CMS_sepsis_qualifying_antibiotics,
-erythromycin,CMS_sepsis_qualifying_antibiotics,
-etomidate,sedation,iv
-fentanyl,analgesia,iv
-fidaxomicin,CMS_sepsis_qualifying_antibiotics,
-fluconazole,CMS_sepsis_qualifying_antibiotics,
-fosfomycin,CMS_sepsis_qualifying_antibiotics,
-gentamicin,CMS_sepsis_qualifying_antibiotics,
-haloperidol,antipsychotic,"po, iv and im"
-hydrocodone_acetaminophen ,analgesia,combination only (po)
-hydrocortisone,steroid,
-hydromorphone ,analgesia,iv and po
-hydroxocobalamin,vasopressor,
-idecabtagene_vicleucel,car_t,
-imipenem,CMS_sepsis_qualifying_antibiotics,
-imipenem_relebactam,CMS_sepsis_qualifying_antibiotics,combination only iv
-isavuconazole,CMS_sepsis_qualifying_antibiotics,
-itraconazole,CMS_sepsis_qualifying_antibiotics,
-ketamine,sedation,iv and po
-lefamulin,CMS_sepsis_qualifying_antibiotics,po
-levofloxacin,CMS_sepsis_qualifying_antibiotics,
-linezolid,CMS_sepsis_qualifying_antibiotics,
-lisocabtagene_maraleucel,car_t,
-lorazepam,anxiolytic,iv and po
-maribavir,CMS_sepsis_qualifying_antibiotics,po
-meropenem,CMS_sepsis_qualifying_antibiotics,
-meropenem_vaborbactam,CMS_sepsis_qualifying_antibiotics,
-methylene_blue,vasopressor,
-methylprednisolone,steroid,
-metronidazole,CMS_sepsis_qualifying_antibiotics,
-micafungin,CMS_sepsis_qualifying_antibiotics,
-midazolam,sedation,iv
-morphine,analgesia,iv and po
-moxifloxacin,CMS_sepsis_qualifying_antibiotics,
-nitrofurantoin,CMS_sepsis_qualifying_antibiotics,
-nystatin,CMS_sepsis_qualifying_antibiotics,
-olanzapine ,antipsychotic,"po, iv and im"
-omadacycline,CMS_sepsis_qualifying_antibiotics,iv and po
-oseltamivir,CMS_sepsis_qualifying_antibiotics,
-oxacillin,CMS_sepsis_qualifying_antibiotics,
-oxycodone,analgesia,po
-oxycodone_acetaminophen ,analgesia,combination only (po)
-penicillin,CMS_sepsis_qualifying_antibiotics,
-piperacillin_tazobactam,CMS_sepsis_qualifying_antibiotics,
-plazomicin,CMS_sepsis_qualifying_antibiotics,iv
-polymyxin_b,CMS_sepsis_qualifying_antibiotics,
-posaconazole,CMS_sepsis_qualifying_antibiotics,
-prednisolone,steroid,
-prednisone,steroid,
-promethazine ,other,iv and po
-propofol ,sedation,iv
-quetiapine,antipsychotic,
-rezafungin,CMS_sepsis_qualifying_antibiotics,iv
-ribavirin,CMS_sepsis_qualifying_antibiotics,
-risperidone ,antipsychotic,"po, iv and im"
-rocuronium,paralytic,
-streptomycin,CMS_sepsis_qualifying_antibiotics,
-succinylcholine,paralytic,
-sulbactam_durlobactam,CMS_sepsis_qualifying_antibiotics,combination only (po)
-sulfamethoxazole,CMS_sepsis_qualifying_antibiotics,
-tetracycline,CMS_sepsis_qualifying_antibiotics,
-ticarcillin_clavulanate,CMS_sepsis_qualifying_antibiotics,
-tigecycline,CMS_sepsis_qualifying_antibiotics,
-tisagenlecleucel,car_t,
-tobramycin,CMS_sepsis_qualifying_antibiotics,
-tocilizumab,other,
-trimethoprim,CMS_sepsis_qualifying_antibiotics,
-trimethoprim_sulfamethoxazole,CMS_sepsis_qualifying_antibiotics,
-valacyclovir,CMS_sepsis_qualifying_antibiotics,
-valganciclovir,CMS_sepsis_qualifying_antibiotics,
-valproate ,other,iv and po
-vancomycin,CMS_sepsis_qualifying_antibiotics,
-vecuronium,paralytic,
-
-voriconazole,CMS_sepsis_qualifying_antibiotics,
-
-
-
-
-
-
-
-
-
+med_category,med_group,route,additon/modification 
+acetaminophen,analgesia,,
+acyclovir,CMS_sepsis_qualifying_antibiotics,,
+alteplase,other,intrapleural route only,
+amikacin,CMS_sepsis_qualifying_antibiotics,,
+amoxicillin_clavulanate,CMS_sepsis_qualifying_antibiotics,,
+amphotericin_b,CMS_sepsis_qualifying_antibiotics,,
+ampicillin_sulbactam,CMS_sepsis_qualifying_antibiotics,,
+anakinra,other,,
+atracurium,paralytic,,
+axicabtagene_ciloleucel,car_t,,
+azithromycin,CMS_sepsis_qualifying_antibiotics,,
+aztreonam,CMS_sepsis_qualifying_antibiotics,,
+betamethasone,steroid,,
+brexucabtagene_autoleucel,car_t,,
+cefadroxil,CMS_sepsis_qualifying_antibiotics,,
+cefazolin,CMS_sepsis_qualifying_antibiotics,,
+cefdinir,CMS_sepsis_qualifying_antibiotics,,
+cefepime,CMS_sepsis_qualifying_antibiotics,,
+cefiderocol,CMS_sepsis_qualifying_antibiotics,,
+cefixime,CMS_sepsis_qualifying_antibiotics,,
+cefotaxime,CMS_sepsis_qualifying_antibiotics,,
+cefotetan,CMS_sepsis_qualifying_antibiotics,,
+cefoxitin,CMS_sepsis_qualifying_antibiotics,,
+ceftaroline,CMS_sepsis_qualifying_antibiotics,,
+ceftazidime,CMS_sepsis_qualifying_antibiotics,,
+ceftazidime_avibactam,CMS_sepsis_qualifying_antibiotics,,
+ceftazidime_clavulanate,CMS_sepsis_qualifying_antibiotics,,
+ceftolozane_tazobactam,CMS_sepsis_qualifying_antibiotics,,
+ceftriaxone,CMS_sepsis_qualifying_antibiotics,,
+cefuroxime,CMS_sepsis_qualifying_antibiotics,,
+cephalexin,CMS_sepsis_qualifying_antibiotics,,
+chloramphenicol,CMS_sepsis_qualifying_antibiotics,,
+ciltacabtagene_autoleucel,car_t,,
+ciprofloxacin,CMS_sepsis_qualifying_antibiotics,,
+cisatracurium,paralytic,,
+clarithromycin,CMS_sepsis_qualifying_antibiotics,,
+clindamycin,CMS_sepsis_qualifying_antibiotics,,
+colistin,CMS_sepsis_qualifying_antibiotics,,
+fludrocortisone,steroid,,
+daptomycin,CMS_sepsis_qualifying_antibiotics,,
+dexamethasone,steroid,,
+delafloxacin,CMS_sepsis_qualifying_antibiotics,iv and po,
+diazepam ,anxiolytic,iv and po,
+dicloxacillin,CMS_sepsis_qualifying_antibiotics,,
+diphenhydramine ,other,iv and po,
+doripenem,CMS_sepsis_qualifying_antibiotics,,
+dornase_alfa,other,intrapleural route only,
+doxycycline,CMS_sepsis_qualifying_antibiotics,,
+eravacycline,CMS_sepsis_qualifying_antibiotics,iv,
+ertapenem,CMS_sepsis_qualifying_antibiotics,,
+erythromycin,CMS_sepsis_qualifying_antibiotics,,
+etomidate,sedation,iv,
+fentanyl,analgesia,iv,
+fidaxomicin,CMS_sepsis_qualifying_antibiotics,,
+fluconazole,CMS_sepsis_qualifying_antibiotics,,
+fosfomycin,CMS_sepsis_qualifying_antibiotics,,
+gentamicin,CMS_sepsis_qualifying_antibiotics,,
+haloperidol,antipsychotic,"po, iv and im",
+hydrocodone_acetaminophen ,analgesia,combination only (po),
+hydrocortisone,steroid,,
+hydromorphone ,analgesia,iv and po,
+hydroxocobalamin,vasopressor,,
+idecabtagene_vicleucel,car_t,,
+imipenem,CMS_sepsis_qualifying_antibiotics,,
+imipenem_relebactam,CMS_sepsis_qualifying_antibiotics,combination only iv,
+isavuconazole,CMS_sepsis_qualifying_antibiotics,,
+itraconazole,CMS_sepsis_qualifying_antibiotics,,
+ketamine,sedation,iv and po,
+lefamulin,CMS_sepsis_qualifying_antibiotics,po,
+levofloxacin,CMS_sepsis_qualifying_antibiotics,,
+linezolid,CMS_sepsis_qualifying_antibiotics,,
+lisocabtagene_maraleucel,car_t,,
+lorazepam,anxiolytic,iv and po,
+maribavir,CMS_sepsis_qualifying_antibiotics,po,
+meropenem,CMS_sepsis_qualifying_antibiotics,,
+meropenem_vaborbactam,CMS_sepsis_qualifying_antibiotics,,
+methylene_blue,vasopressor,,
+methylprednisolone,steroid,,
+metronidazole,CMS_sepsis_qualifying_antibiotics,,
+micafungin,CMS_sepsis_qualifying_antibiotics,,
+midazolam,sedation,iv,
+morphine,analgesia,iv and po,
+moxifloxacin,CMS_sepsis_qualifying_antibiotics,,
+nitrofurantoin,CMS_sepsis_qualifying_antibiotics,,
+nystatin,CMS_sepsis_qualifying_antibiotics,,
+olanzapine ,antipsychotic,"po, iv and im",
+omadacycline,CMS_sepsis_qualifying_antibiotics,iv and po,
+oseltamivir,CMS_sepsis_qualifying_antibiotics,,
+oxacillin,CMS_sepsis_qualifying_antibiotics,,
+oxycodone,analgesia,po,
+oxycodone_acetaminophen ,analgesia,combination only (po),
+penicillin,CMS_sepsis_qualifying_antibiotics,,
+piperacillin_tazobactam,CMS_sepsis_qualifying_antibiotics,,
+plazomicin,CMS_sepsis_qualifying_antibiotics,iv,
+polymyxin_b,CMS_sepsis_qualifying_antibiotics,,
+posaconazole,CMS_sepsis_qualifying_antibiotics,,
+prednisolone,steroid,,
+prednisone,steroid,,
+promethazine ,other,iv and po,
+propofol ,sedation,iv,
+quetiapine,antipsychotic,,
+rezafungin,CMS_sepsis_qualifying_antibiotics,iv,
+ribavirin,CMS_sepsis_qualifying_antibiotics,,
+risperidone ,antipsychotic,"po, iv and im",
+rocuronium,paralytic,,
+streptomycin,CMS_sepsis_qualifying_antibiotics,,
+succinylcholine,paralytic,,
+sulbactam_durlobactam,CMS_sepsis_qualifying_antibiotics,combination only (po),
+sulfamethoxazole,CMS_sepsis_qualifying_antibiotics,,
+tetracycline,CMS_sepsis_qualifying_antibiotics,,
+ticarcillin_clavulanate,CMS_sepsis_qualifying_antibiotics,,
+tigecycline,CMS_sepsis_qualifying_antibiotics,,
+tisagenlecleucel,car_t,,
+tobramycin,CMS_sepsis_qualifying_antibiotics,,
+tocilizumab,other,,
+trimethoprim,CMS_sepsis_qualifying_antibiotics,,
+trimethoprim_sulfamethoxazole,CMS_sepsis_qualifying_antibiotics,,
+valacyclovir,CMS_sepsis_qualifying_antibiotics,,
+valganciclovir,CMS_sepsis_qualifying_antibiotics,,
+valproate ,other,iv and po,
+vancomycin,CMS_sepsis_qualifying_antibiotics,,
+vecuronium,paralytic,,
+voriconazole,CMS_sepsis_qualifying_antibiotics,,
+amoxicillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+ampicillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+anidulafungin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+caspofungin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+cefaclor,CMS_sepsis_qualifying_antibiotics,,9/19/25
+cefamandole,CMS_sepsis_qualifying_antibiotics,,9/19/25
+cefmetazole,CMS_sepsis_qualifying_antibiotics,,9/19/25
+cefonicid,CMS_sepsis_qualifying_antibiotics,,9/19/25
+cefoperazone,CMS_sepsis_qualifying_antibiotics,,9/19/25
+cefpodoxime,CMS_sepsis_qualifying_antibiotics,,9/19/25
+cefprozil,CMS_sepsis_qualifying_antibiotics,,9/19/25
+ceftibuten,CMS_sepsis_qualifying_antibiotics,,9/19/25
+ceftizoxime,CMS_sepsis_qualifying_antibiotics,,9/19/25
+cephalothin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+cephapirin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+cephradine,CMS_sepsis_qualifying_antibiotics,,9/19/25
+cidofovir,CMS_sepsis_qualifying_antibiotics,,9/19/25
+cinoxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+cloxacillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+dalbavancin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+delafloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+delafloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+eravacycline,CMS_sepsis_qualifying_antibiotics,,9/19/25
+evofloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+foscarnet,CMS_sepsis_qualifying_antibiotics,,9/19/25
+ganciclovir,CMS_sepsis_qualifying_antibiotics,,9/19/25
+gatifloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+imipenem_relebactam,CMS_sepsis_qualifying_antibiotics,,9/19/25
+isavuconazonium,CMS_sepsis_qualifying_antibiotics,,9/19/25
+isavuconazoniu,CMS_sepsis_qualifying_antibiotics,,9/19/25
+itraconazole,CMS_sepsis_qualifying_antibiotics,,9/19/25
+kanamycin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+lefamulin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+lincomycin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+maribavir,CMS_sepsis_qualifying_antibiotics,,9/19/25
+methicillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+mezlocillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+micafungin_posaconazole_voriconazole,CMS_sepsis_qualifying_antibiotics,,9/19/25
+minocycline,CMS_sepsis_qualifying_antibiotics,,9/19/25
+mipenem,CMS_sepsis_qualifying_antibiotics,,9/19/25
+nafcillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+norfloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+ofloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+omadacycline,CMS_sepsis_qualifying_antibiotics,,9/19/25
+omadacycline,CMS_sepsis_qualifying_antibiotics,,9/19/25
+oritavancin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+peramivir,CMS_sepsis_qualifying_antibiotics,,9/19/25
+pivampicillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+plazomicin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+quinupristin_dalfopristin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+rezafungin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+rifampin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+sulbactam_durlobactam,CMS_sepsis_qualifying_antibiotics,,9/19/25
+sulfadiazine,CMS_sepsis_qualifying_antibiotics,,9/19/25
+sulfadiazine_trimethoprim,CMS_sepsis_qualifying_antibiotics,,9/19/25
+sulfisoxazole,CMS_sepsis_qualifying_antibiotics,,9/19/25
+tedizolid,CMS_sepsis_qualifying_antibiotics,,9/19/25
+telavancin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+telithromycin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+ticarcillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
