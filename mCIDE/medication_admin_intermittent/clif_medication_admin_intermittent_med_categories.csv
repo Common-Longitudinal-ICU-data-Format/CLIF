@@ -104,7 +104,6 @@ risperidone,antipsychotic,"po, iv and im",
 rocuronium,paralytic,,
 streptomycin,CMS_sepsis_qualifying_antibiotics,,
 succinylcholine,paralytic,,
-sulbactam_durlobactam,CMS_sepsis_qualifying_antibiotics,combination only (po),
 sulfamethoxazole,CMS_sepsis_qualifying_antibiotics,,
 tetracycline,CMS_sepsis_qualifying_antibiotics,,
 ticarcillin_clavulanate,CMS_sepsis_qualifying_antibiotics,,
@@ -140,20 +139,14 @@ cidofovir,CMS_sepsis_qualifying_antibiotics,,9/19/25
 cinoxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 cloxacillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 dalbavancin,CMS_sepsis_qualifying_antibiotics,,9/19/25
-delafloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
-delafloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
-eravacycline,CMS_sepsis_qualifying_antibiotics,,9/19/25
 evofloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 foscarnet,CMS_sepsis_qualifying_antibiotics,,9/19/25
 ganciclovir,CMS_sepsis_qualifying_antibiotics,,9/19/25
 gatifloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 isavuconazonium,CMS_sepsis_qualifying_antibiotics,,9/19/25
 isavuconazoniu,CMS_sepsis_qualifying_antibiotics,,9/19/25
-itraconazole,CMS_sepsis_qualifying_antibiotics,,9/19/25
 kanamycin,CMS_sepsis_qualifying_antibiotics,,9/19/25
-lefamulin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 lincomycin,CMS_sepsis_qualifying_antibiotics,,9/19/25
-maribavir,CMS_sepsis_qualifying_antibiotics,,9/19/25
 methicillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 mezlocillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 micafungin_posaconazole_voriconazole,CMS_sepsis_qualifying_antibiotics,,9/19/25
@@ -162,14 +155,10 @@ mipenem,CMS_sepsis_qualifying_antibiotics,,9/19/25
 nafcillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 norfloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 ofloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
-omadacycline,CMS_sepsis_qualifying_antibiotics,,9/19/25
-omadacycline,CMS_sepsis_qualifying_antibiotics,,9/19/25
 oritavancin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 peramivir,CMS_sepsis_qualifying_antibiotics,,9/19/25
 pivampicillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
-plazomicin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 quinupristin_dalfopristin,CMS_sepsis_qualifying_antibiotics,,9/19/25
-rezafungin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 rifampin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 sulbactam_durlobactam,CMS_sepsis_qualifying_antibiotics,,9/19/25
 sulfadiazine,CMS_sepsis_qualifying_antibiotics,,9/19/25
@@ -179,4 +168,5 @@ tedizolid,CMS_sepsis_qualifying_antibiotics,,9/19/25
 telavancin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 telithromycin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 ticarcillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
+
 
