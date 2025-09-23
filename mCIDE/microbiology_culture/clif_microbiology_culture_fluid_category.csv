@@ -24,7 +24,7 @@ Esophagus,esophagus,
 "Gallbladder and Billary Tree (Not Hepatitis), Pancreas",gallbladder_billary_pancreas,
 Liver,liver,
 Spleen,spleen,
-Stomach,stomatch,
+Stomach,stomach,
 Small Intestine,small_intestine,
 Large Intestine,large_intestine,
 Gastrointestinal Tract Unspecified,gastrointestinal_tract ,"Includes samples in the GI track that do not fall in gallbladder, biliary tree, pancreas, liver, spleen, stomach, small intestine, large intestine"
@@ -42,4 +42,5 @@ Muscle (Excluding Cardiac),muscle,
 "Disseminated - Generalized, Isolated at 2 or More Distinct Sites",skin_disseminated_multiple_sites,
 Woundsite,woundsite,Includes wounds that do not penetrate to bone. Includes excisions. Excludes osteomyletis. 
 Skin Unspecified,skin_unspecified ,
+
 Other Unspecified,other_unspecified ,Includes samples that do not categorise into any of the above. 
