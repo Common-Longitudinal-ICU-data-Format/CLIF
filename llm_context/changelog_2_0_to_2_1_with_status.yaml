@@ -32,8 +32,6 @@ metadata:
       description: Table "microbiology_culture" status changed from concept to beta
     beta_to_concept_details: []
 summary:
-  tables_added: []
-  tables_removed: []
   tables_modified:
   - respiratory_support
   - adt
