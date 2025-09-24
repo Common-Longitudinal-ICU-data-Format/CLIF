@@ -70,7 +70,6 @@ eravacycline,CMS_sepsis_qualifying_antibiotics,iv,
 ertapenem,CMS_sepsis_qualifying_antibiotics,,
 erythromycin,CMS_sepsis_qualifying_antibiotics,,
 etomidate,sedation,iv,
-evofloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 fentanyl,analgesia,iv,
 fidaxomicin,CMS_sepsis_qualifying_antibiotics,,
 fluconazole,CMS_sepsis_qualifying_antibiotics,,
@@ -88,7 +87,6 @@ idecabtagene_vicleucel,car_t,,
 imipenem,CMS_sepsis_qualifying_antibiotics,,
 imipenem_relebactam,CMS_sepsis_qualifying_antibiotics,combination only iv,
 isavuconazole,CMS_sepsis_qualifying_antibiotics,,
-isavuconazoniu,CMS_sepsis_qualifying_antibiotics,,9/19/25
 isavuconazonium,CMS_sepsis_qualifying_antibiotics,,9/19/25
 itraconazole,CMS_sepsis_qualifying_antibiotics,,
 kanamycin,CMS_sepsis_qualifying_antibiotics,,9/19/25
@@ -111,7 +109,6 @@ micafungin,CMS_sepsis_qualifying_antibiotics,,
 micafungin_posaconazole_voriconazole,CMS_sepsis_qualifying_antibiotics,,9/19/25
 midazolam,sedation,iv,
 minocycline,CMS_sepsis_qualifying_antibiotics,,9/19/25
-mipenem,CMS_sepsis_qualifying_antibiotics,,9/19/25
 morphine,analgesia,iv and po,
 moxifloxacin,CMS_sepsis_qualifying_antibiotics,,
 nafcillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
@@ -167,4 +164,5 @@ valganciclovir,CMS_sepsis_qualifying_antibiotics,,
 valproate,other,iv and po,
 vancomycin,CMS_sepsis_qualifying_antibiotics,,
 vecuronium,paralytic,,
+
 voriconazole,CMS_sepsis_qualifying_antibiotics,,
