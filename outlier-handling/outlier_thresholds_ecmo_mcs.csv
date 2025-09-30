@@ -1,0 +1,21 @@
+﻿device_category,device_rate,sweep,flow (blood flow),fdO2
+Impella_2.5,P0–P9 (no unit),NA,0.5–10.0 L/min,NA
+Impella_CP,P0–P9 (no unit),NA,0.5–10.0 L/min,NA
+Impella_5.0,P0–P9 (no unit),NA,0.5–10.0 L/min,NA
+Impella_5.5,P0–P9 (no unit),NA,0.5–10.0 L/min,NA
+Impella_LD,P0–P9 (no unit),NA,0.5–10.0 L/min,NA
+Impella_RP,P0–P9 (no unit),NA,0.5–10.0 L/min,NA
+Impella_RP_Flex,P0–P9 (no unit),NA,0.5–10.0 L/min,NA
+iVAC,"1:1; 1:2, 1:3",NA,NA,NA
+TandemHeart_LV,2500–7500 RPM,NA,0.5–10.0 L/min,NA
+TandemHeart_RV,2500–7500 RPM,NA,0.5–10.0 L/min,NA
+CentriMag_LV,0–5500 RPM,NA,0.5–10.0 L/min,NA
+CentriMag_RV,0–5500 RPM,NA,0.5–10.0 L/min,NA
+IABP,"1:1; 1:2, 1:3",NA,NA,NA
+VA_ECMO,1000–5500 RPM,0.5–20 L/min,1.0–10.0 L/min,0.21–1.0 (fraction)
+VV_ECMO,1000–5500 RPM,0.5–20 L/min,1.0–10.0 L/min,0.21–1.0 (fraction)
+VAV_ECMO,1000–5500 RPM,0.5–20 L/min,1.0–10.0 L/min,0.21–1.0 (fraction)
+LAVA_ECMO,1000–5500 RPM,0.5–20 L/min,1.0–10.0 L/min,0.21–1.0 (fraction)
+HeartWare,1800–4000 RPM,NA,1.0–10.0 L/min,NA
+HMII,6000–15000 RPM,NA,1.0–10.0 L/min,NA
+HMIII,3000–9000 RPM,NA,1.0–10.0 L/min,NA
