@@ -60,9 +60,9 @@ dalbavancin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 daptomycin,CMS_sepsis_qualifying_antibiotics,,
 delafloxacin,CMS_sepsis_qualifying_antibiotics,iv and po,
 dexamethasone,steroid,,
-diazepam ,anxiolytic,iv and po,
+diazepam,anxiolytic,iv and po,
 dicloxacillin,CMS_sepsis_qualifying_antibiotics,,
-diphenhydramine ,other,iv and po,
+diphenhydramine,other,iv and po,
 doripenem,CMS_sepsis_qualifying_antibiotics,,
 dornase_alfa,other,intrapleural route only,
 doxycycline,CMS_sepsis_qualifying_antibiotics,,
@@ -81,7 +81,7 @@ gatifloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 gentamicin,CMS_sepsis_qualifying_antibiotics,,
 haloperidol,antipsychotic,"po, iv and im",
 hydrocortisone,steroid,,
-hydromorphone ,analgesia,iv and po,
+hydromorphone,analgesia,iv and po,
 hydroxocobalamin,vasopressor,,
 idecabtagene_vicleucel,car_t,,
 imipenem,CMS_sepsis_qualifying_antibiotics,,
@@ -116,7 +116,7 @@ nitrofurantoin,CMS_sepsis_qualifying_antibiotics,,
 norfloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 nystatin,CMS_sepsis_qualifying_antibiotics,,
 ofloxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
-olanzapine ,antipsychotic,"po, iv and im",
+olanzapine,antipsychotic,"po, iv and im",
 omadacycline,CMS_sepsis_qualifying_antibiotics,iv and po,
 oritavancin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 oseltamivir,CMS_sepsis_qualifying_antibiotics,,
@@ -164,5 +164,5 @@ valganciclovir,CMS_sepsis_qualifying_antibiotics,,
 valproate,other,iv and po,
 vancomycin,CMS_sepsis_qualifying_antibiotics,,
 vecuronium,paralytic,,
-
 voriconazole,CMS_sepsis_qualifying_antibiotics,,
+
