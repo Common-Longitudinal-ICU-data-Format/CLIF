@@ -1,0 +1,10 @@
+﻿vital_category,reference_unit,lower_limit_ref_range,upper_limit_ref_range
+dbp,mmHg,60,80
+heart_rate,beats per minute,60,100
+height_cm,cm,150,190
+map,mmHg,70,100
+respiratory_rate,breaths per minute,12,20
+sbp,mmHg,90,120
+spo2,%,95,100
+temp_c,celsius,36.5,37.5
+weight_kg,kg,50,100
