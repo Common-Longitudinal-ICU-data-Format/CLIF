@@ -10,7 +10,7 @@ ampicillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 ampicillin_sulbactam,CMS_sepsis_qualifying_antibiotics,,
 anakinra,other,,
 anidulafungin,CMS_sepsis_qualifying_antibiotics,,9/19/25
-atracurium,paralytic,,
+atracurium,paralytics,,
 axicabtagene_ciloleucel,car_t,,
 azithromycin,CMS_sepsis_qualifying_antibiotics,,
 aztreonam,CMS_sepsis_qualifying_antibiotics,,
@@ -51,7 +51,7 @@ cidofovir,CMS_sepsis_qualifying_antibiotics,,9/19/25
 ciltacabtagene_autoleucel,car_t,,
 cinoxacin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 ciprofloxacin,CMS_sepsis_qualifying_antibiotics,,
-cisatracurium,paralytic,,
+cisatracurium,paralytics,,
 clarithromycin,CMS_sepsis_qualifying_antibiotics,,
 clindamycin,CMS_sepsis_qualifying_antibiotics,,
 cloxacillin,CMS_sepsis_qualifying_antibiotics,,9/19/25
@@ -139,9 +139,9 @@ rezafungin,CMS_sepsis_qualifying_antibiotics,iv,
 ribavirin,CMS_sepsis_qualifying_antibiotics,,
 rifampin,CMS_sepsis_qualifying_antibiotics,,9/19/25
 risperidone,antipsychotic,"po, iv and im",
-rocuronium,paralytic,,
+rocuronium,paralytics,,
 streptomycin,CMS_sepsis_qualifying_antibiotics,,
-succinylcholine,paralytic,,
+succinylcholine,paralytics,,
 sulbactam_durlobactam,CMS_sepsis_qualifying_antibiotics,,9/19/25
 sulfadiazine,CMS_sepsis_qualifying_antibiotics,,9/19/25
 sulfadiazine_trimethoprim,CMS_sepsis_qualifying_antibiotics,,9/19/25
@@ -163,6 +163,7 @@ valacyclovir,CMS_sepsis_qualifying_antibiotics,,
 valganciclovir,CMS_sepsis_qualifying_antibiotics,,
 valproate,other,iv and po,
 vancomycin,CMS_sepsis_qualifying_antibiotics,,
-vecuronium,paralytic,,
+vecuronium,paralytics,,
 voriconazole,CMS_sepsis_qualifying_antibiotics,,
+
 
