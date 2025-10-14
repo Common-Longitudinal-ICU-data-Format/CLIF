@@ -1,4 +1,4 @@
-﻿lab_category,reference_unit,comment
+lab_category,reference_unit,description
 albumin,g/dL,
 alkaline_phosphatase,U/L,corrected from 'phosphate'
 alt,U/L,
@@ -51,4 +51,3 @@ total_protein,g/dL,
 troponin_i,ng/L,
 troponin_t,ng/L,
 wbc,10^3/µL,
-

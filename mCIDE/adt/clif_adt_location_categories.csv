@@ -1,13 +1,13 @@
-location_category,description
-ed,Emergency Department
-ward,General medical or surgical ward
-stepdown,Stepdown or intermediate care unit
-icu,Intensive Care Unit
-procedural,Procedural or operating room areas
-l&d,Labor and Delivery unit
-hospice,Hospice care facility
-psych,Psychiatric unit
-rehab,Rehabilitation unit
-radiology,Radiology or imaging department
-dialysis,Dialysis unit
-other,Other location not specified above
+location_category,description,location_name_examples
+ed,Emergency Department,"ED001, ED_Main, ER_Area1"
+ward,General medical or surgical ward,"WardA, Ward12, MedWard3"
+stepdown,Stepdown or intermediate care unit,"Stepdown1, IMCU2, IntermediateCareA"
+icu,Intensive Care Unit,"ICU1, SurgicalICU, MICU_Bay3"
+procedural,Procedural or operating room areas,"OR1, ProcedureSuiteA, CathLab2"
+l&d,Labor and Delivery unit,"Labor1, DeliverySuite3, L&D_Main"
+hospice,Hospice care facility,"HospiceEast, HospiceSuite1, PalliativeCareWing"
+psych,Psychiatric unit,"PsychWard1, BehavioralHealth2, PsychUnitA"
+rehab,Rehabilitation unit,"RehabNorth, PhysicalTherapy1, RehabSuiteB"
+radiology,Radiology or imaging department,"Radiology1, ImagingSuiteA, CTRoom2"
+dialysis,Dialysis unit,"Dialysis1, RenalCareA, DialysisBay3"
+other,Other location not specified above,"Overflow, OverflowArea, TempUnitX"

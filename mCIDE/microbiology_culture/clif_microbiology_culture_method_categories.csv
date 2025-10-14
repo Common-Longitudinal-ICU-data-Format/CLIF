@@ -1,4 +1,4 @@
-method_category,description
-culture,Bacterial or fungal culture method
-gram_stain,Gram stain microscopy method
-smear,Microscopic smear examination
+method_category,description,method_name_examples
+culture,Bacterial or fungal culture method,
+gram_stain,Gram stain microscopy method,
+smear,Microscopic smear examination,

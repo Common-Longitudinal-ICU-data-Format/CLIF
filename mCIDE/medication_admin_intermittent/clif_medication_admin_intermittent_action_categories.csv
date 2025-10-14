@@ -1,11 +1,6 @@
-﻿mar_action_category,description,mar_action_group
-given,"administration of an intermittement medication",administered
-not_given,"documentation of not giving an ordered intermittment medication",not_administered
-bolus,"intermittent administration of a medication that can be administered continuously. Can represent a 'bolus from the bag' on top of a continuous infusion",administered
-other,"unable to map, should be very rare",other
-
-
-
-
-
+mar_action_category,description,mar_action_name_examples,mar_action_group
+given,administration of an intermittement medication,"given, given by other, push, self administered, full dose administered, patch/med applied, override pull, Partial Dose","administered"
+not_given,documentation of not giving an ordered intermittment medication,"Missed, Refused, Canceled Entry","not_administered"
+bolus,intermittent administration of a medication that can be administered continuously. Can represent a 'bolus from the bag' on top of a continuous infusion,"bolus from bag","administered"
+other,"unable to map, should be very rare","","other"
 

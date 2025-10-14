@@ -1,4 +1,4 @@
-sex_category,description
-Male,Male biological sex
-Female,Female biological sex
-Unknown,Sex unknown or not reported
+sex_category,description,sex_name_examples
+Male,Male biological sex,
+Female,Female biological sex,
+Unknown,Sex unknown or not reported,

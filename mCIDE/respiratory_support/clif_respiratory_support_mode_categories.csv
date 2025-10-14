@@ -1,9 +1,9 @@
-mode_category,description
-Assist Control-Volume Control,Assist Control Volume Control ventilation mode
-Pressure Control,Pressure Control ventilation mode
-Pressure-Regulated Volume Control,Pressure-Regulated Volume Control ventilation mode
-SIMV,Synchronized Intermittent Mandatory Ventilation
-Pressure Support/CPAP,Pressure Support or Continuous Positive Airway Pressure
-Volume Support,Volume Support ventilation mode
-Blow by,Blow by oxygen delivery
-Other,Other ventilation mode not specified above
+mode_category,description,mode_name_examples
+Assist Control-Volume Control,Assist Control Volume Control ventilation mode,
+Pressure Control,Pressure Control ventilation mode,
+Pressure-Regulated Volume Control,Pressure-Regulated Volume Control ventilation mode,
+SIMV,Synchronized Intermittent Mandatory Ventilation,
+Pressure Support/CPAP,Pressure Support or Continuous Positive Airway Pressure,
+Volume Support,Volume Support ventilation mode,
+Blow by,Blow by oxygen delivery,
+Other,Other ventilation mode not specified above,

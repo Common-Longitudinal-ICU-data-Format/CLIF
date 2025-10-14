@@ -1,71 +1,71 @@
-﻿assessment_category,assessment_group,Note,added/modified
-AM-PAC,Mobility/Activity,Total mobility score (Numerical),
-AMS,Mobility/Activity,Numeric score (Indicates activity/mobility status),
-APGAR,Neurological,Overall APGAR score (Score range: 0-10),
-AVPU,Neurological,"Responsiveness level (Categorical: Alert, Voice, Pain, Unresponsive)",
-BPS,Pain,"Subcomponents: Facial expression, upper limbs, compliance with ventilation (Numerical/Text)",
-braden_activity,Nursing Risk,,
-braden_friction,Nursing Risk,,
-braden_mobility,Nursing Risk,,
-braden_moisture,Nursing Risk,,
-braden_nutrition,Nursing Risk,,
-braden_sensory,Nursing Risk,,
-braden_total,Nursing Risk,Overall Braden score (Score range: 6-23),
-cam_inattention,Delirium,,
-cam_loc,Delirium,,
-cam_mental,Delirium,,
-cam_thinking,Delirium,,
-cam_total,Delirium,Overall CAM-ICU result (Positive/Negative),
-CIWA,Withdrawal,Score (Score range: 0-67),
-COWS,Withdrawal,Score (Score range: 0-48),
-cpot_body,Pain,,
-cpot_facial,Pain,,
-cpot_muscle,Pain,,
-cpot_total,Pain,"Subcomponents: Facial expression, body movements, muscle tension, vocalization (Numerical/Text)",
-cpot_vocalization,Pain,,
-DVPRS,Pain,Numeric score (Score range: 0-10),
-gcs_eye,Neurological,Eye-opening response (Score range: 1-4),
-gcs_motor,Neurological,Motor response (Score range: 1-6),
-gcs_total,Neurological,Cumulative score (Score range: 3-15),
-gcs_verbal,Neurological,Verbal response (Score range: 1-5),
-ICANS,Neurological,Overall ICANS score or specific sub-components (Numerical/Text),
-ICSDC,Delirium,Overall ICSDC score (Numerical),
-icsdc_agitation,Delirium,,
-icsdc_disorientation,Delirium,,
-icsdc_hallucination,Delirium,,
-icsdc_inattention,Delirium,,
-icsdc_loc,Delirium,,
-icsdc_sleep,Delirium,,
-icsdc_speech,Delirium,,
-icsdc_symptoms,Delirium,,
-icsdc_total,Delirium,Overall ICSDC score (Numerical),
-IMS,Mobility/Activity,Numeric score (Represents mobility level),
-MINDS,Withdrawal,Score (Score range: 0-25),
-Morse Fall Scale,Nursing Risk,Total fall risk score (Score range: 0-125),
-NRS,Pain,Numeric score (Score range: 0-10),
-NVPS,Pain,"Subcomponents: Facial expression, activity, guarding, physiology, respiration (Numerical/Text)",
-PAINAD,Pain,"Subcomponents: Breathing, vocalization, facial expression, body language, consolability (Numerical/Text)",
-RASS,Sedation/Agitation,Score (Score range: -5 to +4),
-SAS,Sedation/Agitation,Score (Score range: 1-7),
-sat_delivery_pass_fail,SAT Delivery Pass/Fail,"Indicates the outcome of the SAT trial (pass or fail), based on flowsheet data charted by the care team. This variable reflects the result of the trial, not whether it was attempted or initiated.",9/24/25
-sat_delivery_performed,SAT Delivery,Check for whether the trial was attempted (Boolean:  0/1) ,9/24/25
-sat_escalating_sedation,Spontaneous Awakening Trial (SAT),"Evaluates if the patient's sedation levels are increasing, which would be a contraindication for performing the SAT.",
-sat_intracranial_pressure,Spontaneous Awakening Trial (SAT),"Observe for increased intracranial pressure, which is a critical contraindication for the SAT.",
-sat_myocardial_ischemia,Spontaneous Awakening Trial (SAT),"Identifies whether the patient has signs of active myocardial ischemia, which would preclude performing the SAT.",
-sat_neuromuscular_blockers,Spontaneous Awakening Trial (SAT),Confirms whether neuromuscular blockers (paralytics) are in use. The SAT cannot proceed if the patient is paralyzed,
-sat_screen_pass_fail,SAT Screen Pass/Fail,Indicates whether the patient passed or failed the SAT safety screen.,9/24/25
-sat_screen_performed,SAT Screen,Check for whether the screen was conducted (Boolean:  0/1) ,9/24/25
-sat_sedative_infusion,Spontaneous Awakening Trial (SAT),"Checks whether the patient is receiving sedative infusions, such as for seizure control or alcohol withdrawal. Sedation for these conditions must be absent for the SAT to proceed.",
-sbt_agitation,Spontaneous Breathing Trial (SBT),"Determines if the patient is excessively agitated, which would indicate they are not ready to tolerate breathing on their own.",
-sbt_delivery_pass_fail,SBT Delivery Pass/Fail,"Indicates the outcome of the SAT trial (pass or fail), based on flowsheet data charted by the care team. This variable reflects the result of the trial, not whether it was attempted or initiated.",9/24/25
-sbt_delivery_performed,SBT Delivery,Check for whether the trial was attempted (Boolean:  0/1) ,9/24/25
-sbt_fail_reason,SBT Failure Reason,"A text string field to document the reason for SBT failure, if present (e.g., ""tachypnea,"" ""acute change in mental status,"" or ""hypoxemia"").",
-sbt_inadequate_oxygenation,Spontaneous Breathing Trial (SBT),Assesses for hypoxia or inadequate oxygen levels (SpO₂ < 88% or FiO₂ ≥ 50%). Sufficient oxygenation is required before the SBT can be conducted.,
-sbt_intracranial_pressure,Spontaneous Breathing Trial (SBT),Monitors for elevated intracranial pressure. Increased pressure is a critical factor for SBT exclusion.,
-sbt_no_spontaneous_effort,Spontaneous Breathing Trial (SBT),"Identifies the absence of spontaneous breathing efforts. If no spontaneous effort is detected, the trial cannot proceed.",
-sbt_screen_pass_fail,SBT Screen Pass/Fail,Indicates whether the patient passed or failed the SBT safety screen,9/24/25
-sbt_screen_performed,SBT Screen,Check for  whether the screen was conducted (Boolean:  0/1) ,9/24/25
-sbt_vasopressor_use,Spontaneous Breathing Trial (SBT),"Evaluate whether the patient is on significant doses of vasopressors (medications used to support blood pressure). High doses can be a sign of hemodynamic instability, preventing the SBT.",
-TOF,Neurological,Number of twitches (Score range: 0-4),
-VAS,Pain,Numeric score (Score range: 0-100),
-WAT,Withdrawal,Score (Score range: 0-10),
+assessment_category,description,assessment_name_examples,assessment_group
+AM-PAC,,,Mobility/Activity
+AMS,,,Mobility/Activity
+APGAR,,,Neurological
+AVPU,,,Neurological
+BPS,,,Pain
+braden_activity,,,Nursing Risk
+braden_friction,,,Nursing Risk
+braden_mobility,,,Nursing Risk
+braden_moisture,,,Nursing Risk
+braden_nutrition,,,Nursing Risk
+braden_sensory,,,Nursing Risk
+braden_total,,,Nursing Risk
+cam_inattention,,,Delirium
+cam_loc,,,Delirium
+cam_mental,,,Delirium
+cam_thinking,,,Delirium
+cam_total,,,Delirium
+CIWA,,,Withdrawal
+COWS,,,Withdrawal
+cpot_body,,,Pain
+cpot_facial,,,Pain
+cpot_muscle,,,Pain
+cpot_total,,,Pain
+cpot_vocalization,,,Pain
+DVPRS,,,Pain
+gcs_eye,,,Neurological
+gcs_motor,,,Neurological
+gcs_total,,,Neurological
+gcs_verbal,,,Neurological
+ICANS,,,Neurological
+ICSDC,,,Delirium
+icsdc_agitation,,,Delirium
+icsdc_disorientation,,,Delirium
+icsdc_hallucination,,,Delirium
+icsdc_inattention,,,Delirium
+icsdc_loc,,,Delirium
+icsdc_sleep,,,Delirium
+icsdc_speech,,,Delirium
+icsdc_symptoms,,,Delirium
+icsdc_total,,,Delirium
+IMS,,,Mobility/Activity
+MINDS,,,Withdrawal
+Morse Fall Scale,,,Nursing Risk
+NRS,,,Pain
+NVPS,,,Pain
+PAINAD,,,Pain
+RASS,,,Sedation/Agitation
+SAS,,,Sedation/Agitation
+sat_delivery_pass_fail,,,SAT Delivery Pass/Fail
+sat_delivery_performed,,,SAT Delivery
+sat_escalating_sedation,,,Spontaneous Awakening Trial (SAT)
+sat_intracranial_pressure,,,Spontaneous Awakening Trial (SAT)
+sat_myocardial_ischemia,,,Spontaneous Awakening Trial (SAT)
+sat_neuromuscular_blockers,,,Spontaneous Awakening Trial (SAT)
+sat_screen_pass_fail,,,SAT Screen Pass/Fail
+sat_screen_performed,,,SAT Screen
+sat_sedative_infusion,,,Spontaneous Awakening Trial (SAT)
+sbt_agitation,,,Spontaneous Breathing Trial (SBT)
+sbt_delivery_pass_fail,,,SBT Delivery Pass/Fail
+sbt_delivery_performed,,,SBT Delivery
+sbt_fail_reason,,,SBT Failure Reason
+sbt_inadequate_oxygenation,,,Spontaneous Breathing Trial (SBT)
+sbt_intracranial_pressure,,,Spontaneous Breathing Trial (SBT)
+sbt_no_spontaneous_effort,,,Spontaneous Breathing Trial (SBT)
+sbt_screen_pass_fail,,,SBT Screen Pass/Fail
+sbt_screen_performed,,,SBT Screen
+sbt_vasopressor_use,,,Spontaneous Breathing Trial (SBT)
+TOF,,,Neurological
+VAS,,,Pain
+WAT,,,Withdrawal
