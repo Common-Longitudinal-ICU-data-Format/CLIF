@@ -1,5 +1,6 @@
 ﻿med_route_category,description 
 im,Includes subcutaneous
-iv 
-inhaled
+iv,
+inhaled,
+
 
