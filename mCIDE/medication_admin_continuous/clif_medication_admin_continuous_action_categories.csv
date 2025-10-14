@@ -1,9 +1,9 @@
 
-mar_action_category,description,mar_action_name_examples
-dose_change,dose change for a continuous medication,"rate change;fv rate/dose change;rate/dose change w/ dual sign;rate change (transfusion);anesthesia volume adjustment;Partial Dose"
-going,ongoing administration of a continuous medication (e.g. a bag change),"ed/periop/clinic infusing on admission/transfer;new syringe/cartridge;continue to inpatient floor;loading dose from bag;portable ambulatory infusion;next bag;patch in place;refill pump;new bag;Stop/Start;Bag Stopped/New Bag Started;Continue from Previous"
-start,starting a continuous medication,"restarted;started;started during downtime;mar unhold;Unheld by provider;override pull"
-stop,stopping a continuous medication,"stopped;paused;infusion stopped per md order;patch/med removed;mar hold;held;automatically held;Anesthesia Infusion Stop"
-verify,verifying the dose of a continuous medication,"rate verify;fv rate verify;Patch Verified;Patch Checked"
-other,"unable to map, should be very rare",""
+mar_action_category,description,mar_action_name_examples,mar_action_group
+dose_change,dose change for a continuous medication,"rate change, fv rate/dose change, rate/dose change w/ dual sign, rate change (transfusion), anesthesia volume adjustment, Partial Dose","administered"
+going,ongoing administration of a continuous medication (e.g. a bag change),"ed/periop/clinic infusing on admission/transfer, new syringe/cartridge, continue to inpatient floor, loading dose from bag, portable ambulatory infusion, next bag, patch in place, refill pump, new bag, Stop/Start, Bag Stopped/New Bag Started, Continue from Previous","administered"
+start,starting a continuous medication,"restarted, started, started during downtime, mar unhold, Unheld by provider, override pull","administered"
+stop,stopping a continuous medication,"stopped, paused, infusion stopped per md order, patch/med removed, mar hold, held, automatically held, Anesthesia Infusion Stop","not_administered"
+verify,verifying the dose of a continuous medication,"rate verify, fv rate verify, Patch Verified, Patch Checked","administered"
+other,"unable to map, should be very rare","","other"
 
