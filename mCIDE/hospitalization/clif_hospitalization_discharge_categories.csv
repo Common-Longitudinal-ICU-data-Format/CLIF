@@ -11,9 +11,10 @@ Chemical Dependency,Discharged to chemical dependency treatment facility,""
 Against Medical Advice (AMA),Left against medical advice,"Left without being seen, Left before treatment complete, Discontinued Care"
 Assisted Living,Discharged to assisted living facility,"Supportive Care Facility, Assisted Living Home, Custodial Care Living"
 Still Admitted,Patient still admitted at time of data extraction,""
-Missing,Discharge disposition information missing,""
+Missing,Discharge disposition information missing,"Still Patient, Admitted as inpatient"
 Other,Other discharge disposition not specified above,"Transferred to another category of service, Error on Reg, Discharged to another Healthcare Institution"
 Psychiatric Hospital,Discharged to psychiatric hospital,"Psychiatric Unit, Psychiatric Hospital Unit"
 Shelter,Discharged to shelter,"Discharged to shelter"
 Jail,Discharged to correctional facility,"Court/Law Enforcement, Prison"
+
 
