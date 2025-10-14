@@ -1,9 +1,53 @@
-﻿lab_order_category, comments
-blood_gas, includes abg/vbg/mixed venous/etc
-bmp,
-cbc,
-coags,
-lft,
-misc, includes lactate
-
-
+lab_category,lab_order_category,comments
+pco2_arterial,blood_gas,includes abg/vbg/mixed venous/etc
+po2_arterial,blood_gas,includes abg/vbg/mixed venous/etc
+pco2_venous,blood_gas,includes abg/vbg/mixed venous/etc
+ph_arterial,blood_gas,includes abg/vbg/mixed venous/etc
+ph_venous,blood_gas,includes abg/vbg/mixed venous/etc
+so2_arterial,blood_gas,includes abg/vbg/mixed venous/etc
+so2_mixed_venous,blood_gas,includes abg/vbg/mixed venous/etc
+so2_central_venous,blood_gas,includes abg/vbg/mixed venous/etc
+bicarbonate,bmp,
+bun,bmp,
+chloride,bmp,
+calcium_total,bmp,
+creatinine,bmp,
+glucose_serum,bmp,
+potassium,bmp,
+sodium,bmp,
+basophils_percent,cbc,
+basophils_absolute,cbc,
+eosinophils_percent,cbc,
+eosinophils_absolute,cbc,
+hemoglobin,cbc,
+lymphocytes_percent,cbc,
+lymphocytes_absolute,cbc,
+monocytes_percent,cbc,
+monocytes_absolute,cbc,
+neutrophils_percent,cbc,
+neutrophils_absolute,cbc,
+platelet_count,cbc,
+wbc,cbc,
+inr,coags,
+pt,coags,
+ptt,coags,
+albumin,lft,
+alkaline_phosphatase,lft,
+alt,lft,
+ast,lft,
+bilirubin_total,lft,
+bilirubin_conjugated,lft,
+bilirubin_unconjugated,lft,
+total_protein,lft,
+calcium_ionized,misc,includes lactate
+crp,misc,includes lactate
+esr,misc,includes lactate
+ferritin,misc,includes lactate
+lactate,misc,includes lactate
+ldh,misc,includes lactate
+procalcitonin,misc,includes lactate
+troponin_i,misc,includes lactate
+troponin_t,misc,includes lactate
+glucose_fingerstick,misc,includes lactate
+phosphate,misc,includes lactate
+magnesium,misc,includes lactate
