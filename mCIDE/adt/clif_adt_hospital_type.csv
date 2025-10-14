@@ -1,4 +1,4 @@
 hospital_type_category,description,hospital_type_name_examples
-academic,Academic medical centers and teaching hospitals,
-community,Community hospitals,
-LTACH,Long-term acute care hospitals,
+academic,Academic medical centers and teaching hospitals,"ABC University Medical, XYZ University Hospital, Proxy University Hospital"
+community,Community hospitals,"ABC Memorial Hospital, XYZ VA Medical Center, Missions Medical Center"
+LTACH,Long-term acute care hospitals, "EFG Specialty Hospital, EFG Advanced Care, Proxy Continued Care Hospital"
