@@ -1,11 +1,11 @@
 location_type,description,location_name_examples
-general_icu,"No restrictions on patient type, ‘other’ Choose this if unsure about ICU type detailsDefault ICU label",
-cardiac_icu,"Critically ill patients with primary cardiac conditions (e.g. arrhythmias, heart failure, post-cardiac arrest)",
-cardiothoracic_surgical_icu,"Post-cardiac surgical patients requiring intensive care (e.g. CABG, valve replacement), aka CTICU/CVICU/etc",
-mixed_cardiothoracic_icu,Patients with mixed medical and surgical cardiac conditions,
-surgical_icu,"Critically ill post-surgical patients (e.g. abdominal surgery, trauma, vascular surgery).",
-burn_icu,Separate burn ICUs,
-neuro_icu,"Medical patients with neurological critical illness (stroke, seizure)",
-neurosurgical_icu,"Surgical patients with neurological critical illness (SAH, SDH, etc)",
-mixed_neuro_icu,Medical and surgical patients with neurological critical illness,
-medical_icu,"Medical critical illness (predominantly respiratory failure, septic shock, GI hemorrhage, renal failure)",
+general_icu,"No restrictions on patient type, ‘other’ Choose this if unsure about ICU type detailsDefault ICU label",ICU_1;ICU_Main;ICU_A
+cardiac_icu,"Critically ill patients with primary cardiac conditions (e.g. arrhythmias, heart failure, post-cardiac arrest)",CICU1;CardiacICU_A;HeartICU2
+cardiothoracic_surgical_icu,"Post-cardiac surgical patients requiring intensive care (e.g. CABG, valve replacement), aka CTICU/CVICU/etc",CTICU1;CVICU_Main;ThoracicICU_B
+mixed_cardiothoracic_icu,Patients with mixed medical and surgical cardiac conditions,MixedCTICU1;CardioSurgICU_A;HybridICU2
+surgical_icu,"Critically ill post-surgical patients (e.g. abdominal surgery, trauma, vascular surgery).",SICU1;SurgICU_A;TraumaICU2
+burn_icu,Separate burn ICUs,BurnICU1;BurnUnit_A;BurnCare2
+neuro_icu,"Medical patients with neurological critical illness (stroke, seizure)",NeuroICU1;NeuroMedICU_A;StrokeICU2
+neurosurgical_icu,"Surgical patients with neurological critical illness (SAH, SDH, etc)",NeuroSurgICU1;NSICU_A;BrainSurgICU2
+mixed_neuro_icu,Medical and surgical patients with neurological critical illness,MixedNeuroICU1;NeuroHybridICU_A;NeuroMixICU2
+medical_icu,"Medical critical illness (predominantly respiratory failure, septic shock, GI hemorrhage, renal failure)",M001E;MICU1;MedICU_A
