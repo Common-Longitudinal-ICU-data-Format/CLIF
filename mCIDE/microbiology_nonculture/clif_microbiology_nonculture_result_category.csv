@@ -1,5 +1,6 @@
-result_category
-detected
-not_detected
-indeterminant
+result_category,
+detected,
+not_detected,
+indeterminant,
+
 
