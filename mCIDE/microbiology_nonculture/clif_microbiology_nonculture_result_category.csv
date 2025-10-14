@@ -1,5 +1,4 @@
-result_category
-detected
-not_detected
-indeterminant
-
+result_category,description,result_name_examples
+detected,,
+not_detected,,
+indeterminant,,

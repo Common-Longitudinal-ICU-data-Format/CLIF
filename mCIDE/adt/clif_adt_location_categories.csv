@@ -1,13 +1,13 @@
-location_category,description
-ed,Emergency Department
-ward,General medical or surgical ward
-stepdown,Stepdown or intermediate care unit
-icu,Intensive Care Unit
-procedural,Procedural or operating room areas
-l&d,Labor and Delivery unit
-hospice,Hospice care facility
-psych,Psychiatric unit
-rehab,Rehabilitation unit
-radiology,Radiology or imaging department
-dialysis,Dialysis unit
-other,Other location not specified above
+location_category,description,location_name_examples
+ed,Emergency Department,
+ward,General medical or surgical ward,
+stepdown,Stepdown or intermediate care unit,
+icu,Intensive Care Unit,
+procedural,Procedural or operating room areas,
+l&d,Labor and Delivery unit,
+hospice,Hospice care facility,
+psych,Psychiatric unit,
+rehab,Rehabilitation unit,
+radiology,Radiology or imaging department,
+dialysis,Dialysis unit,
+other,Other location not specified above,

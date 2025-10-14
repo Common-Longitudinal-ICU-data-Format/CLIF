@@ -1,53 +1,53 @@
-lab_category,lab_order_category,comments
-pco2_arterial,blood_gas,includes abg/vbg/mixed venous/etc
-po2_arterial,blood_gas,includes abg/vbg/mixed venous/etc
-pco2_venous,blood_gas,includes abg/vbg/mixed venous/etc
-ph_arterial,blood_gas,includes abg/vbg/mixed venous/etc
-ph_venous,blood_gas,includes abg/vbg/mixed venous/etc
-so2_arterial,blood_gas,includes abg/vbg/mixed venous/etc
-so2_mixed_venous,blood_gas,includes abg/vbg/mixed venous/etc
-so2_central_venous,blood_gas,includes abg/vbg/mixed venous/etc
-bicarbonate,bmp,
-bun,bmp,
-chloride,bmp,
-calcium_total,bmp,
-creatinine,bmp,
-glucose_serum,bmp,
-potassium,bmp,
-sodium,bmp,
-basophils_percent,cbc,
-basophils_absolute,cbc,
-eosinophils_percent,cbc,
-eosinophils_absolute,cbc,
-hemoglobin,cbc,
-lymphocytes_percent,cbc,
-lymphocytes_absolute,cbc,
-monocytes_percent,cbc,
-monocytes_absolute,cbc,
-neutrophils_percent,cbc,
-neutrophils_absolute,cbc,
-platelet_count,cbc,
-wbc,cbc,
-inr,coags,
-pt,coags,
-ptt,coags,
-albumin,lft,
-alkaline_phosphatase,lft,
-alt,lft,
-ast,lft,
-bilirubin_total,lft,
-bilirubin_conjugated,lft,
-bilirubin_unconjugated,lft,
-total_protein,lft,
-calcium_ionized,misc,includes lactate
-crp,misc,includes lactate
-esr,misc,includes lactate
-ferritin,misc,includes lactate
-lactate,misc,includes lactate
-ldh,misc,includes lactate
-procalcitonin,misc,includes lactate
-troponin_i,misc,includes lactate
-troponin_t,misc,includes lactate
-glucose_fingerstick,misc,includes lactate
-phosphate,misc,includes lactate
-magnesium,misc,includes lactate
+lab_category,description,lab_name_examples
+pco2_arterial,,
+po2_arterial,,
+pco2_venous,,
+ph_arterial,,
+ph_venous,,
+so2_arterial,,
+so2_mixed_venous,,
+so2_central_venous,,
+bicarbonate,,
+bun,,
+chloride,,
+calcium_total,,
+creatinine,,
+glucose_serum,,
+potassium,,
+sodium,,
+basophils_percent,,
+basophils_absolute,,
+eosinophils_percent,,
+eosinophils_absolute,,
+hemoglobin,,
+lymphocytes_percent,,
+lymphocytes_absolute,,
+monocytes_percent,,
+monocytes_absolute,,
+neutrophils_percent,,
+neutrophils_absolute,,
+platelet_count,,
+wbc,,
+inr,,
+pt,,
+ptt,,
+albumin,,
+alkaline_phosphatase,,
+alt,,
+ast,,
+bilirubin_total,,
+bilirubin_conjugated,,
+bilirubin_unconjugated,,
+total_protein,,
+calcium_ionized,,
+crp,,
+esr,,
+ferritin,,
+lactate,,
+ldh,,
+procalcitonin,,
+troponin_i,,
+troponin_t,,
+glucose_fingerstick,,
+phosphate,,
+magnesium,,

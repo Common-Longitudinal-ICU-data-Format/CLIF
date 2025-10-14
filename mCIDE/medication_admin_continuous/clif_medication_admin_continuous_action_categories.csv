@@ -1,9 +1,7 @@
-﻿mar_action_category,description
-dose_change,"dose change for a continuous medication"
-going,"ongoing administration of a continuous medication (e.g. a bag change)"
-start,"starting a continuous medication"
-stop,"stopping a continuous medication"
-verify,"verifying the dose of a continuous medication"
-other,"unable to map, should be very rare"
-
-
+mar_action_category,description,mar_action_name_examples
+dose_change,dose change for a continuous medication,
+going,ongoing administration of a continuous medication (e.g. a bag change),
+start,starting a continuous medication,
+stop,stopping a continuous medication,
+verify,verifying the dose of a continuous medication,
+other,"unable to map, should be very rare",

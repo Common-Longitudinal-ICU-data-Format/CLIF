@@ -1,18 +1,18 @@
-discharge_category,description
-Home,Discharged to home
-Skilled Nursing Facility (SNF),Discharged to skilled nursing facility
-Expired,Patient died during hospitalization
-Acute Inpatient Rehab Facility,Discharged to acute inpatient rehabilitation facility
-Hospice,Discharged to hospice care
-Long Term Care Hospital (LTACH),Discharged to long-term acute care hospital
-Acute Care Hospital,Transferred to another acute care hospital
-Group Home,Discharged to group home
-Chemical Dependency,Discharged to chemical dependency treatment facility
-Against Medical Advice (AMA),Left against medical advice
-Assisted Living,Discharged to assisted living facility
-Still Admitted,Patient still admitted at time of data extraction
-Missing,Discharge disposition information missing
-Other,Other discharge disposition not specified above
-Psychiatric Hospital,Discharged to psychiatric hospital
-Shelter,Discharged to shelter
-Jail,Discharged to correctional facility
+discharge_category,description,discharge_name_examples
+Home,Discharged to home,
+Skilled Nursing Facility (SNF),Discharged to skilled nursing facility,
+Expired,Patient died during hospitalization,
+Acute Inpatient Rehab Facility,Discharged to acute inpatient rehabilitation facility,
+Hospice,Discharged to hospice care,
+Long Term Care Hospital (LTACH),Discharged to long-term acute care hospital,
+Acute Care Hospital,Transferred to another acute care hospital,
+Group Home,Discharged to group home,
+Chemical Dependency,Discharged to chemical dependency treatment facility,
+Against Medical Advice (AMA),Left against medical advice,
+Assisted Living,Discharged to assisted living facility,
+Still Admitted,Patient still admitted at time of data extraction,
+Missing,Discharge disposition information missing,
+Other,Other discharge disposition not specified above,
+Psychiatric Hospital,Discharged to psychiatric hospital,
+Shelter,Discharged to shelter,
+Jail,Discharged to correctional facility,

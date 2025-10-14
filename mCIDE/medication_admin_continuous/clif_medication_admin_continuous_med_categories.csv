@@ -1,86 +1,81 @@
-med_category,med_group
-norepinephrine,vasoactives
-epinephrine,vasoactives
-phenylephrine,vasoactives
-angiotensin,vasoactives
-vasopressin,vasoactives
-dopamine,vasoactives
-dobutamine,vasoactives
-milrinone,vasoactives
-isoproterenol,vasoactives
-propofol,sedation
-dexmedetomidine,sedation
-ketamine,sedation
-midazolam,sedation
-fentanyl,sedation
-hydromorphone,sedation
-morphine,sedation
-remifentanil,sedation
-pentobarbital,sedation
-lorazepam,sedation
-furosemide,diuretics
-bumetanide,diuretics
-torsemide,diuretics
-heparin,anticoagulation
-argatroban,anticoagulation
-bivalirudin,anticoagulation
-cangrelor,anticoagulation
-eptifibatide,anticoagulation
-amiodarone,cardiac
-lidocaine,cardiac
-nicardipine,cardiac
-clevidipine,cardiac
-nitroglycerin,cardiac
-nitroprusside,cardiac
-esmolol,cardiac
-diltiazem,cardiac
-labetalol,cardiac
-procainamide,cardiac
-papaverine,cardiac
-adenosine,cardiac
-cisatracurium,paralytics
-vecuronium,paralytics
-rocuronium,paralytics
-treprostinil,pulmonary vasodilators (IV)
-epoprostenol,pulmonary vasodilators (IV)
-epoprostenol,pulmonary vasodilators (inhaled)
-alprostadil,pulmonary vasodilators (IV)
-nitric_oxide, pulmonary vasodilators (inhaled)
-octreotide,gastrointestinal
-pantoprazole,gastrointestinal
-esomeprazole,gastrointestinal
-albuterol,Inhaled
-terbutaline,Inhaled
-ipratropium,Inhaled
-insulin,endocrine
-thyroid replacement,endocrine
-oxytocin,endocrine
-cosyntropin,endocrine
-repletion,fluids_electrolytes
-sodium bicarbonate,fluids_electrolytes
-tpn,fluids_electrolytes
-tocolyttics,others
-magnesium,others
-pitocin,others
-dextrose,others
-sodium chloride,others
-aminocaproic,others
-aminophylline,others
-terbutaline,others
-naloxone,others
-phentolamine,others
-liothyronine,others
-zidovudine,others
-tacrolimus,others
-ropivacaine,others
-bupivacaine,others
-baclofen,others
-lactated_ringers_solution,fluids_electrolytes
-albumin_infusion,fluids_electrolytes
-plasma_lyte,fluids_electrolytes
-dextrose_in_water_d5w,fluids_electrolytes
-
-
-
-
-
+med_category,description,med_name_examples,med_group
+norepinephrine,,,vasoactives
+epinephrine,,,vasoactives
+phenylephrine,,,vasoactives
+angiotensin,,,vasoactives
+vasopressin,,,vasoactives
+dopamine,,,vasoactives
+dobutamine,,,vasoactives
+milrinone,,,vasoactives
+isoproterenol,,,vasoactives
+propofol,,,sedation
+dexmedetomidine,,,sedation
+ketamine,,,sedation
+midazolam,,,sedation
+fentanyl,,,sedation
+hydromorphone,,,sedation
+morphine,,,sedation
+remifentanil,,,sedation
+pentobarbital,,,sedation
+lorazepam,,,sedation
+furosemide,,,diuretics
+bumetanide,,,diuretics
+torsemide,,,diuretics
+heparin,,,anticoagulation
+argatroban,,,anticoagulation
+bivalirudin,,,anticoagulation
+cangrelor,,,anticoagulation
+eptifibatide,,,anticoagulation
+amiodarone,,,cardiac
+lidocaine,,,cardiac
+nicardipine,,,cardiac
+clevidipine,,,cardiac
+nitroglycerin,,,cardiac
+nitroprusside,,,cardiac
+esmolol,,,cardiac
+diltiazem,,,cardiac
+labetalol,,,cardiac
+procainamide,,,cardiac
+papaverine,,,cardiac
+adenosine,,,cardiac
+cisatracurium,,,paralytics
+vecuronium,,,paralytics
+rocuronium,,,paralytics
+treprostinil,,,pulmonary vasodilators (IV)
+epoprostenol,,,pulmonary vasodilators (IV)
+epoprostenol,,,pulmonary vasodilators (inhaled)
+alprostadil,,,pulmonary vasodilators (IV)
+nitric_oxide,,, pulmonary vasodilators (inhaled)
+octreotide,,,gastrointestinal
+pantoprazole,,,gastrointestinal
+esomeprazole,,,gastrointestinal
+albuterol,,,Inhaled
+terbutaline,,,Inhaled
+ipratropium,,,Inhaled
+insulin,,,endocrine
+thyroid replacement,,,endocrine
+oxytocin,,,endocrine
+cosyntropin,,,endocrine
+repletion,,,fluids_electrolytes
+sodium bicarbonate,,,fluids_electrolytes
+tpn,,,fluids_electrolytes
+tocolyttics,,,others
+magnesium,,,others
+pitocin,,,others
+dextrose,,,others
+sodium chloride,,,others
+aminocaproic,,,others
+aminophylline,,,others
+terbutaline,,,others
+naloxone,,,others
+phentolamine,,,others
+liothyronine,,,others
+zidovudine,,,others
+tacrolimus,,,others
+ropivacaine,,,others
+bupivacaine,,,others
+baclofen,,,others
+lactated_ringers_solution,,,fluids_electrolytes
+albumin_infusion,,,fluids_electrolytes
+plasma_lyte,,,fluids_electrolytes
+dextrose_in_water_d5w,,,fluids_electrolytes

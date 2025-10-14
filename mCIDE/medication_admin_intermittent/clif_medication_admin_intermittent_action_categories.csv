@@ -1,10 +1,5 @@
-﻿mar_action_category,description
-given,"administration of an intermittement medication"
-not_given,"documentation of not giving an ordered intermittment medication"
-bolus,"intermittent administration of a medication that can be administered continuously. Can represent a 'bolus from the bag' on top of a continuous infusion"
-other,"unable to map, should be very rare"
-
-
-
-
-
+mar_action_category,description,mar_action_name_examples
+given,administration of an intermittement medication,
+not_given,documentation of not giving an ordered intermittment medication,
+bolus,intermittent administration of a medication that can be administered continuously. Can represent a 'bolus from the bag' on top of a continuous infusion,
+other,"unable to map, should be very rare",

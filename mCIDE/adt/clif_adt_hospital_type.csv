@@ -1,4 +1,4 @@
-hospital_type_category,description
-academic,Academic medical centers and teaching hospitals
-community,Community hospitals
-LTACH,Long-term acute care hospitals
+hospital_type_category,description,hospital_type_name_examples
+academic,Academic medical centers and teaching hospitals,
+community,Community hospitals,
+LTACH,Long-term acute care hospitals,

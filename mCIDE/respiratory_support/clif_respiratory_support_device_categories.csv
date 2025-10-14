@@ -1,10 +1,10 @@
-device_category,description
-IMV,Invasive Mechanical Ventilation
-NIPPV,Non-Invasive Positive Pressure Ventilation
-CPAP,Continuous Positive Airway Pressure
-High Flow NC,High Flow Nasal Cannula
-Face Mask,Face Mask oxygen delivery
-Trach Collar,Tracheostomy collar
-Nasal Cannula,Standard nasal cannula
-Room Air,Breathing room air without supplemental oxygen
-Other,Other respiratory support device not specified above
+device_category,description,device_name_examples
+IMV,Invasive Mechanical Ventilation,
+NIPPV,Non-Invasive Positive Pressure Ventilation,
+CPAP,Continuous Positive Airway Pressure,
+High Flow NC,High Flow Nasal Cannula,
+Face Mask,Face Mask oxygen delivery,
+Trach Collar,Tracheostomy collar,
+Nasal Cannula,Standard nasal cannula,
+Room Air,Breathing room air without supplemental oxygen,
+Other,Other respiratory support device not specified above,
