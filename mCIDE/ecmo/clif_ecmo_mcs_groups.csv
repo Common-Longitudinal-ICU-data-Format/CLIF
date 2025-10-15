@@ -1,21 +1,21 @@
 device_category,description,device_name_examples,device_group
-Impella_2.5,,,temporary_LVAD
-Impella_CP,,,temporary_LVAD
-Impella_5.0,,,temporary_LVAD
-Impella_5.5,,,temporary_LVAD
-Impella_LD,,,temporary_LVAD
-Impella_RP,,,RVAD
-Impella_RP_Flex,,,RVAD
-iVAC,,,temporary_LVAD
-TandemHeart_LV,,,temporary_LVAD
-TandemHeart_RV,,,RVAD
-CentriMag_LV,,,temporary_LVAD
-CentriMag_RV,,,RVAD
-IABP,,,IABP
-VA_ECMO,,,ECMO
-VV_ECMO,,,ECMO
-VAV_ECMO,,,ECMO
-LAVA_ECMO,,,ECMO
-HeartWare,,,durable_LVAD
-HMII,,,durable_LVAD
-HMIII,,,durable_LVAD
+Impella_2.5,Percutaneous axial flow pump providing up to 2.5 L/min of cardiac support via femoral or axillary approach,"Impella 2.5, Abiomed Impella 2.5, Impella 2.5 LVAD",temporary_LVAD
+Impella_CP,Percutaneous axial flow pump providing up to 3.7 L/min of cardiac support with improved hemodynamic support,"Impella CP, Abiomed Impella CP, Impella CP with SmartAssist",temporary_LVAD
+Impella_5.0,Surgical axial flow pump providing up to 5.0 L/min of cardiac support via axillary artery cutdown,"Impella 5.0, Abiomed Impella 5.0, Impella 5.0 LVAD",temporary_LVAD
+Impella_5.5,Next-generation surgical axial flow pump providing up to 6.0 L/min with SmartAssist technology,"Impella 5.5, Abiomed Impella 5.5 with SmartAssist, Impella 5.5 LVAD",temporary_LVAD
+Impella_LD,Surgically implanted axial flow pump for prolonged support providing up to 5.5 L/min of flow,"Impella LD, Abiomed Impella LD, Impella LD long-term support",temporary_LVAD
+Impella_RP,Percutaneous right ventricular support device providing up to 4.0 L/min for RV failure,"Impella RP, Abiomed Impella RP, Impella RP RVAD",temporary_RVAD
+Impella_RP_Flex,Enhanced right ventricular support device with flexible positioning providing up to 4.8 L/min,"Impella RP Flex, Abiomed Impella RP Flex, Impella RP Flex RVAD",temporary_RVAD
+iVAC,Integrated ventricular assist circulatory support device with continuous flow technology,"iVAC 2L, iVAC 3L, PulseCath iVAC",temporary_LVAD
+TandemHeart_LV,Percutaneous centrifugal flow pump providing left ventricular support up to 5.0 L/min,"TandemHeart pVAD, TandemHeart LVAD, CardiacAssist TandemHeart LV",temporary_LVAD
+TandemHeart_RV,Percutaneous centrifugal flow pump configured for right ventricular support up to 4.5 L/min,"TandemHeart RA-PA, TandemHeart RVAD, CardiacAssist TandemHeart RV",temporary_RVAD
+CentriMag_LV,Extracorporeal centrifugal blood pump providing left ventricular support up to 10 L/min,"CentriMag LVAD, Thoratec CentriMag LV, Abbott CentriMag Left",temporary_LVAD
+CentriMag_RV,Extracorporeal centrifugal blood pump providing right ventricular support up to 10 L/min,"CentriMag RVAD, Thoratec CentriMag RV, Abbott CentriMag Right",temporary_RVAD
+IABP,Intra-aortic balloon pump providing temporary cardiac support through diastolic augmentation,"Arrow IABP, Maquet Cardiosave IABP, Getinge IABP",counterpulsation
+VA_ECMO,Veno-arterial extracorporeal membrane oxygenation providing both cardiac and respiratory support,"Cardiohelp VA-ECMO, Maquet VA-ECMO, Getinge VA-ECMO",ECMO
+VV_ECMO,Veno-venous extracorporeal membrane oxygenation providing isolated respiratory support,"Cardiohelp VV-ECMO, Maquet VV-ECMO, Novalung VV-ECMO",ECMO
+VAV_ECMO,Veno-arterial-venous ECMO configuration providing cardiac support with enhanced venous drainage,"VAV ECMO dual drainage, VAV ECMO configuration, Hybrid VAV-ECMO",ECMO
+LAVA_ECMO,Left atrium to femoral artery ECMO configuration for isolated left ventricular support,"LA-FA ECMO, Left atrial ECMO, LAVA configuration ECMO",ECMO
+HeartWare,Continuous-flow left ventricular assist device with centrifugal pump technology for durable support,"HeartWare HVAD, HVAD System, Medtronic HeartWare HVAD",durable_LVAD
+HMII,Second-generation durable left ventricular assist device with axial flow pump design,"HeartMate II, Thoratec HeartMate II, Abbott HeartMate II LVAD",durable_LVAD
+HMIII,Third-generation durable LVAD with fully magnetically levitated centrifugal flow technology,"HeartMate 3, Abbott HeartMate 3, HeartMate III LVAD",durable_LVAD
