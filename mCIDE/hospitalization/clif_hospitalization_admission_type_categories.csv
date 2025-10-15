@@ -1,7 +1,7 @@
 admission_type_category,description,admission_type_name_examples
-ed,"Admissions originating from home/community that are triaged through ED","Home, ED (Emergency Department), Law Enforcement, Community, Work"
-facility,"Admissions coming from various healthcare facilities providing ongoing or transitional care","Rehab, SNF (Skilled Nursing Facility), LTACH"
-osh,"Admissions transferred from outside hospitals","Other Hospitals"
-direct,"Direct admissions from outpatient care environments","Clinics, Physician Offices, Ambulatory Surgery Centers"
+ed,Admissions originating from home/community that are triaged through ED,"Home, ED (Emergency Department), Law Enforcement, Community, Work"
+facility,Admissions coming from various healthcare facilities providing ongoing or transitional care,"Rehab, SNF (Skilled Nursing Facility), LTACH, Transitional Care Unit"
+osh,Admissions transferred from outside hospitals,"Other Hospitals, Acute care hospital, Transfer In"
+direct,Direct admissions from outpatient care environments,"Clinics, Physician Offices, Ambulatory Surgery Centers"
 elective,"Planned or prescheduled admissions, often for non-emergency procedures","Prescheduled Surgeries, Planned Admissions (such as induced baby delivery)"
-other,"Admissions from undefined or less typical sources","Unknown Sources"
+other,Admissions from undefined or less typical sources,Unknown Sources

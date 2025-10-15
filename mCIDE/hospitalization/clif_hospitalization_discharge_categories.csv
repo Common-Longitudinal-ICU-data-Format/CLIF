@@ -1,21 +1,18 @@
 discharge_category,description,discharge_name_examples
 Home,Discharged to home,"Home, Discharged to home, Discharged to Home or Self Care (Routine Discharge)"
-Skilled Nursing Facility (SNF),Discharged to skilled nursing facility,"Discharged/transferred to Skilled Nursing Facility (SNF) with Medicare Certification, SNF, Discharged to SNF"
+Skilled Nursing Facility (SNF),Discharged to skilled nursing facility,"SNF, Transitional Care Unit, Discharged/transferred to Skilled Nursing Facility (SNF) with Medicare Certification, Discharged to SNF"
 Expired,Patient died during hospitalization,"Expired, Deceased, Death"
 Acute Inpatient Rehab Facility,Discharged to acute inpatient rehabilitation facility,"Discharged to Inpatient Rehab Facility/Unit w/ Planned Inpatient Readmission, Inpatient Rehab Facility, IRF"
 Hospice,Discharged to hospice care,"Hospice - Home, Hospice, Hospice - Medical Facility"
 Long Term Care Hospital (LTACH),Discharged to long-term acute care hospital,"LTACH, Transferred to a Medicare Certified Long Term Care Hospital (LTCH), Discharged to Long Term Care Hospital (LTCH)"
 Acute Care Hospital,Transferred to another acute care hospital,"Transferred to a Critical Access Hospital, Discharged to an ACH, Transferred to a Designated Disaster Alternative Care Site"
 Group Home,Discharged to group home,"Group Home, Group Living"
-Chemical Dependency,Discharged to chemical dependency treatment facility,""
+Chemical Dependency,Discharged to chemical dependency treatment facility,"Chem Dep, Intensive CD facility"
 Against Medical Advice (AMA),Left against medical advice,"Left without being seen, Left before treatment complete, Discontinued Care"
 Assisted Living,Discharged to assisted living facility,"Supportive Care Facility, Assisted Living Home, Custodial Care Living"
 Still Admitted,Patient still admitted at time of data extraction,"Still Patient, Admitted as inpatient"
-Missing,Discharge disposition information missing,""
+Missing,Discharge disposition information missing,
 Other,Other discharge disposition not specified above,"Transferred to another category of service, Error on Reg, Discharged to another Healthcare Institution"
 Psychiatric Hospital,Discharged to psychiatric hospital,"Psychiatric Unit, Psychiatric Hospital Unit"
-Shelter,Discharged to shelter,"Discharged to shelter"
+Shelter,Discharged to shelter,Discharged to shelter
 Jail,Discharged to correctional facility,"Court/Law Enforcement, Prison"
-
-
-
