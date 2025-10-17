@@ -1,6 +1,6 @@
 med_route_category,description,med_route_name_examples
-enteral,,
-im,,
-iv,,
-buccal_sublingual,,
-intrapleural,,
+buccal_sublingual,Medications absorbed through oral mucosa - buccal (cheek) or sublingual (under tongue),"Sublingual (SL), Buccal, Under Tongue, Between Cheek and Gum, Oral Dissolving Tablet, Buccal Film, Sublingual Tablet, Buccal Tablet"
+enteral,"Medications administered through the gastrointestinal tract via oral (both pill and solutions), gastric, or enteral feeding tubes","Oral (PO), By Mouth, Gastric Tube (GT), Gastrostomy Tube (G-Tube), Nasogastric Tube (NGT), Nasojejunal Tube (NJT), Jejunostomy Tube (J-Tube), Percutaneous Endoscopic Gastrostomy (PEG), Orogastric Tube (OGT), Feeding Tube, Enteral Tube"
+im,Parenteral injections into muscle or subcutaneous tissue for intermittent dosing,"Intramuscular (IM), Subcutaneous (SubQ), Subcutaneous (SC), Subcutaneous (SQ), IM Injection, SubQ Injection, Deltoid IM, Vastus Lateralis IM, Ventrogluteal IM, Dorsogluteal IM, Abdomen SubQ, Thigh SubQ"
+intrapleural,Direct administration into the pleural space between lung and chest wall,"Intrapleural, Pleural Space, Chest Tube Administration, Pleural Catheter, Through Chest Tube, Intrapleural Injection, Pleural Infusion"
+iv,"Intravenous administration via bolus, push, or intermittent infusion","Intravenous Push (IV Push), IV Bolus, IV Piggyback (IVPB), IV Intermittent, IV Infusion, Peripheral IV, Central Line IV, PICC Line IV, Port-a-Cath, Midline IV, Central Venous Catheter (CVC)"
