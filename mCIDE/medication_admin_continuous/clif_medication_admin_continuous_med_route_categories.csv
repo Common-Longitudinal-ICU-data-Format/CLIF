@@ -1,5 +1,4 @@
 med_route_category,description,med_route_name_examples
-im,Includes subcutaneous,
-iv,,
-inhaled,,
-
+im,Parenteral injections into muscle or subcutaneous tissue,"Intramuscular, Subcutaneous, IM"
+inhaled,Medications administered through respiratory inhalation,"Nebulizer, nasal spray, Aerosol"
+iv,Intravenous administration directly into the bloodstream,"Intravenous, IV, IV Infusion"
