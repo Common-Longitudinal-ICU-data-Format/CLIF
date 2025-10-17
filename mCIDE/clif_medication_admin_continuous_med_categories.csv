@@ -1,0 +1,81 @@
+med_category,description,med_name_examples,med_group
+adenosine,Rapid-acting antiarrhythmic used for supraventricular tachycardia,"ADENOSINE 6 MG IV PUSH, ADENOSINE 12 MG IV PUSH",cardiac
+albumin_infusion,Colloid fluid replacement for volume expansion and hypoalbuminemia,"ALBUMIN 5% 250 ML IV INFUSION, ALBUMIN 25% 50 ML IV INFUSION",fluids_electrolytes
+albuterol,Beta-2 agonist bronchodilator for respiratory conditions,"ALBUTEROL 2.5 MG/3 ML NEBULIZER, ALBUTEROL 5 MG CONTINUOUS NEBULIZER",Inhaled
+alprostadil,Prostaglandin vasodilator for pulmonary hypertension and ductus arteriosus,"ALPROSTADIL 20 MCG/ML IV INFUSION, ALPROSTADIL 0.1 MCG/KG/MIN IV",pulmonary vasodilators (IV)
+aminocaproic,Antifibrinolytic agent to reduce bleeding,"AMINOCAPROIC ACID 5 GM/250 ML IV INFUSION, AMINOCAPROIC 100 MG/KG IV LOAD",others
+aminophylline,Bronchodilator and respiratory stimulant,"AMINOPHYLLINE 250 MG/250 ML IV INFUSION, AMINOPHYLLINE 0.5 MG/KG/HR IV",others
+amiodarone,Antiarrhythmic for ventricular and atrial arrhythmias,"AMIODARONE 150 MG IV PUSH, AMIODARONE 900 MG/500 ML IV INFUSION 1 MG/MIN",cardiac
+angiotensin,Vasopressor for refractory hypotension,"ANGIOTENSIN II 2.5 MG/10 ML IV INFUSION, ANGIOTENSIN 20 NG/KG/MIN IV",vasoactives
+argatroban,Direct thrombin inhibitor anticoagulant,"ARGATROBAN 100 MG/250 ML IV INFUSION, ARGATROBAN 2 MCG/KG/MIN IV",anticoagulation
+baclofen,Muscle relaxant and antispasmodic,"BACLOFEN 20 MG/20 ML INTRATHECAL, BACLOFEN 2000 MCG/DAY IT PUMP",others
+bivalirudin,Direct thrombin inhibitor for anticoagulation,"BIVALIRUDIN 250 MG/250 ML IV INFUSION, BIVALIRUDIN 0.15 MG/KG/HR IV",anticoagulation
+bumetanide,Loop diuretic for fluid management,"BUMETANIDE 2 MG/100 ML IV INFUSION, BUMETANIDE 0.5 MG/HR IV CONTINUOUS",diuretics
+bupivacaine,Local anesthetic for regional anesthesia,"BUPIVACAINE 0.25% 100 ML EPIDURAL INFUSION, BUPIVACAINE 10 ML/HR EPIDURAL",others
+cangrelor,Rapid acting antiplatelet agent for acute coronary syndrome or with recent percutaneous intravenous intervention,"CANGRELOR 50 MG/250 ML IV INFUSION, CANGRELOR 0.75 MCG/KG/MIN IV",anticoagulation
+cisatracurium,Neuromuscular blocking agent for paralysis,"CISATRACURIUM 200 MG/100 ML IV INFUSION, CISATRACURIUM 3 MCG/KG/MIN IV",paralytics
+clevidipine,Ultra-short acting calcium channel blocker,"CLEVIDIPINE 50 MG/100 ML IV INFUSION, CLEVIDIPINE 2-16 MG/HR IV",cardiac
+cosyntropin,Synthetic ACTH for adrenal function testing,"COSYNTROPIN 0.25 MG IV PUSH, COSYNTROPIN 250 MCG IV DIAGNOSTIC",endocrine
+dexmedetomidine,Alpha-2 agonist sedative,"DEXMEDETOMIDINE 200 MCG/50 ML IV INFUSION, DEXMEDETOMIDINE 0.2-1.5 MCG/KG/HR IV",sedation
+dextrose,Carbohydrate solution for hypoglycemia and energy,"DEXTROSE 50% 50 ML IV PUSH, DEXTROSE 10% 1000 ML IV MAINTENANCE",others
+dextrose_in_water_d5w,Glucose solution for fluid replacement,"D5W 1000 ML IV MAINTENANCE, DEXTROSE 5% IN WATER 500 ML IV AT 125 ML/HR",fluids_electrolytes
+diltiazem,Calcium channel blocker for ventricular rate control,"DILTIAZEM 125 MG/125 ML IV INFUSION, DILTIAZEM 5-15 MG/HR IV",cardiac
+dobutamine,Inotropic agent to increase cardiac contractility,"DOBUTAMINE 500 MG/250 ML IV INFUSION, DOBUTAMINE 2-20 MCG/KG/MIN IV",vasoactives
+dopamine,Vasopressor and inotrope for hemodynamic support,"DOPAMINE 400 MG/250 ML IV INFUSION, DOPAMINE 5-20 MCG/KG/MIN IV",vasoactives
+epinephrine,Catecholamine for hemodynamic support and/or anaphylaxis,"EPINEPHRINE 4 MG/250 ML IV INFUSION, EPINEPHRINE 0.01-0.5 MCG/KG/MIN IV",vasoactives
+epoprostenol,Prostacyclin for pulmonary arterial hypertension,"EPOPROSTENOL 15000 MCG/100 ML IV INFUSION, EPOPROSTENOL 2-10 NG/KG/MIN IV",pulmonary vasodilators (IV)
+epoprostenol,Inhaled prostacyclin for pulmonary hypertension,"EPOPROSTENOL 50000 MCG CONTINUOUS NEBULIZER, EPOPROSTENOL 30000 NG/MIN INHALED",pulmonary vasodilators (inhaled)
+eptifibatide,Glycoprotein IIb/IIIa inhibitor antiplatelet,"EPTIFIBATIDE 75 MG/100 ML IV INFUSION, EPTIFIBATIDE 2 MCG/KG/MIN IV",anticoagulation
+esmolol,Ultra-short acting beta blocker,"ESMOLOL 2500 MG/250 ML IV INFUSION, ESMOLOL 50-300 MCG/KG/MIN IV",cardiac
+esomeprazole,Proton pump inhibitor for acid suppression,"ESOMEPRAZOLE 40 MG/100 ML IV INFUSION, ESOMEPRAZOLE 8 MG/HR IV CONTINUOUS",gastrointestinal
+fentanyl,Opioid analgesic,"FENTANYL 2500 MCG/50 ML IV INFUSION, FENTANYL 25-200 MCG/HR IV",sedation
+furosemide,Loop diuretic for fluid management,"FUROSEMIDE 200 MG/100 ML IV INFUSION, FUROSEMIDE 5-20 MG/HR IV CONTINUOUS",diuretics
+heparin,Anticoagulant for thrombosis treatment and prevention,"HEPARIN 25000 UNITS/250 ML IV INFUSION, HEPARIN 12-18 UNITS/KG/HR IV",anticoagulation
+hydromorphone,Opioid analgesic,"HYDROMORPHONE 50 MG/50 ML IV INFUSION, HYDROMORPHONE 0.5-3 MG/HR IV PCA",sedation
+insulin,Hormone for glucose management,"INSULIN REGULAR 100 UNITS/100 ML IV INFUSION, INSULIN 1-10 UNITS/HR IV",endocrine
+ipratropium,Anticholinergic bronchodilator,"IPRATROPIUM 0.5 MG/2.5 ML NEBULIZER, IPRATROPIUM 0.5 MG Q4H NEBULIZER",Inhaled
+isoproterenol,Beta agonist to increase heart rate,"ISOPROTERENOL 1 MG/250 ML IV INFUSION, ISOPROTERENOL 0.02-0.1 MCG/KG/MIN IV",vasoactives
+ketamine,Dissociative anesthetic for sedation and analgesia,"KETAMINE 500 MG/50 ML IV INFUSION, KETAMINE 0.1-0.5 MG/KG/HR IV",sedation
+labetalol,Alpha and beta blocker for hypertension,"LABETALOL 200 MG/200 ML IV INFUSION, LABETALOL 0.5-2 MG/MIN IV",cardiac
+lactated_ringers_solution,Balanced crystalloid for fluid resuscitation,"LACTATED RINGERS 1000 ML IV BOLUS, LR 500 ML IV AT 200 ML/HR",fluids_electrolytes
+lidocaine,Antiarrhythmic and local anesthetic,"LIDOCAINE 2 GM/500 ML IV INFUSION, LIDOCAINE 1-4 MG/MIN IV",cardiac
+liothyronine,Synthetic T3 thyroid hormone,"LIOTHYRONINE 100 MCG/100 ML IV INFUSION, LIOTHYRONINE 10 MCG IV Q8H",others
+lorazepam,Benzodiazepine for anxiety and sedation,"LORAZEPAM 50 MG/50 ML IV INFUSION, LORAZEPAM 1-4 MG/HR IV",sedation
+magnesium,Electrolyte replacement and antiarrhythmic,"MAGNESIUM SULFATE 20 GM/250 ML IV INFUSION, MAGNESIUM 1-2 GM/HR IV",others
+midazolam,Benzodiazepine for anxiety and sedation,"MIDAZOLAM 100 MG/100 ML IV INFUSION, MIDAZOLAM 1-10 MG/HR IV",sedation
+milrinone,Phosphodiesterase inhibitor inotrope,"MILRINONE 40 MG/200 ML IV INFUSION, MILRINONE 0.375-0.75 MCG/KG/MIN IV",vasoactives
+morphine,Opiate analgesic,"MORPHINE 100 MG/100 ML IV INFUSION, MORPHINE 1-5 MG/HR IV PCA",sedation
+naloxone,Opioid antagonist for reversal,"NALOXONE 0.4 MG/100 ML IV INFUSION, NALOXONE 0.25-2 MCG/KG/HR IV",others
+nicardipine,Calcium channel blocker for hypertension,"NICARDIPINE 25 MG/250 ML IV INFUSION, NICARDIPINE 5-15 MG/HR IV",cardiac
+nitric_oxide,Inhaled pulmonary vasodilator,"NITRIC OXIDE 20 PPM INHALED CONTINUOUS, NITRIC OXIDE 5-40 PPM VENTILATOR", pulmonary vasodilators (inhaled)
+nitroglycerin,Nitrate vasodilator for angina and hypertension,"NITROGLYCERIN 50 MG/250 ML IV INFUSION, NITROGLYCERIN 5-200 MCG/MIN IV",cardiac
+nitroprusside,Arterial vasodilator for hypertensive emergency,"NITROPRUSSIDE 50 MG/250 ML IV INFUSION, NITROPRUSSIDE 0.3-10 MCG/KG/MIN IV",cardiac
+norepinephrine,Catecholamine for hemodynamic support,"NOREPINEPHRINE 16 MG/250 ML IV INFUSION, NOREPINEPHRINE 0.01-3 MCG/KG/MIN IV",vasoactives
+octreotide,Somatostatin analog for GI bleeding,"OCTREOTIDE 1000 MCG/250 ML IV INFUSION, OCTREOTIDE 25-50 MCG/HR IV",gastrointestinal
+oxytocin,Hormone for labor induction and postpartum bleeding,"OXYTOCIN 30 UNITS/500 ML IV INFUSION, OXYTOCIN 1-20 MILLIUNITS/MIN IV",endocrine
+pantoprazole,Proton pump inhibitor for acid suppression,"PANTOPRAZOLE 80 MG/100 ML IV INFUSION, PANTOPRAZOLE 8 MG/HR IV CONTINUOUS",gastrointestinal
+papaverine,Smooth muscle relaxant vasodilator,"PAPAVERINE 300 MG/250 ML IV INFUSION, PAPAVERINE 30-60 MG/HR IV ARTERIAL",cardiac
+pentobarbital,Barbiturate for refractory intracranial hypertension,"PENTOBARBITAL 500 MG/250 ML IV INFUSION, PENTOBARBITAL 1-5 MG/KG/HR IV",sedation
+phentolamine,Alpha blocker for extravasation and hypertension,"PHENTOLAMINE 10 MG/250 ML IV INFUSION, PHENTOLAMINE 0.1-2 MG/MIN IV",others
+phenylephrine,Alpha-1 agonist vasopressor,"PHENYLEPHRINE 200 MG/250 ML IV INFUSION, PHENYLEPHRINE 0.5-3 MCG/KG/MIN IV",vasoactives
+pitocin,Synthetic oxytocin for labor augmentation,"PITOCIN 20 UNITS/1000 ML IV INFUSION, PITOCIN 2-20 MILLIUNITS/MIN IV",others
+plasma_lyte,Balanced crystalloid electrolyte solution,"PLASMA-LYTE A 1000 ML IV MAINTENANCE, PLASMA-LYTE 500 ML IV AT 150 ML/HR",fluids_electrolytes
+procainamide,Antiarrhythmic for ventricular arrhythmias,"PROCAINAMIDE 2 GM/500 ML IV INFUSION, PROCAINAMIDE 1-6 MG/MIN IV",cardiac
+propofol,Sedative-hypnotic for anesthesia and sedation,"PROPOFOL 1000 MG/100 ML IV INFUSION, PROPOFOL 5-50 MCG/KG/MIN IV",sedation
+remifentanil,Ultra-short acting opioid analgesic,"REMIFENTANIL 5 MG/100 ML IV INFUSION, REMIFENTANIL 0.05-2 MCG/KG/MIN IV",sedation
+repletion,Electrolyte replacement solutions,"POTASSIUM CHLORIDE 40 MEQ/100 ML IV INFUSION, CALCIUM GLUCONATE 2 GM/100 ML IV",fluids_electrolytes
+rocuronium,Neuromuscular blocking agent for paralysis,"ROCURONIUM 500 MG/100 ML IV INFUSION, ROCURONIUM 8-12 MCG/KG/MIN IV",paralytics
+ropivacaine,Long-acting local anesthetic,"ROPIVACAINE 0.2% 200 ML EPIDURAL INFUSION, ROPIVACAINE 6-14 ML/HR EPIDURAL",others
+sodium bicarbonate,Alkalinizing agent,"SODIUM BICARBONATE 150 MEQ/1000 ML IV INFUSION, BICARB 50-100 MEQ/HR IV",fluids_electrolytes
+sodium chloride,Isotonic saline for fluid replacement,"SODIUM CHLORIDE 0.9% 1000 ML IV MAINTENANCE, NORMAL SALINE 500 ML IV BOLUS",others
+tacrolimus,Immunosuppressant for transplant and other indications,"TACROLIMUS 5 MG/250 ML IV INFUSION, TACROLIMUS 0.01-0.05 MG/KG/DAY IV",others
+terbutaline,Beta-2 agonist for bronchospasm,"TERBUTALINE 5 MG CONTINUOUS NEBULIZER, TERBUTALINE 10 MG NEBULIZER Q4H",Inhaled
+terbutaline,Beta-2 agonist tocolytic for preterm labor,"TERBUTALINE 5 MG/500 ML IV INFUSION, TERBUTALINE 2.5-10 MCG/MIN IV",others
+thyroid replacement,Thyroid hormone replacement therapy,"LEVOTHYROXINE 200 MCG/100 ML IV INFUSION, LEVOTHYROXINE 100 MCG IV DAILY",endocrine
+tocolyttics,Medications to suppress preterm labor,"INDOMETHACIN 100 MG/250 ML IV INFUSION, NIFEDIPINE 10 MG/HR IV TOCOLYSIS",others
+torsemide,Loop diuretic for fluid management,"TORSEMIDE 100 MG/250 ML IV INFUSION, TORSEMIDE 20 MG IV Q12H",diuretics
+tpn,Total parenteral nutrition for IV feeding,"TPN 2000 ML IV CONTINUOUS, TPN STANDARD FORMULA 1500 ML/DAY IV",fluids_electrolytes
+treprostinil,Prostacyclin analog for pulmonary hypertension,"TREPROSTINIL 20 MG/100 ML IV INFUSION, TREPROSTINIL 1-40 NG/KG/MIN IV",pulmonary vasodilators (IV)
+vasopressin,Antidiuretic hormone for septic shock,"VASOPRESSIN 20 UNITS/100 ML IV INFUSION, VASOPRESSIN 0.01-0.04 UNITS/MIN IV",vasoactives
+vecuronium,Neuromuscular blocking agent for paralysis,"VECURONIUM 100 MG/100 ML IV INFUSION, VECURONIUM 0.8-1.2 MCG/KG/MIN IV",paralytics
+zidovudine,Antiretroviral for HIV prevention,"ZIDOVUDINE 200 MG/200 ML IV INFUSION, ZIDOVUDINE 1-2 MG/KG Q4H IV",others
