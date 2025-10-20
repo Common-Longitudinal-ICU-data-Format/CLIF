@@ -106,7 +106,6 @@ methylprednisolone,,,steroid
 metronidazole,,,CMS_sepsis_qualifying_antibiotics
 mezlocillin,,,CMS_sepsis_qualifying_antibiotics
 micafungin,,,CMS_sepsis_qualifying_antibiotics
-micafungin_posaconazole_voriconazole,,,CMS_sepsis_qualifying_antibiotics
 midazolam,,,sedation
 minocycline,,,CMS_sepsis_qualifying_antibiotics
 morphine,,,analgesia
@@ -165,3 +164,4 @@ valproate,,,other
 vancomycin,,,CMS_sepsis_qualifying_antibiotics
 vecuronium,,,paralytics
 voriconazole,,,CMS_sepsis_qualifying_antibiotics
+
