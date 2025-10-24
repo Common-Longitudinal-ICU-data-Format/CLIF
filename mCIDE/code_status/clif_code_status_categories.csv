@@ -4,11 +4,12 @@ DNAR,Do Not Attempt Resuscitation,"Do not attempt CPR - Intubate, DNAR, DNAR(Do 
 UDNR,Unilateral Do Not Resuscitate,"UDNR, UDNR(Unilateral Do Not Resuscitate), Unilat DNR"
 DNR/DNI,Do Not Resuscitate/Do Not Intubate,"No CPR/Do NOT Intubate, DNR/DNI, No CPR/No Intubation Pre Arrest"
 DNAR/DNI,Do Not Attempt Resuscitation/Do Not Intubate,"Do not attempt CPR/Do NOT Intubate, DNAR/DNI, Do not attempt CPR/No Intubation Pre Arrest"
-DNI_only, Do Not Intubate- perform CPR and other resuscitative measures, "DNI, Partial code- no intubation"
+DNI_only, Do Not Intubate- perform CPR and other resuscitative measures, "DNI, Partial code- no intubation, DNI (do not intubate)"
 AND,Allow Natural Death,"No CPR, AND, Allow Natural"
 Full,Full code status with all resuscitative measures,"Full-Confirmed, Full Code, Full Code"
 Presume Full,Presumed full code status,"Presumed Full, Assumed Full, Presume Full"
 Other,Other code status not specified above,"Partial, Other, Comfort Measures Only"
+
 
 
 
