@@ -144,7 +144,7 @@ succinylcholine,,,paralytics
 sulbactam_durlobactam,,,CMS_sepsis_qualifying_antibiotics
 sulfadiazine,,,CMS_sepsis_qualifying_antibiotics
 sulfadiazine_trimethoprim,,,CMS_sepsis_qualifying_antibiotics
-sulfamethoxazole,,,CMS_sepsis_qualifying_antibiotics
+sulfamethoxazole_trimethoprim,,,CMS_sepsis_qualifying_antibiotics
 sulfisoxazole,,,CMS_sepsis_qualifying_antibiotics
 tedizolid,,,CMS_sepsis_qualifying_antibiotics
 telavancin,,,CMS_sepsis_qualifying_antibiotics
@@ -164,4 +164,5 @@ valproate,,,other
 vancomycin,,,CMS_sepsis_qualifying_antibiotics
 vecuronium,,,paralytics
 voriconazole,,,CMS_sepsis_qualifying_antibiotics
+
 
