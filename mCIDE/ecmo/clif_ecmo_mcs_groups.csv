@@ -1,4 +1,4 @@
-device_category,description,device_name_examples,device_group
+device_category,description,device_name_examples,mcs_group
 Impella_2.5,Percutaneous axial flow pump providing up to 2.5 L/min of cardiac support via femoral or axillary approach,"Impella 2.5, Abiomed Impella 2.5, Impella 2.5 LVAD",temporary_LVAD
 Impella_CP,Percutaneous axial flow pump providing up to 3.7 L/min of cardiac support with improved hemodynamic support,"Impella CP, Abiomed Impella CP, Impella CP with SmartAssist",temporary_LVAD
 Impella_5.0,Surgical axial flow pump providing up to 5.0 L/min of cardiac support via axillary artery cutdown,"Impella 5.0, Abiomed Impella 5.0, Impella 5.0 LVAD",temporary_LVAD
@@ -18,4 +18,5 @@ VAV_ECMO,Veno-arterial-venous ECMO configuration providing cardiac support with 
 LAVA_ECMO,Left atrium to femoral artery ECMO configuration for isolated left ventricular support,"LA-FA ECMO, Left atrial ECMO, LAVA configuration ECMO",ECMO
 HeartWare,Continuous-flow left ventricular assist device with centrifugal pump technology for durable support,"HeartWare HVAD, HVAD System, Medtronic HeartWare HVAD",durable_LVAD
 HMII,Second-generation durable left ventricular assist device with axial flow pump design,"HeartMate II, Thoratec HeartMate II, Abbott HeartMate II LVAD",durable_LVAD
+
 HMIII,Third-generation durable LVAD with fully magnetically levitated centrifugal flow technology,"HeartMate 3, Abbott HeartMate 3, HeartMate III LVAD",durable_LVAD
