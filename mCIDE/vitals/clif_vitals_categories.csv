@@ -1,11 +1,12 @@
 vital_category,description,vital_name_examples
-temp_c,,
-heart_rate,,
-sbp,,
-dbp,,
-spo2,,
-respiratory_rate,,
-map,Can include both invasive (arterial line) and non-invasive (cuff) measurements. Source type should be indicated in meas_site_name.,
-height_cm,,
-weight_kg,,
+temp_c,"Body temperature in degrees Celsius, measured via any clinical method (oral, axillary, tympanic, rectal, or core). The measurement site or device type should be indicated in meas_site_name.",
+heart_rate,"Heart rate in beats per minute (bpm), obtained from monitor, pulse oximeter, or manual palpation.",
+sbp,"Systolic blood pressure. Can include both invasive (arterial line) and non-invasive (cuff) measurements; specify in meas_site_name.,
+dbp,"Diastolic blood pressure. Can include both invasive (arterial line) and non-invasive (cuff) measurements; specify in meas_site_name.",
+spo2,"Peripheral oxygen saturation (%), typically measured by pulse oximetry.",
+respiratory_rate,"Number of breaths per minute, either manually counted or obtained from a monitor.",
+map,"Can include both invasive (arterial line) and non-invasive (cuff) measurements. Source type should be indicated in meas_site_name.",
+height_cm,"Patient’s height in centimeters, measured or recorded at admission or encounter.",
+weight_kg,"Patient’s weight in kilograms, measured or recorded at admission or encounter.",
+
 
