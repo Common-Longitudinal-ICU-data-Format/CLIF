@@ -5,6 +5,7 @@ sbp,,
 dbp,,
 spo2,,
 respiratory_rate,,
-map,,
+map,Can include both invasive (arterial line) and non-invasive (cuff) measurements. Source type should be indicated in meas_site_name.,
 height_cm,,
 weight_kg,,
+
