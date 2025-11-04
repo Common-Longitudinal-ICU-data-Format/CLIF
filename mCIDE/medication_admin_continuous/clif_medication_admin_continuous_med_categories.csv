@@ -1,11 +1,11 @@
 med_category,description,med_name_examples,med_group
-adenosine,Rapid-acting antiarrhythmic used for supraventricular tachycardia,"ADENOSINE 6 MG IV PUSH, ADENOSINE 12 MG IV PUSH",cardiac
+adenosine,Rapid-acting antiarrhythmic used for supraventricular tachycardia,"",cardiac
 albumin_infusion,Colloid fluid replacement for volume expansion and hypoalbuminemia,"ALBUMIN 5% 250 ML IV INFUSION, ALBUMIN 25% 50 ML IV INFUSION",fluids_electrolytes
 albuterol,Beta-2 agonist bronchodilator for respiratory conditions,"ALBUTEROL 2.5 MG/3 ML NEBULIZER, ALBUTEROL 5 MG CONTINUOUS NEBULIZER",Inhaled
 alprostadil,Prostaglandin vasodilator for pulmonary hypertension and ductus arteriosus,"ALPROSTADIL 20 MCG/ML IV INFUSION, ALPROSTADIL 0.1 MCG/KG/MIN IV",pulmonary vasodilators (IV)
 aminocaproic,Antifibrinolytic agent to reduce bleeding,"AMINOCAPROIC ACID 5 GM/250 ML IV INFUSION, AMINOCAPROIC 100 MG/KG IV LOAD",others
 aminophylline,Bronchodilator and respiratory stimulant,"AMINOPHYLLINE 250 MG/250 ML IV INFUSION, AMINOPHYLLINE 0.5 MG/KG/HR IV",others
-amiodarone,Antiarrhythmic for ventricular and atrial arrhythmias,"AMIODARONE 150 MG IV PUSH, AMIODARONE 900 MG/500 ML IV INFUSION 1 MG/MIN",cardiac
+amiodarone,Antiarrhythmic for ventricular and atrial arrhythmias,"AMIODARONE 900 MG/500 ML IV INFUSION 1 MG/MIN",cardiac
 angiotensin,Vasopressor for refractory hypotension,"ANGIOTENSIN II 2.5 MG/10 ML IV INFUSION, ANGIOTENSIN 20 NG/KG/MIN IV",vasoactives
 argatroban,Direct thrombin inhibitor anticoagulant,"ARGATROBAN 100 MG/250 ML IV INFUSION, ARGATROBAN 2 MCG/KG/MIN IV",anticoagulation
 baclofen,Muscle relaxant and antispasmodic,"BACLOFEN 20 MG/20 ML INTRATHECAL, BACLOFEN 2000 MCG/DAY IT PUMP",others
@@ -15,9 +15,9 @@ bupivacaine,Local anesthetic for regional anesthesia,"BUPIVACAINE 0.25% 100 ML E
 cangrelor,Rapid acting antiplatelet agent for acute coronary syndrome or with recent percutaneous intravenous intervention,"CANGRELOR 50 MG/250 ML IV INFUSION, CANGRELOR 0.75 MCG/KG/MIN IV",anticoagulation
 cisatracurium,Neuromuscular blocking agent for paralysis,"CISATRACURIUM 200 MG/100 ML IV INFUSION, CISATRACURIUM 3 MCG/KG/MIN IV",paralytics
 clevidipine,Ultra-short acting calcium channel blocker,"CLEVIDIPINE 50 MG/100 ML IV INFUSION, CLEVIDIPINE 2-16 MG/HR IV",cardiac
-cosyntropin,Synthetic ACTH for adrenal function testing,"COSYNTROPIN 0.25 MG IV PUSH, COSYNTROPIN 250 MCG IV DIAGNOSTIC",endocrine
+cosyntropin,Synthetic ACTH for adrenal function testing,"COSYNTROPIN 250 MCG IV DIAGNOSTIC",endocrine
 dexmedetomidine,Alpha-2 agonist sedative,"DEXMEDETOMIDINE 200 MCG/50 ML IV INFUSION, DEXMEDETOMIDINE 0.2-1.5 MCG/KG/HR IV",sedation
-dextrose,Carbohydrate solution for hypoglycemia and energy,"DEXTROSE 50% 50 ML IV PUSH, DEXTROSE 10% 1000 ML IV MAINTENANCE",others
+dextrose,Carbohydrate solution for hypoglycemia and energy,"DEXTROSE 10% 1000 ML IV MAINTENANCE",others
 dextrose_in_water_d5w,Glucose solution for fluid replacement,"D5W 1000 ML IV MAINTENANCE, DEXTROSE 5% IN WATER 500 ML IV AT 125 ML/HR",fluids_electrolytes
 diltiazem,Calcium channel blocker for ventricular rate control,"DILTIAZEM 125 MG/125 ML IV INFUSION, DILTIAZEM 5-15 MG/HR IV",cardiac
 dobutamine,Inotropic agent to increase cardiac contractility,"DOBUTAMINE 500 MG/250 ML IV INFUSION, DOBUTAMINE 2-20 MCG/KG/MIN IV",vasoactives
