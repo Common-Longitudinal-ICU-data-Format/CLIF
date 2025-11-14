@@ -1,6 +1,7 @@
 susceptibility_category,description,susceptibility_name_examples
-susceptible,,
-non_susceptible,,
-indeterminate,,
-NA,,
+susceptible,"Organism is inhibited by achievable concentrations of the drug; interpreted as sensitive/appropriate for treatment","Sensitive, Susceptible"
+non_susceptible,"Organism shows resistance or reduced response; drug unlikely to be effective","Resistant, Non-susceptible"
+indeterminate,"Result not clearly susceptible or resistant; may require repeat testing or additional methods","Indeterminate, Repeat Test"
+NA,"Susceptibility result not available, not tested, or not applicable",""
+
 
