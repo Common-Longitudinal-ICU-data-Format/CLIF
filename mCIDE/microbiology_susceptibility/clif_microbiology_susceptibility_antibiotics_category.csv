@@ -1,169 +1,168 @@
 antimicrobial_category,description,antimicrobial_name_examples
-actinomycin_d,,
-acyclovir,,
-amikacin,,
-amoxicillin,,
-amoxicillin_clavulanate,,
-amphotericin_b,,
-ampicillin,,
-ampicillin_sulbactam,,
-anidulafungin,,
-azithromycin,,
-aztreonam,,
-baloxavir_marboxil,,
-bedaquiline,,
-beta_lactams,,
-capreomycin,,
-caspofungin,,
-cefaclor,,
-cefadroxil,,
-cefamandole,,
-cefazolin,,
-cefdinir,,
-cefditoren,,
-cefepime,,
-cefiderocol,,
-cefixime,,
-cefmetazole,,
-cefonicid,,
-cefoperazone,,
-cefotaxime,,
-cefotetan,,
-cefoxitin,,
-cefpodoxime,,
-cefprozil,,
-ceftaroline,,
-ceftazidime,,
-ceftazidime_avibactam,,
-ceftazidime_clavulanate,,
-ceftibuten,,
-ceftizoxime,,
-ceftolozane_tazobactam,,
-ceftriaxone,,
-cefuroxime,,
-cephalexin,,
-cephalothin,,
-cephapirin,,
-cephradine,,
-chloramphenicol,,
-ciclopirox,,
-cidofovir,,
-cinoxacin,,
-ciprofloxacin,,
-clarithromycin,,
-clindamycin,,
-clofazimine,,
-clotrimazole,,
-cloxacillin,,
-colistin,,
-cycloserine,,
-dalbavancin,,
-daptomycin,,
-delamanid,,
-dicloxacillin,,
-dolutegravir,,
-doripenem,,
-doxycycline,,
-efavirenz,,
-efinaconazole,,
-emtricitabine,,
-entecavir,,
-ertapenem,,
-erythromycin,,
-ethambutol,,
-ethionamide,,
-famciclovir,,
-fidaxomicin,,
-fluconazole,,
-flucytosine,,
-foscarnet,,
-fosfomycin,,
-fosmidomycin,,
-fusidic_acid,,
-ganciclovir,,
-gatifloxacin,,
-gentamicin,,
-glecaprevir,,
-griseofulvin,,
-imipenem,,
-isavuconazole,,
-isavuconazonium,,
-isoniazid ,,
-itraconazole,,
-kanamycin,,
-ketoconazole,,
-lamivudine,,
-ledipasvir,,
-levofloxacin,,
-lincomycin,,
-linezolid,,
-lopinavir,,
-macrolides,,
-meropenem,,
-meropenem_vaborbactam,,
-methicillin,,
-metronidazole,,
-mezlocillin,,
-micafungin,,
-miconazole,,
-minocycline,,
-moxalactam,,
-moxifloxacin,,
-mupirocin,,
-nafcillin,,
-nitrofurantoin,,
-norfloxacin,,
-nystatin,,
-ofloxacin,,
-oritavancin,,
-oseltamivir,,
-oxacillin,,
-para_aminosalicylic_acid,,
-penicillin,,
-peramivir,,
-pibrentasvir,,
-piperacillin,,
-piperacillin_tazobactam,,
-pivampicillin,,
-polymyxin_b,,
-posaconazole,,
-pretomanid,,
-pristinamycin,,
-pyrazinamide,,
-quinupristin_dalfopristin,,
-raltegravir,,
-ribavirin,,
-rifabutin,,
-rifampin,,
-rifapentine,,
-ritonavir,,
-roxithromycin,,
-sofosbuvir,,
-spectinomycin,,
-streptomycin,,
-sulfadiazine,,
-sulfamethoxazole,,
-sulfisoxazole,,
-tavaborole,,
-tedizolid,,
-telavancin,,
-telithromycin,,
-temocillin,,
-tenofovir,,
-terbinafine,,
-tetracycline,,
-ticarcillin,,
-ticarcillin_clavulanate,,
-tigecycline,,
-tobramycin,,
-trimethoprim,,
-trimethoprim_sulfamethoxazole,,
-tylosin,,
-valacyclovir,,
-valganciclovir,,
-vancomycin,,
-velpatasvir,,
-voriconazole,,
-voriconazole,,
-zanamivir,,
-zidovudine,,
+actinomycin_d,antibiotic,Actinomycin D; Cosmegen; Dactinomycin
+acyclovir,antiviral,Acyclovir; Zovirax; ACV
+amikacin,antibiotic,Amikacin; Amikin; AMK
+amoxicillin,antibiotic,Amoxicillin; Amoxil; Trimox; AMX
+amoxicillin_clavulanate,antibiotic,Augmentin; Amoxicillin-Clavulanate; AMC; Amox-Clav
+amphotericin_b,antifungal,Amphotericin B; Fungizone; AmB; Ampho B
+ampicillin,antibiotic,Ampicillin; Principen; AMP
+ampicillin_sulbactam,antibiotic,Unasyn; Ampicillin-Sulbactam; AMP-SUL; Amp/Sulb
+anidulafungin,antifungal,Anidulafungin; Eraxis; ANI
+azithromycin,antibiotic,Azithromycin; Zithromax; Z-Pak; AZM
+aztreonam,antibiotic,Aztreonam; Azactam; Cayston; ATM
+baloxavir_marboxil,antiviral,Baloxavir; Xofluza; BAL
+bedaquiline,antibiotic,Bedaquiline; Sirturo; BDQ
+beta_lactams,antibiotic,Beta-lactam; Œ≤-lactam; Penicillins; Cephalosporins
+capreomycin,antibiotic,Capreomycin; Capastat; CAP
+caspofungin,antifungal,Caspofungin; Cancidas; CAS
+cefaclor,antibiotic,Cefaclor; Ceclor; CEC
+cefadroxil,antibiotic,Cefadroxil; Duricef; CFR
+cefamandole,antibiotic,Cefamandole; Mandol; MAD
+cefazolin,antibiotic,Cefazolin; Ancef; Kefzol; CFZ; CZ
+cefdinir,antibiotic,Cefdinir; Omnicef; CDR
+cefditoren,antibiotic,Cefditoren; Spectracef; CDN
+cefepime,antibiotic,Cefepime; Maxipime; FEP; CPM
+cefiderocol,antibiotic,Cefiderocol; Fetroja; FDC
+cefixime,antibiotic,Cefixime; Suprax; CFM
+cefmetazole,antibiotic,Cefmetazole; Zefazone; CMZ
+cefonicid,antibiotic,Cefonicid; Monocid; CID
+cefoperazone,antibiotic,Cefoperazone; Cefobid; CFP
+cefotaxime,antibiotic,Cefotaxime; Claforan; CTX
+cefotetan,antibiotic,Cefotetan; Cefotan; CTT
+cefoxitin,antibiotic,Cefoxitin; Mefoxin; FOX
+cefpodoxime,antibiotic,Cefpodoxime; Vantin; CPD
+cefprozil,antibiotic,Cefprozil; Cefzil; CPR
+ceftaroline,antibiotic,Ceftaroline; Teflaro; CPT
+ceftazidime,antibiotic,Ceftazidime; Fortaz; Tazicef; CAZ
+ceftazidime_avibactam,antibiotic,Avycaz; Ceftazidime-Avibactam; CAZ-AVI; CZA
+ceftazidime_clavulanate,antibiotic,Ceftazidime-Clavulanate; CAZ-CLA
+ceftibuten,antibiotic,Ceftibuten; Cedax; CTB
+ceftizoxime,antibiotic,Ceftizoxime; Cefizox; ZOX
+ceftolozane_tazobactam,antibiotic,Zerbaxa; Ceftolozane-Tazobactam; C/T; CTZ
+ceftriaxone,antibiotic,Ceftriaxone; Rocephin; CRO; CTX
+cefuroxime,antibiotic,Cefuroxime; Zinacef; Ceftin; CXM
+cephalexin,antibiotic,Cephalexin; Keflex; CEP; CN
+cephalothin,antibiotic,Cephalothin; Keflin; CF
+cephapirin,antibiotic,Cephapirin; Cefadyl; HA
+cephradine,antibiotic,Cephradine; Velosef; CH
+chloramphenicol,antibiotic,Chloramphenicol; Chloromycetin; C; CHL
+ciclopirox,antifungal,Ciclopirox; Loprox; Penlac; CPX
+cidofovir,antiviral,Cidofovir; Vistide; CDV
+cinoxacin,antibiotic,Cinoxacin; Cinobac; CIN
+ciprofloxacin,antibiotic,Ciprofloxacin; Cipro; CIP
+clarithromycin,antibiotic,Clarithromycin; Biaxin; CLR
+clindamycin,antibiotic,Clindamycin; Cleocin; CC; CLI
+clofazimine,antibiotic,Clofazimine; Lamprene; CFZ
+clotrimazole,antifungal,Clotrimazole; Lotrimin; Mycelex; CTZ
+cloxacillin,antibiotic,Cloxacillin; Tegopen; CLO
+colistin,antibiotic,Colistin; Polymyxin E; COL; CT
+cycloserine,antibiotic,Cycloserine; Seromycin; CS
+dalbavancin,antibiotic,Dalbavancin; Dalvance; DAL
+daptomycin,antibiotic,Daptomycin; Cubicin; DAP
+delamanid,antibiotic,Delamanid; Deltyba; DLM
+dicloxacillin,antibiotic,Dicloxacillin; Dynapen; Dycill; DCX
+dolutegravir,antiviral,Dolutegravir; Tivicay; DTG
+doripenem,antibiotic,Doripenem; Doribax; DOR
+doxycycline,antibiotic,Doxycycline; Vibramycin; Doxy; DO
+efavirenz,antiviral,Efavirenz; Sustiva; EFV
+efinaconazole,antifungal,Efinaconazole; Jublia; EFN
+emtricitabine,antiviral,Emtricitabine; Emtriva; FTC
+entecavir,antiviral,Entecavir; Baraclude; ETV
+ertapenem,antibiotic,Ertapenem; Invanz; ETP
+erythromycin,antibiotic,Erythromycin; Ery-Tab; E; ERY
+ethambutol,antibiotic,Ethambutol; Myambutol; EMB
+ethionamide,antibiotic,Ethionamide; Trecator; ETA
+famciclovir,antiviral,Famciclovir; Famvir; FAM
+fidaxomicin,antibiotic,Fidaxomicin; Dificid; FDX
+fluconazole,antifungal,Fluconazole; Diflucan; FLC; FLU
+flucytosine,antifungal,Flucytosine; Ancobon; 5-FC
+foscarnet,antiviral,Foscarnet; Foscavir; FOS; PFA
+fosfomycin,antibiotic,Fosfomycin; Monurol; FOS
+fosmidomycin,antibiotic,Fosmidomycin; FSM
+fusidic_acid,antibiotic,Fusidic Acid; Fucidin; FA
+ganciclovir,antiviral,Ganciclovir; Cytovene; GCV
+gatifloxacin,antibiotic,Gatifloxacin; Tequin; GAT
+gentamicin,antibiotic,Gentamicin; Garamycin; GM; GEN
+glecaprevir,antiviral,Glecaprevir; Mavyret; GLE
+griseofulvin,antifungal,Griseofulvin; Grifulvin; Gris-PEG
+imipenem,antibiotic,Imipenem; Primaxin; IMI; IPM
+isavuconazole,antifungal,Isavuconazole; Cresemba; ISA
+isavuconazonium,antifungal,Isavuconazonium; Cresemba; ISAV
+isoniazid,antibiotic,Isoniazid; INH; Nydrazid
+itraconazole,antifungal,Itraconazole; Sporanox; ITR; ITZ
+kanamycin,antibiotic,Kanamycin; Kantrex; K; KAN
+ketoconazole,antifungal,Ketoconazole; Nizoral; KTZ
+lamivudine,antiviral,Lamivudine; Epivir; 3TC
+ledipasvir,antiviral,Ledipasvir; Harvoni; LDV
+levofloxacin,antibiotic,Levofloxacin; Levaquin; LVX; LEV
+lincomycin,antibiotic,Lincomycin; Lincocin; LCM
+linezolid,antibiotic,Linezolid; Zyvox; LNZ; LZD
+lopinavir,antiviral,Lopinavir; Kaletra; LPV
+macrolides,antibiotic,Macrolide; Erythromycin; Azithromycin; Clarithromycin
+meropenem,antibiotic,Meropenem; Merrem; MEM; MER
+meropenem_vaborbactam,antibiotic,Vabomere; Meropenem-Vaborbactam; MEV
+methicillin,antibiotic,Methicillin; Staphcillin; MET
+metronidazole,antibiotic,Metronidazole; Flagyl; MTZ; MET
+mezlocillin,antibiotic,Mezlocillin; Mezlin; MEZ
+micafungin,antifungal,Micafungin; Mycamine; MFG
+miconazole,antifungal,Miconazole; Monistat; Micatin; MCZ
+minocycline,antibiotic,Minocycline; Minocin; MH; MIN
+moxalactam,antibiotic,Moxalactam; Moxam; MOX
+moxifloxacin,antibiotic,Moxifloxacin; Avelox; MXF
+mupirocin,antibiotic,Mupirocin; Bactroban; MUP
+nafcillin,antibiotic,Nafcillin; Unipen; NAF; NF
+nitrofurantoin,antibiotic,Nitrofurantoin; Macrobid; Macrodantin; F
+norfloxacin,antibiotic,Norfloxacin; Noroxin; NOR
+nystatin,antifungal,Nystatin; Mycostatin; NYS
+ofloxacin,antibiotic,Ofloxacin; Floxin; OFX
+oritavancin,antibiotic,Oritavancin; Orbactiv; ORI
+oseltamivir,antiviral,Oseltamivir; Tamiflu; OSE
+oxacillin,antibiotic,Oxacillin; Bactocill; OX
+para_aminosalicylic_acid,antibiotic,PAS; Para-aminosalicylic Acid; Paser
+penicillin,antibiotic,Penicillin; Pen G; PCN; P
+peramivir,antiviral,Peramivir; Rapivab; PER
+pibrentasvir,antiviral,Pibrentasvir; Mavyret; PIB
+piperacillin,antibiotic,Piperacillin; Pipracil; PIP
+piperacillin_tazobactam,antibiotic,Zosyn; Piperacillin-Tazobactam; TZP; Pip-Tazo
+pivampicillin,antibiotic,Pivampicillin; Pondocillin; PIV
+polymyxin_b,antibiotic,Polymyxin B; Poly-Rx; PB
+posaconazole,antifungal,Posaconazole; Noxafil; POS
+pretomanid,antibiotic,Pretomanid; Pretomanide; Pa
+pristinamycin,antibiotic,Pristinamycin; Pyostacine; PRI
+pyrazinamide,antibiotic,Pyrazinamide; PZA; Z
+quinupristin_dalfopristin,antibiotic,Synercid; Quinupristin-Dalfopristin; Q-D
+raltegravir,antiviral,Raltegravir; Isentress; RAL
+ribavirin,antiviral,Ribavirin; Virazole; Rebetol; RBV
+rifabutin,antibiotic,Rifabutin; Mycobutin; RFB
+rifampin,antibiotic,Rifampin; Rifadin; RIF; R
+rifapentine,antibiotic,Rifapentine; Priftin; RPT
+ritonavir,antiviral,Ritonavir; Norvir; RTV
+roxithromycin,antibiotic,Roxithromycin; Rulid; RXT
+sofosbuvir,antiviral,Sofosbuvir; Sovaldi; SOF
+spectinomycin,antibiotic,Spectinomycin; Trobicin; SPT
+streptomycin,antibiotic,Streptomycin; S; SM; STR
+sulfadiazine,antibiotic,Sulfadiazine; SDZ
+sulfamethoxazole,antibiotic,Sulfamethoxazole; SMX; SMZ
+sulfisoxazole,antibiotic,Sulfisoxazole; Gantrisin; SXT
+tavaborole,antifungal,Tavaborole; Kerydin; TVB
+tedizolid,antibiotic,Tedizolid; Sivextro; TZD
+telavancin,antibiotic,Telavancin; Vibativ; TLV
+telithromycin,antibiotic,Telithromycin; Ketek; TEL
+temocillin,antibiotic,Temocillin; Negaban; TEM
+tenofovir,antiviral,Tenofovir; Viread; TDF; TFV
+terbinafine,antifungal,Terbinafine; Lamisil; TRB
+tetracycline,antibiotic,Tetracycline; Sumycin; TE; TET
+ticarcillin,antibiotic,Ticarcillin; Ticar; TIC
+ticarcillin_clavulanate,antibiotic,Timentin; Ticarcillin-Clavulanate; TIM
+tigecycline,antibiotic,Tigecycline; Tygacil; TGC
+tobramycin,antibiotic,Tobramycin; Nebcin; Tobi; TM; TOB
+trimethoprim,antibiotic,Trimethoprim; Proloprim; TMP; W
+trimethoprim_sulfamethoxazole,antibiotic,Bactrim; Septra; TMP-SMX; Cotrimoxazole; SXT
+tylosin,antibiotic,Tylosin; TYL
+valacyclovir,antiviral,Valacyclovir; Valtrex; VACV
+valganciclovir,antiviral,Valganciclovir; Valcyte; VGCV
+vancomycin,antibiotic,Vancomycin; Vancocin; VA; VAN
+velpatasvir,antiviral,Velpatasvir; Epclusa; VEL
+voriconazole,antifungal,Voriconazole; Vfend; VOR; VRC
+zanamivir,antiviral,Zanamivir; Relenza; ZAN
+zidovudine,antiviral,Zidovudine; Retrovir; AZT; ZDV
