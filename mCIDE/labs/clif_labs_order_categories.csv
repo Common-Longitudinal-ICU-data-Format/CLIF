@@ -1,54 +1,7 @@
-lab_category,description,lab_name_examples,lab_order_category
-pco2_arterial,includes abg/vbg/mixed venous/etc,,blood_gas
-po2_arterial,includes abg/vbg/mixed venous/etc,,blood_gas
-pco2_venous,includes abg/vbg/mixed venous/etc,,blood_gas
-ph_arterial,includes abg/vbg/mixed venous/etc,,blood_gas
-ph_venous,includes abg/vbg/mixed venous/etc,,blood_gas
-so2_arterial,includes abg/vbg/mixed venous/etc,,blood_gas
-so2_mixed_venous,includes abg/vbg/mixed venous/etc,,blood_gas
-so2_central_venous,includes abg/vbg/mixed venous/etc,,blood_gas
-bicarbonate,,,bmp
-bun,,,bmp
-chloride,,,bmp
-calcium_total,,,bmp
-creatinine,,,bmp
-glucose_serum,,,bmp
-potassium,,,bmp
-sodium,,,bmp
-basophils_percent,,,cbc
-basophils_absolute,,,cbc
-eosinophils_percent,,,cbc
-eosinophils_absolute,,,cbc
-hemoglobin,,,cbc
-lymphocytes_percent,,,cbc
-lymphocytes_absolute,,,cbc
-monocytes_percent,,,cbc
-monocytes_absolute,,,cbc
-neutrophils_percent,,,cbc
-neutrophils_absolute,,,cbc
-platelet_count,,,cbc
-wbc,,,cbc
-inr,,,coags
-pt,,,coags
-ptt,,,coags
-albumin,,,lft
-alkaline_phosphatase,,,lft
-alt,,,lft
-ast,,,lft
-bilirubin_total,,,lft
-bilirubin_conjugated,,,lft
-bilirubin_unconjugated,,,lft
-total_protein,,,lft
-calcium_ionized,includes lactate,,misc
-crp,includes lactate,,misc
-esr,includes lactate,,misc
-ferritin,includes lactate,,misc
-lactate,includes lactate,,misc
-ldh,includes lactate,,misc
-procalcitonin,includes lactate,,misc
-troponin_i,includes lactate,,misc
-troponin_t,includes lactate,,misc
-glucose_fingerstick,includes lactate,,misc
-phosphate,includes lactate,,misc
-magnesium,includes lactate,,misc
-
+lab_order_category,description,example labs
+blood_gas,includes abg/vbg/mixed venous/etc,"pCO2, pO2, pH"
+bmp,Basic Metabolic Panel,"sodium, potassium, chloride"
+cbc,Complete Blood Count,"WBC, hemoglobin, platelets"
+coags,Coagulation studies,"PT, PTT, INR"
+lft,Liver Function Tests,"AST, ALT, alkaline phosphatase"
+misc,includes lactate,"CRP, ESR, ferritin"
