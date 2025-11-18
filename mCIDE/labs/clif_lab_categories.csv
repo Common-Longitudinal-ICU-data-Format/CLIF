@@ -1,53 +1,53 @@
-lab_category,reference_unit,description
-albumin,g/dL,
-alkaline_phosphatase,U/L,corrected from 'phosphate'
-alt,U/L,
-ast,U/L,
-basophils_percent,%,fixed a typo
-basophils_absolute,10^3/µL,fixed a typo
-bicarbonate,mmol/L,bicarbonate from BMP (sometimes reported out as CO2) not from ABG/VBG
-bilirubin_total,mg/dL,
-bilirubin_conjugated,mg/dL,
-bilirubin_unconjugated,mg/dL,
-bun,mg/dL,
-calcium_total,mg/dL,
-calcium_ionized,mg/dL,
-chloride,mmol/L,
-creatinine,mg/dL,
-crp,mg/L,
-eosinophils_percent,%,made plural
-eosinophils_absolute,10^3/µL,made plural
-esr,mm/hour,
-ferritin,ng/mL,
-glucose_fingerstick,mg/dL,
-glucose_serum,mg/dL,
-hemoglobin,g/dL,
-phosphate,mg/dL,sometimes called 'phosphorus' in the EHR
-inr,(no units),
-lactate,mmol/L,
-ldh,U/L,
-lymphocytes_percent,%,
-lymphocytes_absolute,10^3/µL,
-magnesium,mg/dL,
-monocytes_percent,%,
-monocytes_absolute,10^3/µL,
-neutrophils_percent,%,
-neutrophils_absolute,10^3/µL,
-pco2_arterial,mmHg,
-po2_arterial,mmHg,
-pco2_venous,mmHg,
-ph_arterial,(no units),
-ph_venous,(no units),
-platelet_count,10^3/µL,
-potassium,mmol/L,
-procalcitonin,ng/mL,
-pt,sec,
-ptt,sec,
-so2_arterial,%,
-so2_mixed_venous,%,
-so2_central_venous,%,
-sodium,mmol/L,
-total_protein,g/dL,
-troponin_i,ng/L,
-troponin_t,ng/L,
-wbc,10^3/µL,
+lab_category,reference_unit,description,lab_name_type_examples
+albumin,g/dL,,"ALBUMIN, ALB, SERUM ALBUMIN"
+alkaline_phosphatase,U/L,corrected from 'phosphate',"ALP, ALKALINE PHOS, ALK PHOS, ALKP"
+alt,U/L,,"ALT, SGPT, ALANINE TRANSAMINASE"
+ast,U/L,,"AST, SGOT, ASPARTATE TRANSAMINASE"
+basophils_percent,%,fixed a typo,"BASO%, BASOPHILS %, BASO PERCENT"
+basophils_absolute,10^3/µL,fixed a typo,"BASO#, BASOPHILS ABS, BASO ABSOLUTE"
+bicarbonate,mmol/L,bicarbonate from BMP (sometimes reported out as CO2) not from ABG/VBG,"CO2, HCO3, BICARB, CARBON DIOXIDE"
+bilirubin_total,mg/dL,,"TBILI, TOTAL BILI, BILIRUBIN TOTAL"
+bilirubin_conjugated,mg/dL,,"DBILI, DIRECT BILI, CONJUGATED BILI"
+bilirubin_unconjugated,mg/dL,,"INDIRECT BILI, UNCONJUGATED BILI, IBILI"
+bun,mg/dL,,"BUN, UREA NITROGEN, BLOOD UREA"
+calcium_total,mg/dL,,"CA, CALCIUM, TOTAL CALCIUM, SERUM CA"
+calcium_ionized,mg/dL,,"IONIZED CA, ICA, FREE CALCIUM"
+chloride,mmol/L,,"CL, CHLORIDE, SERUM CHLORIDE"
+creatinine,mg/dL,,"CR, CREAT, SERUM CREATININE"
+crp,mg/L,,"CRP, C-REACTIVE PROTEIN, HS-CRP"
+eosinophils_percent,%,made plural,"EOS%, EOSINOPHILS %, EO PERCENT"
+eosinophils_absolute,10^3/µL,made plural,"EOS#, EOSINOPHILS ABS, EO ABSOLUTE"
+esr,mm/hour,,"ESR, SED RATE, SEDIMENTATION RATE"
+ferritin,ng/mL,,"FERRITIN, SERUM FERRITIN, FERR"
+glucose_fingerstick,mg/dL,,"POC GLUCOSE, FINGERSTICK GLUCOSE, ACCUCHECK, BEDSIDE GLUCOSE"
+glucose_serum,mg/dL,,"GLUCOSE, SERUM GLUCOSE, BLOOD GLUCOSE, GLU"
+hemoglobin,g/dL,,"HGB, HB, HEMOGLOBIN"
+phosphate,mg/dL,sometimes called 'phosphorus' in the EHR,"PHOS, PHOSPHORUS, PHOSPHATE, SERUM PHOS"
+inr,(no units),,"INR, INTERNATIONAL NORMALIZED RATIO"
+lactate,mmol/L,,"LACTATE, LACTIC ACID, LAC"
+ldh,U/L,,"LDH, LD, LACTATE DEHYDROGENASE"
+lymphocytes_percent,%,,"LYMPH%, LYMPHOCYTES %, LYMPH PERCENT"
+lymphocytes_absolute,10^3/µL,,"LYMPH#, LYMPHOCYTES ABS, LYMPH ABSOLUTE"
+magnesium,mg/dL,,"MG, MAGNESIUM, SERUM MG"
+monocytes_percent,%,,"MONO%, MONOCYTES %, MONO PERCENT"
+monocytes_absolute,10^3/µL,,"MONO#, MONOCYTES ABS, MONO ABSOLUTE"
+neutrophils_percent,%,,"NEUT%, NEUTROPHILS %, NEUT PERCENT, PMN%"
+neutrophils_absolute,10^3/µL,,"NEUT#, ANC, NEUTROPHILS ABS, PMN#"
+pco2_arterial,mmHg,,"PACO2, ARTERIAL PCO2, ABG PCO2"
+po2_arterial,mmHg,,"PAO2, ARTERIAL PO2, ABG PO2"
+pco2_venous,mmHg,,"PVCO2, VENOUS PCO2, VBG PCO2"
+ph_arterial,(no units),,"ABG PH, ARTERIAL PH, BLOOD PH"
+ph_venous,(no units),,"VBG PH, VENOUS PH"
+platelet_count,10^3/µL,,"PLT, PLATELETS, PLATELET COUNT"
+potassium,mmol/L,,"K, POTASSIUM, SERUM K"
+procalcitonin,ng/mL,,"PCT, PROCALCITONIN, PRO-CALCITONIN"
+pt,sec,,"PT, PROTIME, PROTHROMBIN TIME"
+ptt,sec,,"PTT, APTT, ACTIVATED PTT"
+so2_arterial,%,,"SAO2, ARTERIAL SAT, ABG O2 SAT"
+so2_mixed_venous,%,,"SVO2, MIXED VENOUS SAT, SVMVO2"
+so2_central_venous,%,,"SCVO2, CENTRAL VENOUS SAT"
+sodium,mmol/L,,"NA, SODIUM, SERUM NA"
+total_protein,g/dL,,"TP, TOTAL PROTEIN, SERUM PROTEIN"
+troponin_i,ng/L,,"TROP I, TROPONIN I, TNI"
+troponin_t,ng/L,,"TROP T, TROPONIN T, TNT"
+wbc,10^3/µL,,"WBC, WHITE BLOOD CELL, LEUKOCYTES"
