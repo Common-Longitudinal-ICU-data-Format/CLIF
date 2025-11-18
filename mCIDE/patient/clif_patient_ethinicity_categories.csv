@@ -1,7 +1,8 @@
 ethnicity_category,description,ethnicity_name_examples
-Hispanic,Patient identifies as Hispanic or Latino origin,"Hispanic, Latino"
-Non-Hispanic,Patient does not identify as Hispanic or Latino,"Non-Hispanic, Not Hispanic or Latino"
+Hispanic,,"Hispanic, Latino"
+Non-Hispanic,,"Non-Hispanic, Not Hispanic or Latino"
 Unknown,Not documented or patient declined to answer,""
+
 
 
 
