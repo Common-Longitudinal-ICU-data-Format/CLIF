@@ -1,8 +1,9 @@
 race_category,description,race_name_examples
-Black or African American,,
-White,,
-American Indian or Alaska Native,,
-Asian,,
-Native Hawaiian or Other Pacific Islander,,
-Unknown,,
-Other,,
+Black or African American,,"Black, African American"
+White,,"White, Caucasian"
+American Indian or Alaska Native,,"American Indian, Alaskan Native"
+Asian,,"Asian, Chinese"
+Native Hawaiian or Other Pacific Islander,,"Samoan, Fijian"
+Unknown,Race not documented or patient declined to answer,
+Other,Race documented but does not fit standard categories,"Multiracial, Mixed"
+
