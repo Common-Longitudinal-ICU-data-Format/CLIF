@@ -1,3 +1,4 @@
 position_category,description,position_name_examples
-prone,Patient positioned lying face down on abdomen,"Face Down, Prone Positioning for ARDS, Prone Ventilation"
-not_prone,Patient positioned in any position other than prone,"Supine, Semi-Fowler's, Trendelenburg"
+prone,Patient positioned lying face down on abdomen,"Face Down, Prone Positioning for ARDS, Prone Ventilation", "Swimming Position"
+not_prone,Patient positioned in any position other than prone,"Supine, Semi-Fowler's"
+
