@@ -1,13 +1,14 @@
 vital_category,description,vital_name_examples
-temp_c,"Body temperature in degrees Celsius, measured via any clinical method (oral, axillary, tympanic, rectal, or core). The measurement site or device type should be indicated in meas_site_name.",
-heart_rate,"Heart rate in beats per minute (bpm), obtained from monitor, pulse oximeter, or manual palpation.",
-sbp,"Systolic blood pressure. Can include both invasive (arterial line) and non-invasive (cuff) measurements; specify in meas_site_name.",
-dbp,"Diastolic blood pressure. Can include both invasive (arterial line) and non-invasive (cuff) measurements; specify in meas_site_name.",
-spo2,"Peripheral oxygen saturation (%), typically measured by pulse oximetry.",
-respiratory_rate,"Number of breaths per minute, either manually counted or obtained from a monitor.",
-map,"Can include both invasive (arterial line) and non-invasive (cuff) measurements. Source type should be indicated in meas_site_name.",
-height_cm,"Patient’s height in centimeters, measured or recorded at admission or encounter.",
-weight_kg,"Patient’s weight in kilograms, measured or recorded at admission or encounter.",
+temp_c,"Body temperature in degrees Celsius, measured via any clinical method (oral, axillary, tympanic, rectal, or core). The measurement site or device type should be indicated in meas_site_name.","Temperature (C), Temp celsius"
+heart_rate,"Heart rate in beats per minute (bpm), obtained from monitor, pulse oximeter, or manual palpation.","heart rate"
+sbp,"Systolic blood pressure. Can include both invasive (arterial line) and non-invasive (cuff) measurements; specify in meas_site_name.","blood pressure, blood pressure SBP"
+dbp,"Diastolic blood pressure. Can include both invasive (arterial line) and non-invasive (cuff) measurements; specify in meas_site_name.","blood pressure, blood pressure DBP"
+spo2,"Peripheral oxygen saturation (%), typically measured by pulse oximetry.","spO2"
+respiratory_rate,"Number of breaths per minute, either manually counted or obtained from a monitor.","respiratory rate"
+map,"Can include both invasive (arterial line) and non-invasive (cuff) measurements. Source type should be indicated in meas_site_name.","MAP, Mean arterial pressure"
+height_cm,"Patient’s height in centimeters, measured or recorded at admission or encounter.","Height, Ht"
+weight_kg,"Patient’s weight in kilograms, measured or recorded at admission or encounter.","Weight, Wt"
+
 
 
 
