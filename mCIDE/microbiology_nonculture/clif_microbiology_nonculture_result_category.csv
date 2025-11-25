@@ -1,6 +1,7 @@
 result_category,description,result_name_examples
 detected,,"Positive, Detected"
 not_detected,,"Negative, Not detected"
-indeterminate,"Test result is inconclusive due to technical issues or assay limitations","'Invalid. A new specimen should be obtained if clinically indicated.','Unable to perform assay due to presence of amplification inhibitors.'"
+indeterminate,"Test result is inconclusive due to technical issues or assay limitations","Invalid. A new specimen should be obtained if clinically indicated.,Unable to perform assay due to presence of amplification inhibitors."
+
 
 
