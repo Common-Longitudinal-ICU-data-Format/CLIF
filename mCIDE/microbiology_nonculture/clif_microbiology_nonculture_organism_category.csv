@@ -1,6 +1,7 @@
 organism_category,description,micro_order_name_examples,organism_group
 clostridium_difficile,"Bacterial pathogen causing gastrointestinal infection","C. DIFFICILE PCR, SCREENIN",clostridium_difficile
 sars_cov2,"COVID-19","SARS-COV-2 (COVID-19), SARS-COV-2 (COVID-19) QUALITATIVE PCR (NAAT)",viral_other
-respiratory_syncytial_virus,"Respiratory virus causing infections","INFLUENZA & RSV PCR (NAAT)",respiratory_syncytial_virus
+respiratory_syncytial_virus,"Respiratory virus causing infections","INFLUENZA & RSV PCR (NAAT), RESPIRATORY PANEL PCR (NAAT)",respiratory_syncytial_virus
+
 
 
