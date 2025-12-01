@@ -1,45 +1,45 @@
-fluid_category,description (NIH CDE Category),fluid_name_examples
-blood_buffy,Blood/Buffy Coat,"AFB/FUNGAL BLOOD CULTURE, CULTURE BLOOD BANK"
-bone_cortex,Bone Cortex (Osteomyelitis),
-bone_marrow,Bone Marrow,CULTURE BONE MARROW
-brain,Brain,
-cardiac,"Cardiac (Endocardium, Myocardium, Pericardium)",PERICARDIAL EFFUSION
-catheter_tip,Catheter Tip,CULTURE CATHETER TIP
-central_nervous_system,Central Nervous System Unspecified,
-ears,Ears,CULTURE FUNGAL EAR
-esophagus,Esophagus,
-eyes,Eyes,"CULTURE, FUNGAL EYE"
-fallopians_uterus_cervix,"Fallopian Tubes, Uterus, Cervix",
-feces_stool,Feces/Stool,ENTEROCOCCUS VA R SCREEN
-gallbladder_billary_pancreas,"Gallbladder and Billary Tree (Not Hepatitis), Pancreas",
-gastrointestinal_tract ,Gastrointestinal Tract Unspecified,RECTAL SWAB 
-genital_area,Genital Area,"TRICHOMONAS VAGINALIS ASSAY, ENDOCERVICAL"
-genito_urinary_tract,Genito-Urinary Tract Unspecified,CULTURE URINE
-joints ,Joints,
-kidneys_renal_pelvis_ureters_bladder,"Kidneys, Renal Pelvis, Ureters and Bladder",
-large_intestine,Large Intestine,
-larynx,Larynx,
-lips,Lips,
-liver,Liver,
-lymph_nodes,Lymph Nodes,
-meninges_csf,Meninges and CSF,"CULTURE & STAIN, CSF"
-muscle,Muscle (Excluding Cardiac),
-nasopharynx_upperairway,Upper Airway and Nasopharynx,CULTURE NASAL
-oropharynx_tongue_oralcavity,"Tongue, Oral Cavity, and Oro-Pharynx",CULTURE FUNGAL THROAT
-other_unspecified ,Other Unspecified,
-peritoneum,Peritoneum,
-pleural_cavity_fluid,"Pleural Cavity, Pleural Fluid",
-prostate,Prostate,
-respiratory_tract,Respiratory Tract Unspecified,"HP CULTURE & STAIN, RESPIRATORY"
-respiratory_tract_lower,Lower Respiratory Tract (Lung),
-sinuses,Sinuses,
-skin_disseminated_multiple_sites,"Disseminated - Generalized, Isolated at 2 or More Distinct Sites",
-skin_rash_pustules_abscesses,"Rash, Pustules, or Abscesses Not Typical of Any of the Above",
-skin_unspecified ,Skin Unspecified,
-small_intestine,Small Intestine,
-spinal_cord,Spinal Cord,
-spleen,Spleen,
-stomach,Stomach,
-testes,Testes,
-vagina,Vagina,
-woundsite,Woundsite,CULTURE & STAIN WOUND DRAINAGE
+fluid_category,NIH CDE Category ,description,fluid_name_examples
+blood_buffy,Blood/Buffy Coat,,"AFB/FUNGAL BLOOD CULTURE, CULTURE BLOOD BANK"
+bone_cortex,Bone Cortex (Osteomyelitis),,
+bone_marrow,Bone Marrow,,CULTURE BONE MARROW
+brain,Brain,,
+cardiac,"Cardiac (Endocardium, Myocardium, Pericardium)",Includes pericardial fluid ,PERICARDIAL EFFUSION
+catheter_tip,Catheter Tip,,CULTURE CATHETER TIP
+central_nervous_system,Central Nervous System Unspecified,"Does not fit into Brain, Meninges and CSF, or Spinal Cord ",
+ears,Ears,,CULTURE FUNGAL EAR
+esophagus,Esophagus,,
+eyes,Eyes,,"CULTURE, FUNGAL EYE"
+fallopians_uterus_cervix,"Fallopian Tubes, Uterus, Cervix",Surgical specimens or pap smears ,
+feces_stool,Feces/Stool,,ENTEROCOCCUS VA R SCREEN
+gallbladder_billary_pancreas,"Gallbladder and Billary Tree (Not Hepatitis), Pancreas",,
+gastrointestinal_tract ,Gastrointestinal Tract Unspecified,"Includes samples in the GI track that do not fall in gallbladder, biliary tree, pancreas, liver, spleen, stomach, small intestine, large intestine",RECTAL SWAB 
+genital_area,Genital Area,Excludes urinary samples. ,"TRICHOMONAS VAGINALIS ASSAY, ENDOCERVICAL"
+genito_urinary_tract,Genito-Urinary Tract Unspecified,"Includes samples obtained from urinary system non-invasively by spontaenous voiding, in-and-out cathether, foley, nephrostomy tubes, illeal conduit or indianna pouch",CULTURE URINE
+joints ,Joints,"Invasive sample from a joint, cartilage or synovial fluid. This excludes superficial samples of the skin, subcutaenous tissue and muscle surrounding the joint. ",
+kidneys_renal_pelvis_ureters_bladder,"Kidneys, Renal Pelvis, Ureters and Bladder","Sample obtained from urinary system invasively from the kidney, ureter, or bladder using methods such as renal aspiration, incision, biopsy, ureteroscopy, cytoscopy, washings, or a transurethral approach.   ",
+large_intestine,Large Intestine,,
+larynx,Larynx,Includes vocal cords ,
+lips,Lips,,
+liver,Liver,,
+lymph_nodes,Lymph Nodes,LN from any location in the body. This excludes respiratory cultures obtained with use of red rubber. ,
+meninges_csf,Meninges and CSF,,"CULTURE & STAIN, CSF"
+muscle,Muscle (Excluding Cardiac),,
+nasopharynx_upperairway,Upper Airway and Nasopharynx,"Nasal cavity and nasopharynx, includes respiratory viral swabs obtained by nasal swab ",CULTURE NASAL
+oropharynx_tongue_oralcavity,"Tongue, Oral Cavity, and Oro-Pharynx",,CULTURE FUNGAL THROAT
+other_unspecified ,Other Unspecified,Includes samples that do not categorise into any of the above. ,
+peritoneum,Peritoneum,Surgical specimens of the parietal or visceral peritoneum ,
+pleural_cavity_fluid,"Pleural Cavity, Pleural Fluid",,
+prostate,Prostate,,
+respiratory_tract,Respiratory Tract Unspecified,"Respiratory samples (1) spontaneously exporated or exporated with non-invasive assistance by the patient, (2) collected by a healthcare worker from below the vocal cords and above the carina, or (3) collected from an unknown location. This includes regular expectorated sputum samples, sputum by induction, endotracheal tube aspirates, tracheostomy aspirates and tracheal samples. ","HP CULTURE & STAIN, RESPIRATORY"
+respiratory_tract_lower,Lower Respiratory Tract (Lung),"Respiratory samples collected by healthcare worker from under the carina using invasive bronchoscopy or non invasive mini-BAL catheters. If a respiratory sample is obtained by bronchoscopy or mini-BAL above the carina (i.e., trachea), this should not be included here (see point 2 in ""respiratory track unspecified""). ",
+sinuses,Sinuses,,
+skin_disseminated_multiple_sites,"Disseminated - Generalized, Isolated at 2 or More Distinct Sites",,
+skin_rash_pustules_abscesses,"Rash, Pustules, or Abscesses Not Typical of Any of the Above",,
+skin_unspecified ,Skin Unspecified,,
+small_intestine,Small Intestine,,
+spinal_cord,Spinal Cord,,
+spleen,Spleen,,
+stomach,Stomach,,
+testes,Testes,,
+vagina,Vagina,,
+woundsite,Woundsite,Includes wounds that do not penetrate to bone. Includes excisions. Excludes osteomyletis. ,CULTURE & STAIN WOUND DRAINAGE
