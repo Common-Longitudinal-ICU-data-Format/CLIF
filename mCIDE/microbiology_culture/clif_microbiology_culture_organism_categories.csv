@@ -218,7 +218,7 @@ enterobacter_aerogenes,,enterobacter aerogenes
 enterobacter_amnigenus,,enterobacter amnigenus
 enterobacter_cancerogenus,,enterobacter cancerogenus
 enterobacter_cloacae,,"10,000 - 49,000 cfu/ml enterobacter cloacae complex, <1,000 cfu/ml enterobacter cloacae complex"
-enterobacter_sp,Enterobacter organism identified to the genus level only; species not further specified.,"enterobacter species are known to have inducible chromosomal ampc beta lactamase., enterobacter species"
+enterobacter_sp,Enterobacter organism identified to the genus level only; species not further specified.,"enterobacter species"
 enterococcus_avium,,"few enterococcus avium, enterococcus avium/raffinosus"
 enterococcus_casseliflavus,,"50,000 - 99,000 cfu/ml enterococcus casseliflavus, enterococcus casseliflavus"
 enterococcus_durans,,"enterococcus durans, many enterococcus durans"
@@ -541,4 +541,5 @@ weissella_confusa,,"rare weissella confusa, weissella confusa"
 weissella_sp,Weissella organism identified to the genus level only; species not further specified.,
 xanthomonas_sp,Xanthomonas organism identified to the genus level only; species not further specified.,xanthomonas species
 yeast,,"rare yeast, yeast"
+
 zygomycete_sp,Zygomycete organism identified to the genus level only; species not further specified.,"few zygomycete, zygomycete species"
