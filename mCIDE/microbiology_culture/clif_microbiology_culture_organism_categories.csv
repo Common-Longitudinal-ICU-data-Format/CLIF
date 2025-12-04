@@ -25,8 +25,8 @@ actinotignum_schaalii,,"actinotignum (actinobaculum) schaalii, many actinotignum
 actinotignum_sp,Actinotignum organism identified to the genus level only; species not further specified.,few actinotignum
 aerococcus_christensenii,,"10,000 - 49,000 cfu/ml aerococcus christensenii"
 aerococcus_sanguinicola,Common misspellings: aerococcus_sanguicola.,"isolated from broth only aerococcus sanguinicola, 10,000 - 49,000 cfu/ml aerococcus sanguinicola"
-aerococcus_sp,Aerococcus organism identified to the genus level only; species not further specified.,"1,000 - 10,000 cfu/ml aerococcus, >=100,000 cfu/ml aerococcus"
-aerococcus_urinae,Common misspellings: aerococcus_urinaie.,"1,000 - 10,000 cfu/ml aerococcus urinae, 10,000 - 49,000 cfu/ml aerococcus urinae"
+aerococcus_sp,Aerococcus organism identified to the genus level only; species not further specified.,">=100,000 cfu/ml aerococcus"
+aerococcus_urinae,Common misspellings: aerococcus_urinaie.,"1,000 - 10,000 cfu/ml aerococcus urinae"
 aerococcus_viridans,,"rare aerococcus viridans, aerococcus viridans"
 aeromonas_caviae,,"many aeromonas caviae, aeromonas caviae"
 aeromonas_hydrophila,,"aeromonas hydrophila/caviae, aeromonas hydrophila"
@@ -44,7 +44,7 @@ alloiococcus_otitis,,alloiococcus otitis
 alloiococcus_sp,Alloiococcus organism identified to the genus level only; species not further specified.,alloiococcus
 alternaria_alternata,,"rare alternaria alternata, alternaria alternata"
 alternaria_sp,Alternaria organism identified to the genus level only; species not further specified.,"alternaria, alternaria species"
-anaerobic_sp,Anaerobic organism identified to the genus level only; species not further specified.,"anaerobic gram positive non-sporeforming bacilli, four or more strains of anaerobic organisms present"
+anaerobic_sp,Anaerobic organism identified to the genus level only; species not further specified.,"anaerobic gram positive non-sporeforming bacilli, anaerobic organisms present"
 anaerococcus_sp,Anaerococcus organism identified to the genus level only; species not further specified.,"anaerococcus, rare anaerococcus"
 arcanobacterium_haemolyticum,,"arcanobacterium haemolyticum, many arcanobacterium haemolyticum"
 arthrobacter_cumminsii,,arthrobacter cumminsii
@@ -228,7 +228,7 @@ enterococcus_gallinarum,,"few enterococcus gallinarum, 1,000 - 10,000 cfu/ml ent
 enterococcus_hirae,,"enterococcus hirae, many enterococcus hirae"
 enterococcus_raffinosus,,"rare enterococcus raffinosus, few enterococcus raffinosus"
 enterococcus_saccharolyticus,,many peptostreptococcus asaccharolyticus
-enterococcus_sp,Enterococcus organism identified to the genus level only; species not further specified.,"10,000 - 49,000 cfu/ml vancomycin resistant enterococcus, vancomycin resistant enterococcus"
+enterococcus_sp,Enterococcus organism identified to the genus level only; species not further specified.,"vancomycin resistant enterococcus"
 epicoccum_sp,Epicoccum organism identified to the genus level only; species not further specified.,rare epicoccum
 erysipelothrix_rhusiopathiae,,erysipelothrix rhusiopathiae
 escherichia_coli,,"few escherichia coli, 1,000 - 10,000 cfu/ml multiple drug-resistant escherichia coli"
@@ -268,11 +268,11 @@ haemophilus_haemolyticus,,"haemophilus influenzae/haemolyticus, moderate haemoph
 haemophilus_influenzae,,"many haemophilus influenzae, rare haemophilus influenzae"
 haemophilus_parainfluenzae,,"rare haemophilus parainfluenzae, many haemophilus parainfluenzae"
 haemophilus_sp,Haemophilus organism identified to the genus level only; species not further specified.,haemophilus ducreyi isolated
-hafnia_alvei,,"moderate hafnia alvei, hafnia alvei has inducible chromosomal ampc beta-lactamase. monotherapy with beta lactam"
+hafnia_alvei,,"moderate hafnia alvei, hafnia alvei"
 hafnia_sp,Hafnia organism identified to the genus level only; species not further specified.,hafnia species
 histoplasma_capsulatum,,"few histoplasma capsulatum, many histoplasma capsulatum"
 kingella_denitrificans,,kingella denitrificans
-klebsiella_aerogenes,,"klebsiella aerogenes, klebsiella aerogenes (formerly enterobacter aerogenes) has an inducible chromosomal ampc"
+klebsiella_aerogenes,,"klebsiella aerogenes, klebsiella aerogenes (formerly enterobacter aerogenes)"
 klebsiella_oxytoca,,"klebsiella oxytoca, 50,000 - 99,000 cfu/ml klebsiella oxytoca"
 klebsiella_pneumoniae,,"10,000 - 49,000 cfu/ml klebsiella pneumoniae, many klebsiella pneumoniae"
 klebsiella_sp,Klebsiella organism identified to the genus level only; species not further specified.,klebsiella species
@@ -284,7 +284,7 @@ kocuria_sp,Kocuria organism identified to the genus level only; species not furt
 kodamaea_ohmeri,,kodamaea ohmeri
 lactobacillus_acidophilus,,lactobacillus acidophilus
 lactobacillus_fermentum,,lactobacillus fermentum
-lactobacillus_sp,Lactobacillus organism identified to the genus level only; species not further specified.,"isolated from broth only lactobacillus, many lactobacillus"
+lactobacillus_sp,Lactobacillus organism identified to the genus level only; species not further specified.,"many lactobacillus"
 lactococcus_sp,Lactococcus organism identified to the genus level only; species not further specified.,lactococcus species
 leclercia_adecarboxylata,,"rare leclercia adecarboxylata, 50,000 - 99,000 cfu/ml leclercia adecarboxylata"
 legionella_bozemanae,,legionella bozemanae
@@ -330,7 +330,7 @@ mycobacterium_marinum,,
 mycobacterium_mucogenicum,,"mycobacterium mucogenicum group, mycobacterium mucogenicum"
 mycobacterium_neoaurum,,mycobacterium neoaurum
 mycobacterium_paraffinicum,,mycobacterium paraffinicum
-mycobacterium_scrofulaceum,,"the mycobacterium scrofulaceum could be a laboratory contaminant. please correlate with, mycobacterium scrofulaceum"
+mycobacterium_scrofulaceum,,"mycobacterium scrofulaceum"
 mycobacterium_szulgai,,mycobacterium smegmatis
 mycobacterium_tuberculosis,,"mycobacterium tuberculosis complex, mycobacterium tuberculosis"
 mycobacterium_xenopi,,mycobacterium xenopi
@@ -348,7 +348,7 @@ nocardia_brasiliensis,,nocardia brasiliensis
 nocardia_cyriacigeorgica,,nocardia cyriacigeorgica
 nocardia_farcinica,,"nocardia farcinica, moderate nocardia farcinica"
 nocardia_nova,,
-nocardia_sp,Nocardia organism identified to the genus level only; species not further specified.,"nocardia species, nocardia sp. most closely resembles n. otitidiscaviarum"
+nocardia_sp,Nocardia organism identified to the genus level only; species not further specified.,"nocardia species"
 nocardia_thailandica,,nocardia thailandica
 nocardia_veterana,,nocardia veterana
 nocardia_wallacei,,nocardia wallacei
@@ -401,11 +401,11 @@ propionibacterium_granulosum,,"cutibacterium granulosum (formerly propionibacter
 propionibacterium_sp,Propionibacterium organism identified to the genus level only; species not further specified.,propionibacterium species
 proteus_mirabilis,,"1,000 - 10,000 cfu/ml proteus mirabilis, proteus mirabilis"
 proteus_penneri,,"few proteus penneri, proteus penneri"
-proteus_sp,Proteus organism identified to the genus level only; species not further specified.,"culture overgrown with proteus, unable to isolate anaerobes"
+proteus_sp,Proteus organism identified to the genus level only; species not further specified.,"culture overgrown with proteus"
 proteus_vulgaris,,"1,000 - 10,000 cfu/ml proteus vulgaris, moderate proteus vulgaris"
 providencia_alcalifaciens,,
 providencia_rettgeri,,"many providencia rettgeri, 10,000 - 49,000 cfu/ml providencia rettgeri"
-providencia_sp,Providencia organism identified to the genus level only; species not further specified.,providencia sp. have inducible chromosomal ampc beta-lactamase. monotherapy with
+providencia_sp,Providencia organism identified to the genus level only; species not further specified.,providencia 
 providencia_stuartii,,"moderate providencia stuartii, >=100,000 cfu/ml providencia stuartii"
 pseudallescheria_boydii,,pseudallescheria boydii
 pseudoglutamicibacter_cumminsii,,"pseudoglutamicibacter cumminsii, 50,000 - 99,000 cfu/ml pseudoglutamicibacter cumminsii"
@@ -447,7 +447,7 @@ saccharomyces_sp,Saccharomyces organism identified to the genus level only; spec
 salmonella_enterica,,"isolated from broth only salmonella enterica ssp enterica, salmonella enterica"
 salmonella_enteritidis,,salmonella enteritidis
 salmonella_paratyphi,,paratyphi b var. l(+) tartrate+
-salmonella_sp,Salmonella organism identified to the genus level only; species not further specified.,"salmonella species non typhi isolated from culture. culture and serotyping performed by, salmonella"
+salmonella_sp,Salmonella organism identified to the genus level only; species not further specified.,"salmonella species, salmonella"
 saprochaete_capitata,,"saprochaete capitata (formerly blastoschizomyces capitatus), moderate saprochaete capitata"
 saprochaete_sp,Saprochaete organism identified to the genus level only; species not further specified.,few saprochaete
 scedosporium_apiospermum,,"scedosporium apiospermum, rare scedosporium apiospermum"
@@ -458,7 +458,7 @@ serratia_liquefaciens,,"serratia liquefaciens, moderate serratia liquefaciens"
 serratia_marcescens,,"moderate serratia marcescens, 50,000 - 99,000 cfu/ml serratia marcescens"
 serratia_odorifera,,serratia odorifera
 serratia_rubidaea,,moderate serratia rubidaea
-serratia_sp,Serratia organism identified to the genus level only; species not further specified.,"serratia sp., serratia species are known to have inducible chromosomal ampc beta-lactamase. monotherapy"
+serratia_sp,Serratia organism identified to the genus level only; species not further specified.,"serratia sp., serratia species"
 shewanella_putrefaciens,,moderate shewanella putrefaciens
 shewanella_sp,Shewanella organism identified to the genus level only; species not further specified.,"shewanella species, shewanella"
 shigella_sonnei,,shigella sonnei
@@ -490,9 +490,9 @@ staphylococcus_warneri,,"staphylococcus warneri, isolated from broth only staphy
 staphylococcus_xylosus,,staphylococcus xylosus
 stenotrophomonas_maltophilia,,"50,000 - 99,000 cfu/ml stenotrophomonas maltophilia, moderate stenotrophomonas maltophilia"
 stenotrophomonas_rhizophila,,moderate stenotrophomonas rhizophila
-stenotrophomonas_sp,Stenotrophomonas organism identified to the genus level only; species not further specified.,"10,000 cfu/gram of tissue stenotrophomonas, 20,000 cfu/gram of tissue stenotrophomonas"
+stenotrophomonas_sp,Stenotrophomonas organism identified to the genus level only; species not further specified.,"stenotrophomonas"
 streptococcus_agalactiae,,streptococcus agalactiae
-streptococcus_alphahemolytic,,"many alpha-hemolytic streptococcus not streptococcus pneumoniae, few alpha-hemolytic streptococcus not streptococcus pneumoniae"
+streptococcus_alphahemolytic,,"many alpha-hemolytic streptococcus, few alpha-hemolytic streptococcus"
 streptococcus_anginosus,,"50,000 - 99,000 cfu/ml streptococcus anginosus, moderate streptococcus anginosus"
 streptococcus_bovis,,"streptococcus bovis, streptococcus bovis group"
 streptococcus_canis,,"streptococcus canis, rare streptococcus canis"
@@ -513,7 +513,7 @@ streptococcus_pseudoporcinus,,few streptococcus pseudoporcinus
 streptococcus_pyogenes,Common misspellings: streptcoccus_pyogenes.,streptococcus pyogenes
 streptococcus_salivarius,,"rare streptococcus salivarius group, streptococcus salivarius"
 streptococcus_sanguinis,,"streptococcus sanguinis, streptococcus sanguinus group"
-streptococcus_sp,Streptococcus organism identified to the genus level only; species not further specified.,"streptococcus species, nutritionally variant streptococci"
+streptococcus_sp,Streptococcus organism identified to the genus level only; species not further specified.,"streptococcus species"
 streptococcus_viridans,,"moderate streptococcus viridans, moderate streptococcus viridans group"
 streptomyces_griseus,,streptomyces griseus
 streptomyces_sp,Streptomyces organism identified to the genus level only; species not further specified.,streptomyces species
@@ -543,3 +543,4 @@ xanthomonas_sp,Xanthomonas organism identified to the genus level only; species 
 yeast,,"rare yeast, yeast"
 
 zygomycete_sp,Zygomycete organism identified to the genus level only; species not further specified.,"few zygomycete, zygomycete species"
+
