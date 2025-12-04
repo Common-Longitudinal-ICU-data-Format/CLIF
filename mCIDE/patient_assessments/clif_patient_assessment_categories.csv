@@ -55,7 +55,7 @@ sat_myocardial_ischemia,"Identifies whether the patient has signs of active myoc
 sat_neuromuscular_blockers,Confirms whether neuromuscular blockers (paralytics) are in use. The SAT cannot proceed if the patient is paralyzed,"SAT Screen - Paralytic Use, Neuromuscular Blocker Check, NMB Status",Spontaneous Awakening Trial (SAT)
 sat_screen_pass_fail,Indicates whether the patient passed or failed the SAT safety screen.,"SAT Safety Screen Result, SAT Screen Outcome, Awakening Trial Screen Pass/Fail",SAT Screen Pass/Fail
 sat_screen_performed,Check for whether the screen was conducted (Boolean:  0/1),"SAT Screen Completed, Safety Screen Performed, SAT Screen Documentation",SAT Screen
-sat_sedative_infusion,"Checks whether the patient is receiving sedative infusions, such as for seizure control or alcohol withdrawal. Sedation for these conditions must be absent for the SAT to proceed.","SAT Screen - Sedative Infusion, Continuous Sedation Check, Active Sedation Status",Spontaneous Awakening Trial (SAT)
+sat_sedative_infusion,"Checks whether the patient is receiving sedative infusions, for e.g., sedatives used for seizure control or alcohol withdrawal. Sedation for these conditions must be absent for the SAT to proceed.","SAT Screen - Sedative Infusion, Continuous Sedation Check, Active Sedation Status",Spontaneous Awakening Trial (SAT)
 sbt_agitation,"Determines if the patient is excessively agitated, which would indicate they are not ready to tolerate breathing on their own.","SBT Screen - Agitation Level, Patient Agitation Check, Excessive Agitation Status",Spontaneous Breathing Trial (SBT)
 sbt_delivery_pass_fail,"Indicates the outcome of the SAT trial (pass or fail), based on flowsheet data charted by the care team. This variable reflects the result of the trial, not whether it was attempted or initiated.","SBT Trial Result, Breathing Trial Outcome, SBT Pass/Fail Status",SBT Delivery Pass/Fail
 sbt_delivery_performed,Check for whether the trial was attempted (Boolean:  0/1),"SBT Trial Performed, Breathing Trial Attempted, SBT Completion Status",SBT Delivery
@@ -69,3 +69,4 @@ sbt_vasopressor_use,"Evaluate whether the patient is on significant doses of vas
 TOF,Number of twitches (Score range: 0-4),"Train-of-Four, TOF Stimulation, Neuromuscular Blockade Assessment",Neurological
 VAS,Numeric score (Score range: 0-100),"Visual Analog Scale Pain, VAS Pain Score, 0-100 Pain Rating",Pain
 WAT,Score (Score range: 0-10),"Withdrawal Assessment Tool, WAT-1 Pediatric, Pediatric Withdrawal Score",Withdrawal
+
