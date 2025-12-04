@@ -1,544 +1,544 @@
-organism_category,description
-abiotrophia_defectiva,
-achromobacter_sp,Achromobacter organism identified to the genus level only; species not further specified.
-achromobacter_xylosoxidans,
-acidaminococcus_sp,Acidaminococcus organism identified to the genus level only; species not further specified.
-acinetobacter_baumannii,Common misspellings: acinetobacter_baumanii.
-acinetobacter_johnsonii,
-acinetobacter_junii,
-acinetobacter_lwoffii,Common misspellings: acinetobacter_lwoffi.
-acinetobacter_pittii,
-acinetobacter_radioresistens,
-acinetobacter_sp,Acinetobacter organism identified to the genus level only; species not further specified.
-acinetobacter_ursingii,
-acremonium_sp,Acremonium organism identified to the genus level only; species not further specified.
-actinomyces_europaeus,
-actinomyces_meyeri,
-actinomyces_naeslundii,
-actinomyces_neuii,
-actinomyces_odontolyticus,
-actinomyces_radingae,
-actinomyces_sp,Actinomyces organism identified to the genus level only; species not further specified.
-actinomyces_turicensis,
-actinomyces_viscosus,
-actinotignum_schaalii,
-actinotignum_sp,Actinotignum organism identified to the genus level only; species not further specified.
-aerococcus_christensenii,
-aerococcus_sanguinicola,Common misspellings: aerococcus_sanguicola.
-aerococcus_sp,Aerococcus organism identified to the genus level only; species not further specified.
-aerococcus_urinae,Common misspellings: aerococcus_urinaie.
-aerococcus_viridans,
-aeromonas_caviae,
-aeromonas_hydrophila,
-aeromonas_sobria,
-aeromonas_sp,Aeromonas organism identified to the genus level only; species not further specified.
-aggregatibacter_actinomycetemcomitans,
-aggregatibacter_aphrophilus,
-aggregatibacter_segnis,
-agrobacterium_radiobacter,
-alcaligenes_faecalis,
-alcaligenes_xylosoxidans,
-alistipes_finegoldii,
-alistipes_onderdonkii,
-alloiococcus_otitis,
-alloiococcus_sp,Alloiococcus organism identified to the genus level only; species not further specified.
-alternaria_alternata,
-alternaria_sp,Alternaria organism identified to the genus level only; species not further specified.
-anaerobic_sp,Anaerobic organism identified to the genus level only; species not further specified.
-anaerococcus_sp,Anaerococcus organism identified to the genus level only; species not further specified.
-arcanobacterium_haemolyticum,
-arthrobacter_cumminsii,
-arthrobacter_sp,Arthrobacter organism identified to the genus level only; species not further specified.
-arthrographis_sp,Arthrographis organism identified to the genus level only; species not further specified.
-aspergillus_flavus,
-aspergillus_fumigatus,
-aspergillus_nidulans,
-aspergillus_niger,
-aspergillus_ochraceus,
-aspergillus_sp,Aspergillus organism identified to the genus level only; species not further specified.
-aspergillus_sydowii,
-aspergillus_terreus,
-aspergillus_versicolor,
-atopobium_parvulum,
-atopobium_sp,Atopobium organism identified to the genus level only; species not further specified.
-atopobium_vaginae,
-aureobasidium_sp,Aureobasidium organism identified to the genus level only; species not further specified.
-bacillus_cereus,
-bacillus_licheniformis,
-bacillus_megaterium,
-bacillus_simplex,
-bacillus_sp,Bacillus organism identified to the genus level only; species not further specified.
-bacillus_subtilis,
-bacteria_other,
-bacteroides_caccae,
-bacteroides_capillosus,
-bacteroides_eggerthii,
-bacteroides_faecis,
-bacteroides_fragilis,
-bacteroides_ovatus,
-bacteroides_pyogenes,
-bacteroides_sp,Bacteroides organism identified to the genus level only; species not further specified.
-bacteroides_stercoris,
-bacteroides_thetaiotaomicron,
-bacteroides_uniformis,
-bacteroides_vulgatus,
-bacteroides_xylanisolvens,
-bifidobacterium_sp,Bifidobacterium organism identified to the genus level only; species not further specified.
-bilophila_wadsworthia,
-blastomyces_dermatitidis,
-blastomyces_sp,Blastomyces organism identified to the genus level only; species not further specified.
-bordetella_bronchiseptica,
-bordetella_hinzii,
-bordetella_sp,Bordetella organism identified to the genus level only; species not further specified.
-bordetella_trematum,
-brevibacillus_sp,Brevibacillus organism identified to the genus level only; species not further specified.
-brevibacterium_casei,
-brevibacterium_luteolum,
-brevibacterium_sp,Brevibacterium organism identified to the genus level only; species not further specified.
-brevundimonas_diminuta,
-brevundimonas_sp,Brevundimonas organism identified to the genus level only; species not further specified.
-brevundimonas_vesicularis,
-brucella_intermedia,
-burkholderia_cepacia,
-burkholderia_gladioli,
-burkholderia_sp,Burkholderia organism identified to the genus level only; species not further specified.
-campylobacter_coli,
-campylobacter_jejuni,
-campylobacter_sp,Campylobacter organism identified to the genus level only; species not further specified.
-campylobacter_ureolyticus,
-candida_albicans,
-candida_auris,
-candida_colliculosa,
-candida_dubliniensis,
-candida_famata,
-candida_fermentati,
-candida_glabrata,
-candida_guilliermondii,
-candida_haemulonii,
-candida_intermedia,
-candida_kefyr,
-candida_krusei,
-candida_lambica,
-candida_lipolytica,
-candida_lusitaniae,
-candida_nivariensis,
-candida_orthopsilosis,
-candida_parapsilosis,
-candida_pararugosa,
-candida_pelliculosa,
-candida_pulcherrima,
-candida_rugosa,
-candida_sp,Candida organism identified to the genus level only; species not further specified.
-candida_tropicalis,
-candida_utilis,
-capnocytophaga_gingivalis,
-capnocytophaga_sp,Capnocytophaga organism identified to the genus level only; species not further specified.
-cardiobacterium_hominis,
-cardiobacterium_sp,Cardiobacterium organism identified to the genus level only; species not further specified.
-cellulosimicrobium_cellulans,
-chaetomium_sp,Chaetomium organism identified to the genus level only; species not further specified.
-chryseobacterium_indologenes,
-chryseobacterium_sp,Chryseobacterium organism identified to the genus level only; species not further specified.
-citrobacter_amalonaticus,
-citrobacter_farmeri,
-citrobacter_freundii,
-citrobacter_koseri,
-citrobacter_koserii,
-citrobacter_sp,Citrobacter organism identified to the genus level only; species not further specified.
-cladosporium_sp,Cladosporium organism identified to the genus level only; species not further specified.
-clostridioides_difficile,
-clostridium_bifermentans,
-clostridium_butyricum,
-clostridium_cadaveris,
-clostridium_clostridioforme,
-clostridium_difficile,
-clostridium_innocuum,
-clostridium_paraputrificum,
-clostridium_perfringens,
-clostridium_ramosum,
-clostridium_septicum,
-clostridium_sordellii,
-clostridium_sp,Clostridium organism identified to the genus level only; species not further specified.
-clostridium_sporogenes,
-clostridium_tertium,
-cokeromyces_recurvatus,
-collinsella_aerofaciens,
-comamonas_testosteroni,
-corynebacterium_accolens,
-corynebacterium_afermentans,
-corynebacterium_amycolatum,
-corynebacterium_aurimucosum,
-corynebacterium_bovis,
-corynebacterium_coyleae,
-corynebacterium_diptheriae,
-corynebacterium_durum,
-corynebacterium_freneyi,
-corynebacterium_glucuronolyticum,
-corynebacterium_imitans,
-corynebacterium_jeikeium,
-corynebacterium_macginleyi,
-corynebacterium_propinquum,
-corynebacterium_pseudodiphtheriticum,
-corynebacterium_simulans,
-corynebacterium_sp,Corynebacterium organism identified to the genus level only; species not further specified.
-corynebacterium_striatum,
-corynebacterium_tuberculostearicum,
-corynebacterium_urealyticum,
-cronobacter_malonaticus,
-cronobacter_sakazakii,
-cronobacter_sp,Cronobacter organism identified to the genus level only; species not further specified.
-cryptococcus_albidus,
-cryptococcus_neoformans,
-cunninghamella_sp,Cunninghamella organism identified to the genus level only; species not further specified.
-cupriavidus_pauculus,
-curtobacterium_sp,Curtobacterium organism identified to the genus level only; species not further specified.
-curvularia_sp,Curvularia organism identified to the genus level only; species not further specified.
-cutibacterium_acnes,
-cutibacterium_avidum,
-delftia_acidovorans,
-dematiaceous_sp,Dematiaceous organism identified to the genus level only; species not further specified.
-dermabacter_hominis,
-dermacoccus_nishinomiyaensis,
-desulfovibrio_sp,Desulfovibrio organism identified to the genus level only; species not further specified. Common misspellings: desulfovibri_sp.
-dialister_pneumosintes,
-dialister_sp,Dialister organism identified to the genus level only; species not further specified.
-dietzia_cinnamea,
-dietzia_sp,Dietzia organism identified to the genus level only; species not further specified.
-dolosigranulum_pigrum,
-edwardsiella_tarda,
-eggerthella_lenta,
-eggerthella_lentum,
-eggerthella_sp,Eggerthella organism identified to the genus level only; species not further specified.
-eggerthia_catenaformis,
-eikenella_corrodens,
-elizabethkingia_anophelis,
-elizabethkingia_meningoseptica,
-elizabethkingia_sp,Elizabethkingia organism identified to the genus level only; species not further specified.
-enterobacter_aerogenes,
-enterobacter_amnigenus,
-enterobacter_cancerogenus,
-enterobacter_cloacae,
-enterobacter_sp,Enterobacter organism identified to the genus level only; species not further specified.
-enterococcus_avium,
-enterococcus_casseliflavus,
-enterococcus_durans,
-enterococcus_faecalis,
-enterococcus_faecium,
-enterococcus_gallinarum,
-enterococcus_hirae,
-enterococcus_raffinosus,
-enterococcus_saccharolyticus,
-enterococcus_sp,Enterococcus organism identified to the genus level only; species not further specified.
-epicoccum_sp,Epicoccum organism identified to the genus level only; species not further specified.
-erysipelothrix_rhusiopathiae,
-escherichia_coli,
-escherichia_hermannii,
-escherichia_sp,Escherichia organism identified to the genus level only; species not further specified.
-eubacterium_callanderi,
-eubacterium_sp,Eubacterium organism identified to the genus level only; species not further specified.
-ewingella_americana,
-exiguobacterium_acetylicum,
-exophiala_dermatitidis,
-facklamia_hominis,
-facklamia_sp,Facklamia organism identified to the genus level only; species not further specified.
-finegoldia_magna,
-francisella_tularensis,
-fungus_other,
-fusarium_proliferatum,
-fusarium_solani,
-fusarium_sp,Fusarium organism identified to the genus level only; species not further specified.
-fusobacterium_gonidiaformans,
-fusobacterium_necrophorum,
-fusobacterium_nucleatum,
-fusobacterium_sp,Fusobacterium organism identified to the genus level only; species not further specified.
-gardnerella_vaginalis,
-gemella_morbillorum,
-gemella_sp,Gemella organism identified to the genus level only; species not further specified.
-geotrichum_sp,Geotrichum organism identified to the genus level only; species not further specified.
-globicatella_sanguinis,
-gordonia_bronchialis,
-gordonia_sp,Gordonia organism identified to the genus level only; species not further specified.
-gram_negative_diplococci,
-gram_negative_rod,
-gram_positive_cocci,
-gram_positive_rod,
-granulicatella_adiacens,
-granulicatella_elegans,
-haemophilus_haemolyticus,
-haemophilus_influenzae,
-haemophilus_parainfluenzae,
-haemophilus_sp,Haemophilus organism identified to the genus level only; species not further specified.
-hafnia_alvei,
-hafnia_sp,Hafnia organism identified to the genus level only; species not further specified.
-histoplasma_capsulatum,
-kingella_denitrificans,
-klebsiella_aerogenes,
-klebsiella_oxytoca,
-klebsiella_pneumoniae,
-klebsiella_sp,Klebsiella organism identified to the genus level only; species not further specified.
-klebsiella_variicola,
-kloeckera_sp,Kloeckera organism identified to the genus level only; species not further specified.
-kluyvera_sp,Kluyvera organism identified to the genus level only; species not further specified.
-kocuria_palustris,
-kocuria_sp,Kocuria organism identified to the genus level only; species not further specified.
-kodamaea_ohmeri,
-lactobacillus_acidophilus,
-lactobacillus_fermentum,
-lactobacillus_sp,Lactobacillus organism identified to the genus level only; species not further specified.
-lactococcus_sp,Lactococcus organism identified to the genus level only; species not further specified.
-leclercia_adecarboxylata,
-legionella_bozemanae,
-legionella_dumoffii,
-legionella_feeleii,
-legionella_pneumophila,
-legionella_sp,Legionella organism identified to the genus level only; species not further specified.
-lelliottia_amigena,Common misspellings: lettiottia_amingena.
-leptotrichia_buccalis,
-leuconostoc_sp,Leuconostoc organism identified to the genus level only; species not further specified.
-lichtheimia_sp,Lichtheimia organism identified to the genus level only; species not further specified.
-listeria_monocytogenes,
-lysinibacillus_fusiformis,
-lysinibacillus_sp,Lysinibacillus organism identified to the genus level only; species not further specified.
-malassezia_furfur,
-malassezia_pachydermatis,
-microbacterium_flavescens,
-microbacterium_sp,Microbacterium organism identified to the genus level only; species not further specified.
-micrococcus_luteus,
-micrococcus_sp,Micrococcus organism identified to the genus level only; species not further specified.
-microsporum_gypseum,
-microsporum_sp,Microsporum organism identified to the genus level only; species not further specified.
-moraxella_catarrhalis,
-moraxella_nonliquefaciens,
-moraxella_osloensis,
-moraxella_sp,Moraxella organism identified to the genus level only; species not further specified.
-morganella_morganii,
-morganella_sp,Morganella organism identified to the genus level only; species not further specified.
-mucor_circinelloides,
-mucor_sp,Mucor organism identified to the genus level only; species not further specified.
-mycobacterium_abscessus,
-mycobacterium_avium,
-mycobacterium_chelonae,
-mycobacterium_farcinogenes,
-mycobacterium_fortuitum,
-mycobacterium_gordonae,
-mycobacterium_kansasii,
-mycobacterium_kubicae,
-mycobacterium_lentiflavum,
-mycobacterium_llatzerense,
-mycobacterium_malmoense,
-mycobacterium_marinum,
-mycobacterium_mucogenicum,
-mycobacterium_neoaurum,
-mycobacterium_paraffinicum,
-mycobacterium_scrofulaceum,
-mycobacterium_szulgai,
-mycobacterium_tuberculosis,
-mycobacterium_xenopi,
-mycoplasma_hominis,
-mycoplasma_sp,Mycoplasma organism identified to the genus level only; species not further specified.
-myroides_sp,Myroides organism identified to the genus level only; species not further specified.
-neisseria_gonorrhoeae,
-neisseria_meningitidis,
-neisseria_mucosa,
-neisseria_sp,Neisseria organism identified to the genus level only; species not further specified.
-neisseria_subflava,
-no_growth,
-nocardia_abscessus,
-nocardia_brasiliensis,
-nocardia_cyriacigeorgica,
-nocardia_farcinica,
-nocardia_nova,
-nocardia_sp,Nocardia organism identified to the genus level only; species not further specified.
-nocardia_thailandica,
-nocardia_veterana,
-nocardia_wallacei,
-ochraconis_sp,Ochraconis organism identified to the genus level only; species not further specified.
-ochrobactrum_anthropi,
-ochrobactrum_intermedium,
-ochrobactrum_sp,Ochrobactrum organism identified to the genus level only; species not further specified.
-odoribacter_splanchnicus,
-oligella_ureolytica,
-oligella_urethralis,
-paecilomyces_lilacinus,
-paecilomyces_sp,Paecilomyces organism identified to the genus level only; species not further specified.
-paenibacillus_sp,Paenibacillus organism identified to the genus level only; species not further specified.
-pandoraea_sp,Pandoraea organism identified to the genus level only; species not further specified.
-pantoea_agglomerans,
-pantoea_sp,Pantoea organism identified to the genus level only; species not further specified.
-parabacteroides_distasonis,
-parabacteroides_merdae,
-parvimonas_micra,
-pasteurella_canis,
-pasteurella_multocida,
-pasteurella_sp,Pasteurella organism identified to the genus level only; species not further specified.
-pediococcus_acidilactici,
-penicillium_sp,Penicillium organism identified to the genus level only; species not further specified.
-peptoniphilus_assacharolyticus,
-peptoniphilus_harei,
-peptoniphilus_sp,Peptoniphilus organism identified to the genus level only; species not further specified.
-peptostreptococcus_anaerobius,
-peptostreptococcus_sp,Peptostreptococcus organism identified to the genus level only; species not further specified.
-pithomyces_sp,Pithomyces organism identified to the genus level only; species not further specified.
-plasmodium_falciparum,
-plasmodium_sp,Plasmodium organism identified to the genus level only; species not further specified.
-plesiomonas_shigelloides,
-pluralibacter_gergoviae,
-porphyromonas_asaccharolytica,
-porphyromonas_sp,Porphyromonas organism identified to the genus level only; species not further specified.
-prevotella_bivia,
-prevotella_buccae,
-prevotella_denticola,
-prevotella_disiens,
-prevotella_intermedia,
-prevotella_melaninogenica,
-prevotella_nigrescens,
-prevotella_oralis,
-prevotella_oris,
-prevotella_sp,Prevotella organism identified to the genus level only; species not further specified.
-propionibacterium_acnes,
-propionibacterium_avidum,
-propionibacterium_granulosum,
-propionibacterium_sp,Propionibacterium organism identified to the genus level only; species not further specified.
-proteus_mirabilis,
-proteus_penneri,
-proteus_sp,Proteus organism identified to the genus level only; species not further specified.
-proteus_vulgaris,
-providencia_alcalifaciens,
-providencia_rettgeri,
-providencia_sp,Providencia organism identified to the genus level only; species not further specified.
-providencia_stuartii,
-pseudallescheria_boydii,
-pseudoglutamicibacter_cumminsii,
-pseudomonas_aeruginosa,
-pseudomonas_alcaligenes,
-pseudomonas_fluorescens,
-pseudomonas_luteola,
-pseudomonas_mendocina,
-pseudomonas_oryzihabitans,
-pseudomonas_putida,
-pseudomonas_sp,Pseudomonas organism identified to the genus level only; species not further specified.
-pseudomonas_stutzeri,
-psychrobacter_phenylpyruvicus,
-psychrobacter_sp,Psychrobacter organism identified to the genus level only; species not further specified.
-purpureocillium_lilacinum,
-rahnella_aquatilis,
-rahnella_sp,Rahnella organism identified to the genus level only; species not further specified.
-ralstonia_mannitolilytica,
-ralstonia_pickettii,
-ralstonia_sp,Ralstonia organism identified to the genus level only; species not further specified.
-raoultella_ornithinolytica,
-raoultella_planticola,
-raoultella_sp,Raoultella organism identified to the genus level only; species not further specified.
-rhinocladiella_sp,Rhinocladiella organism identified to the genus level only; species not further specified.
-rhizobium_radiobacter,
-rhizobium_sp,Rhizobium organism identified to the genus level only; species not further specified.
-rhizomucor_pusillus,
-rhizomucor_sp,Rhizomucor organism identified to the genus level only; species not further specified.
-rhizopus_sp,Rhizopus organism identified to the genus level only; species not further specified.
-rhodococcus_sp,Rhodococcus organism identified to the genus level only; species not further specified.
-rhodotorula_mucilaginosa,
-rhodotorula_sp,Rhodotorula organism identified to the genus level only; species not further specified.
-roseomonas_sp,Roseomonas organism identified to the genus level only; species not further specified.
-rothia_dentocariosa,
-rothia_mucilaginosa,
-rothia_sp,Rothia organism identified to the genus level only; species not further specified.
-saccharomyces_cerevisiae,
-saccharomyces_sp,Saccharomyces organism identified to the genus level only; species not further specified.
-salmonella_enterica,
-salmonella_enteritidis,
-salmonella_paratyphi,
-salmonella_sp,Salmonella organism identified to the genus level only; species not further specified.
-saprochaete_capitata,
-saprochaete_sp,Saprochaete organism identified to the genus level only; species not further specified.
-scedosporium_apiospermum,
-scopulariopsis_brevicaulis,
-scopulariopsis_sp,Scopulariopsis organism identified to the genus level only; species not further specified. Common misspellings: scopulariopsi_sp.
-serratia_fonticola,
-serratia_liquefaciens,
-serratia_marcescens,
-serratia_odorifera,
-serratia_rubidaea,
-serratia_sp,Serratia organism identified to the genus level only; species not further specified.
-shewanella_putrefaciens,
-shewanella_sp,Shewanella organism identified to the genus level only; species not further specified.
-shigella_sonnei,
-slackia_exigua,
-sphingomonas_paucimobilis,
-sphingomonas_sp,Sphingomonas organism identified to the genus level only; species not further specified.
-sporobolomyces_salmonicolor,
-staphylococcus_aureus,
-staphylococcus_auricularis,
-staphylococcus_capitis,
-staphylococcus_caprae,
-staphylococcus_carnosus,
-staphylococcus_coagneg,Common misspellings: staphyloccous_coagneg.
-staphylococcus_cohnii,
-staphylococcus_epidermidis,
-staphylococcus_haemolyticus,
-staphylococcus_hominis,
-staphylococcus_lugdunensis,
-staphylococcus_pasteuri,
-staphylococcus_pettenkoferi,
-staphylococcus_pseudintermedius,
-staphylococcus_saccharolyticus,
-staphylococcus_saprophyticus,
-staphylococcus_schleiferi,
-staphylococcus_sciuri,
-staphylococcus_simulans,
-staphylococcus_sp,Staphylococcus organism identified to the genus level only; species not further specified.
-staphylococcus_warneri,
-staphylococcus_xylosus,
-stenotrophomonas_maltophilia,
-stenotrophomonas_rhizophila,
-stenotrophomonas_sp,Stenotrophomonas organism identified to the genus level only; species not further specified.
-streptococcus_agalactiae,
-streptococcus_alphahemolytic,
-streptococcus_anginosus,
-streptococcus_bovis,
-streptococcus_canis,
-streptococcus_constellatus,
-streptococcus_cristatus,
-streptococcus_dysgalactiae,
-streptococcus_equinus,
-streptococcus_gallolyticus,
-streptococcus_gordonii,
-streptococcus_infantarius,
-streptococcus_intermedius,
-streptococcus_mitis,
-streptococcus_mutans,
-streptococcus_nonhemolytic,
-streptococcus_parasanguinis,
-streptococcus_pneumoniae,
-streptococcus_pseudoporcinus,
-streptococcus_pyogenes,Common misspellings: streptcoccus_pyogenes.
-streptococcus_salivarius,
-streptococcus_sanguinis,
-streptococcus_sp,Streptococcus organism identified to the genus level only; species not further specified.
-streptococcus_viridans,
-streptomyces_griseus,
-streptomyces_sp,Streptomyces organism identified to the genus level only; species not further specified.
-sutterella_sp,Sutterella organism identified to the genus level only; species not further specified.
-syncephalastrum_sp,Syncephalastrum organism identified to the genus level only; species not further specified.
-teichospora_sp,Teichospora organism identified to the genus level only; species not further specified.
-tissierella_praeacuta,
-trichoderma_sp,Trichoderma organism identified to the genus level only; species not further specified.
-trichophyton_rubrum,
-trichophyton_tonsurans,
-trichosporon_asahii,
-trichosporon_sp,Trichosporon organism identified to the genus level only; species not further specified.
-trueperella_bernardiae,
-trueperella_sp,Trueperella organism identified to the genus level only; species not further specified.
-tuberculosis_nos_afb_kochbacillus,
-turicella_otitidis,
-vagococcus_fluvialis,
-veillonella_sp,Veillonella organism identified to the genus level only; species not further specified.
-verticillium_sp,Verticillium organism identified to the genus level only; species not further specified.
-vibrio_sp,Vibrio organism identified to the genus level only; species not further specified.
-virus_other,
-weeksella_sp,Weeksella organism identified to the genus level only; species not further specified.
-weeksella_virosa,
-weissella_confusa,
-weissella_sp,Weissella organism identified to the genus level only; species not further specified.
-xanthomonas_sp,Xanthomonas organism identified to the genus level only; species not further specified.
-yeast,
-zygomycete_sp,Zygomycete organism identified to the genus level only; species not further specified.
+organism_category,description,organism_name_examples
+abiotrophia_defectiva,,abiotrophia defectiva
+achromobacter_sp,Achromobacter organism identified to the genus level only; species not further specified.,"few saccharomyces, few achromobacter"
+achromobacter_xylosoxidans,,"many achromobacter xylosoxidans, few achromobacter xylosoxidans"
+acidaminococcus_sp,Acidaminococcus organism identified to the genus level only; species not further specified.,acidaminococcus
+acinetobacter_baumannii,Common misspellings: acinetobacter_baumanii.,
+acinetobacter_johnsonii,,"moderate acinetobacter johnsonii, moderate acinetobacter nosocomialis"
+acinetobacter_junii,,acinetobacter junii
+acinetobacter_lwoffii,Common misspellings: acinetobacter_lwoffi.,moderate acinetobacter lwoffii
+acinetobacter_pittii,,"50,000 - 99,000 cfu/ml acinetobacter pittii, few acinetobacter"
+acinetobacter_radioresistens,,"acinetobacter radioresistens, few acinetobacter radioresistens"
+acinetobacter_sp,Acinetobacter organism identified to the genus level only; species not further specified.,"acinetobacter species, moderate acinetobacter"
+acinetobacter_ursingii,,"rare acinetobacter ursingii, acinetobacter ursingii"
+acremonium_sp,Acremonium organism identified to the genus level only; species not further specified.,rare acremonium
+actinomyces_europaeus,,"actinomyces europaeus, few actinomyces europaeus"
+actinomyces_meyeri,,"actinomyces meyeri, moderate actinomyces meyeri"
+actinomyces_naeslundii,,actinomyces naeslundii
+actinomyces_neuii,,"actinomyces neuii, few actinomyces neuii"
+actinomyces_odontolyticus,,"actinomyces odontolyticus, rare actinomyces odontolyticus"
+actinomyces_radingae,,"rare actinomyces radingae, actinomyces radingae"
+actinomyces_sp,Actinomyces organism identified to the genus level only; species not further specified.,"actinomyces species, actinomyces sp., not israelii"
+actinomyces_turicensis,,"rare actinomyces turicensis, many actinomyces turicensis"
+actinomyces_viscosus,,actinomyces viscosus
+actinotignum_schaalii,,"actinotignum (actinobaculum) schaalii, many actinotignum schaalii"
+actinotignum_sp,Actinotignum organism identified to the genus level only; species not further specified.,few actinotignum
+aerococcus_christensenii,,"10,000 - 49,000 cfu/ml aerococcus christensenii"
+aerococcus_sanguinicola,Common misspellings: aerococcus_sanguicola.,"isolated from broth only aerococcus sanguinicola, 10,000 - 49,000 cfu/ml aerococcus sanguinicola"
+aerococcus_sp,Aerococcus organism identified to the genus level only; species not further specified.,"1,000 - 10,000 cfu/ml aerococcus, >=100,000 cfu/ml aerococcus"
+aerococcus_urinae,Common misspellings: aerococcus_urinaie.,"1,000 - 10,000 cfu/ml aerococcus urinae, 10,000 - 49,000 cfu/ml aerococcus urinae"
+aerococcus_viridans,,"rare aerococcus viridans, aerococcus viridans"
+aeromonas_caviae,,"many aeromonas caviae, aeromonas caviae"
+aeromonas_hydrophila,,"aeromonas hydrophila/caviae, aeromonas hydrophila"
+aeromonas_sobria,,"aeromonas sobria, many aeromonas sobria"
+aeromonas_sp,Aeromonas organism identified to the genus level only; species not further specified.,"aeromonas species, moderate aeromonas"
+aggregatibacter_actinomycetemcomitans,,aggregatibacter (actinobacillus) actinomycetemcomitans
+aggregatibacter_aphrophilus,,aggregatibacter aphrophilus
+aggregatibacter_segnis,,aggregatibacter segnis
+agrobacterium_radiobacter,,agrobacterium radiobacter
+alcaligenes_faecalis,,"10,000 - 49,000 cfu/ml alcaligenes faecalis, rare alcaligenes faecalis"
+alcaligenes_xylosoxidans,,alcaligenes xylosoxidans
+alistipes_finegoldii,,alistipes finegoldii
+alistipes_onderdonkii,,alistipes onderdonkii
+alloiococcus_otitis,,alloiococcus otitis
+alloiococcus_sp,Alloiococcus organism identified to the genus level only; species not further specified.,alloiococcus
+alternaria_alternata,,"rare alternaria alternata, alternaria alternata"
+alternaria_sp,Alternaria organism identified to the genus level only; species not further specified.,"alternaria, alternaria species"
+anaerobic_sp,Anaerobic organism identified to the genus level only; species not further specified.,"anaerobic gram positive non-sporeforming bacilli, four or more strains of anaerobic organisms present"
+anaerococcus_sp,Anaerococcus organism identified to the genus level only; species not further specified.,"anaerococcus, rare anaerococcus"
+arcanobacterium_haemolyticum,,"arcanobacterium haemolyticum, many arcanobacterium haemolyticum"
+arthrobacter_cumminsii,,arthrobacter cumminsii
+arthrobacter_sp,Arthrobacter organism identified to the genus level only; species not further specified.,arthrobacter species
+arthrographis_sp,Arthrographis organism identified to the genus level only; species not further specified.,arthrographis species
+aspergillus_flavus,,"aspergillus flavus, moderate aspergillus flavus"
+aspergillus_fumigatus,,"aspergillus fumigatus, few aspergillus fumigatus"
+aspergillus_nidulans,,"aspergillus nidulans, few aspergillus nidulans"
+aspergillus_niger,,"aspergillus niger complex, few aspergillus niger complex"
+aspergillus_ochraceus,,"aspergillus ochraceus westerdijkiae, aspergillus ochraceous westerdijikiae"
+aspergillus_sp,Aspergillus organism identified to the genus level only; species not further specified.,"rare aspergillus, aspergillus species"
+aspergillus_sydowii,,"few aspergillus sydowii, rare aspergillus sydowii"
+aspergillus_terreus,,"few aspergillus terreus, rare aspergillus terreus"
+aspergillus_versicolor,,aspergillus versicolor
+atopobium_parvulum,,atopobium parvulum
+atopobium_sp,Atopobium organism identified to the genus level only; species not further specified.,"atopobium, atopobium species"
+atopobium_vaginae,,atopobium vaginae
+aureobasidium_sp,Aureobasidium organism identified to the genus level only; species not further specified.,"aureobasidium/hormonema sp., aureobasidium sp."
+bacillus_cereus,,"few bacillus cereus, many bacillus cereus"
+bacillus_licheniformis,,bacillus licheniformis
+bacillus_megaterium,,"rare bacillus megaterium, bacillus megaterium"
+bacillus_simplex,,bacillus simplex
+bacillus_sp,Bacillus organism identified to the genus level only; species not further specified.,"bacillus species, rare bacillus species"
+bacillus_subtilis,,bacillus subtilis
+bacteria_other,,"four or more strains of aerobic gram positive organisms present, gram variable bacilli"
+bacteroides_caccae,,"few bacteroides caccae, bacteroides caccae"
+bacteroides_capillosus,,pseudoflavonifractor (bacteroides) capillosus
+bacteroides_eggerthii,,bacteroides eggerthii
+bacteroides_faecis,,moderate bacteroides fragilis group
+bacteroides_fragilis,,"few bacteroides fragilis group, moderate bacteroides fragilis"
+bacteroides_ovatus,,"moderate bacteroides ovatus, bacteroides ovatus"
+bacteroides_pyogenes,,"bacteroides pyogenes, rare bacteroides pyogenes"
+bacteroides_sp,Bacteroides organism identified to the genus level only; species not further specified.,"bacteroides dorei/vulgatus, bacteroides species"
+bacteroides_stercoris,,"few bacteroides stercoris, bacteroides stercoris"
+bacteroides_thetaiotaomicron,,"many bacteroides thetaiotaomicron, bacteroides thetaiotaomicron"
+bacteroides_uniformis,,"moderate bacteroides uniformis, bacteroides uniformis"
+bacteroides_vulgatus,,"rare bacteroides vulgatus, many bacteroides vulgatus"
+bacteroides_xylanisolvens,,bacteroides ovatus/xylanisolvens
+bifidobacterium_sp,Bifidobacterium organism identified to the genus level only; species not further specified.,"rare bifidobacterium, many bifidobacterium"
+bilophila_wadsworthia,,"few bilophila wadsworthia, bilophila wadsworthia"
+blastomyces_dermatitidis,,"rare blastomyces dermatitidis, few blastomyces dermatitidis"
+blastomyces_sp,Blastomyces organism identified to the genus level only; species not further specified.,"yeast resembling blastomyces, rare blastomyces"
+bordetella_bronchiseptica,,bordetella bronchiseptica
+bordetella_hinzii,,"many bordetella hinzii, bordetella hinzii"
+bordetella_sp,Bordetella organism identified to the genus level only; species not further specified.,"bordetella species, not pertussis or parapertussis"
+bordetella_trematum,,"bordetella trematum, <1,000 cfu/ml bordetella trematum"
+brevibacillus_sp,Brevibacillus organism identified to the genus level only; species not further specified.,brevibacillus species
+brevibacterium_casei,,"rare brevibacterium casei, brevibacterium casei"
+brevibacterium_luteolum,,brevibacterium luteolum
+brevibacterium_sp,Brevibacterium organism identified to the genus level only; species not further specified.,"brevibacterium species, rare brevibacterium"
+brevundimonas_diminuta,,"rare brevundimonas diminuta, brevundimonas diminuta"
+brevundimonas_sp,Brevundimonas organism identified to the genus level only; species not further specified.,
+brevundimonas_vesicularis,,rare brevundimonas vesicularis
+brucella_intermedia,,brucella intermedia formerly ochrobactrum intermedium
+burkholderia_cepacia,,"burkholderia cepacia complex, moderate burkholderia cepacia complex"
+burkholderia_gladioli,,"moderate burkholderia gladioli, many burkholderia gladioli"
+burkholderia_sp,Burkholderia organism identified to the genus level only; species not further specified.,burkholderia species
+campylobacter_coli,,
+campylobacter_jejuni,,
+campylobacter_sp,Campylobacter organism identified to the genus level only; species not further specified.,"20,000 cfu/gram of tissue campylobacter"
+campylobacter_ureolyticus,,campylobacter (bacteroides) ureolyticus
+candida_albicans,,"isolated from broth only candida albicans, candida albicans"
+candida_auris,,"moderate candida auris, 50,000 - 99,000 cfu/ml candida auris"
+candida_colliculosa,,"1,000 - 9,000 cfu/ml candida colliculosa, few candida colliculosa"
+candida_dubliniensis,,"candida dubliniensis, many candida dubliniensis"
+candida_famata,,candida famata
+candida_fermentati,,candida fermentat
+candida_glabrata,,"'>100,000 cfu/ml candida glabrata, candida glabrata"
+candida_guilliermondii,,"moderate candida guilliermondii, few candida guilliermondii"
+candida_haemulonii,,rare candida haemulonii
+candida_intermedia,,"candida intermedia, moderate candida intermedia"
+candida_kefyr,,"candida kefyr, rare candida kefyr"
+candida_krusei,,"rare candida krusei, many candida krusei"
+candida_lambica,,candida lambica
+candida_lipolytica,,candida lipolytica
+candida_lusitaniae,,"candida lusitaniae, rare candida lusitaniae"
+candida_nivariensis,,candida nivariensis
+candida_orthopsilosis,,many candida orthopsilosis
+candida_parapsilosis,,"many candida parapsilosis, moderate candida parapsilosis complex"
+candida_pararugosa,,candida pararugosa
+candida_pelliculosa,,"rare candida pelliculosa, candida pelliculosa (hansenula anomala)"
+candida_pulcherrima,,"c. pulcherrima, candida pulcherrima"
+candida_rugosa,,candida rugosa
+candida_sp,Candida organism identified to the genus level only; species not further specified.,"candida sp. not candida albicans, rare candida species not candida albicans"
+candida_tropicalis,,"moderate candida tropicalis, rare candida tropicalis"
+candida_utilis,,candida utilis
+capnocytophaga_gingivalis,,capnocytophaga gingivalis
+capnocytophaga_sp,Capnocytophaga organism identified to the genus level only; species not further specified.,"10,000 - 49,000 cfu/ml capnocytophaga, few capnocytophaga"
+cardiobacterium_hominis,,cardiobacterium hominis
+cardiobacterium_sp,Cardiobacterium organism identified to the genus level only; species not further specified.,
+cellulosimicrobium_cellulans,,cellulosimicrobium cellulans
+chaetomium_sp,Chaetomium organism identified to the genus level only; species not further specified.,"rare chaetomium, few chaetomium"
+chryseobacterium_indologenes,,"chryseobacterium indologenes, moderate chryseobacterium indologenes"
+chryseobacterium_sp,Chryseobacterium organism identified to the genus level only; species not further specified.,chryseobacterium species
+citrobacter_amalonaticus,,"10,000 - 49,000 cfu/ml citrobacter amalonaticus, 50,000 - 99,000 cfu/ml citrobacter amalonaticus"
+citrobacter_farmeri,,citrobacter farmeri
+citrobacter_freundii,,"moderate citrobacter freundii, citrobacter freundii"
+citrobacter_koseri,,"50,000 - 99,000 cfu/ml citrobacter koseri, >=100,000 cfu/ml citrobacter koseri"
+citrobacter_koserii,,citrobacter koserii
+citrobacter_sp,Citrobacter organism identified to the genus level only; species not further specified.,citrobacter species
+cladosporium_sp,Cladosporium organism identified to the genus level only; species not further specified.,"cladosporium species, rare cladosporium"
+clostridioides_difficile,,clostridioides difficile (formerly clostridium difficile)
+clostridium_bifermentans,,clostridium bifermentans
+clostridium_butyricum,,clostridium butyricum
+clostridium_cadaveris,,clostridium cadaveris
+clostridium_clostridioforme,,"rare clostridium clostridioforme, clostridium clostridioforme"
+clostridium_difficile,,"clostridioides difficile (formerly clostridium difficile), rare clostridioides difficile"
+clostridium_innocuum,,clostridium innocuum
+clostridium_paraputrificum,,clostridium paraputrificum
+clostridium_perfringens,,"few clostridium perfringens, moderate clostridium perfringens"
+clostridium_ramosum,,"clostridium ramosum, rare clostridium ramosum"
+clostridium_septicum,,clostridium septicum
+clostridium_sordellii,,"paeniclostridium sordellii (formerly known as clostridium sordellii), clostridium sordellii"
+clostridium_sp,Clostridium organism identified to the genus level only; species not further specified.,"clostridium species, clostridium sp. not perfringens"
+clostridium_sporogenes,,clostridium sporogenes
+clostridium_tertium,,"many clostridium tertium, rare clostridium tertium"
+cokeromyces_recurvatus,,cokeromyces recurvatus
+collinsella_aerofaciens,,collinsella (eubacterium) aerofaciens
+comamonas_testosteroni,,comamonas testosteroni
+corynebacterium_accolens,,rare corynebacterium accolens
+corynebacterium_afermentans,,corynebacterium afermentans
+corynebacterium_amycolatum,,"corynebacterium amycolatum, corynebacterium amycolatum/xerosis"
+corynebacterium_aurimucosum,,">=100,000 cfu/ml corynebacterium aurimucosum, 1,000 - 10,000 cfu/ml corynebacterium aurimucosum"
+corynebacterium_bovis,,"corynebacterium bovis, moderate corynebacterium bovis"
+corynebacterium_coyleae,,">=100,000 cfu/ml corynebacterium coyleae, corynebacterium coyleae"
+corynebacterium_diptheriae,,
+corynebacterium_durum,,"isolated from broth only corynebacterium durum, rare corynebacterium durum"
+corynebacterium_freneyi,,"many corynebacterium freneyi, moderate corynebacterium freneyi"
+corynebacterium_glucuronolyticum,,"corynebacterium glucuronolyticum, 50,000 - 99,000 cfu/ml corynebacterium glucuronolyticum"
+corynebacterium_imitans,,corynebacterium imitans
+corynebacterium_jeikeium,,"moderate corynebacterium jeikeium, 50,000 - 99,000 cfu/ml corynebacterium jeikeium"
+corynebacterium_macginleyi,,"corynebacterium macginleyi, many corynebacterium macginleyi"
+corynebacterium_propinquum,,"corynebacterium propinquum, few corynebacterium propinquum"
+corynebacterium_pseudodiphtheriticum,,corynebacterium pseudodiphtheriticum
+corynebacterium_simulans,,"corynebacterium simulans, many corynebacterium simulans"
+corynebacterium_sp,Corynebacterium organism identified to the genus level only; species not further specified.,"corynebacterium species, rare corynebacterium species"
+corynebacterium_striatum,,"few corynebacterium striatum, >=100,000 cfu/ml corynebacterium striatum"
+corynebacterium_tuberculostearicum,,"corynebacterium tuberculostearicum, 1,000 - 10,000 cfu/ml corynebacterium tuberculostearicum"
+corynebacterium_urealyticum,,">=100,000 cfu/ml corynebacterium urealyticum, 1,000 - 10,000 cfu/ml corynebacterium urealyticum"
+cronobacter_malonaticus,,"cronobacter malonaticus, 10,000 - 49,000 cfu/ml cronobacter malonaticus"
+cronobacter_sakazakii,,cronobacter sakazakii
+cronobacter_sp,Cronobacter organism identified to the genus level only; species not further specified.,"100,000 cfu/gram of tissue cronobacter"
+cryptococcus_albidus,,cryptococcus albidus
+cryptococcus_neoformans,,"cryptococcus neoformans, cryptococcus neoformans/gattii"
+cunninghamella_sp,Cunninghamella organism identified to the genus level only; species not further specified.,rare cunninghamella
+cupriavidus_pauculus,,cupriavidus pauculus
+curtobacterium_sp,Curtobacterium organism identified to the genus level only; species not further specified.,curtobacterium
+curvularia_sp,Curvularia organism identified to the genus level only; species not further specified.,curvularia sp.
+cutibacterium_acnes,,"many cutibacterium acnes (formerly propionibacterium acnes), isolated from broth only cutibacterium acnes (formerly propionibacterium acnes)"
+cutibacterium_avidum,,"few cutibacterium avidum, moderate cutibacterium avidum"
+delftia_acidovorans,,delftia (comomonas) acidovorans
+dematiaceous_sp,Dematiaceous organism identified to the genus level only; species not further specified.,dematiaceous fungus
+dermabacter_hominis,,"rare dermabacter hominis, dermabacter hominis"
+dermacoccus_nishinomiyaensis,,dermacoccus nishinomiyaensis
+desulfovibrio_sp,Desulfovibrio organism identified to the genus level only; species not further specified. Common misspellings: desulfovibri_sp.,
+dialister_pneumosintes,,dialister pneumosintes
+dialister_sp,Dialister organism identified to the genus level only; species not further specified.,dialister
+dietzia_cinnamea,,dietzia cinnamea
+dietzia_sp,Dietzia organism identified to the genus level only; species not further specified.,
+dolosigranulum_pigrum,,"rare dolosigranulum pigrum, dolosigranulum pigrum"
+edwardsiella_tarda,,edwardsiella tarda
+eggerthella_lenta,,"few eggerthella lenta, many eggerthella lenta"
+eggerthella_lentum,,eggerthella lentum
+eggerthella_sp,Eggerthella organism identified to the genus level only; species not further specified.,eggerthella
+eggerthia_catenaformis,,eggerthia catenaformis
+eikenella_corrodens,,"few eikenella corrodens, moderate eikenella corrodens"
+elizabethkingia_anophelis,,elizabethkingia anophelis
+elizabethkingia_meningoseptica,,"many elizabethkingia meningoseptica, elizabethkingia meningoseptica"
+elizabethkingia_sp,Elizabethkingia organism identified to the genus level only; species not further specified.,elizabethkingia
+enterobacter_aerogenes,,enterobacter aerogenes
+enterobacter_amnigenus,,enterobacter amnigenus
+enterobacter_cancerogenus,,enterobacter cancerogenus
+enterobacter_cloacae,,"10,000 - 49,000 cfu/ml enterobacter cloacae complex, <1,000 cfu/ml enterobacter cloacae complex"
+enterobacter_sp,Enterobacter organism identified to the genus level only; species not further specified.,"enterobacter species are known to have inducible chromosomal ampc beta lactamase., enterobacter species"
+enterococcus_avium,,"few enterococcus avium, enterococcus avium/raffinosus"
+enterococcus_casseliflavus,,"50,000 - 99,000 cfu/ml enterococcus casseliflavus, enterococcus casseliflavus"
+enterococcus_durans,,"enterococcus durans, many enterococcus durans"
+enterococcus_faecalis,,"1,000 - 10,000 cfu/ml enterococcus faecalis, moderate enterococcus faecalis"
+enterococcus_faecium,," vancomycin resistant enterococcus faecium, 1,000 - 10,000 cfu/ml vancomycin resistant enterococcus faecium"
+enterococcus_gallinarum,,"few enterococcus gallinarum, 1,000 - 10,000 cfu/ml enterococcus gallinarum"
+enterococcus_hirae,,"enterococcus hirae, many enterococcus hirae"
+enterococcus_raffinosus,,"rare enterococcus raffinosus, few enterococcus raffinosus"
+enterococcus_saccharolyticus,,many peptostreptococcus asaccharolyticus
+enterococcus_sp,Enterococcus organism identified to the genus level only; species not further specified.,"10,000 - 49,000 cfu/ml vancomycin resistant enterococcus, vancomycin resistant enterococcus"
+epicoccum_sp,Epicoccum organism identified to the genus level only; species not further specified.,rare epicoccum
+erysipelothrix_rhusiopathiae,,erysipelothrix rhusiopathiae
+escherichia_coli,,"few escherichia coli, 1,000 - 10,000 cfu/ml multiple drug-resistant escherichia coli"
+escherichia_hermannii,,moderate escherichia hermannii
+escherichia_sp,Escherichia organism identified to the genus level only; species not further specified.,escherichia hermanii
+eubacterium_callanderi,,eubacterium callanderi
+eubacterium_sp,Eubacterium organism identified to the genus level only; species not further specified.,"eubacterium species, eubacterium"
+ewingella_americana,,ewingella americana
+exiguobacterium_acetylicum,,"exiguibacterium acetylicum, exiguobacterium acetylicum"
+exophiala_dermatitidis,,"exophiala dermatitidis., exophiala (wangiella) dermatitidis"
+facklamia_hominis,,facklamia hominis
+facklamia_sp,Facklamia organism identified to the genus level only; species not further specified.,"facklamia, facklamia species"
+finegoldia_magna,,"rare finegoldia magna, finegoldia magna"
+francisella_tularensis,,francisella tularensis
+fungus_other,,"overgrown with rhizopus, many filamentous fungus"
+fusarium_proliferatum,,rare fusarium proliferatum
+fusarium_solani,,"rare fusarium solani, few fusarium solani"
+fusarium_sp,Fusarium organism identified to the genus level only; species not further specified.,"few fusarium solani, moderate fusarium"
+fusobacterium_gonidiaformans,,fusobacterium gonidiaformans
+fusobacterium_necrophorum,,"moderate fusobacterium necrophorum, fusobacterium necrophorum"
+fusobacterium_nucleatum,,"few fusobacterium nucleatum, fusobacterium nucleatum"
+fusobacterium_sp,Fusobacterium organism identified to the genus level only; species not further specified.,"fusobacterium species, fusobacterium sp. not f. nucleatum"
+gardnerella_vaginalis,,"10,000 - 49,000 cfu/ml gardnerella vaginalis, 50,000 - 99,000 cfu/ml gardnerella vaginalis"
+gemella_morbillorum,,gemella morbillorum
+gemella_sp,Gemella organism identified to the genus level only; species not further specified.,"gemella species, 10,000 - 49,000 cfu/ml gemella"
+geotrichum_sp,Geotrichum organism identified to the genus level only; species not further specified.,"geotrichum, few geotrichum"
+globicatella_sanguinis,,globicatella sanguinis
+gordonia_bronchialis,,gordonia bronchialis
+gordonia_sp,Gordonia organism identified to the genus level only; species not further specified.,
+gram_negative_diplococci,,"moderate gram negative diplococci, many gram negative diplococci"
+gram_negative_rod,,"anaerobic gram negative bacilli, few gram negative coccobacilli"
+gram_positive_cocci,,"gram positive cocci in chains, few gram positive cocci in pairs, chains, and clusters"
+gram_positive_rod,,"rare gram positive bacilli, moderate gram positive bacilli"
+granulicatella_adiacens,,"granulicatella adiacens, rare granulicatella adiacens"
+granulicatella_elegans,,granulicatella elegans
+haemophilus_haemolyticus,,"haemophilus influenzae/haemolyticus, moderate haemophilus haemolyticus"
+haemophilus_influenzae,,"many haemophilus influenzae, rare haemophilus influenzae"
+haemophilus_parainfluenzae,,"rare haemophilus parainfluenzae, many haemophilus parainfluenzae"
+haemophilus_sp,Haemophilus organism identified to the genus level only; species not further specified.,haemophilus ducreyi isolated
+hafnia_alvei,,"moderate hafnia alvei, hafnia alvei has inducible chromosomal ampc beta-lactamase. monotherapy with beta lactam"
+hafnia_sp,Hafnia organism identified to the genus level only; species not further specified.,hafnia species
+histoplasma_capsulatum,,"few histoplasma capsulatum, many histoplasma capsulatum"
+kingella_denitrificans,,kingella denitrificans
+klebsiella_aerogenes,,"klebsiella aerogenes, klebsiella aerogenes (formerly enterobacter aerogenes) has an inducible chromosomal ampc"
+klebsiella_oxytoca,,"klebsiella oxytoca, 50,000 - 99,000 cfu/ml klebsiella oxytoca"
+klebsiella_pneumoniae,,"10,000 - 49,000 cfu/ml klebsiella pneumoniae, many klebsiella pneumoniae"
+klebsiella_sp,Klebsiella organism identified to the genus level only; species not further specified.,klebsiella species
+klebsiella_variicola,,"many klebsiella variicola, 50,000 - 99,000 cfu/ml klebsiella variicola"
+kloeckera_sp,Kloeckera organism identified to the genus level only; species not further specified.,kloeckera sp.
+kluyvera_sp,Kluyvera organism identified to the genus level only; species not further specified.,"many kluyvera, kluyvera"
+kocuria_palustris,,rare kocuria palustris
+kocuria_sp,Kocuria organism identified to the genus level only; species not further specified.,"kocuria, kocuria species"
+kodamaea_ohmeri,,kodamaea ohmeri
+lactobacillus_acidophilus,,lactobacillus acidophilus
+lactobacillus_fermentum,,lactobacillus fermentum
+lactobacillus_sp,Lactobacillus organism identified to the genus level only; species not further specified.,"isolated from broth only lactobacillus, many lactobacillus"
+lactococcus_sp,Lactococcus organism identified to the genus level only; species not further specified.,lactococcus species
+leclercia_adecarboxylata,,"rare leclercia adecarboxylata, 50,000 - 99,000 cfu/ml leclercia adecarboxylata"
+legionella_bozemanae,,legionella bozemanae
+legionella_dumoffii,,fluoribacter (legionella) dumoffii
+legionella_feeleii,,legionella feeleii
+legionella_pneumophila,,legionella pneumophila
+legionella_sp,Legionella organism identified to the genus level only; species not further specified.,"isolate legionella, legionella isolated"
+lelliottia_amigena,Common misspellings: lettiottia_amingena.,
+leptotrichia_buccalis,,leptotrichia buccalis
+leuconostoc_sp,Leuconostoc organism identified to the genus level only; species not further specified.,"rare leuconostoc, leuconostoc species"
+lichtheimia_sp,Lichtheimia organism identified to the genus level only; species not further specified.,lichtheimia species (formerly absidia)
+listeria_monocytogenes,,listeria monocytogenes
+lysinibacillus_fusiformis,,lysinibacillus fusiformis
+lysinibacillus_sp,Lysinibacillus organism identified to the genus level only; species not further specified.,lysinibacillus
+malassezia_furfur,,"malassezia furfur, malassezia furfur complex"
+malassezia_pachydermatis,,few malassezia pachydermatis
+microbacterium_flavescens,,"rare microbacterium flavescens, microbacterium flavescens"
+microbacterium_sp,Microbacterium organism identified to the genus level only; species not further specified.,"rare microbacterium, microbacterium species"
+micrococcus_luteus,,"micrococcus luteus, many micrococcus luteus"
+micrococcus_sp,Micrococcus organism identified to the genus level only; species not further specified.,"micrococcus species, rare micrococcus"
+microsporum_gypseum,,microsporum gypseum
+microsporum_sp,Microsporum organism identified to the genus level only; species not further specified.,
+moraxella_catarrhalis,,"many moraxella catarrhalis, moraxella catarrhalis"
+moraxella_nonliquefaciens,,"moderate moraxella nonliquefaciens, moraxella non-liquefaciens"
+moraxella_osloensis,,"few moraxella osloensis, moraxella osloensis"
+moraxella_sp,Moraxella organism identified to the genus level only; species not further specified.,moraxella species
+morganella_morganii,,"few morganella morganii, rare morganella morganii"
+morganella_sp,Morganella organism identified to the genus level only; species not further specified.,
+mucor_circinelloides,,"few mucor circinelloides, rare mucor circinelloides"
+mucor_sp,Mucor organism identified to the genus level only; species not further specified.,"few mucor, rare mucor"
+mycobacterium_abscessus,,"many mycobacterium abscessus, mycobacterium abscessus"
+mycobacterium_avium,,"mycobacterium avium complex, mycobacterium avium"
+mycobacterium_chelonae,,"mycobacterium chelonae-abscessus complex, mycobacterium chelonae complex"
+mycobacterium_farcinogenes,,mycobacterium farcinogenes/fortuitum/senegalense/mucogenicum
+mycobacterium_fortuitum,,"mycobacterium fortuitum, mycobacterium fortuitum complex"
+mycobacterium_gordonae,,"mycobacterium gordonae, mycobacterium gordonae/paragordonae"
+mycobacterium_kansasii,,mycobacterium kansasii
+mycobacterium_kubicae,,mycobacterium kubicae
+mycobacterium_lentiflavum,,mycobacterium lentiflavum
+mycobacterium_llatzerense,,mycobacterium llatzerense/
+mycobacterium_malmoense,,mycobacterium monacense
+mycobacterium_marinum,,
+mycobacterium_mucogenicum,,"mycobacterium mucogenicum group, mycobacterium mucogenicum"
+mycobacterium_neoaurum,,mycobacterium neoaurum
+mycobacterium_paraffinicum,,mycobacterium paraffinicum
+mycobacterium_scrofulaceum,,"the mycobacterium scrofulaceum could be a laboratory contaminant. please correlate with, mycobacterium scrofulaceum"
+mycobacterium_szulgai,,mycobacterium smegmatis
+mycobacterium_tuberculosis,,"mycobacterium tuberculosis complex, mycobacterium tuberculosis"
+mycobacterium_xenopi,,mycobacterium xenopi
+mycoplasma_hominis,,"mycoplasma hominis, few mycoplasma hominis"
+mycoplasma_sp,Mycoplasma organism identified to the genus level only; species not further specified.,"moderate mycoplasma species, mycoplasma species"
+myroides_sp,Myroides organism identified to the genus level only; species not further specified.,myroides species (formerly flavobacterium odoratum)
+neisseria_gonorrhoeae,,neisseria gonorrhoeae
+neisseria_meningitidis,,"10,000 - 49,000 cfu/ml neisseria meningitidis, many neisseria meningitidis"
+neisseria_mucosa,,"neisseria mucosa, neisseria mucosa/subflava"
+neisseria_sp,Neisseria organism identified to the genus level only; species not further specified.,"rare neisseria species, few neisseria species"
+neisseria_subflava,,neisseria subflava
+no_growth,,"< 10,000/ml, no growth 56 days"
+nocardia_abscessus,,nocardia abscessus complex
+nocardia_brasiliensis,,nocardia brasiliensis
+nocardia_cyriacigeorgica,,nocardia cyriacigeorgica
+nocardia_farcinica,,"nocardia farcinica, moderate nocardia farcinica"
+nocardia_nova,,
+nocardia_sp,Nocardia organism identified to the genus level only; species not further specified.,"nocardia species, nocardia sp. most closely resembles n. otitidiscaviarum"
+nocardia_thailandica,,nocardia thailandica
+nocardia_veterana,,nocardia veterana
+nocardia_wallacei,,nocardia wallacei
+ochraconis_sp,Ochraconis organism identified to the genus level only; species not further specified.,ochraconis species
+ochrobactrum_anthropi,,"ochrobactrum anthropi, moderate ochrobactrum anthropi"
+ochrobactrum_intermedium,,ochrobactrum intermedium
+ochrobactrum_sp,Ochrobactrum organism identified to the genus level only; species not further specified.,ochrobactrum species
+odoribacter_splanchnicus,,odoribacter splanchnicus
+oligella_ureolytica,,oligella ureolytica
+oligella_urethralis,,"oligella urethralis, few oligella urethralis"
+paecilomyces_lilacinus,,purpureocillium (formerly paecilomyces) lilacinum
+paecilomyces_sp,Paecilomyces organism identified to the genus level only; species not further specified.,"rare paecilomyces, few paecilomyces"
+paenibacillus_sp,Paenibacillus organism identified to the genus level only; species not further specified.,"rare paenibacillus, paenibacillus species"
+pandoraea_sp,Pandoraea organism identified to the genus level only; species not further specified.,pandoraea sp.
+pantoea_agglomerans,,"rare pantoea agglomerans, many pantoea agglomerans"
+pantoea_sp,Pantoea organism identified to the genus level only; species not further specified.,"many pantoea, moderate pantoea"
+parabacteroides_distasonis,,"parabacteroides distasonis, few parabacteroides distasonis"
+parabacteroides_merdae,,"parabacteroides merdae, rare parabacteroides merdae"
+parvimonas_micra,,"rare parvimonas micra, parvimonas micra"
+pasteurella_canis,,"rare pasteurella canis, pasteurella canis"
+pasteurella_multocida,,"pasteurella multocida, few pasteurella multocida"
+pasteurella_sp,Pasteurella organism identified to the genus level only; species not further specified.,"many pasteurella, pasteurella species"
+pediococcus_acidilactici,,pediococcus acidilactici
+penicillium_sp,Penicillium organism identified to the genus level only; species not further specified.,"few penicillium species, penicillium species"
+peptoniphilus_assacharolyticus,,"rare peptoniphilus asaccharolyticus, peptoniphilus assacharolyticus"
+peptoniphilus_harei,,peptoniphilus harei
+peptoniphilus_sp,Peptoniphilus organism identified to the genus level only; species not further specified.,"peptoniphilus species, peptoniphilus"
+peptostreptococcus_anaerobius,,"few peptostreptococcus anaerobius, peptostreptococcus anaerobius"
+peptostreptococcus_sp,Peptostreptococcus organism identified to the genus level only; species not further specified.,peptostreptococcus sp.
+pithomyces_sp,Pithomyces organism identified to the genus level only; species not further specified.,pithomyces sp.
+plasmodium_falciparum,,"p.falciparum, plasmodium falciparum"
+plasmodium_sp,Plasmodium organism identified to the genus level only; species not further specified.,"occasional malaria present, malaria parasite presents"
+plesiomonas_shigelloides,,plesiomonas shigelloides
+pluralibacter_gergoviae,,"pluralibacter gergoviae, rare pluralibacter gergoviae"
+porphyromonas_asaccharolytica,,"porphyromonas asaccharolytica/uenonis, porphyromonas asaccharolytica"
+porphyromonas_sp,Porphyromonas organism identified to the genus level only; species not further specified.,"many porphyromonas, porphyromonas"
+prevotella_bivia,,"moderate prevotella bivia, prevotella bivia"
+prevotella_buccae,,"prevotella buccae, rare prevotella buccae"
+prevotella_denticola,,"moderate prevotella denticola, prevotella denticola"
+prevotella_disiens,,"few prevotella disiens, prevotella disiens"
+prevotella_intermedia,,"prevotella intermedia, few prevotella intermedia"
+prevotella_melaninogenica,,"prevotella melaninogenica, prevotella melaninogenica group"
+prevotella_nigrescens,,"prevotella nigrescens, moderate prevotella nigrescens"
+prevotella_oralis,,prevotella oralis
+prevotella_oris,,"many prevotella oris, moderate prevotella oris"
+prevotella_sp,Prevotella organism identified to the genus level only; species not further specified.,"few prevotella, many prevotella"
+propionibacterium_acnes,,propionibacterium acnes
+propionibacterium_avidum,,propionibacterium avidum
+propionibacterium_granulosum,,"cutibacterium granulosum (formerly propionibacterium granulosum), rare cutibacterium granulosum"
+propionibacterium_sp,Propionibacterium organism identified to the genus level only; species not further specified.,propionibacterium species
+proteus_mirabilis,,"1,000 - 10,000 cfu/ml proteus mirabilis, proteus mirabilis"
+proteus_penneri,,"few proteus penneri, proteus penneri"
+proteus_sp,Proteus organism identified to the genus level only; species not further specified.,"culture overgrown with proteus, unable to isolate anaerobes"
+proteus_vulgaris,,"1,000 - 10,000 cfu/ml proteus vulgaris, moderate proteus vulgaris"
+providencia_alcalifaciens,,
+providencia_rettgeri,,"many providencia rettgeri, 10,000 - 49,000 cfu/ml providencia rettgeri"
+providencia_sp,Providencia organism identified to the genus level only; species not further specified.,providencia sp. have inducible chromosomal ampc beta-lactamase. monotherapy with
+providencia_stuartii,,"moderate providencia stuartii, >=100,000 cfu/ml providencia stuartii"
+pseudallescheria_boydii,,pseudallescheria boydii
+pseudoglutamicibacter_cumminsii,,"pseudoglutamicibacter cumminsii, 50,000 - 99,000 cfu/ml pseudoglutamicibacter cumminsii"
+pseudomonas_aeruginosa,,"moderate pseudomonas aeruginosa, many pseudomonas aeruginosa"
+pseudomonas_alcaligenes,,"pseudomonas alcaligenes, moderate pseudomonas alcaligenes"
+pseudomonas_fluorescens,,"10,000 - 49,000 cfu/ml pseudomonas fluorescens, moderate pseudomonas fluorescens"
+pseudomonas_luteola,,"few pseudomonas luteola, pseudomonas luteola"
+pseudomonas_mendocina,,pseudomonas mendocina
+pseudomonas_oryzihabitans,,"moderate pseudomonas oryzihabitans, pseudomonas oryzihabitans"
+pseudomonas_putida,,"50,000 - 99,000 cfu/ml pseudomonas putida, rare pseudomonas putida"
+pseudomonas_sp,Pseudomonas organism identified to the genus level only; species not further specified.,"pseudomonas species, pseudomonas sp. not aeruginosa"
+pseudomonas_stutzeri,,"pseudomonas stutzeri, rare pseudomonas stutzeri"
+psychrobacter_phenylpyruvicus,,psychrobacter phenylpyruvicus
+psychrobacter_sp,Psychrobacter organism identified to the genus level only; species not further specified.,psychrobacter
+purpureocillium_lilacinum,,"rare purpureocillium lilacinum, few purpureocillium lilacinum"
+rahnella_aquatilis,,rahnella aquatilis
+rahnella_sp,Rahnella organism identified to the genus level only; species not further specified.,
+ralstonia_mannitolilytica,,many ralstonia mannitolilytica
+ralstonia_pickettii,,ralstonia pickettii
+ralstonia_sp,Ralstonia organism identified to the genus level only; species not further specified.,
+raoultella_ornithinolytica,,">=100,000 cfu/ml raoultella ornithinolytica, 50,000 - 99,000 cfu/ml raoultella ornithinolytica"
+raoultella_planticola,,"10,000 - 49,000 cfu/ml raoultella planticola, 50,000 - 99,000 cfu/ml raoultella planticola"
+raoultella_sp,Raoultella organism identified to the genus level only; species not further specified.,">=100,000 cfu/ml raoultella, raoultella species"
+rhinocladiella_sp,Rhinocladiella organism identified to the genus level only; species not further specified.,rhinocladiella species
+rhizobium_radiobacter,,rhizobium radiobacter
+rhizobium_sp,Rhizobium organism identified to the genus level only; species not further specified.,
+rhizomucor_pusillus,,rare rhizomucor pusillus
+rhizomucor_sp,Rhizomucor organism identified to the genus level only; species not further specified.,"rhizomucor sp., rare rhizomucor"
+rhizopus_sp,Rhizopus organism identified to the genus level only; species not further specified.,"rhizomucor sp., rhizopus"
+rhodococcus_sp,Rhodococcus organism identified to the genus level only; species not further specified.,rhodococcus sp.
+rhodotorula_mucilaginosa,,"rare rhodotorula mucilaginosa, rhodotorula mucilaginosa"
+rhodotorula_sp,Rhodotorula organism identified to the genus level only; species not further specified.,rhodotorula species
+roseomonas_sp,Roseomonas organism identified to the genus level only; species not further specified.,roseomonas sp.
+rothia_dentocariosa,,rothia dentocariosa
+rothia_mucilaginosa,,"rothia (stomatococcus) mucilaginosa, rare rothia mucilaginosa"
+rothia_sp,Rothia organism identified to the genus level only; species not further specified.,
+saccharomyces_cerevisiae,,"many saccharomyces cerevisiae, rare saccharomyces cerevisiae"
+saccharomyces_sp,Saccharomyces organism identified to the genus level only; species not further specified.,"moderate saccharomyces, few saccharomyces"
+salmonella_enterica,,"isolated from broth only salmonella enterica ssp enterica, salmonella enterica"
+salmonella_enteritidis,,salmonella enteritidis
+salmonella_paratyphi,,paratyphi b var. l(+) tartrate+
+salmonella_sp,Salmonella organism identified to the genus level only; species not further specified.,"salmonella species non typhi isolated from culture. culture and serotyping performed by, salmonella"
+saprochaete_capitata,,"saprochaete capitata (formerly blastoschizomyces capitatus), moderate saprochaete capitata"
+saprochaete_sp,Saprochaete organism identified to the genus level only; species not further specified.,few saprochaete
+scedosporium_apiospermum,,"scedosporium apiospermum, rare scedosporium apiospermum"
+scopulariopsis_brevicaulis,,scopulariopsis brevicaulis
+scopulariopsis_sp,Scopulariopsis organism identified to the genus level only; species not further specified. Common misspellings: scopulariopsi_sp.,"moderate scopulariopsis, scopulariopsis species"
+serratia_fonticola,,serratia fonticola
+serratia_liquefaciens,,"serratia liquefaciens, moderate serratia liquefaciens"
+serratia_marcescens,,"moderate serratia marcescens, 50,000 - 99,000 cfu/ml serratia marcescens"
+serratia_odorifera,,serratia odorifera
+serratia_rubidaea,,moderate serratia rubidaea
+serratia_sp,Serratia organism identified to the genus level only; species not further specified.,"serratia sp., serratia species are known to have inducible chromosomal ampc beta-lactamase. monotherapy"
+shewanella_putrefaciens,,moderate shewanella putrefaciens
+shewanella_sp,Shewanella organism identified to the genus level only; species not further specified.,"shewanella species, shewanella"
+shigella_sonnei,,shigella sonnei
+slackia_exigua,,slackia exigua
+sphingomonas_paucimobilis,,"rare sphingomonas paucimobilis, sphingomonas paucimobilis"
+sphingomonas_sp,Sphingomonas organism identified to the genus level only; species not further specified.,sphingomonas species
+sporobolomyces_salmonicolor,,sporobolomyces salmonicolor
+staphylococcus_aureus,,"few staphylococcus aureus, many methicillin-sensitive staphylococcus aureus"
+staphylococcus_auricularis,,"rare staphylococcus auricularis, staphylococcus auricularis"
+staphylococcus_capitis,,"few staphylococcus capitis, <1,000 cfu/ml staphylococcus captis"
+staphylococcus_caprae,,staphylococcus caprae
+staphylococcus_carnosus,,staphylococcus carnosus
+staphylococcus_coagneg,Common misspellings: staphyloccous_coagneg.,"moderate staphylococcus coagulase negative, 60,000 cfu/gram of tissue staphylococcus coagulase negative"
+staphylococcus_cohnii,,"staphylococcus cohnii, staphylococcus cohnii ssp urealyticus"
+staphylococcus_epidermidis,,"<1,000 cfu/ml staphylococcus epidermidis, >=100,000 cfu/ml staphylococcus epidermidis"
+staphylococcus_haemolyticus,,"isolated from broth only staphylococcus haemolyticus, many staphylococcus haemolyticus"
+staphylococcus_hominis,,"rare staphylococcus hominis, isolated from broth only staphylococcus hominis"
+staphylococcus_lugdunensis,,"few staphylococcus lugdunensis, rare staphylococcus lugdunensis"
+staphylococcus_pasteuri,,"staphylococcus pasteuri, rare staphylococcus pasteuri"
+staphylococcus_pettenkoferi,,staphylococcus pettenkoferi
+staphylococcus_pseudintermedius,,"many staphylococcus pseudintermedius, rare staphylococcus pseudintermedius"
+staphylococcus_saccharolyticus,,staphylococcus saccharolyticus
+staphylococcus_saprophyticus,,"staphylococcus saprophyticus, >=100,000 cfu/ml staphylococcus saprophyticus"
+staphylococcus_schleiferi,,"staphylococcus schleiferi, moderate staphylococcus schleiferi"
+staphylococcus_sciuri,,staphylococcus sciuri
+staphylococcus_simulans,,"10,000 staphylococcus simulans, staphylococcus simulans"
+staphylococcus_sp,Staphylococcus organism identified to the genus level only; species not further specified.,staphylococcus species
+staphylococcus_warneri,,"staphylococcus warneri, isolated from broth only staphylococcus warneri"
+staphylococcus_xylosus,,staphylococcus xylosus
+stenotrophomonas_maltophilia,,"50,000 - 99,000 cfu/ml stenotrophomonas maltophilia, moderate stenotrophomonas maltophilia"
+stenotrophomonas_rhizophila,,moderate stenotrophomonas rhizophila
+stenotrophomonas_sp,Stenotrophomonas organism identified to the genus level only; species not further specified.,"10,000 cfu/gram of tissue stenotrophomonas, 20,000 cfu/gram of tissue stenotrophomonas"
+streptococcus_agalactiae,,streptococcus agalactiae
+streptococcus_alphahemolytic,,"many alpha-hemolytic streptococcus not streptococcus pneumoniae, few alpha-hemolytic streptococcus not streptococcus pneumoniae"
+streptococcus_anginosus,,"50,000 - 99,000 cfu/ml streptococcus anginosus, moderate streptococcus anginosus"
+streptococcus_bovis,,"streptococcus bovis, streptococcus bovis group"
+streptococcus_canis,,"streptococcus canis, rare streptococcus canis"
+streptococcus_constellatus,,"moderate streptococcus constellatus, 10,000 - 49,000 cfu/ml streptococcus constellatus"
+streptococcus_cristatus,,streptococcus cristatus
+streptococcus_dysgalactiae,,"streptococcus dysgalactiae, few streptococcus dysgalactiae"
+streptococcus_equinus,,streptococcus equinus
+streptococcus_gallolyticus,,streptococcus gallolyticus (bovis group)
+streptococcus_gordonii,,"streptococcus gordonii, rare streptococcus gordonii"
+streptococcus_infantarius,,streptococcus infantarius
+streptococcus_intermedius,,"rare streptococcus intermedius, moderate streptococcus intermedius"
+streptococcus_mitis,,"moderate streptococcus mitis group, many streptococcus mitis"
+streptococcus_mutans,,streptococcus mutans
+streptococcus_nonhemolytic,,non-hemolytic streptococci
+streptococcus_parasanguinis,,"streptococcus parasanguinis, rare streptococcus parasanguinis"
+streptococcus_pneumoniae,,"streptococcus pneumoniae/ pseudopneumoniae, many streptococcus pneumoniae"
+streptococcus_pseudoporcinus,,few streptococcus pseudoporcinus
+streptococcus_pyogenes,Common misspellings: streptcoccus_pyogenes.,streptococcus pyogenes
+streptococcus_salivarius,,"rare streptococcus salivarius group, streptococcus salivarius"
+streptococcus_sanguinis,,"streptococcus sanguinis, streptococcus sanguinus group"
+streptococcus_sp,Streptococcus organism identified to the genus level only; species not further specified.,"streptococcus species, nutritionally variant streptococci"
+streptococcus_viridans,,"moderate streptococcus viridans, moderate streptococcus viridans group"
+streptomyces_griseus,,streptomyces griseus
+streptomyces_sp,Streptomyces organism identified to the genus level only; species not further specified.,streptomyces species
+sutterella_sp,Sutterella organism identified to the genus level only; species not further specified.,sutterella species
+syncephalastrum_sp,Syncephalastrum organism identified to the genus level only; species not further specified.,syncephalastrum sp.
+teichospora_sp,Teichospora organism identified to the genus level only; species not further specified.,teichospora sp.
+tissierella_praeacuta,,tissierella praeacuta
+trichoderma_sp,Trichoderma organism identified to the genus level only; species not further specified.,trichoderma sp.
+trichophyton_rubrum,,"rare trichophyton rubrum, trichophyton rubrum"
+trichophyton_tonsurans,,trichophyton tonsurans
+trichosporon_asahii,,"trichosporon asahii, few trichosporon asahii"
+trichosporon_sp,Trichosporon organism identified to the genus level only; species not further specified.,trichosporon species
+trueperella_bernardiae,,"many trueperella bernardiae, few trueperella bernardiae"
+trueperella_sp,Trueperella organism identified to the genus level only; species not further specified.,
+tuberculosis_nos_afb_kochbacillus,,
+turicella_otitidis,,turicella otitidis
+vagococcus_fluvialis,,vagococcus fluvialis
+veillonella_sp,Veillonella organism identified to the genus level only; species not further specified.,"few veillonella, veillonella species"
+verticillium_sp,Verticillium organism identified to the genus level only; species not further specified.,verticillium species
+vibrio_sp,Vibrio organism identified to the genus level only; species not further specified.,vibrio species
+virus_other,,
+weeksella_sp,Weeksella organism identified to the genus level only; species not further specified.,
+weeksella_virosa,,weeksella virosa
+weissella_confusa,,"rare weissella confusa, weissella confusa"
+weissella_sp,Weissella organism identified to the genus level only; species not further specified.,
+xanthomonas_sp,Xanthomonas organism identified to the genus level only; species not further specified.,xanthomonas species
+yeast,,"rare yeast, yeast"
+zygomycete_sp,Zygomycete organism identified to the genus level only; species not further specified.,"few zygomycete, zygomycete species"
