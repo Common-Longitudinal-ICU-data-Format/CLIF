@@ -143,7 +143,6 @@ citrobacter_amalonaticus,,"10,000 - 49,000 cfu/ml citrobacter amalonaticus, 50,0
 citrobacter_farmeri,,citrobacter farmeri
 citrobacter_freundii,,"moderate citrobacter freundii, citrobacter freundii"
 citrobacter_koseri,,"50,000 - 99,000 cfu/ml citrobacter koseri, >=100,000 cfu/ml citrobacter koseri"
-citrobacter_koserii,,citrobacter koserii
 citrobacter_sp,Citrobacter organism identified to the genus level only; species not further specified.,citrobacter species
 cladosporium_sp,Cladosporium organism identified to the genus level only; species not further specified.,"cladosporium species, rare cladosporium"
 clostridioides_difficile,,clostridioides difficile (formerly clostridium difficile)
@@ -543,4 +542,5 @@ xanthomonas_sp,Xanthomonas organism identified to the genus level only; species 
 yeast,,"rare yeast, yeast"
 
 zygomycete_sp,Zygomycete organism identified to the genus level only; species not further specified.,"few zygomycete, zygomycete species"
+
 
