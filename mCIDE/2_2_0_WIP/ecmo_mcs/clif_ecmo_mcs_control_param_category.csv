@@ -1,4 +1,0 @@
-﻿control_parameter_category,description ,control_parameter_name_examples
-rpm,Rotations per minute for mcs pump. Applies to all mcs except IABP,"rpm, rotations per min"
-impella_power,Numeric value of Impella performance ranging from P0-P9,"P0, Performance 1"
-iabp_ratio,"Captures the number of heartbeats per IABP inflation. Normally expressed as a ratio, eg -'1:2' i.e., 1 IABP inflation for every 2 heartbeats","IABP inflations, IABP ratio"

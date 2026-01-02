@@ -1,4 +1,5 @@
 .DS_Store
+.github/
 
 # Ignore Parquet, excel, and R project files
 *.parquet
