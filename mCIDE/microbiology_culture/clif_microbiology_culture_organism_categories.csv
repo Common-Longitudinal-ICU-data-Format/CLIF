@@ -145,12 +145,11 @@ citrobacter_freundii,,"moderate citrobacter freundii, citrobacter freundii"
 citrobacter_koseri,,"50,000 - 99,000 cfu/ml citrobacter koseri, >=100,000 cfu/ml citrobacter koseri"
 citrobacter_sp,Citrobacter organism identified to the genus level only; species not further specified.,citrobacter species
 cladosporium_sp,Cladosporium organism identified to the genus level only; species not further specified.,"cladosporium species, rare cladosporium"
-clostridioides_difficile,,clostridioides difficile (formerly clostridium difficile)
+clostridioides_difficile,Formerly clostridium difficile,"clostridioides difficile, clostridium difficile, rare clostridioides difficile"
 clostridium_bifermentans,,clostridium bifermentans
 clostridium_butyricum,,clostridium butyricum
 clostridium_cadaveris,,clostridium cadaveris
 clostridium_clostridioforme,,"rare clostridium clostridioforme, clostridium clostridioforme"
-clostridium_difficile,,"clostridioides difficile (formerly clostridium difficile), rare clostridioides difficile"
 clostridium_innocuum,,clostridium innocuum
 clostridium_paraputrificum,,clostridium paraputrificum
 clostridium_perfringens,,"few clostridium perfringens, moderate clostridium perfringens"
@@ -540,7 +539,6 @@ weissella_confusa,,"rare weissella confusa, weissella confusa"
 weissella_sp,Weissella organism identified to the genus level only; species not further specified.,
 xanthomonas_sp,Xanthomonas organism identified to the genus level only; species not further specified.,xanthomonas species
 yeast,,"rare yeast, yeast"
-
 zygomycete_sp,Zygomycete organism identified to the genus level only; species not further specified.,"few zygomycete, zygomycete species"
 
 
