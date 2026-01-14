@@ -1,4 +1,4 @@
-﻿device_category,description ,device_name examples,device_name examples
+﻿device_category,description ,device_name examples,mcs_group
 cardiohelp_ecmo,,Maquet Cardiohelp System,ecmo
 centrimag_ecmo,,Abbot CentriMag ECMO pump,ecmo
 centrimag_lv,,"CentriMag LVAD, Thoratec CentriMag LV, Abbott CentriMag Left",temporary_lvad
@@ -26,3 +26,4 @@ rvad_other_unspec,RVAD of unknown or unclear model,,temporary_rvad
 tandemheart_lv,,"TandemHeart pVAD, TandemHeart LVAD, CardiacAssist TandemHeart LV",temporary_lvad
 tandemheart_rv,,"TandemHeart RA-PA, TandemHeart RVAD, CardiacAssist TandemHeart RV",temporary_rvad
 temp_lvad_other_unspec,Temporary LVAD of unknown or unclear model,,temporary_lvad
+
