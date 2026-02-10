@@ -17,7 +17,6 @@ impella_LD,,"Impella LD, Abiomed Impella LD, Impella LD long-term support",impel
 impella_lv_other_unspec,Impella of unknown or unclear model,,impella_lvad
 impella_RP,,"Impella RP, Abiomed Impella RP, Impella RP RVAD, Impella RP Flex, Abiomed Impella RP Flex, Impella RP Flex RVAD",temporary_rvad
 impella_rv_other_unspec,Impella of unknown or unclear model,,temporary_rvad
-ivac,,"iVAC, PulseCath iVAC",other
 ivac_2_l,,"iVAC 2L, PulseCath iVAC 2L",temporary_lvad
 ivac_3_l,,"iVAC 3L, PulseCath iVAC 3L",temporary_lvad
 novalung_ecmo,,NovaLung System,ecmo
@@ -26,5 +25,6 @@ rvad_other_unspec,RVAD of unknown or unclear model,,temporary_rvad
 tandemheart_lv,,"TandemHeart pVAD, TandemHeart LVAD, CardiacAssist TandemHeart LV",temporary_lvad
 tandemheart_rv,,"TandemHeart RA-PA, TandemHeart RVAD, CardiacAssist TandemHeart RV",temporary_rvad
 temp_lvad_other_unspec,Temporary LVAD of unknown or unclear model,,temporary_lvad
+
 
 
