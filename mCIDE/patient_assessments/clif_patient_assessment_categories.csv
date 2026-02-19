@@ -6,7 +6,7 @@ AVPU,"Responsiveness level (Categorical: Alert, Voice, Pain, Unresponsive)","AVP
 BPS,"Subcomponents: Facial expression, upper limbs, compliance with ventilation (Numerical/Text)","Behavioral Pain Scale, BPS-NI (Non-Intubated), Critical Care Pain Assessment",Pain
 braden_activity,Component assessing patient's degree of physical activity,"Braden Scale - Activity, Physical Activity Level, Activity Mobility Component",Nursing Risk
 braden_friction,Component assessing friction and shear risk,"Braden Scale - Friction/Shear, Skin Friction Assessment, Movement Friction Risk",Nursing Risk
-braden_mobility,Component assessing ability to change and control body position,"Braden Scale - Mobility, Position Change Ability, Body Repositioning",Mobility/Activity
+braden_mobility,Component assessing ability to change and control body position,"Braden Scale - Mobility, Position Change Ability, Body Repositioning",Nursing Risk
 braden_moisture,Component assessing degree of skin exposure to moisture,"Braden Scale - Moisture, Skin Moisture Exposure, Moisture Management",Nursing Risk
 braden_nutrition,Component assessing nutritional intake patterns,"Braden Scale - Nutrition, Nutritional Intake Assessment, Dietary Adequacy",Nursing Risk
 braden_sensory,Component assessing ability to respond to pressure-related discomfort,"Braden Scale - Sensory Perception, Pressure Sensation, Sensory Response",Nursing Risk
