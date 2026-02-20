@@ -1,0 +1,34 @@
+output_category,description,output_category_examples,output_group
+biliary_drain,Drain placed into the biliary system (e.g. percutaneous cholecystostomy),,drains
+blood_loss,Documented direct venous/arterial blood loss from a surgery. This is distinct from GI bleeding or bleeding from a drain.,,blood_loss
+chest_tube_durable,"Includes longerm, durable pleural catheters (e.g. PleurX)",,drains
+chest_tube_temporary,Small- or large-bore chest tube draining the pleural space. Does not include tunneled/indwelling catheters,,drains
+colostomy,GI output from a colostomy,,gi
+emesis,Quantified upper GI output directly from the patient's mouth,,gi
+external_urinary_catheter,External urine collection systems such as PureWicks,,urine
+gastrojejunostomy,GI output from a gastrojejunostomy,,gi
+gastrostomy,GI output from a gastrostomy,,gi
+gi_output_other,Quantified upper GI output from a GI source not otherwise specified,,gi
+ileostomy,GI output from an ileostomy,,gi
+indwelling_urinary_catheter,Urine output obtained via indwelling catheter (e.g. Foley),,urine
+jejunostomy,GI output from a jejunostomy,,gi
+nephrostomy,Urine output obtained via nephrostomy tube,,urine
+orogastric_nasogastric_tube,GI output from a nasogastric or orogastric tube,,gi
+orogjejunal_nasojejunal_tube,GI output from a nasojejunal or orojejunal tube,,gi
+other,Any additional fluid output not captured by the above,,other
+other_procedure,Fluid removed in a single procedure without an indwelling drain,,procedure
+ostomy_gi_other,GI output from an ostomy connecting the GI tract to the skin but not accounted for in another category,,gi
+paracentesis,Fluid removed from the peritoneum via paracentesis,,procedure
+pericardial_drain,Drain placed into the pericardial space,,drains
+peritoneal_drain,Drain placed into the peritoneal space to drain ascites (distinct from abscess or other drainage) or PD fluid,,drains
+procedural_drain_other,Drain placed into other body cavity (e.g. JP drain in a abdominal abscess) outside the alimentary canal,,drains
+rectal_tube,GI output from a fecal management system to quantify stool via a rectal tube,,gi
+respiratory,"Quantified respiratory system output (e.g. hemoptysis, epistaxis)",,respiratory
+stool,Quantified stool output directly from the patient,,gi
+suprapubic_cathether,Urine output obtained via surgically inplanted suprapubic catheter,,urine
+thoracentesis,Fluid removed from the pleural space via thoracentesis,,procedure
+ultrafiltration,Net ultrafiltration from dialysis via ultrafiltration. Do not include removal of replacement fluid in CVVH or CVVHDF as this should be accounted for already.,,ultrafiltration
+urethral,Urine output flowing through urethra,,urine
+urostomy,Urine output obtained via urostomy,,urine
+urinary_other,Other urinary diversion (e.g. ureterostomy),,urine
+wound_drain,Drain connected to a wound (e.g. wound vac),,drains

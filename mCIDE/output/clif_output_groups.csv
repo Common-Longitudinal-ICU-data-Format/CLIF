@@ -1,0 +1,9 @@
+output_group,description,output_group_examples
+blood_loss,Documented direct venous/arterial blood loss from a surgery. This is distinct from GI bleeding or bleeding from a drain.,estimated_blood_loss
+drains,External drains placed into a body cavity of the patient other than the alimentary canal,"chest_tube, pericardial_drain, jp_drain, wound_vac"
+gi,"Losses via the GI tract through the mouth, anus, or external tube.","nasogastric_tube, orogastric_tube, emesis, rectal_tube, ileostomy, gastrojejunostomy_tube"
+other,Any additional fluid output not captured by the above,
+procedure,Fluid drained via single procedure without indwelling drain,"paracentesis, thoracentesis"
+respiratory,Upper or lower respiratory system output,"hemoptysis, whole lung lavage, epistaxis"
+ultrafiltration,Net ultrafiltration from dialysis via ultrafiltration. Do not include removal of replacement fluid in CVVH or CVVHDF as this should be accounted for already.,ultrafiltration
+urine,Urine output representing fluid produced by the kidney(s). Can be from the urethra as in health or via nephrostomy/urostomy.,"urine, nephrostomy, suprapubic_catheter"
