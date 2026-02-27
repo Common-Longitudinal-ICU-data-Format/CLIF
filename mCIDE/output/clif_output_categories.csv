@@ -25,10 +25,11 @@ procedural_drain_other,Drain placed into other body cavity (e.g. JP drain in a a
 rectal_tube,GI output from a fecal management system to quantify stool via a rectal tube,,gi
 respiratory,"Quantified respiratory system output (e.g. hemoptysis, epistaxis)",,respiratory
 stool,Quantified stool output directly from the patient,,gi
-suprapubic_cathether,Urine output obtained via surgically inplanted suprapubic catheter,,urine
+suprapubic_catheter,Urine output obtained via surgically inplanted suprapubic catheter,,urine
 thoracentesis,Fluid removed from the pleural space via thoracentesis,,procedure
 ultrafiltration,Net ultrafiltration from dialysis via ultrafiltration. Do not include removal of replacement fluid in CVVH or CVVHDF as this should be accounted for already.,,ultrafiltration
 urethral,Urine output flowing through urethra,,urine
 urostomy,Urine output obtained via urostomy,,urine
 urinary_other,Other urinary diversion (e.g. ureterostomy),,urine
 wound_drain,Drain connected to a wound (e.g. wound vac),,drains
+
