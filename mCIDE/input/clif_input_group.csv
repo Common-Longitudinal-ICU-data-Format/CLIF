@@ -1,0 +1,8 @@
+input_group,Explanation,Examples
+iv_fluids,"Intravenous non-blood product fluids administered for resuscitation, maintenance, electrolyte correction, or volume expansion.","LR, 3% saline, albumin 25%"
+blood_products,Transfusion of blood components derived from donated blood.,"PRBC, platelets, plasma/FFP, cryoprecipitate"
+nutrition,Intake provided primarily for caloric or nutritional support.,"Jevity, Free water flush, TPN"
+medication_fluids,Volume associated with medication administration when explicitly documented as infused volume.,"sedative infusions, antibiotic piggybacks, polyethylene glycol"
+renal_replacement_fluids,"Replacement fluids for CRRT, iHD. PD dialysate infusion. Subtracting raw ultrafiltration from this yields net ultrafiltration","pre-/post-filter replacement fluids, PD dialysate"
+flush_irrigation,"Fluids used to flush or irrigate catheters, tubes, drains, or cavities.","chest tube flush, continuous bladder irrigation"
+other_intake,other intake not otherwise accounted for,

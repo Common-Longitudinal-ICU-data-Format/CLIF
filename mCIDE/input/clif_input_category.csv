@@ -1,0 +1,17 @@
+input_category,input_group,Explanation,Examples_notes
+iv_crystalloid,iv_fluids,crystalloid fluids given intravenously,"NS, LR, Plasma-Lyte, D5W, hypertonic saline, etc."
+iv_colloid,iv_fluids,colloid fluids given intravenously,"albumin solutions, starch, etc."
+blood_products,blood_products,Transfusion of blood components derived from donated blood,"PRBC, platelets, plasma/FFP, cryoprecipitate"
+parenteral_nutrition,nutrition,"Nutrition given intravenously, peripherally or centrally","TPN, lipid emulsions"
+po_intake,nutrition,quantified oral intake,
+enteral_nutrition,nutrition,tube feeds/supplements via feeding tube,"Nepro, Vital Advanced Formula, etc."
+enteral_water,nutrition,free water flushes / water boluses via tube,"FWF, free water flush"
+iv_medication,medication_fluids,medication-associated volume administered IV,medication-associated volume charted in flowsheets. Ensure no double-counting from medication table
+enteral_medication,medication_fluids,medication-associated volume via enteral route,medication-associated volume charted in flowsheets. Ensure no double-counting from medication table
+renal_replacement_fluids,renal_replacement_fluids,"Replacement fluids for CRRT, iHD. PD dialysate infusion. Subtracting raw ultrafiltration from this yields net ultrafiltration","pre-/post-filter replacement fluids, PD dialysate"
+flush_irrigation_urine,flush_irrigation,"Flushes of urinary drains including catheters, bladder irrigation catheters",Continuous bladder irrigation
+flush_irrigation_drain,flush_irrigation,Flushes of external drains placed into a body cavity of the patient,chest tube flushing
+flush_irrigation_gi,flush_irrigation,"Flushes of tubes and drains in the GI tract through the mouth, NG lavage",
+flush_irrigation_respiratory,flush_irrigation,Flushes of the upper or lower respiratory system output (not classified elsewhere),Whole lung lavage
+flush_irrigation_other,flush_irrigation,Other flush not otherwise accounted for,
+other_input,other_input,other intake not otherwise accounted for,
