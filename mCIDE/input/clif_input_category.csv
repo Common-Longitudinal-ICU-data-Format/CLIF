@@ -14,4 +14,4 @@ flush_irrigation_drain,flush_irrigation,Flushes of external drains placed into a
 flush_irrigation_gi,flush_irrigation,"Flushes of tubes and drains in the GI tract through the mouth, NG lavage",
 flush_irrigation_respiratory,flush_irrigation,Flushes of the upper or lower respiratory system output (not classified elsewhere),Whole lung lavage
 flush_irrigation_other,flush_irrigation,Other flush not otherwise accounted for,
-other_input,other_input,other intake not otherwise accounted for,
+other,other,other intake not otherwise accounted for,

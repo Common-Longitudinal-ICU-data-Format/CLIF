@@ -12,10 +12,10 @@ eyes,Eyes,,"CULTURE, FUNGAL EYE"
 fallopians_uterus_cervix,"Fallopian Tubes, Uterus, Cervix",Surgical specimens or pap smears ,
 feces_stool,Feces/Stool,,ENTEROCOCCUS VA R SCREEN
 gallbladder_billary_pancreas,"Gallbladder and Billary Tree (Not Hepatitis), Pancreas",,
-gastrointestinal_tract ,Gastrointestinal Tract Unspecified,"Includes samples in the GI track that do not fall in gallbladder, biliary tree, pancreas, liver, spleen, stomach, small intestine, large intestine",RECTAL SWAB 
+gastrointestinal_tract,Gastrointestinal Tract Unspecified,"Includes samples in the GI track that do not fall in gallbladder, biliary tree, pancreas, liver, spleen, stomach, small intestine, large intestine",RECTAL SWAB 
 genital_area,Genital Area,Excludes urinary samples. ,"TRICHOMONAS VAGINALIS ASSAY, ENDOCERVICAL"
 genito_urinary_tract,Genito-Urinary Tract Unspecified,"Includes samples obtained from urinary system non-invasively by spontaenous voiding, in-and-out cathether, foley, nephrostomy tubes, illeal conduit or indianna pouch",CULTURE URINE
-joints ,Joints,"Invasive sample from a joint, cartilage or synovial fluid. This excludes superficial samples of the skin, subcutaenous tissue and muscle surrounding the joint. ",
+joints,Joints,"Invasive sample from a joint, cartilage or synovial fluid. This excludes superficial samples of the skin, subcutaenous tissue and muscle surrounding the joint. ",
 kidneys_renal_pelvis_ureters_bladder,"Kidneys, Renal Pelvis, Ureters and Bladder","Sample obtained from urinary system invasively from the kidney, ureter, or bladder using methods such as renal aspiration, incision, biopsy, ureteroscopy, cytoscopy, washings, or a transurethral approach.   ",
 large_intestine,Large Intestine,,
 larynx,Larynx,Includes vocal cords ,
@@ -26,7 +26,7 @@ meninges_csf,Meninges and CSF,,"CULTURE & STAIN, CSF"
 muscle,Muscle (Excluding Cardiac),,
 nasopharynx_upperairway,Upper Airway and Nasopharynx,"Nasal cavity and nasopharynx, includes respiratory viral swabs obtained by nasal swab ",CULTURE NASAL
 oropharynx_tongue_oralcavity,"Tongue, Oral Cavity, and Oro-Pharynx",,CULTURE FUNGAL THROAT
-other_unspecified ,Other Unspecified,Includes samples that do not categorise into any of the above. ,
+other_unspecified,Other Unspecified,Includes samples that do not categorise into any of the above. ,
 peritoneum,Peritoneum,Surgical specimens of the parietal or visceral peritoneum ,
 pleural_cavity_fluid,"Pleural Cavity, Pleural Fluid",,
 prostate,Prostate,,
@@ -35,7 +35,7 @@ respiratory_tract_lower,Lower Respiratory Tract (Lung),"Respiratory samples coll
 sinuses,Sinuses,,
 skin_disseminated_multiple_sites,"Disseminated - Generalized, Isolated at 2 or More Distinct Sites",,
 skin_rash_pustules_abscesses,"Rash, Pustules, or Abscesses Not Typical of Any of the Above",,
-skin_unspecified ,Skin Unspecified,,
+skin_unspecified,Skin Unspecified,,
 small_intestine,Small Intestine,,
 spinal_cord,Spinal Cord,,
 spleen,Spleen,,

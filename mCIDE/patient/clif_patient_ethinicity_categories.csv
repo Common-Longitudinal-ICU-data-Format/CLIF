@@ -1,7 +1,7 @@
 ethnicity_category,description,ethnicity_name_examples
-Hispanic,,"Hispanic, Latino"
-Non-Hispanic,,"Non-Hispanic, Not Hispanic or Latino"
-Unknown,Not documented or patient declined to answer,""
+hispanic,,"Hispanic, Latino"
+non_hispanic,,"Non-Hispanic, Not Hispanic or Latino"
+unknown,Not documented or patient declined to answer,
 
 
 
