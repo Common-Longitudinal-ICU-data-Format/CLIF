@@ -1,6 +1,6 @@
 sex_category,description,sex_name_examples
-Male,,"Male, M"
-Female,,"Female, F"
-Unknown,Sex unknown or not reported,"Unknown, Declined Response"
+male,,"Male, M"
+female,,"Female, F"
+unknown,Sex unknown or not reported,"Unknown, Declined Response"
 
 

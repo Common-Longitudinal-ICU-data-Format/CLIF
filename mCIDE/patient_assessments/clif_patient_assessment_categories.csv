@@ -1,72 +1,72 @@
 assessment_category,description,assessment_name_examples,assessment_group
-AM-PAC,Total mobility score (Numerical),"Activity Measure for Post-Acute Care, AM-PAC Basic Mobility, AM-PAC Daily Activity",Mobility/Activity
-AMS,Numeric score (Indicates activity/mobility status),"Activity Mobility Scale, Acute Mobility Score, AMS-ICU",Mobility/Activity
-APGAR,Overall APGAR score (Score range: 0-10),"APGAR Score 1-minute, APGAR Score 5-minute, Newborn APGAR Assessment",Neurological
-AVPU,"Responsiveness level (Categorical: Alert, Voice, Pain, Unresponsive)","AVPU Scale, Neurological Quick Check, Level of Consciousness AVPU",Neurological
-BPS,"Subcomponents: Facial expression, upper limbs, compliance with ventilation (Numerical/Text)","Behavioral Pain Scale, BPS-NI (Non-Intubated), Critical Care Pain Assessment",Pain
-braden_activity,Component assessing patient's degree of physical activity,"Braden Scale - Activity, Physical Activity Level, Activity Mobility Component",Nursing Risk
-braden_friction,Component assessing friction and shear risk,"Braden Scale - Friction/Shear, Skin Friction Assessment, Movement Friction Risk",Nursing Risk
-braden_mobility,Component assessing ability to change and control body position,"Braden Scale - Mobility, Position Change Ability, Body Repositioning",Mobility/Activity
-braden_moisture,Component assessing degree of skin exposure to moisture,"Braden Scale - Moisture, Skin Moisture Exposure, Moisture Management",Nursing Risk
-braden_nutrition,Component assessing nutritional intake patterns,"Braden Scale - Nutrition, Nutritional Intake Assessment, Dietary Adequacy",Nursing Risk
-braden_sensory,Component assessing ability to respond to pressure-related discomfort,"Braden Scale - Sensory Perception, Pressure Sensation, Sensory Response",Nursing Risk
-braden_total,Overall Braden score (Score range: 6-23),"Braden Scale Total, Pressure Ulcer Risk Score, Braden Assessment Total",Nursing Risk
-cam_inattention,Component assessing attention difficulties,"CAM-ICU - Inattention, Attention Screening, Feature 3 Inattention",Delirium
-cam_loc,Component assessing level of consciousness,"CAM-ICU - Level of Consciousness, Feature 1 Acute Onset, Mental Status Change",Delirium
-cam_mental,Component assessing acute mental status changes,"CAM-ICU - Mental Status, Altered Mental State, Cognitive Fluctuation",Delirium
-cam_thinking,Component assessing disorganized thinking,"CAM-ICU - Disorganized Thinking, Feature 4 Thinking, Thought Disorganization",Delirium
-cam_total,Overall CAM-ICU result (Positive/Negative),"CAM-ICU Total, Delirium Screen Result, CAM Assessment Positive/Negative",Delirium
-CIWA,Score (Score range: 0-67),"CIWA-Ar, Clinical Institute Withdrawal Assessment Alcohol, Alcohol Withdrawal Protocol Score",Withdrawal
-COWS,Score (Score range: 0-48),"Clinical Opiate Withdrawal Scale, COWS Assessment, Opioid Withdrawal Score",Withdrawal
-cpot_body,Component assessing body movements,"CPOT - Body Movements, Physical Movement Assessment, Body Motion Score",Pain
-cpot_facial,Component assessing facial expressions,"CPOT - Facial Expression, Facial Grimacing Score, Facial Pain Indicators",Pain
-cpot_muscle,Component assessing muscle tension,"CPOT - Muscle Tension, Body Rigidity Assessment, Muscular Tension Score",Pain
-cpot_total,"Subcomponents: Facial expression, body movements, muscle tension, vocalization (Numerical/Text)","Critical-Care Pain Observation Tool, CPOT Total Score, ICU Pain Assessment",Pain
-cpot_vocalization,Component assessing vocal pain responses,"CPOT - Vocalization, Verbal Pain Response, Intubated Patient Sounds",Pain
-DVPRS,Numeric score (Score range: 0-10),"Defense and Veterans Pain Rating Scale, DVPRS Score, Military Pain Assessment",Pain
-gcs_eye,Eye-opening response (Score range: 1-4),"GCS Eye Opening, E-Score, Eye Response Component",Neurological
-gcs_motor,Motor response (Score range: 1-6),"GCS Motor Response, M-Score, Motor Function Component",Neurological
-gcs_total,Cumulative score (Score range: 3-15),"Glasgow Coma Scale Total, GCS Score, Neurological Assessment Total",Neurological
-gcs_verbal,Verbal response (Score range: 1-5),"GCS Verbal Response, V-Score, Verbal Communication Component",Neurological
-ICANS,Overall ICANS score or specific sub-components (Numerical/Text),"Immune Effector Cell-Associated Neurotoxicity, ICANS Grade, CAR-T Neurotoxicity Score",Neurological
-ICSDC,Overall ICSDC score (Numerical),"Intensive Care Delirium Screening Checklist, ICSDC Total, Delirium Screening Score",Delirium
-icsdc_agitation,Component assessing agitation levels,"ICSDC - Agitation, Patient Restlessness, Agitation Component",Delirium
-icsdc_disorientation,Component assessing orientation status,"ICSDC - Disorientation, Orientation Check, Time/Place/Person Awareness",Delirium
-icsdc_hallucination,Component assessing presence of hallucinations,"ICSDC - Hallucination, Perceptual Disturbances, Sensory Misperception",Delirium
-icsdc_inattention,Component assessing attention deficits,"ICSDC - Inattention, Attention Difficulties, Focus Assessment",Delirium
-icsdc_loc,Component assessing level of consciousness,"ICSDC - Level of Consciousness, Consciousness Component, Awareness Level",Delirium
-icsdc_sleep,Component assessing sleep-wake cycle disturbances,"ICSDC - Sleep/Wake Cycle, Sleep Disturbance, Circadian Rhythm",Delirium
-icsdc_speech,Component assessing speech abnormalities,"ICSDC - Inappropriate Speech, Communication Assessment, Speech Pattern",Delirium
-icsdc_symptoms,Component assessing symptom fluctuation,"ICSDC - Symptom Fluctuation, Variable Presentation, Waxing/Waning Symptoms",Delirium
-icsdc_total,Overall ICSDC score (Numerical),"ICSDC Total Score, Delirium Checklist Total, ICSDC Assessment Sum",Delirium
-IMS,Numeric score (Represents mobility level),"ICU Mobility Scale, IMS Score, Critical Care Mobility Level",Mobility/Activity
-MINDS,Score (Score range: 0-25),"Maternal Opioid and Neonatal Dependent Screening, MINDS Assessment, Neonatal Withdrawal Score",Withdrawal
-Morse Fall Scale,Total fall risk score (Score range: 0-125),"Morse Fall Risk Assessment, Fall Risk Score, Morse Scale Total",Nursing Risk
-NRS,Numeric score (Score range: 0-10),"Numeric Rating Scale Pain, NRS Pain Score, 0-10 Pain Scale",Pain
-NVPS,"Subcomponents: Facial expression, activity, guarding, physiology, respiration (Numerical/Text)","Nonverbal Pain Scale, NVPS Assessment, Pain Scale Non-Communicative",Pain
-PAINAD,"Subcomponents: Breathing, vocalization, facial expression, body language, consolability (Numerical/Text)","Pain Assessment in Advanced Dementia, PAINAD Scale, Dementia Pain Tool",Pain
-RASS,Score (Score range: -5 to +4),"Richmond Agitation-Sedation Scale, RASS Score, Sedation Level Assessment",Sedation/Agitation
-SAS,Score (Score range: 1-7),"Riker Sedation-Agitation Scale, SAS Score, Sedation Assessment Scale",Sedation/Agitation
-sat_delivery_pass_fail,"Indicates the outcome of the SAT trial (pass or fail), based on flowsheet data charted by the care team. This variable reflects the result of the trial, not whether it was attempted or initiated.","SAT Trial Result, Awakening Trial Outcome, SAT Pass/Fail Status",SAT Delivery Pass/Fail
-sat_delivery_performed,Check for whether the trial was attempted (Boolean:  0/1),"SAT Trial Performed, Awakening Trial Attempted, SAT Completion Status",SAT Delivery
-sat_escalating_sedation,"Evaluates if the patient's sedation levels are increasing, which would be a contraindication for performing the SAT.","SAT Screen - Sedation Escalation, Increasing Sedation Check, Rising Sedation Needs",Spontaneous Awakening Trial (SAT)
-sat_intracranial_pressure,"Observe for increased intracranial pressure, which is a critical contraindication for the SAT.","SAT Screen - ICP Elevation, Intracranial Pressure Check, ICP Contraindication",Spontaneous Awakening Trial (SAT)
-sat_myocardial_ischemia,"Identifies whether the patient has signs of active myocardial ischemia, which would preclude performing the SAT.","SAT Screen - Cardiac Ischemia, Active MI Check, Myocardial Ischemia Screen",Spontaneous Awakening Trial (SAT)
-sat_neuromuscular_blockers,Confirms whether neuromuscular blockers (paralytics) are in use. The SAT cannot proceed if the patient is paralyzed,"SAT Screen - Paralytic Use, Neuromuscular Blocker Check, NMB Status",Spontaneous Awakening Trial (SAT)
-sat_screen_pass_fail,Indicates whether the patient passed or failed the SAT safety screen.,"SAT Safety Screen Result, SAT Screen Outcome, Awakening Trial Screen Pass/Fail",SAT Screen Pass/Fail
-sat_screen_performed,Check for whether the screen was conducted (Boolean:  0/1),"SAT Screen Completed, Safety Screen Performed, SAT Screen Documentation",SAT Screen
-sat_sedative_infusion,"Checks whether the patient is receiving sedative infusions, for e.g., sedatives used for seizure control or alcohol withdrawal. Sedation for these conditions must be absent for the SAT to proceed.","SAT Screen - Sedative Infusion, Continuous Sedation Check, Active Sedation Status",Spontaneous Awakening Trial (SAT)
-sbt_agitation,"Determines if the patient is excessively agitated, which would indicate they are not ready to tolerate breathing on their own.","SBT Screen - Agitation Level, Patient Agitation Check, Excessive Agitation Status",Spontaneous Breathing Trial (SBT)
-sbt_delivery_pass_fail,"Indicates the outcome of the SAT trial (pass or fail), based on flowsheet data charted by the care team. This variable reflects the result of the trial, not whether it was attempted or initiated.","SBT Trial Result, Breathing Trial Outcome, SBT Pass/Fail Status",SBT Delivery Pass/Fail
-sbt_delivery_performed,Check for whether the trial was attempted (Boolean:  0/1),"SBT Trial Performed, Breathing Trial Attempted, SBT Completion Status",SBT Delivery
-sbt_fail_reason,"A text string field to document the reason for SBT failure, if present (e.g., ""tachypnea,"" ""acute change in mental status,"" or ""hypoxemia"").","SBT Failure Reason, Breathing Trial Failure Documentation, SBT Discontinuation Reason",SBT Failure Reason
-sbt_inadequate_oxygenation,Assesses for hypoxia or inadequate oxygen levels (SpO_ < 88% or FiO_ � 50%). Sufficient oxygenation is required before the SBT can be conducted.,"SBT Screen - Oxygenation Status, Hypoxia Check, Adequate O2 Assessment",Spontaneous Breathing Trial (SBT)
-sbt_intracranial_pressure,Monitors for elevated intracranial pressure. Increased pressure is a critical factor for SBT exclusion.,"SBT Screen - ICP Check, Intracranial Pressure Status, ICP Contraindication",Spontaneous Breathing Trial (SBT)
-sbt_no_spontaneous_effort,"Identifies the absence of spontaneous breathing efforts. If no spontaneous effort is detected, the trial cannot proceed.","SBT Screen - Spontaneous Effort, Breathing Effort Check, Respiratory Drive Assessment",Spontaneous Breathing Trial (SBT)
-sbt_screen_pass_fail,Indicates whether the patient passed or failed the SBT safety screen,"SBT Safety Screen Result, SBT Screen Outcome, Breathing Trial Screen Pass/Fail",SBT Screen Pass/Fail
-sbt_screen_performed,Check for  whether the screen was conducted (Boolean:  0/1),"SBT Screen Completed, Safety Screen Performed, SBT Screen Documentation",SBT Screen
-sbt_vasopressor_use,"Evaluate whether the patient is on significant doses of vasopressors (medications used to support blood pressure). High doses can be a sign of hemodynamic instability, preventing the SBT.","SBT Screen - Vasopressor Requirement, High-Dose Pressors, Hemodynamic Stability Check",Spontaneous Breathing Trial (SBT)
-TOF,Number of twitches (Score range: 0-4),"Train-of-Four, TOF Stimulation, Neuromuscular Blockade Assessment",Neurological
-VAS,Numeric score (Score range: 0-100),"Visual Analog Scale Pain, VAS Pain Score, 0-100 Pain Rating",Pain
-WAT,Score (Score range: 0-10),"Withdrawal Assessment Tool, WAT-1 Pediatric, Pediatric Withdrawal Score",Withdrawal
+am_pac,Total mobility score (Numerical),"Activity Measure for Post-Acute Care, AM-PAC Basic Mobility, AM-PAC Daily Activity",mobility_or_activity
+ams,Numeric score (Indicates activity/mobility status),"Activity Mobility Scale, Acute Mobility Score, AMS-ICU",mobility_or_activity
+apgar,Overall APGAR score (Score range: 0-10),"APGAR Score 1-minute, APGAR Score 5-minute, Newborn APGAR Assessment",neurological
+avpu,"Responsiveness level (Categorical: Alert, Voice, Pain, Unresponsive)","AVPU Scale, Neurological Quick Check, Level of Consciousness AVPU",neurological
+bps,"Subcomponents: Facial expression, upper limbs, compliance with ventilation (Numerical/Text)","Behavioral Pain Scale, BPS-NI (Non-Intubated), Critical Care Pain Assessment",pain
+braden_activity,Component assessing patient's degree of physical activity,"Braden Scale - Activity, Physical Activity Level, Activity Mobility Component",nursing_risk
+braden_friction,Component assessing friction and shear risk,"Braden Scale - Friction/Shear, Skin Friction Assessment, Movement Friction Risk",nursing_risk
+braden_mobility,Component assessing ability to change and control body position,"Braden Scale - Mobility, Position Change Ability, Body Repositioning",mobility_or_activity
+braden_moisture,Component assessing degree of skin exposure to moisture,"Braden Scale - Moisture, Skin Moisture Exposure, Moisture Management",nursing_risk
+braden_nutrition,Component assessing nutritional intake patterns,"Braden Scale - Nutrition, Nutritional Intake Assessment, Dietary Adequacy",nursing_risk
+braden_sensory,Component assessing ability to respond to pressure-related discomfort,"Braden Scale - Sensory Perception, Pressure Sensation, Sensory Response",nursing_risk
+braden_total,Overall Braden score (Score range: 6-23),"Braden Scale Total, Pressure Ulcer Risk Score, Braden Assessment Total",nursing_risk
+cam_inattention,Component assessing attention difficulties,"CAM-ICU - Inattention, Attention Screening, Feature 3 Inattention",delirium
+cam_loc,Component assessing level of consciousness,"CAM-ICU - Level of Consciousness, Feature 1 Acute Onset, Mental Status Change",delirium
+cam_mental,Component assessing acute mental status changes,"CAM-ICU - Mental Status, Altered Mental State, Cognitive Fluctuation",delirium
+cam_thinking,Component assessing disorganized thinking,"CAM-ICU - Disorganized Thinking, Feature 4 Thinking, Thought Disorganization",delirium
+cam_total,Overall CAM-ICU result (Positive/Negative),"CAM-ICU Total, Delirium Screen Result, CAM Assessment Positive/Negative",delirium
+ciwa,Score (Score range: 0-67),"CIWA-Ar, Clinical Institute Withdrawal Assessment Alcohol, Alcohol Withdrawal Protocol Score",withdrawal
+cows,Score (Score range: 0-48),"Clinical Opiate Withdrawal Scale, COWS Assessment, Opioid Withdrawal Score",withdrawal
+cpot_body,Component assessing body movements,"CPOT - Body Movements, Physical Movement Assessment, Body Motion Score",pain
+cpot_facial,Component assessing facial expressions,"CPOT - Facial Expression, Facial Grimacing Score, Facial Pain Indicators",pain
+cpot_muscle,Component assessing muscle tension,"CPOT - Muscle Tension, Body Rigidity Assessment, Muscular Tension Score",pain
+cpot_total,"Subcomponents: Facial expression, body movements, muscle tension, vocalization (Numerical/Text)","Critical-Care Pain Observation Tool, CPOT Total Score, ICU Pain Assessment",pain
+cpot_vocalization,Component assessing vocal pain responses,"CPOT - Vocalization, Verbal Pain Response, Intubated Patient Sounds",pain
+dvprs,Numeric score (Score range: 0-10),"Defense and Veterans Pain Rating Scale, DVPRS Score, Military Pain Assessment",pain
+gcs_eye,Eye-opening response (Score range: 1-4),"GCS Eye Opening, E-Score, Eye Response Component",neurological
+gcs_motor,Motor response (Score range: 1-6),"GCS Motor Response, M-Score, Motor Function Component",neurological
+gcs_total,Cumulative score (Score range: 3-15),"Glasgow Coma Scale Total, GCS Score, Neurological Assessment Total",neurological
+gcs_verbal,Verbal response (Score range: 1-5),"GCS Verbal Response, V-Score, Verbal Communication Component",neurological
+icans,Overall ICANS score or specific sub-components (Numerical/Text),"Immune Effector Cell-Associated Neurotoxicity, ICANS Grade, CAR-T Neurotoxicity Score",neurological
+icsdc,Overall ICSDC score (Numerical),"Intensive Care Delirium Screening Checklist, ICSDC Total, Delirium Screening Score",delirium
+icsdc_agitation,Component assessing agitation levels,"ICSDC - Agitation, Patient Restlessness, Agitation Component",delirium
+icsdc_disorientation,Component assessing orientation status,"ICSDC - Disorientation, Orientation Check, Time/Place/Person Awareness",delirium
+icsdc_hallucination,Component assessing presence of hallucinations,"ICSDC - Hallucination, Perceptual Disturbances, Sensory Misperception",delirium
+icsdc_inattention,Component assessing attention deficits,"ICSDC - Inattention, Attention Difficulties, Focus Assessment",delirium
+icsdc_loc,Component assessing level of consciousness,"ICSDC - Level of Consciousness, Consciousness Component, Awareness Level",delirium
+icsdc_sleep,Component assessing sleep-wake cycle disturbances,"ICSDC - Sleep/Wake Cycle, Sleep Disturbance, Circadian Rhythm",delirium
+icsdc_speech,Component assessing speech abnormalities,"ICSDC - Inappropriate Speech, Communication Assessment, Speech Pattern",delirium
+icsdc_symptoms,Component assessing symptom fluctuation,"ICSDC - Symptom Fluctuation, Variable Presentation, Waxing/Waning Symptoms",delirium
+icsdc_total,Overall ICSDC score (Numerical),"ICSDC Total Score, Delirium Checklist Total, ICSDC Assessment Sum",delirium
+ims,Numeric score (Represents mobility level),"ICU Mobility Scale, IMS Score, Critical Care Mobility Level",mobility_or_activity
+minds,Score (Score range: 0-25),"Maternal Opioid and Neonatal Dependent Screening, MINDS Assessment, Neonatal Withdrawal Score",withdrawal
+morse_fall_scale,Total fall risk score (Score range: 0-125),"Morse Fall Risk Assessment, Fall Risk Score, Morse Scale Total",nursing_risk
+nrs,Numeric score (Score range: 0-10),"Numeric Rating Scale Pain, NRS Pain Score, 0-10 Pain Scale",pain
+nvps,"Subcomponents: Facial expression, activity, guarding, physiology, respiration (Numerical/Text)","Nonverbal Pain Scale, NVPS Assessment, Pain Scale Non-Communicative",pain
+painad,"Subcomponents: Breathing, vocalization, facial expression, body language, consolability (Numerical/Text)","Pain Assessment in Advanced Dementia, PAINAD Scale, Dementia Pain Tool",pain
+rass,Score (Score range: -5 to +4),"Richmond Agitation-Sedation Scale, RASS Score, Sedation Level Assessment",sedation_or_agitation
+sas,Score (Score range: 1-7),"Riker Sedation-Agitation Scale, SAS Score, Sedation Assessment Scale",sedation_or_agitation
+sat_delivery_pass_fail,"Indicates the outcome of the SAT trial (pass or fail), based on flowsheet data charted by the care team. This variable reflects the result of the trial, not whether it was attempted or initiated.","SAT Trial Result, Awakening Trial Outcome, SAT Pass/Fail Status",sat_delivery_pass_or_fail
+sat_delivery_performed,Check for whether the trial was attempted (Boolean:  0/1),"SAT Trial Performed, Awakening Trial Attempted, SAT Completion Status",sat_delivery
+sat_escalating_sedation,"Evaluates if the patient's sedation levels are increasing, which would be a contraindication for performing the SAT.","SAT Screen - Sedation Escalation, Increasing Sedation Check, Rising Sedation Needs",spontaneous_awakening_trial_sat
+sat_intracranial_pressure,"Observe for increased intracranial pressure, which is a critical contraindication for the SAT.","SAT Screen - ICP Elevation, Intracranial Pressure Check, ICP Contraindication",spontaneous_awakening_trial_sat
+sat_myocardial_ischemia,"Identifies whether the patient has signs of active myocardial ischemia, which would preclude performing the SAT.","SAT Screen - Cardiac Ischemia, Active MI Check, Myocardial Ischemia Screen",spontaneous_awakening_trial_sat
+sat_neuromuscular_blockers,Confirms whether neuromuscular blockers (paralytics) are in use. The SAT cannot proceed if the patient is paralyzed,"SAT Screen - Paralytic Use, Neuromuscular Blocker Check, NMB Status",spontaneous_awakening_trial_sat
+sat_screen_pass_fail,Indicates whether the patient passed or failed the SAT safety screen.,"SAT Safety Screen Result, SAT Screen Outcome, Awakening Trial Screen Pass/Fail",sat_screen_pass_or_fail
+sat_screen_performed,Check for whether the screen was conducted (Boolean:  0/1),"SAT Screen Completed, Safety Screen Performed, SAT Screen Documentation",sat_screen
+sat_sedative_infusion,"Checks whether the patient is receiving sedative infusions, for e.g., sedatives used for seizure control or alcohol withdrawal. Sedation for these conditions must be absent for the SAT to proceed.","SAT Screen - Sedative Infusion, Continuous Sedation Check, Active Sedation Status",spontaneous_awakening_trial_sat
+sbt_agitation,"Determines if the patient is excessively agitated, which would indicate they are not ready to tolerate breathing on their own.","SBT Screen - Agitation Level, Patient Agitation Check, Excessive Agitation Status",spontaneous_breathing_trial_sbt
+sbt_delivery_pass_fail,"Indicates the outcome of the SAT trial (pass or fail), based on flowsheet data charted by the care team. This variable reflects the result of the trial, not whether it was attempted or initiated.","SBT Trial Result, Breathing Trial Outcome, SBT Pass/Fail Status",sbt_delivery_pass_or_fail
+sbt_delivery_performed,Check for whether the trial was attempted (Boolean:  0/1),"SBT Trial Performed, Breathing Trial Attempted, SBT Completion Status",sbt_delivery
+sbt_fail_reason,"A text string field to document the reason for SBT failure, if present (e.g., ""tachypnea,"" ""acute change in mental status,"" or ""hypoxemia"").","SBT Failure Reason, Breathing Trial Failure Documentation, SBT Discontinuation Reason",sbt_failure_reason
+sbt_inadequate_oxygenation,Assesses for hypoxia or inadequate oxygen levels (SpO_ < 88% or FiO_ � 50%). Sufficient oxygenation is required before the SBT can be conducted.,"SBT Screen - Oxygenation Status, Hypoxia Check, Adequate O2 Assessment",spontaneous_breathing_trial_sbt
+sbt_intracranial_pressure,Monitors for elevated intracranial pressure. Increased pressure is a critical factor for SBT exclusion.,"SBT Screen - ICP Check, Intracranial Pressure Status, ICP Contraindication",spontaneous_breathing_trial_sbt
+sbt_no_spontaneous_effort,"Identifies the absence of spontaneous breathing efforts. If no spontaneous effort is detected, the trial cannot proceed.","SBT Screen - Spontaneous Effort, Breathing Effort Check, Respiratory Drive Assessment",spontaneous_breathing_trial_sbt
+sbt_screen_pass_fail,Indicates whether the patient passed or failed the SBT safety screen,"SBT Safety Screen Result, SBT Screen Outcome, Breathing Trial Screen Pass/Fail",sbt_screen_pass_or_fail
+sbt_screen_performed,Check for  whether the screen was conducted (Boolean:  0/1),"SBT Screen Completed, Safety Screen Performed, SBT Screen Documentation",sbt_screen
+sbt_vasopressor_use,"Evaluate whether the patient is on significant doses of vasopressors (medications used to support blood pressure). High doses can be a sign of hemodynamic instability, preventing the SBT.","SBT Screen - Vasopressor Requirement, High-Dose Pressors, Hemodynamic Stability Check",spontaneous_breathing_trial_sbt
+tof,Number of twitches (Score range: 0-4),"Train-of-Four, TOF Stimulation, Neuromuscular Blockade Assessment",neurological
+vas,Numeric score (Score range: 0-100),"Visual Analog Scale Pain, VAS Pain Score, 0-100 Pain Rating",pain
+wat,Score (Score range: 0-10),"Withdrawal Assessment Tool, WAT-1 Pediatric, Pediatric Withdrawal Score",withdrawal
 

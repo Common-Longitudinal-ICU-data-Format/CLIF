@@ -1,4 +1,4 @@
-﻿device_category,description,device_name examples,mcs_group
+device_category,description,device_name examples,mcs_group
 cardiohelp_ecmo,,Maquet Cardiohelp System,ecmo
 centrimag_ecmo,,Abbot CentriMag ECMO pump,ecmo
 centrimag_lv,,"CentriMag LVAD, Thoratec CentriMag LV, Abbott CentriMag Left",temporary_lvad
@@ -12,10 +12,10 @@ iabp,,"Arrow IABP, Maquet Cardiosave IABP, Getinge IABP",iabp
 impella_2_5,,"Impella 2.5, Abiomed Impella 2.5, Impella 2.5 LVAD",impella_lvad
 impella_5_0,,"Impella 5.0, Abiomed Impella 5.0, Impella 5.0 LVAD",impella_lvad
 impella_5_5,,"Impella 5.5, Abiomed Impella 5.5 with SmartAssist, Impella 5.5 LVAD",impella_lvad
-impella_CP,,"Impella CP, Abiomed Impella CP, Impella CP with SmartAssist",impella_lvad
-impella_LD,,"Impella LD, Abiomed Impella LD, Impella LD long-term support",impella_lvad
+impella_cp,,"Impella CP, Abiomed Impella CP, Impella CP with SmartAssist",impella_lvad
+impella_ld,,"Impella LD, Abiomed Impella LD, Impella LD long-term support",impella_lvad
 impella_lv_other_unspec,Impella of unknown or unclear model,,impella_lvad
-impella_RP,,"Impella RP, Abiomed Impella RP, Impella RP RVAD, Impella RP Flex, Abiomed Impella RP Flex, Impella RP Flex RVAD",temporary_rvad
+impella_rp,,"Impella RP, Abiomed Impella RP, Impella RP RVAD, Impella RP Flex, Abiomed Impella RP Flex, Impella RP Flex RVAD",temporary_rvad
 impella_rv_other_unspec,Impella of unknown or unclear model,,temporary_rvad
 ivac_2_l,,"iVAC 2L, PulseCath iVAC 2L",temporary_lvad
 ivac_3_l,,"iVAC 3L, PulseCath iVAC 3L",temporary_lvad
