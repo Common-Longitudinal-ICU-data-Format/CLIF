@@ -26,6 +26,15 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   </details>
 
   <details>
+  <summary><code>ecmo_mcs/</code></summary>
+
+  - device_category
+  - mcs_group
+  - configuration_category
+  - control_parameter_category
+  </details>
+
+  <details>
   <summary><code>hospitalization/</code></summary>
 
   - admission_type_category
@@ -36,6 +45,25 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   <summary><code>hospital_diagnosis/</code></summary>
 
   - NA
+  </details>
+
+  <details>
+  <summary><code>input/</code></summary>
+
+  - input_category
+  - input_group
+  </details>
+
+  <details>
+  <summary><code>invasive_hemodynamics/</code></summary>
+
+  - measure_category
+  </details>
+
+  <details>
+  <summary><code>key_icu_orders/</code></summary>
+
+  - order_category
   </details>
 
   <details>
@@ -61,6 +89,13 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   - med_route_category
   - mar_action_category
   - mar_action_group
+  </details>
+
+  <details>
+  <summary><code>output/</code></summary>
+
+  - output_category
+  - output_group
   </details>
 
   <details>

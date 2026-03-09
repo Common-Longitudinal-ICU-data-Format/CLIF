@@ -1,0 +1,10 @@
+measure_category,description,measure_name_examples
+cvp,Central Venous Pressure,
+ra,Right Atrial pressure,
+rv,Right Ventricular pressure,
+pa_systolic,Pulmonary Artery systolic pressure,
+pa_diastolic,Pulmonary Artery diastolic pressure,
+pa_mean,Pulmonary Artery mean pressure,
+pcwp,Pulmonary Capillary Wedge Pressure,
+cardiac_output_thermodilution, ,
+cardiac_output_fick, ,

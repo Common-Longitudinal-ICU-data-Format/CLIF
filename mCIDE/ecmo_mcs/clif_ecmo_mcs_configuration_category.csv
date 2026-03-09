@@ -1,0 +1,8 @@
+﻿ecmo_configuration_category,description
+v_v,Veno-venous ECMO. Venous drainage through a venous cannula and return to  venous circulation after gas exchange.
+v_a,Veno-arterial ECMO. Venous drainage through a venous cannula and return to arterial circulation after gas exchange. Includes LAVA or other LV offloading mechanisms
+v_av,Veno-arteriovenous ECMO. Venous drainage through a venous cannula and return to both the arterial and venous circulations after gas exchange.
+vv_a,Venoveno-arterial ECMO. Venous drainage through two separate venous cannulae and return to arterial circulation after gas exchange.
+vv_v,Venoveno-venous ECMO. Venous drainage through two separate venous cannulae and return to venous circulation after gas exchange.
+v_p,"Veno-pulmonary ECMO, aka Oxy-RVAD. E.g. ProTek Duo"
+other_unspecified,Other ECMO cannulation strategy not specified in other categories

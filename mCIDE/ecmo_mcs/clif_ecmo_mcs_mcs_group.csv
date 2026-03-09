@@ -1,0 +1,8 @@
+﻿mcs_group,description
+ecmo,Extracorporeal membranous oxygenation. Incorporates a pump and oxygenator
+iabp,Intra-aortic balloon pump. Mechanically augments cardiac output by inflating a balloon.
+impella_lvad,"Percutaneous left ventricular assist device. Common and nonsurgical, so given its own category"
+temporary_lvad,Other temporary left ventricular assist devices other than Impella. No oxygenator.
+temporary_rvad,Right ventricular assit device including Impella RP. No oxygenator (excludes OxyRVAD)
+durable_lvad,Left ventricular assist device surgically implanted such that patient can discharge with it.
+other,Other
