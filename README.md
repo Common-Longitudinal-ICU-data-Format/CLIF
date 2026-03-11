@@ -39,7 +39,7 @@ Each CLIF table has an assigned clinician who serves as the primary point of con
 | ecmo_mcs                     | Shan Guleria, MD                              | shan.guleria@uchicagomedicine.org             | shanguleria           |
 | hospital_diagnosis           |                                               |                                               |                       |
 | hospitalization              | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
-| intake_output                |                                               |                                               |                       |
+| input                        | Shan Guleria, MD                              | shan.guleria@uchicagomedicine.org             | shanguleria           |
 | intermittent_dialysis        | Jay Koyner, MD                                | jkoyner@uchicago.edu                          |                       |
 | invasive_hemodynamics        |                                               |                                               |                       |
 | key_icu_orders               |                                               |                                               |                       |
