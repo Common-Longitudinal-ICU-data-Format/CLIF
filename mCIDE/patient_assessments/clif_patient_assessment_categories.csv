@@ -69,4 +69,11 @@ sbt_vasopressor_use,"Evaluate whether the patient is on significant doses of vas
 tof,Number of twitches (Score range: 0-4),"Train-of-Four, TOF Stimulation, Neuromuscular Blockade Assessment",neurological
 vas,Numeric score (Score range: 0-100),"Visual Analog Scale Pain, VAS Pain Score, 0-100 Pain Rating",pain
 wat,Score (Score range: 0-10),"Withdrawal Assessment Tool, WAT-1 Pediatric, Pediatric Withdrawal Score",withdrawal
+cpot_intubated,"CPOT subcomponent specific to intubated/ventilated patients, scoring compliance with the ventilator (Numerical, 0-2)","CPOT - Compliance with Ventilator, CPOT Intubated, Ventilator Tolerance Score",pain
+pupil_size_l,"Left pupil size in mm; may be from pupillometer or visual inspection (specify in assessment_name if relevant)","Pupil Size Left, Left Pupil Diameter, L Pupil mm",neurological
+pupil_size_r,"Right pupil size in mm; may be from pupillometer or visual inspection (specify in assessment_name if relevant)","Pupil Size Right, Right Pupil Diameter, R Pupil mm",neurological
+pupil_reactive_l,"Left pupil reactivity to light (Categorical: brisk, sluggish, non-reactive, or equivalent)","Pupil Reactive Left, L Pupil Reaction, Left Pupil Response",neurological
+pupil_reactive_r,"Right pupil reactivity to light (Categorical: brisk, sluggish, non-reactive, or equivalent)","Pupil Reactive Right, R Pupil Reaction, Right Pupil Response",neurological
+npi_l,"Neurological Pupillary Index (left), automated pupillometer measure (Score range: 0.0-5.0, dimensionless)","NPi Left, Neurologic Pupillary Index L, NeurOptics NPi L",neurological
+npi_r,"Neurological Pupillary Index (right), automated pupillometer measure (Score range: 0.0-5.0, dimensionless)","NPi Right, Neurologic Pupillary Index R, NeurOptics NPi R",neurological
 
