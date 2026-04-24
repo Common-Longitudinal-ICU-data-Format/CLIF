@@ -51,4 +51,46 @@ total_protein,g/dL,"TP, TOTAL PROTEIN, SERUM PROTEIN",lft,
 troponin_i,ng/L,"TROP I, TROPONIN I, TNI",misc,
 troponin_t,ng/L,"TROP T, TROPONIN T, TNT",misc,
 wbc,10^3/µL,"WBC, WHITE BLOOD CELL, LEUKOCYTES",cbc,
+fibrinogen,mg/dL,"FIBRINOGEN, FIB, FIBRINOGEN LEVEL",coags,
+ckmb,ng/mL,"CK-MB, CKMB, CREATINE KINASE MB",misc,
+hematocrit,%,"HCT, HEMATOCRIT, HEMATOCRIT VALUE",cbc,
+triglycerides,mg/dL,"TRIG, TRIGS, TRIGLYCERIDES",misc,
+d_dimer,μg/mL FEU,"D-DIMER, D DIMER, FIBRIN D-DIMER",coags,"report in μg/mL FEU (fibrinogen-equivalent units); sites using ng/mL DDU or other units should convert"
+interleukin_06,pg/mL,"IL-6, IL6, INTERLEUKIN-6",misc,
+bnp,pg/mL,"BNP, B-TYPE NATRIURETIC PEPTIDE",misc,
+po2_mixed_venous,mmHg,"PO2 MIXED VENOUS, MIXED VENOUS PO2, SVO2 PO2",blood_gas,"from mixed venous sample (typically PA catheter); distinct from peripheral venous PO2"
+pleural_glucose,mg/dL,"PLEURAL FLUID GLUCOSE",pleural,
+pleural_protein,g/dL,"PLEURAL FLUID PROTEIN, PLEURAL PROTEIN",pleural,
+pleural_albumin,g/dL,"PLEURAL FLUID ALBUMIN",pleural,
+pleural_ldh,U/L,"PLEURAL FLUID LDH, PLEURAL LDH",pleural,"may also be reported as IU/L"
+pleural_amylase,U/L,"PLEURAL FLUID AMYLASE",pleural,
+pleural_lipase,U/L,"PLEURAL FLUID LIPASE",pleural,
+pleural_triglycerides,mg/dL,"PLEURAL FLUID TRIGLYCERIDES",pleural,
+pleural_cholesterol,mg/dL,"PLEURAL FLUID CHOLESTEROL",pleural,
+pleural_wbc,cells/μL,"PLEURAL FLUID WBC, PLEURAL WBC",pleural,"may also be reported as cells/mm³"
+pleural_rbc,cells/μL,"PLEURAL FLUID RBC, PLEURAL RBC",pleural,"may also be reported as cells/mm³"
+pleural_neutrophils_percent,%,"PLEURAL NEUTROPHILS %, PLEURAL NEUTS %",pleural,
+pleural_lymphocytes_percent,%,"PLEURAL LYMPHOCYTES %, PLEURAL LYMPHS %",pleural,
+pleural_eosinophils_percent,%,"PLEURAL EOSINOPHILS %, PLEURAL EOS %",pleural,
+pleural_monocytes_percent,%,"PLEURAL MONOCYTES %, PLEURAL MONOS %",pleural,
+pleural_macrophages_percent,%,"PLEURAL MACROPHAGES %",pleural,
+pleural_mesothelial,%,"PLEURAL MESOTHELIAL CELLS",pleural,"count or percentage of mesothelial cells in pleural fluid"
+pleural_hematocrit_percent,%,"PLEURAL HCT %, PLEURAL HEMATOCRIT",pleural,
+pleural_ada,U/L,"PLEURAL ADA, ADENOSINE DEAMINASE PLEURAL",pleural,
+pleural_creatinine,mg/dL,"PLEURAL CREATININE",pleural,"used to evaluate urinothorax"
+pleural_bilirubin,mg/dL,"PLEURAL BILIRUBIN",pleural,
+pleural_probnp,pg/mL,"PLEURAL NT-PROBNP, PLEURAL PROBNP",pleural,
+urine_protein,mg/dL,"URINE PROTEIN, UPROT",urine,
+urine_creatinine,mg/dL,"URINE CREATININE, UCR",urine,
+urine_protein_to_creatinine_ratio,mg/g creatinine,"UPCR, URINE PROTEIN/CREATININE RATIO",urine,
+urine_albumin,mg/dL,"URINE ALBUMIN, UALB, MICROALBUMIN",urine,
+urine_albumin_to_creatinine_ratio,mg/g creatinine,"UACR, URINE ALBUMIN/CREATININE RATIO",urine,
+bal_rbc_count,cells/μL,"BAL RBC, BAL RED BLOOD CELL COUNT",bal,"may also be reported as cells/mm³"
+bal_wbc_count,cells/μL,"BAL WBC, BAL WHITE BLOOD CELL COUNT",bal,"may also be reported as cells/mm³"
+bal_neutrophils_percent,%,"BAL NEUTROPHILS %, BAL NEUTS %",bal,
+bal_eosinophils_percent,%,"BAL EOSINOPHILS %, BAL EOS %",bal,
+bal_macrophages_percent,%,"BAL MACROPHAGES %",bal,
+bal_lymphocytes_percent,%,"BAL LYMPHOCYTES %, BAL LYMPHS %",bal,
+bal_monocytes_percent,%,"BAL MONOCYTES %, BAL MONOS %",bal,
+bal_amylase,U/L,"BAL AMYLASE",bal,
 

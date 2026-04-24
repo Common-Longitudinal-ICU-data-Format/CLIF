@@ -8,6 +8,11 @@ respiratory_rate,"Number of breaths per minute, either manually counted or obtai
 map,"Can include both invasive (arterial line) and non-invasive (cuff) measurements. Source type should be indicated in meas_site_name.","MAP, Mean arterial pressure"
 height_cm,"Patient’s height in centimeters, measured or recorded at admission or encounter.","Height, Ht"
 weight_kg,"Patient’s weight in kilograms, measured or recorded at admission or encounter.","Weight, Wt"
+cardiac_index,"Cardiac output normalized to body surface area, typically obtained from a pulmonary artery (Swan-Ganz) catheter or non-invasive cardiac output monitor. Units: L/min/m².","Cardiac Index, CI, C.I."
+cardiac_power_output,"Cardiac power output (CPO), a hemodynamic measure of cardiac pumping ability; product of mean arterial pressure and cardiac output divided by 451. Units: Watts.","CPO, Cardiac Power Output"
+pulmonary_artery_pulsatility,"Pulmonary artery pulsatility index (PAPi), calculated as (PA systolic − PA diastolic) / RA mean; marker of right ventricular function.","PAPi, PA Pulsatility Index, Pulmonary Artery Pulsatility"
+pulse_pressure_variation,"Invasive pulse pressure variation (PPV) estimated from an arterial catheter waveform; dynamic marker of fluid responsiveness. Units: %.","PPV, Pulse Pressure Variation, Arterial PPV"
+intracranial_pressure,"Intracranial pressure measured from an invasive monitor (e.g., external ventricular drain, intraparenchymal bolt). Units: mmHg.","ICP, Intracranial Pressure, EVD ICP"
 
 
 
