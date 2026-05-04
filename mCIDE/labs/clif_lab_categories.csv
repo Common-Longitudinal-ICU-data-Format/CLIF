@@ -93,4 +93,28 @@ bal_macrophages_percent,%,"BAL MACROPHAGES %",bal,
 bal_lymphocytes_percent,%,"BAL LYMPHOCYTES %, BAL LYMPHS %",bal,
 bal_monocytes_percent,%,"BAL MONOCYTES %, BAL MONOS %",bal,
 bal_amylase,U/L,"BAL AMYLASE",bal,
+bal_absolute_neutrophils,cells/μL,"BAL ABSOLUTE NEUTROPHILS, BAL ANC",bal,"may also be reported as cells/mm³"
+bal_absolute_lymphocytes,cells/μL,"BAL ABSOLUTE LYMPHOCYTES, BAL ABS LYMPHS",bal,"may also be reported as cells/mm³"
+bal_absolute_eosinophils,cells/μL,"BAL ABSOLUTE EOSINOPHILS, BAL ABS EOS",bal,"may also be reported as cells/mm³"
+bal_plasma_cells,cells/μL,"BAL PLASMA CELLS, PLASMA CELL BF",bal,"may also be reported as percentage; site-dependent"
+bal_other_cells,cells/μL,"BAL OTHER CELLS, OTHER CELLS BF",bal,"may also be reported as percentage; site-dependent"
+bal_toxic_granulation,(qualitative),"BAL TOXIC GRANULATION",bal,"qualitative result (present/absent or graded text)"
+urine_amphetamine,,"URINE AMPHETAMINE, URINE AMPH",urine,
+urine_barbiturate,,"URINE BARBITURATE, URINE BARB",urine,
+urine_benzodiazepine,,"URINE BENZODIAZEPINE, URINE BENZO",urine,
+urine_cocaine,,"URINE COCAINE",urine,benzoylecgonine metabolite
+urine_opiate,,"URINE OPIATE, URINE OPIATES",urine,"morphine, codeine, 6-MAM heroin metabolite; typically misses synthetics"
+urine_oxycodone,,"URINE OXYCODONE",urine,"oxycodone + oxymorphone; reported separately because the standard opiate assay misses it"
+urine_methadone,,"URINE METHADONE",urine,methadone + EDDP metabolite
+urine_fentanyl,,"URINE FENTANYL",urine,fentanyl + norfentanyl
+urine_ethanol,,"URINE ETHANOL, URINE ETOH",urine,
+urine_pcp,,"URINE PCP, URINE PHENCYCLIDINE",urine,
+urine_ngal,ng/mL,"URINE NGAL, URINE NEUTROPHIL GELATINASE-ASSOCIATED LIPOCALIN",urine,"AKI risk: <149 low, 150-300 moderate, >300 high"
+ngal,ng/mL,"NGAL, PLASMA NGAL, SERUM NGAL",misc,"plasma source; baseline ~50-150, often >150-200 ng/mL in AKI"
+cystatin_c,mg/L,"CYSTATIN C, SERUM CYSTATIN C, PLASMA CYSTATIN C",misc,"plasma source; age-stratified normal: 0.50-1.25 ped, 0.60-1.15 adult, 0.60-1.25 >=60 yrs"
+urine_timp_2,ng/mL,"URINE TIMP-2, TISSUE INHIBITOR OF METALLOPROTEINASES-2",urine,used in product with IGFBP7
+urine_igfbp7,ng/mL,"URINE IGFBP7, INSULIN-LIKE GROWTH FACTOR BINDING PROTEIN-7",urine,used in product with TIMP-2
+urine_timp_2_igfbp7,(ng/mL)²/1000,"URINE TIMP-2 X IGFBP7, NEPHROCHECK",urine,"<0.3 low, 0.3-2.0 moderate, >2.0 high AKI risk per KDIGO"
+urine_kim_1,ng/mL,"URINE KIM-1, KIDNEY INJURY MOLECULE-1",urine,
+urine_nag,U/L,"URINE NAG, N-ACETYL-BETA-D-GLUCOSAMINIDASE",urine,"may also be reported as U/g creatinine if normalized"
 
