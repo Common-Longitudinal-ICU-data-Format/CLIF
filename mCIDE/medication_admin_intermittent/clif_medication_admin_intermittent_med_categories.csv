@@ -164,3 +164,61 @@ valproate,Anticonvulsant for seizures and status epilepticus,"VALPROATE 1000 MG 
 vancomycin,Glycopeptide for MRSA and C. difficile,"VANCOMYCIN 1500 MG IV Q12H, VANCOMYCIN 125 MG PO Q6H C DIFF",cms_sepsis_qualifying_antibiotics
 vecuronium,Neuromuscular blocking agent,"VECURONIUM 10 MG IV BOLUS, VECURONIUM 0.1 MG/KG IV PUSH",paralytics
 voriconazole,Triazole antifungal for aspergillosis,"VORICONAZOLE 6 MG/KG IV Q12H X2 THEN 4 MG/KG Q12H, VORICONAZOLE 200 MG PO Q12H",cms_sepsis_qualifying_antibiotics
+mannitol,Osmotic diuretic for elevated intracranial pressure,"MANNITOL 20% 500 ML IV, MANNITOL 25 GM IV BOLUS, OSMITROL",other
+hypertonic_saline_3,3% sodium chloride for cerebral edema and hyponatremia,"HYPERTONIC SALINE 3% 500 ML IV, NACL 3% IV INFUSION",other
+hypertonic_saline_7,7% sodium chloride for severe cerebral edema,"HYPERTONIC SALINE 7% IV, NACL 7%",other
+hypertonic_saline_7.5,7.5% sodium chloride for cerebral edema,"HYPERTONIC SALINE 7.5% IV, NACL 7.5%",other
+hypertonic_saline_20,20% sodium chloride for severe cerebral edema,"HYPERTONIC SALINE 20% IV, NACL 20%",other
+hypertonic_saline_23.4,23.4% sodium chloride bolus for impending herniation,"HYPERTONIC SALINE 23.4% 30 ML IV, NACL 23.4%",other
+epinephrine,"Catecholamine for hemodynamic support, cardiac arrest, and anaphylaxis","EPINEPHRINE 1 MG/10 ML IV PUSH (0.1 MG/ML, formerly 1:10,000), EPINEPHRINE 0.3 MG IM (1 MG/ML, formerly 1:1,000), ADRENALINE",vasopressor
+potassium_repletion,Intermittent potassium repletion (oral or IV salts),"POTASSIUM CHLORIDE PO/IV (KDUR), POTASSIUM BICARBONATE/CITRIC ACID PO (EFFER-K), POTASSIUM CHLORIDE IVPB",other
+magnesium_repletion,Intermittent magnesium repletion,"MAGNESIUM OXIDE PO (MAG-OX), MAGNESIUM SULFATE IV",other
+phosphate_repletion,Intermittent phosphate repletion,"POTASSIUM SODIUM PHOSPHATES PO (PHOS-NAK, PHOSPHA 250 NEUTRAL), SODIUM PHOSPHATE IV, POTASSIUM PHOSPHATE IV",other
+siltuximab,IL-6 monoclonal antibody for inflammatory conditions and cytokine release syndrome,"SILTUXIMAB 11 MG/KG IV Q3WEEKS, SYLVANT IV INFUSION",other
+remdesivir,Antiviral for COVID-19 and other RNA virus infections,"REMDESIVIR 200 MG IV LOAD THEN 100 MG IV DAILY, VEKLURY 100 MG IV",cms_sepsis_qualifying_antibiotics
+baricitinib,JAK inhibitor for inflammatory conditions and severe COVID-19,"BARICITINIB 4 MG PO DAILY, OLUMIANT 2 MG PO DAILY",other
+teclistamab,BCMA-CD3 bispecific T-cell engager for multiple myeloma,"TECLISTAMAB 1.5 MG/KG SUBQ WEEKLY, TECVAYLI SUBQ DOSING",other
+epcoritamab,CD20-CD3 bispecific T-cell engager for B-cell lymphoma,"EPCORITAMAB 48 MG SUBQ WEEKLY, EPKINLY SUBQ DOSING",other
+talquetamab,GPRC5D-CD3 bispecific T-cell engager for multiple myeloma,"TALQUETAMAB 0.4 MG/KG SUBQ WEEKLY, TALVEY SUBQ DOSING",other
+blinatumomab,CD19-CD3 bispecific T-cell engager for B-cell ALL,"BLINATUMOMAB 9-28 MCG/DAY IV CONTINUOUS INFUSION, BLINCYTO IV",other
+mosunetuzumab,CD20-CD3 bispecific T-cell engager for follicular lymphoma,"MOSUNETUZUMAB 1-60 MG IV STEP-UP DOSING, LUNSUMIO IV INFUSION",other
+glofitamab,CD20-CD3 bispecific T-cell engager for diffuse large B-cell lymphoma,"GLOFITAMAB 2.5-30 MG IV STEP-UP DOSING, COLUMVI IV INFUSION",other
+elratanamab,BCMA-CD3 bispecific T-cell engager for multiple myeloma,"ELRATANAMAB 12-76 MG SUBQ STEP-UP DOSING, ELREXFIO SUBQ DOSING",other
+tebentafusp,gp100-CD3 bispecific T-cell engager for uveal melanoma,"TEBENTAFUSP 20-68 MCG IV WEEKLY, KIMMTRAK IV INFUSION",other
+tarlatamab,DLL3-CD3 bispecific T-cell engager for small cell lung cancer,"TARLATAMAB 1-10 MG IV STEP-UP THEN Q2WEEKS, IMDELLTRA IV INFUSION",other
+linvoseltamab,BCMA-CD3 bispecific T-cell engager for multiple myeloma,"LINVOSELTAMAB 5-200 MG IV STEP-UP DOSING, LYNOZYFIC IV INFUSION",other
+naloxone,Opioid antagonist for reversal (intermittent dosing),"NALOXONE 0.4 MG IV/IM PRN OPIOID REVERSAL, NARCAN 0.4-2 MG IV PUSH",other
+captopril,ACE inhibitor for hypertension and heart failure,"CAPTOPRIL 25 MG PO Q8H, CAPOTEN 12.5-50 MG PO TID",anti_hypertensive
+enalapril,ACE inhibitor for hypertension and heart failure,"ENALAPRIL 10 MG PO Q12H, VASOTEC 2.5-20 MG PO BID, ENALAPRILAT 1.25 MG IV Q6H",anti_hypertensive
+lisinopril,ACE inhibitor for hypertension and heart failure,"LISINOPRIL 10 MG PO DAILY, PRINIVIL 5-40 MG PO DAILY, ZESTRIL",anti_hypertensive
+ramipril,ACE inhibitor for hypertension and post-MI,"RAMIPRIL 5 MG PO DAILY, ALTACE 2.5-10 MG PO DAILY",anti_hypertensive
+benazepril,ACE inhibitor for hypertension,"BENAZEPRIL 20 MG PO DAILY, LOTENSIN 10-40 MG PO DAILY",anti_hypertensive
+fosinopril,ACE inhibitor for hypertension and heart failure,"FOSINOPRIL 20 MG PO DAILY, MONOPRIL 10-40 MG PO DAILY",anti_hypertensive
+quinapril,ACE inhibitor for hypertension and heart failure,"QUINAPRIL 20 MG PO DAILY, ACCUPRIL 10-40 MG PO DAILY",anti_hypertensive
+perindopril,ACE inhibitor for hypertension and stable CAD,"PERINDOPRIL 4 MG PO DAILY, ACEON 2-8 MG PO DAILY, COVERSYL",anti_hypertensive
+moexipril,ACE inhibitor for hypertension,"MOEXIPRIL 7.5 MG PO DAILY, UNIVASC 7.5-30 MG PO DAILY",anti_hypertensive
+trandolapril,ACE inhibitor for hypertension and post-MI,"TRANDOLAPRIL 2 MG PO DAILY, MAVIK 1-4 MG PO DAILY",anti_hypertensive
+losartan,Angiotensin receptor blocker for hypertension,"LOSARTAN 50 MG PO DAILY, COZAAR 25-100 MG PO DAILY",anti_hypertensive
+valsartan,Angiotensin receptor blocker for hypertension and heart failure,"VALSARTAN 160 MG PO DAILY, DIOVAN 80-320 MG PO DAILY",anti_hypertensive
+irbesartan,Angiotensin receptor blocker for hypertension and diabetic nephropathy,"IRBESARTAN 150 MG PO DAILY, AVAPRO 75-300 MG PO DAILY",anti_hypertensive
+candesartan,Angiotensin receptor blocker for hypertension and heart failure,"CANDESARTAN 16 MG PO DAILY, ATACAND 4-32 MG PO DAILY",anti_hypertensive
+olmesartan,Angiotensin receptor blocker for hypertension,"OLMESARTAN 20 MG PO DAILY, BENICAR 5-40 MG PO DAILY",anti_hypertensive
+telmisartan,Angiotensin receptor blocker for hypertension,"TELMISARTAN 40 MG PO DAILY, MICARDIS 20-80 MG PO DAILY",anti_hypertensive
+eprosartan,Angiotensin receptor blocker for hypertension,"EPROSARTAN 600 MG PO DAILY, TEVETEN 400-800 MG PO DAILY",anti_hypertensive
+azilsartan,Angiotensin receptor blocker for hypertension,"AZILSARTAN 80 MG PO DAILY, EDARBI 40-80 MG PO DAILY",anti_hypertensive
+iohexol,Iodinated contrast agent for CT and angiography,"IOHEXOL 100-150 ML IV/IA, OMNIPAQUE 300-350 MG I/ML",contrast_agent
+iodixanol,Iso-osmolar iodinated contrast for CT and angiography,"IODIXANOL 100-150 ML IV/IA, VISIPAQUE 270-320 MG I/ML",contrast_agent
+iopamidol,Iodinated contrast agent for CT and angiography,"IOPAMIDOL 100-150 ML IV/IA, ISOVUE 250-370 MG I/ML",contrast_agent
+ioversol,Iodinated contrast agent for CT and angiography,"IOVERSOL 100-150 ML IV/IA, OPTIRAY 240-350 MG I/ML",contrast_agent
+iomeprol,Iodinated contrast agent for CT and angiography,"IOMEPROL 100-150 ML IV/IA, IOMERON 250-400 MG I/ML",contrast_agent
+iobitridol,Iodinated contrast agent for CT and angiography,"IOBITRIDOL 100-150 ML IV/IA, XENETIX 250-350 MG I/ML",contrast_agent
+ioxaglate,Iodinated contrast agent for angiography,"IOXAGLATE 100-150 ML IV/IA, HEXABRIX 320 MG I/ML",contrast_agent
+diatrizoate,Iodinated contrast agent for fluoroscopy and oral/rectal studies,"DIATRIZOATE PO/PR/IV, RENOGRAFIN, HYPAQUE, GASTROGRAFIN",contrast_agent
+metrizamide,Iodinated contrast agent for myelography,"METRIZAMIDE 10-20 ML INTRATHECAL, AMIPAQUE",contrast_agent
+gadopentetate,Gadolinium-based MRI contrast agent,"GADOPENTETATE 0.1 MMOL/KG IV, MAGNEVIST 469 MG/ML",contrast_agent
+gadodiamide,Gadolinium-based MRI contrast agent,"GADODIAMIDE 0.1 MMOL/KG IV, OMNISCAN 287 MG/ML",contrast_agent
+gadoterate,Macrocyclic gadolinium MRI contrast agent,"GADOTERATE 0.1 MMOL/KG IV, DOTAREM 376.9 MG/ML",contrast_agent
+gadobutrol,Macrocyclic gadolinium MRI contrast agent,"GADOBUTROL 0.1 MMOL/KG IV, GADAVIST 1 MMOL/ML",contrast_agent
+gadoteridol,Macrocyclic gadolinium MRI contrast agent,"GADOTERIDOL 0.1 MMOL/KG IV, PROHANCE 279.3 MG/ML",contrast_agent
+gadobenate,Gadolinium MRI contrast agent for hepatic and CNS imaging,"GADOBENATE 0.1 MMOL/KG IV, MULTIHANCE 529 MG/ML",contrast_agent
+gadoxetate,Hepatocyte-specific gadolinium MRI contrast,"GADOXETATE 0.025 MMOL/KG IV, EOVIST, PRIMOVIST",contrast_agent
