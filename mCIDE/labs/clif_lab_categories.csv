@@ -3,15 +3,15 @@ albumin,g/dl,"ALBUMIN, ALB, SERUM ALBUMIN",lft,
 alkaline_phosphatase,u/l,"ALP, ALKALINE PHOS, ALK PHOS, ALKP",lft,
 alt,u/l,"ALT, SGPT, ALANINE TRANSAMINASE",lft,
 ast,u/l,"AST, SGOT, ASPARTATE TRANSAMINASE",lft,
-bal_absolute_eosinophils,cells/μl,"BAL ABSOLUTE EOSINOPHILS, BAL ABS EOS",bal,may also be reported as cells/mm³
-bal_absolute_lymphocytes,cells/μl,"BAL ABSOLUTE LYMPHOCYTES, BAL ABS LYMPHS",bal,may also be reported as cells/mm³
-bal_absolute_neutrophils,cells/μl,"BAL ABSOLUTE NEUTROPHILS, BAL ANC",bal,may also be reported as cells/mm³
 bal_amylase,u/l,BAL AMYLASE,bal,
-bal_eosinophils_percent,%,"BAL EOSINOPHILS %, BAL EOS %",bal,
-bal_lymphocytes_percent,%,"BAL LYMPHOCYTES %, BAL LYMPHS %",bal,
-bal_macrophages_percent,%,BAL MACROPHAGES %,bal,
-bal_monocytes_percent,%,"BAL MONOCYTES %, BAL MONOS %",bal,
-bal_neutrophils_percent,%,"BAL NEUTROPHILS %, BAL NEUTS %",bal,
+bal_eosinophils_absolute,cells/μl,"BAL ABSOLUTE EOSINOPHILS, BAL ABS EOS",bal,may also be reported as cells/mm³
+bal_eosinophils_count,cells/μl,"BAL EOSINOPHILS, EOSINOPHILS BODY FLUID, BAL EOS",bal,reported as count per site BAL hematology body fluid panel; may also be reported as cells/mm³
+bal_lymphocytes_absolute,cells/μl,"BAL ABSOLUTE LYMPHOCYTES, BAL ABS LYMPHS",bal,may also be reported as cells/mm³
+bal_lymphocytes_count,cells/μl,"BAL LYMPHOCYTES, LYMPH BF, BAL LYMPHS",bal,reported as count per site BAL hematology body fluid panel; may also be reported as cells/mm³
+bal_macrophages_count,cells/μl,"BAL MACROPHAGES, MACROPHAGE BF",bal,reported as count per site BAL hematology body fluid panel; may also be reported as cells/mm³
+bal_monocytes_count,cells/μl,"BAL MONOCYTES, MONOCYTE BF, BAL MONOS",bal,reported as count per site BAL hematology body fluid panel; may also be reported as cells/mm³
+bal_neutrophils_absolute,cells/μl,"BAL ABSOLUTE NEUTROPHILS, BAL ANC",bal,may also be reported as cells/mm³
+bal_neutrophils_count,cells/μl,"BAL NEUTROPHILS, NEUTROPHILS BODY FLUID, BAL NEUTS",bal,reported as count per site BAL hematology body fluid panel; may also be reported as cells/mm³
 bal_other_cells,cells/μl,"BAL OTHER CELLS, OTHER CELLS BF",bal,may also be reported as percentage; site-dependent
 bal_plasma_cells,cells/μl,"BAL PLASMA CELLS, PLASMA CELL BF",bal,may also be reported as percentage; site-dependent
 bal_rbc_count,cells/μl,"BAL RBC, BAL RED BLOOD CELL COUNT",bal,may also be reported as cells/mm³
