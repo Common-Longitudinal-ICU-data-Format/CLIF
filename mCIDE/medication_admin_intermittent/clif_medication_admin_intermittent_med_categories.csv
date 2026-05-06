@@ -1,16 +1,16 @@
 med_category,med_dose_unit,description,med_name_examples,med_group
 acetaminophen,mg,Non-opioid analgesic and antipyretic for pain and fever,"ACETAMINOPHEN 1000 MG IV Q6H, ACETAMINOPHEN 650 MG PO Q4H PRN",analgesia
-acyclovir,"mg, mg/kg",Antiviral for herpes simplex and varicella zoster infections,"ACYCLOVIR 800 MG IV Q8H, ACYCLOVIR 10 MG/KG IV Q8H",cms_sepsis_qualifying_antibiotics
+acyclovir,mg,Antiviral for herpes simplex and varicella zoster infections,"ACYCLOVIR 800 MG IV Q8H, ACYCLOVIR 10 MG/KG IV Q8H",cms_sepsis_qualifying_antibiotics
 alteplase,mg,Intrapleural thrombolytic agent for acute ischemic stroke and PE,"INTRAPLEURAL ALTEPLASE 10MG, ALTEPLASE 10MG INJECTION ",other
-amikacin,"mg, mg/kg",Aminoglycoside antibiotic for gram-negative infections,"AMIKACIN 1500 MG IV Q24H, AMIKACIN 15 MG/KG IV DAILY",cms_sepsis_qualifying_antibiotics
+amikacin,mg,Aminoglycoside antibiotic for gram-negative infections,"AMIKACIN 1500 MG IV Q24H, AMIKACIN 15 MG/KG IV DAILY",cms_sepsis_qualifying_antibiotics
 amoxicillin,mg,Beta-lactam antibiotic for respiratory and UTI,"AMOXICILLIN 500 MG PO Q8H, AMOXICILLIN 875 MG PO Q12H",cms_sepsis_qualifying_antibiotics
 amoxicillin_clavulanate,mg,Beta-lactam with beta-lactamase inhibitor,"AMOXICILLIN-CLAVULANATE 875-125 MG PO Q12H, AUGMENTIN 500-125 MG PO Q8H",cms_sepsis_qualifying_antibiotics
-amphotericin_b,"mg, mg/kg",Antifungal for severe systemic fungal infections,"AMPHOTERICIN B 50 MG IV DAILY, AMPHOTERICIN B LIPOSOMAL 5 MG/KG IV Q24H",cms_sepsis_qualifying_antibiotics
+amphotericin_b,mg,Antifungal for severe systemic fungal infections,"AMPHOTERICIN B 50 MG IV DAILY, AMPHOTERICIN B LIPOSOMAL 5 MG/KG IV Q24H",cms_sepsis_qualifying_antibiotics
 ampicillin,g,Beta-lactam antibiotic for various bacterial infections,"AMPICILLIN 2 GM IV Q6H, AMPICILLIN 1 GM IV Q4H",cms_sepsis_qualifying_antibiotics
 ampicillin_sulbactam,g,Beta-lactam with beta-lactamase inhibitor,"AMPICILLIN-SULBACTAM 3 GM IV Q6H, UNASYN 1.5 GM IV Q6H",cms_sepsis_qualifying_antibiotics
-anakinra,"mg, mg/kg",Interleukin-1 receptor antagonist for inflammatory conditions,"ANAKINRA 100 MG SUBQ DAILY, ANAKINRA 2 MG/KG SUBQ Q12H",other
+anakinra,mg,Interleukin-1 receptor antagonist for inflammatory conditions,"ANAKINRA 100 MG SUBQ DAILY, ANAKINRA 2 MG/KG SUBQ Q12H",other
 anidulafungin,mg,Echinocandin antifungal for candidiasis,"ANIDULAFUNGIN 200 MG IV LOAD THEN 100 MG IV DAILY, ERAXIS 100 MG IV Q24H",cms_sepsis_qualifying_antibiotics
-atracurium,"mg, mg/kg",Intermediate-acting neuromuscular blocking agent,"ATRACURIUM 50 MG IV BOLUS, ATRACURIUM 0.5 MG/KG IV PRN PARALYSIS",paralytics
+atracurium,mg,Intermediate-acting neuromuscular blocking agent,"ATRACURIUM 50 MG IV BOLUS, ATRACURIUM 0.5 MG/KG IV PRN PARALYSIS",paralytics
 axicabtagene_ciloleucel,cells,CAR T-cell therapy for large B-cell lymphoma,"AXICABTAGENE CILOLEUCEL 2X10^6 CAR+ T CELLS IV INFUSION, YESCARTA INFUSION",car_t
 azilsartan,mg,Angiotensin receptor blocker for hypertension,"AZILSARTAN 80 MG PO DAILY, EDARBI 40-80 MG PO DAILY",anti_hypertensive
 azithromycin,mg,Macrolide antibiotic for respiratory infections,"AZITHROMYCIN 500 MG IV DAILY, AZITHROMYCIN 250 MG PO DAILY",cms_sepsis_qualifying_antibiotics
@@ -18,7 +18,7 @@ aztreonam,g,Monobactam antibiotic for gram-negative infections,"AZTREONAM 2 GM I
 baricitinib,mg,JAK inhibitor for inflammatory conditions and severe COVID-19,"BARICITINIB 4 MG PO DAILY, OLUMIANT 2 MG PO DAILY",other
 benazepril,mg,ACE inhibitor for hypertension,"BENAZEPRIL 20 MG PO DAILY, LOTENSIN 10-40 MG PO DAILY",anti_hypertensive
 betamethasone,mg,Corticosteroid for fetal lung maturation,"BETAMETHASONE 12 MG IM Q24H X2 DOSES, BETAMETHASONE 12 MG IM",steroid
-blinatumomab,mcg/day,CD19-CD3 bispecific T-cell engager for B-cell ALL,"BLINATUMOMAB 9-28 MCG/DAY IV CONTINUOUS INFUSION, BLINCYTO IV",other
+blinatumomab,mcg,CD19-CD3 bispecific T-cell engager for B-cell ALL,"BLINATUMOMAB 9-28 MCG/DAY IV CONTINUOUS INFUSION, BLINCYTO IV",other
 brexucabtagene_autoleucel,cells,CAR T-cell therapy for mantle cell lymphoma,"BREXUCABTAGENE AUTOLEUCEL 2X10^6 CAR+ T CELLS IV, TECARTUS INFUSION",car_t
 candesartan,mg,Angiotensin receptor blocker for hypertension and heart failure,"CANDESARTAN 16 MG PO DAILY, ATACAND 4-32 MG PO DAILY",anti_hypertensive
 captopril,mg,ACE inhibitor for hypertension and heart failure,"CAPTOPRIL 25 MG PO Q8H, CAPOTEN 12.5-50 MG PO TID",anti_hypertensive
@@ -52,18 +52,18 @@ cephalexin,mg,First-generation oral cephalosporin,"CEPHALEXIN 500 MG PO Q6H, CEP
 cephalothin,g,First-generation cephalosporin,"CEPHALOTHIN 2 GM IV Q4H, CEPHALOTHIN 1 GM IV Q6H",cms_sepsis_qualifying_antibiotics
 cephapirin,"g, mg",First-generation cephalosporin,"CEPHAPIRIN 1 GM IV Q6H, CEPHAPIRIN 500 MG IV Q4H",cms_sepsis_qualifying_antibiotics
 cephradine,"mg, g",First-generation cephalosporin,"CEPHRADINE 500 MG PO Q6H, CEPHRADINE 1 GM IV Q6H",cms_sepsis_qualifying_antibiotics
-chloramphenicol,"g, mg/kg",Broad-spectrum antibiotic for meningitis,"CHLORAMPHENICOL 1 GM IV Q6H, CHLORAMPHENICOL 12.5 MG/KG IV Q6H",cms_sepsis_qualifying_antibiotics
-cidofovir,mg/kg,Antiviral for CMV retinitis,"CIDOFOVIR 5 MG/KG IV WEEKLY, CIDOFOVIR 5 MG/KG IV Q2WEEKS",cms_sepsis_qualifying_antibiotics
-ciltacabtagene_autoleucel,cells/kg,CAR T-cell therapy for multiple myeloma,"CILTACABTAGENE AUTOLEUCEL 0.75X10^6 CAR+ T CELLS/KG IV, CARVYKTI INFUSION",car_t
+chloramphenicol,"g, mg",Broad-spectrum antibiotic for meningitis,"CHLORAMPHENICOL 1 GM IV Q6H, CHLORAMPHENICOL 12.5 MG/KG IV Q6H",cms_sepsis_qualifying_antibiotics
+cidofovir,mg,Antiviral for CMV retinitis,"CIDOFOVIR 5 MG/KG IV WEEKLY, CIDOFOVIR 5 MG/KG IV Q2WEEKS",cms_sepsis_qualifying_antibiotics
+ciltacabtagene_autoleucel,cells,CAR T-cell therapy for multiple myeloma,"CILTACABTAGENE AUTOLEUCEL 0.75X10^6 CAR+ T CELLS/KG IV, CARVYKTI INFUSION",car_t
 cinoxacin,"mg, g",Quinolone antibiotic for UTI,"CINOXACIN 500 MG PO Q12H, CINOXACIN 1 GM PO DAILY",cms_sepsis_qualifying_antibiotics
 ciprofloxacin,mg,Fluoroquinolone for various bacterial infections,"CIPROFLOXACIN 400 MG IV Q12H, CIPROFLOXACIN 500 MG PO Q12H",cms_sepsis_qualifying_antibiotics
-cisatracurium,"mg, mg/kg",Neuromuscular blocking agent,"CISATRACURIUM 20 MG IV BOLUS, CISATRACURIUM 0.15 MG/KG IV PRN",paralytics
+cisatracurium,mg,Neuromuscular blocking agent,"CISATRACURIUM 20 MG IV BOLUS, CISATRACURIUM 0.15 MG/KG IV PRN",paralytics
 clarithromycin,mg,Macrolide antibiotic for respiratory infections,"CLARITHROMYCIN 500 MG PO Q12H, CLARITHROMYCIN 500 MG IV Q12H",cms_sepsis_qualifying_antibiotics
 clindamycin,mg,Lincosamide antibiotic for anaerobic infections,"CLINDAMYCIN 900 MG IV Q8H, CLINDAMYCIN 600 MG IV Q6H",cms_sepsis_qualifying_antibiotics
 cloxacillin,"mg, g",Anti-staphylococcal penicillin,"CLOXACILLIN 500 MG PO Q6H, CLOXACILLIN 2 GM IV Q6H",cms_sepsis_qualifying_antibiotics
-colistin,mg/kg,Polymyxin antibiotic for resistant gram-negatives,"COLISTIN 2.5 MG/KG IV Q12H, COLISTIN 5 MG/KG IV LOAD",cms_sepsis_qualifying_antibiotics
+colistin,mg,Polymyxin antibiotic for resistant gram-negatives,"COLISTIN 2.5 MG/KG IV Q12H, COLISTIN 5 MG/KG IV LOAD",cms_sepsis_qualifying_antibiotics
 dalbavancin,mg,Long-acting lipoglycopeptide for skin infections,"DALBAVANCIN 1500 MG IV SINGLE DOSE, DALBAVANCIN 1000 MG IV THEN 500 MG IV WEEK 2",cms_sepsis_qualifying_antibiotics
-daptomycin,mg/kg,Cyclic lipopeptide for gram-positive infections,"DAPTOMYCIN 6 MG/KG IV DAILY, DAPTOMYCIN 8-10 MG/KG IV Q24H",cms_sepsis_qualifying_antibiotics
+daptomycin,mg,Cyclic lipopeptide for gram-positive infections,"DAPTOMYCIN 6 MG/KG IV DAILY, DAPTOMYCIN 8-10 MG/KG IV Q24H",cms_sepsis_qualifying_antibiotics
 delafloxacin,mg,Fluoroquinolone for skin and bacterial infections,"DELAFLOXACIN 300 MG IV Q12H, DELAFLOXACIN 450 MG PO Q12H",cms_sepsis_qualifying_antibiotics
 dexamethasone,mg,Corticosteroid,"DEXAMETHASONE 10 MG IV Q6H, DEXAMETHASONE 4 MG IV Q6H",steroid
 diatrizoate,ml,Iodinated contrast agent for fluoroscopy and oral/rectal studies,"DIATRIZOATE PO/PR/IV, RENOGRAFIN, HYPAQUE, GASTROGRAFIN",contrast_agent
@@ -78,27 +78,27 @@ enalapril,mg,ACE inhibitor for hypertension and heart failure,"ENALAPRIL 10 MG P
 epcoritamab,mg,CD20-CD3 bispecific T-cell engager for B-cell lymphoma,"EPCORITAMAB 48 MG SUBQ WEEKLY, EPKINLY SUBQ DOSING",other
 epinephrine,mg,"Catecholamine for hemodynamic support, cardiac arrest, and anaphylaxis","EPINEPHRINE 1 MG/10 ML IV PUSH (0.1 MG/ML, formerly 1:10,000), EPINEPHRINE 0.3 MG IM (1 MG/ML, formerly 1:1,000), ADRENALINE",vasopressor
 eprosartan,mg,Angiotensin receptor blocker for hypertension,"EPROSARTAN 600 MG PO DAILY, TEVETEN 400-800 MG PO DAILY",anti_hypertensive
-eravacycline,mg/kg,Fluorocycline antibiotic for complicated infections,"ERAVACYCLINE 1 MG/KG IV Q12H, XERAVA 1 MG/KG IV Q12H",cms_sepsis_qualifying_antibiotics
+eravacycline,mg,Fluorocycline antibiotic for complicated infections,"ERAVACYCLINE 1 MG/KG IV Q12H, XERAVA 1 MG/KG IV Q12H",cms_sepsis_qualifying_antibiotics
 ertapenem,g,Carbapenem for community-acquired infections,"ERTAPENEM 1 GM IV DAILY, ERTAPENEM 1 GM IV Q24H",cms_sepsis_qualifying_antibiotics
 erythromycin,mg,Macrolide antibiotic for respiratory infections,"ERYTHROMYCIN 500 MG IV Q6H, ERYTHROMYCIN 250 MG PO Q6H",cms_sepsis_qualifying_antibiotics
-etomidate,"mg, mg/kg",Sedative for rapid sequence intubation,"ETOMIDATE 20 MG IV PUSH, ETOMIDATE 0.3 MG/KG IV BOLUS",sedation
+etomidate,mg,Sedative for rapid sequence intubation,"ETOMIDATE 20 MG IV PUSH, ETOMIDATE 0.3 MG/KG IV BOLUS",sedation
 fentanyl,mcg,Opioid analgesic,"FENTANYL 50 MCG IV Q2H PRN PAIN, FENTANYL 100 MCG IV PUSH",analgesia
 fidaxomicin,mg,Macrocyclic antibiotic for C. difficile infection,"FIDAXOMICIN 200 MG PO Q12H, DIFICID 200 MG PO Q12H X10 DAYS",cms_sepsis_qualifying_antibiotics
 fluconazole,mg,Triazole antifungal for candidiasis,"FLUCONAZOLE 400 MG IV DAILY, FLUCONAZOLE 200 MG PO DAILY",cms_sepsis_qualifying_antibiotics
 fludrocortisone,mg,Corticosteroid,"FLUDROCORTISONE 0.1 MG PO DAILY, FLUDROCORTISONE 0.05 MG PO DAILY",steroid
-foscarnet,mg/kg,Antiviral for CMV and HSV infections,"FOSCARNET 60 MG/KG IV Q8H, FOSCARNET 90 MG/KG IV Q12H",cms_sepsis_qualifying_antibiotics
+foscarnet,mg,Antiviral for CMV and HSV infections,"FOSCARNET 60 MG/KG IV Q8H, FOSCARNET 90 MG/KG IV Q12H",cms_sepsis_qualifying_antibiotics
 fosfomycin,g,Broad-spectrum antibiotic for UTI,"FOSFOMYCIN 3 GM PO SINGLE DOSE, FOSFOMYCIN 3 GM PO X1",cms_sepsis_qualifying_antibiotics
 fosinopril,mg,ACE inhibitor for hypertension and heart failure,"FOSINOPRIL 20 MG PO DAILY, MONOPRIL 10-40 MG PO DAILY",anti_hypertensive
-gadobenate,mmol/kg,Gadolinium MRI contrast agent for hepatic and CNS imaging,"GADOBENATE 0.1 MMOL/KG IV, MULTIHANCE 529 MG/ML",contrast_agent
-gadobutrol,mmol/kg,Macrocyclic gadolinium MRI contrast agent,"GADOBUTROL 0.1 MMOL/KG IV, GADAVIST 1 MMOL/ML",contrast_agent
-gadodiamide,mmol/kg,Gadolinium-based MRI contrast agent,"GADODIAMIDE 0.1 MMOL/KG IV, OMNISCAN 287 MG/ML",contrast_agent
-gadopentetate,mmol/kg,Gadolinium-based MRI contrast agent,"GADOPENTETATE 0.1 MMOL/KG IV, MAGNEVIST 469 MG/ML",contrast_agent
-gadoterate,mmol/kg,Macrocyclic gadolinium MRI contrast agent,"GADOTERATE 0.1 MMOL/KG IV, DOTAREM 376.9 MG/ML",contrast_agent
-gadoteridol,mmol/kg,Macrocyclic gadolinium MRI contrast agent,"GADOTERIDOL 0.1 MMOL/KG IV, PROHANCE 279.3 MG/ML",contrast_agent
-gadoxetate,mmol/kg,Hepatocyte-specific gadolinium MRI contrast,"GADOXETATE 0.025 MMOL/KG IV, EOVIST, PRIMOVIST",contrast_agent
-ganciclovir,mg/kg,Antiviral for CMV infections,"GANCICLOVIR 5 MG/KG IV Q12H, GANCICLOVIR 5 MG/KG IV Q24H MAINTENANCE",cms_sepsis_qualifying_antibiotics
+gadobenate,mmol,Gadolinium MRI contrast agent for hepatic and CNS imaging,"GADOBENATE 0.1 MMOL/KG IV, MULTIHANCE 529 MG/ML",contrast_agent
+gadobutrol,mmol,Macrocyclic gadolinium MRI contrast agent,"GADOBUTROL 0.1 MMOL/KG IV, GADAVIST 1 MMOL/ML",contrast_agent
+gadodiamide,mmol,Gadolinium-based MRI contrast agent,"GADODIAMIDE 0.1 MMOL/KG IV, OMNISCAN 287 MG/ML",contrast_agent
+gadopentetate,mmol,Gadolinium-based MRI contrast agent,"GADOPENTETATE 0.1 MMOL/KG IV, MAGNEVIST 469 MG/ML",contrast_agent
+gadoterate,mmol,Macrocyclic gadolinium MRI contrast agent,"GADOTERATE 0.1 MMOL/KG IV, DOTAREM 376.9 MG/ML",contrast_agent
+gadoteridol,mmol,Macrocyclic gadolinium MRI contrast agent,"GADOTERIDOL 0.1 MMOL/KG IV, PROHANCE 279.3 MG/ML",contrast_agent
+gadoxetate,mmol,Hepatocyte-specific gadolinium MRI contrast,"GADOXETATE 0.025 MMOL/KG IV, EOVIST, PRIMOVIST",contrast_agent
+ganciclovir,mg,Antiviral for CMV infections,"GANCICLOVIR 5 MG/KG IV Q12H, GANCICLOVIR 5 MG/KG IV Q24H MAINTENANCE",cms_sepsis_qualifying_antibiotics
 gatifloxacin,mg,Fluoroquinolone antibiotic,"GATIFLOXACIN 400 MG IV DAILY, GATIFLOXACIN 400 MG PO DAILY",cms_sepsis_qualifying_antibiotics
-gentamicin,mg/kg,Aminoglycoside for gram-negative infections,"GENTAMICIN 5 MG/KG IV DAILY, GENTAMICIN 7 MG/KG IV Q24H",cms_sepsis_qualifying_antibiotics
+gentamicin,mg,Aminoglycoside for gram-negative infections,"GENTAMICIN 5 MG/KG IV DAILY, GENTAMICIN 7 MG/KG IV Q24H",cms_sepsis_qualifying_antibiotics
 glofitamab,mg,CD20-CD3 bispecific T-cell engager for diffuse large B-cell lymphoma,"GLOFITAMAB 2.5-30 MG IV STEP-UP DOSING, COLUMVI IV INFUSION",other
 haloperidol,mg,Typical antipsychotic for delirium and agitation,"HALOPERIDOL 5 MG IV Q6H PRN AGITATION, HALOPERIDOL 2 MG IV Q4H PRN",antipsychotic
 hydrocortisone,mg,Corticosteroid ,"HYDROCORTISONE 100 MG IV Q8H, HYDROCORTISONE 50 MG IV Q6H",steroid
@@ -123,8 +123,8 @@ irbesartan,mg,Angiotensin receptor blocker for hypertension and diabetic nephrop
 isavuconazole,mg,Triazole antifungal for aspergillosis,"ISAVUCONAZOLE 200 MG IV/PO DAILY, ISAVUCONAZOLE 372 MG IV Q8H X6 DOSES LOAD",cms_sepsis_qualifying_antibiotics
 isavuconazonium,mg,Prodrug of isavuconazole antifungal,"ISAVUCONAZONIUM 372 MG IV Q8H LOAD THEN DAILY, CRESEMBA 372 MG IV DAILY",cms_sepsis_qualifying_antibiotics
 itraconazole,mg,Triazole antifungal for systemic mycoses,"ITRACONAZOLE 200 MG IV Q12H X4 THEN DAILY, ITRACONAZOLE 200 MG PO Q12H",cms_sepsis_qualifying_antibiotics
-kanamycin,"mg/kg, mg",Aminoglycoside antibiotic,"KANAMYCIN 15 MG/KG IM DAILY, KANAMYCIN 500 MG IM Q12H",cms_sepsis_qualifying_antibiotics
-ketamine,"mg, mg/kg",Dissociative anesthetic for sedation and analgesia,"KETAMINE 100 MG IV PUSH, KETAMINE 1-2 MG/KG IV BOLUS",sedation
+kanamycin,mg,Aminoglycoside antibiotic,"KANAMYCIN 15 MG/KG IM DAILY, KANAMYCIN 500 MG IM Q12H",cms_sepsis_qualifying_antibiotics
+ketamine,mg,Dissociative anesthetic for sedation and analgesia,"KETAMINE 100 MG IV PUSH, KETAMINE 1-2 MG/KG IV BOLUS",sedation
 lefamulin,mg,Pleuromutilin antibiotic for pneumonia,"LEFAMULIN 150 MG IV Q12H, XENLETA 600 MG PO Q12H",cms_sepsis_qualifying_antibiotics
 levofloxacin,mg,Fluoroquinolone for respiratory and UTI,"LEVOFLOXACIN 750 MG IV DAILY, LEVOFLOXACIN 500 MG PO DAILY",cms_sepsis_qualifying_antibiotics
 lincomycin,mg,Lincosamide antibiotic,"LINCOMYCIN 600 MG IV Q8H, LINCOMYCIN 500 MG IM Q12H",cms_sepsis_qualifying_antibiotics
@@ -140,7 +140,7 @@ maribavir,mg,Antiviral for CMV infection post-transplant,"MARIBAVIR 400 MG PO Q1
 meropenem,g,Carbapenem for severe bacterial infections,"MEROPENEM 1 GM IV Q8H, MEROPENEM 2 GM IV Q8H MENINGITIS",cms_sepsis_qualifying_antibiotics
 meropenem_vaborbactam,g,Carbapenem with beta-lactamase inhibitor,"MEROPENEM-VABORBACTAM 4 GM IV Q8H, VABOMERE 2 GM-2 GM IV Q8H",cms_sepsis_qualifying_antibiotics
 methicillin,g,Anti-staphylococcal penicillin,"METHICILLIN 2 GM IV Q4H, METHICILLIN 1 GM IV Q6H",cms_sepsis_qualifying_antibiotics
-methylene_blue,"mg/kg, mg",Vasopressor ,"METHYLENE BLUE 2 MG/KG IV OVER 30 MIN, METHYLENE BLUE 100 MG IV INFUSION",vasopressor
+methylene_blue,mg,Vasopressor ,"METHYLENE BLUE 2 MG/KG IV OVER 30 MIN, METHYLENE BLUE 100 MG IV INFUSION",vasopressor
 methylprednisolone,"mg, g",Corticosteroid for inflammation and immunosuppression,"METHYLPREDNISOLONE 125 MG IV Q6H, METHYLPREDNISOLONE 1 GM IV DAILY X3 DAYS",steroid
 metrizamide,ml,Iodinated contrast agent for myelography,"METRIZAMIDE 10-20 ML INTRATHECAL, AMIPAQUE",contrast_agent
 metronidazole,mg,Nitroimidazole for anaerobic infections and C. diff,"METRONIDAZOLE 500 MG IV Q8H, METRONIDAZOLE 500 MG PO Q8H",cms_sepsis_qualifying_antibiotics
@@ -172,46 +172,46 @@ perindopril,mg,ACE inhibitor for hypertension and stable CAD,"PERINDOPRIL 4 MG P
 phosphate_repletion,mmol,Intermittent phosphate repletion,"POTASSIUM SODIUM PHOSPHATES PO (PHOS-NAK, PHOSPHA 250 NEUTRAL), SODIUM PHOSPHATE IV, POTASSIUM PHOSPHATE IV",other
 piperacillin_tazobactam,g,Extended-spectrum penicillin with beta-lactamase inhibitor,"PIPERACILLIN-TAZOBACTAM 4.5 GM IV Q6H, ZOSYN 3.375 GM IV Q8H",cms_sepsis_qualifying_antibiotics
 pivampicillin,mg,Prodrug of ampicillin,"PIVAMPICILLIN 500 MG PO Q12H, PIVAMPICILLIN 250 MG PO Q8H",cms_sepsis_qualifying_antibiotics
-plazomicin,mg/kg,Aminoglycoside for resistant UTI,"PLAZOMICIN 15 MG/KG IV Q24H, ZEMDRI 15 MG/KG IV DAILY",cms_sepsis_qualifying_antibiotics
-polymyxin_b,"mg/kg/day, mg/kg",Polymyxin antibiotic for resistant gram-negatives,"POLYMYXIN B 2.5 MG/KG/DAY IV DIVIDED Q12H, POLYMYXIN B 1.5 MG/KG IV Q12H",cms_sepsis_qualifying_antibiotics
+plazomicin,mg,Aminoglycoside for resistant UTI,"PLAZOMICIN 15 MG/KG IV Q24H, ZEMDRI 15 MG/KG IV DAILY",cms_sepsis_qualifying_antibiotics
+polymyxin_b,mg,Polymyxin antibiotic for resistant gram-negatives,"POLYMYXIN B 2.5 MG/KG/DAY IV DIVIDED Q12H, POLYMYXIN B 1.5 MG/KG IV Q12H",cms_sepsis_qualifying_antibiotics
 posaconazole,mg,Triazole antifungal for prophylaxis and treatment,"POSACONAZOLE 300 MG IV Q12H X1 DAY THEN DAILY, POSACONAZOLE 200 MG PO TID",cms_sepsis_qualifying_antibiotics
 potassium_repletion,meq,Intermittent potassium repletion (oral or IV salts),"POTASSIUM CHLORIDE PO/IV (KDUR), POTASSIUM BICARBONATE/CITRIC ACID PO (EFFER-K), POTASSIUM CHLORIDE IVPB",other
 prednisolone,mg,Corticosteroid for inflammatory conditions,"PREDNISOLONE 40 MG PO DAILY, PREDNISOLONE 20 MG PO Q12H",steroid
 prednisone,mg,Corticosteroid for inflammation and immunosuppression,"PREDNISONE 60 MG PO DAILY, PREDNISONE 20 MG PO BID",steroid
 promethazine,mg,Antihistamine and antiemetic,"PROMETHAZINE 25 MG IV Q6H PRN NAUSEA, PROMETHAZINE 12.5 MG IV PUSH",other
-propofol,"mg, mg/kg",Sedation,"PROPOFOL 200 MG IV BOLUS, PROPOFOL 1-2 MG/KG IV PUSH",sedation
+propofol,mg,Sedation,"PROPOFOL 200 MG IV BOLUS, PROPOFOL 1-2 MG/KG IV PUSH",sedation
 quetiapine,mg,Atypical antipsychotic for delirium,"QUETIAPINE 25 MG PO Q12H, QUETIAPINE 50 MG PO BID PRN AGITATION",antipsychotic
 quinapril,mg,ACE inhibitor for hypertension and heart failure,"QUINAPRIL 20 MG PO DAILY, ACCUPRIL 10-40 MG PO DAILY",anti_hypertensive
-quinupristin_dalfopristin,mg/kg,Streptogramin for resistant gram-positives,"QUINUPRISTIN-DALFOPRISTIN 7.5 MG/KG IV Q8H, SYNERCID 7.5 MG/KG IV Q8H",cms_sepsis_qualifying_antibiotics
+quinupristin_dalfopristin,mg,Streptogramin for resistant gram-positives,"QUINUPRISTIN-DALFOPRISTIN 7.5 MG/KG IV Q8H, SYNERCID 7.5 MG/KG IV Q8H",cms_sepsis_qualifying_antibiotics
 ramipril,mg,ACE inhibitor for hypertension and post-MI,"RAMIPRIL 5 MG PO DAILY, ALTACE 2.5-10 MG PO DAILY",anti_hypertensive
 remdesivir,mg,Antiviral for COVID-19 and other RNA virus infections,"REMDESIVIR 200 MG IV LOAD THEN 100 MG IV DAILY, VEKLURY 100 MG IV",cms_sepsis_qualifying_antibiotics
 rezafungin,mg,Echinocandin antifungal for candidiasis,"REZAFUNGIN 400 MG IV LOADING THEN 200 MG IV WEEKLY, REZZAYO 200 MG IV Q1WEEK",cms_sepsis_qualifying_antibiotics
 ribavirin,"mg, g",Antiviral for RSV and hepatitis C,"RIBAVIRIN 1200 MG PO DIVIDED Q12H, RIBAVIRIN 6 GM AEROSOL Q12-18H",cms_sepsis_qualifying_antibiotics
 rifampin,mg,Antimycobacterial and anti-staphylococcal,"RIFAMPIN 600 MG IV DAILY, RIFAMPIN 300 MG PO Q12H",cms_sepsis_qualifying_antibiotics
 risperidone,mg,Atypical antipsychotic for agitation,"RISPERIDONE 1 MG PO Q12H, RISPERIDONE 2 MG PO BID PRN AGITATION",antipsychotic
-rocuronium,"mg, mg/kg",Intermediate-acting neuromuscular blocker,"ROCURONIUM 50 MG IV BOLUS, ROCURONIUM 1 MG/KG IV PUSH",paralytics
-siltuximab,mg/kg,IL-6 monoclonal antibody for inflammatory conditions and cytokine release syndrome,"SILTUXIMAB 11 MG/KG IV Q3WEEKS, SYLVANT IV INFUSION",other
-streptomycin,"g, mg/kg",Aminoglycoside for tuberculosis,"STREPTOMYCIN 1 GM IM DAILY, STREPTOMYCIN 15 MG/KG IM DAILY",cms_sepsis_qualifying_antibiotics
-succinylcholine,"mg, mg/kg",Neuromuscular blocking agent,"SUCCINYLCHOLINE 100 MG IV PUSH, SUCCINYLCHOLINE 1-2 MG/KG IV BOLUS",paralytics
+rocuronium,mg,Intermediate-acting neuromuscular blocker,"ROCURONIUM 50 MG IV BOLUS, ROCURONIUM 1 MG/KG IV PUSH",paralytics
+siltuximab,mg,IL-6 monoclonal antibody for inflammatory conditions and cytokine release syndrome,"SILTUXIMAB 11 MG/KG IV Q3WEEKS, SYLVANT IV INFUSION",other
+streptomycin,"g, mg",Aminoglycoside for tuberculosis,"STREPTOMYCIN 1 GM IM DAILY, STREPTOMYCIN 15 MG/KG IM DAILY",cms_sepsis_qualifying_antibiotics
+succinylcholine,mg,Neuromuscular blocking agent,"SUCCINYLCHOLINE 100 MG IV PUSH, SUCCINYLCHOLINE 1-2 MG/KG IV BOLUS",paralytics
 sulbactam_durlobactam,g,Beta-lactamase inhibitor combination,"SULBACTAM-DURLOBACTAM 1 GM IV Q6H, XACDURO 2 GM IV Q6H",cms_sepsis_qualifying_antibiotics
 sulfadiazine,"mg, g",Sulfonamide antibiotic for toxoplasmosis,"SULFADIAZINE 1500 MG PO Q6H, SULFADIAZINE 1 GM PO QID",cms_sepsis_qualifying_antibiotics
 sulfadiazine_trimethoprim,mg,Sulfonamide combination antibiotic,"SULFADIAZINE-TRIMETHOPRIM 800-160 MG PO Q12H, COTRIMOXAZOLE DS 1 TAB PO BID",cms_sepsis_qualifying_antibiotics
 sulfisoxazole,"g, mg",Sulfonamide antibiotic for UTI,"SULFISOXAZOLE 1 GM PO Q6H, SULFISOXAZOLE 500 MG PO QID",cms_sepsis_qualifying_antibiotics
-talquetamab,mg/kg,GPRC5D-CD3 bispecific T-cell engager for multiple myeloma,"TALQUETAMAB 0.4 MG/KG SUBQ WEEKLY, TALVEY SUBQ DOSING",other
+talquetamab,mg,GPRC5D-CD3 bispecific T-cell engager for multiple myeloma,"TALQUETAMAB 0.4 MG/KG SUBQ WEEKLY, TALVEY SUBQ DOSING",other
 tarlatamab,mg,DLL3-CD3 bispecific T-cell engager for small cell lung cancer,"TARLATAMAB 1-10 MG IV STEP-UP THEN Q2WEEKS, IMDELLTRA IV INFUSION",other
 tebentafusp,mcg,gp100-CD3 bispecific T-cell engager for uveal melanoma,"TEBENTAFUSP 20-68 MCG IV WEEKLY, KIMMTRAK IV INFUSION",other
-teclistamab,mg/kg,BCMA-CD3 bispecific T-cell engager for multiple myeloma,"TECLISTAMAB 1.5 MG/KG SUBQ WEEKLY, TECVAYLI SUBQ DOSING",other
+teclistamab,mg,BCMA-CD3 bispecific T-cell engager for multiple myeloma,"TECLISTAMAB 1.5 MG/KG SUBQ WEEKLY, TECVAYLI SUBQ DOSING",other
 tedizolid,mg,Oxazolidinone for skin infections,"TEDIZOLID 200 MG IV DAILY, SIVEXTRO 200 MG PO DAILY X6 DAYS",cms_sepsis_qualifying_antibiotics
-telavancin,"mg/kg, mg",Lipoglycopeptide for complicated skin infections,"TELAVANCIN 10 MG/KG IV DAILY, VIBATIV 750 MG IV Q24H",cms_sepsis_qualifying_antibiotics
+telavancin,mg,Lipoglycopeptide for complicated skin infections,"TELAVANCIN 10 MG/KG IV DAILY, VIBATIV 750 MG IV Q24H",cms_sepsis_qualifying_antibiotics
 telithromycin,mg,Ketolide antibiotic for pneumonia,"TELITHROMYCIN 800 MG PO DAILY, KETEK 800 MG PO DAILY X5 DAYS",cms_sepsis_qualifying_antibiotics
 telmisartan,mg,Angiotensin receptor blocker for hypertension,"TELMISARTAN 40 MG PO DAILY, MICARDIS 20-80 MG PO DAILY",anti_hypertensive
 tetracycline,mg,Tetracycline antibiotic for various infections,"TETRACYCLINE 500 MG PO Q6H, TETRACYCLINE 250 MG PO QID",cms_sepsis_qualifying_antibiotics
 ticarcillin,g,Extended-spectrum penicillin for pseudomonas,"TICARCILLIN 3 GM IV Q4H, TICARCILLIN 4 GM IV Q6H",cms_sepsis_qualifying_antibiotics
 ticarcillin_clavulanate,g,Extended-spectrum penicillin with beta-lactamase inhibitor,"TICARCILLIN-CLAVULANATE 3.1 GM IV Q4H, TIMENTIN 3.1 GM IV Q6H",cms_sepsis_qualifying_antibiotics
 tigecycline,mg,Glycylcycline for complicated infections,"TIGECYCLINE 100 MG IV LOAD THEN 50 MG IV Q12H, TYGACIL 50 MG IV Q12H",cms_sepsis_qualifying_antibiotics
-tisagenlecleucel,cells/kg,CAR T-cell therapy for ALL and lymphoma,"TISAGENLECLEUCEL 0.2-5X10^6 CAR+ T CELLS/KG IV, KYMRIAH INFUSION",car_t
-tobramycin,mg/kg,Aminoglycoside for gram-negative infections,"TOBRAMYCIN 5 MG/KG IV DAILY, TOBRAMYCIN 7 MG/KG IV Q24H",cms_sepsis_qualifying_antibiotics
-tocilizumab,"mg/kg, mg",IL-6 receptor antagonist,"TOCILIZUMAB 8 MG/KG IV SINGLE DOSE, ACTEMRA 400 MG IV X1",other
+tisagenlecleucel,cells,CAR T-cell therapy for ALL and lymphoma,"TISAGENLECLEUCEL 0.2-5X10^6 CAR+ T CELLS/KG IV, KYMRIAH INFUSION",car_t
+tobramycin,mg,Aminoglycoside for gram-negative infections,"TOBRAMYCIN 5 MG/KG IV DAILY, TOBRAMYCIN 7 MG/KG IV Q24H",cms_sepsis_qualifying_antibiotics
+tocilizumab,mg,IL-6 receptor antagonist,"TOCILIZUMAB 8 MG/KG IV SINGLE DOSE, ACTEMRA 400 MG IV X1",other
 trandolapril,mg,ACE inhibitor for hypertension and post-MI,"TRANDOLAPRIL 2 MG PO DAILY, MAVIK 1-4 MG PO DAILY",anti_hypertensive
 trimethoprim,mg,Antifolate antibiotic for UTI,"TRIMETHOPRIM 100 MG PO Q12H, TRIMETHOPRIM 200 MG PO DAILY",cms_sepsis_qualifying_antibiotics
 trimethoprim_sulfamethoxazole,mg,Antifolate-sulfonamide combination for PCP and UTI,"TRIMETHOPRIM-SULFAMETHOXAZOLE DS 2 TABS PO Q8H, BACTRIM DS 1 TAB PO BID",cms_sepsis_qualifying_antibiotics
@@ -220,5 +220,5 @@ valganciclovir,mg,Prodrug of ganciclovir for CMV,"VALGANCICLOVIR 900 MG PO Q12H,
 valproate,mg,Anticonvulsant for seizures and status epilepticus,"VALPROATE 1000 MG IV Q8H, VALPROIC ACID 500 MG IV Q6H",other
 valsartan,mg,Angiotensin receptor blocker for hypertension and heart failure,"VALSARTAN 160 MG PO DAILY, DIOVAN 80-320 MG PO DAILY",anti_hypertensive
 vancomycin,mg,Glycopeptide for MRSA and C. difficile,"VANCOMYCIN 1500 MG IV Q12H, VANCOMYCIN 125 MG PO Q6H C DIFF",cms_sepsis_qualifying_antibiotics
-vecuronium,"mg, mg/kg",Neuromuscular blocking agent,"VECURONIUM 10 MG IV BOLUS, VECURONIUM 0.1 MG/KG IV PUSH",paralytics
-voriconazole,"mg/kg, mg",Triazole antifungal for aspergillosis,"VORICONAZOLE 6 MG/KG IV Q12H X2 THEN 4 MG/KG Q12H, VORICONAZOLE 200 MG PO Q12H",cms_sepsis_qualifying_antibiotics
+vecuronium,mg,Neuromuscular blocking agent,"VECURONIUM 10 MG IV BOLUS, VECURONIUM 0.1 MG/KG IV PUSH",paralytics
+voriconazole,mg,Triazole antifungal for aspergillosis,"VORICONAZOLE 6 MG/KG IV Q12H X2 THEN 4 MG/KG Q12H, VORICONAZOLE 200 MG PO Q12H",cms_sepsis_qualifying_antibiotics
