@@ -32,7 +32,7 @@ ckmb,ng/ml,"CK-MB, CKMB, CREATINE KINASE MB",misc,
 creatinine,mg/dl,"CR, CREAT, SERUM CREATININE",bmp,
 crp,mg/l,"CRP, C-REACTIVE PROTEIN, HS-CRP",misc,
 cystatin_c,mg/l,"CYSTATIN C, SERUM CYSTATIN C, PLASMA CYSTATIN C",misc,"plasma source; age-stratified normal: 0.50-1.25 ped, 0.60-1.15 adult, 0.60-1.25 >=60 yrs"
-d_dimer,μg/ml feu,"D-DIMER, D DIMER, FIBRIN D-DIMER",coags,report in μg/mL FEU (fibrinogen-equivalent units); sites using ng/mL DDU or other units should convert
+d_dimer,μg/ml,"D-DIMER, D DIMER, FIBRIN D-DIMER",coags,report in μg/mL FEU (fibrinogen-equivalent units); sites using ng/mL DDU or other units should convert
 eosinophils_absolute,10^3/µl,"EOS#, EOSINOPHILS ABS, EO ABSOLUTE",cbc,
 eosinophils_percent,%,"EOS%, EOSINOPHILS %, EO PERCENT",cbc,
 esr,mm/hour,"ESR, SED RATE, SEDIMENTATION RATE",misc,
