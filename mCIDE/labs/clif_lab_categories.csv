@@ -1,120 +1,119 @@
 lab_category,reference_unit,lab_name_type_examples,lab_order_category,notes
-albumin,g/dL,"ALBUMIN, ALB, SERUM ALBUMIN",lft,
-alkaline_phosphatase,U/L,"ALP, ALKALINE PHOS, ALK PHOS, ALKP",lft,
-alt,U/L,"ALT, SGPT, ALANINE TRANSAMINASE",lft,
-ast,U/L,"AST, SGOT, ASPARTATE TRANSAMINASE",lft,
+albumin,g/dl,"ALBUMIN, ALB, SERUM ALBUMIN",lft,
+alkaline_phosphatase,u/l,"ALP, ALKALINE PHOS, ALK PHOS, ALKP",lft,
+alt,u/l,"ALT, SGPT, ALANINE TRANSAMINASE",lft,
+ast,u/l,"AST, SGOT, ASPARTATE TRANSAMINASE",lft,
+bal_absolute_eosinophils,cells/μl,"BAL ABSOLUTE EOSINOPHILS, BAL ABS EOS",bal,may also be reported as cells/mm³
+bal_absolute_lymphocytes,cells/μl,"BAL ABSOLUTE LYMPHOCYTES, BAL ABS LYMPHS",bal,may also be reported as cells/mm³
+bal_absolute_neutrophils,cells/μl,"BAL ABSOLUTE NEUTROPHILS, BAL ANC",bal,may also be reported as cells/mm³
+bal_amylase,u/l,BAL AMYLASE,bal,
+bal_eosinophils_percent,%,"BAL EOSINOPHILS %, BAL EOS %",bal,
+bal_lymphocytes_percent,%,"BAL LYMPHOCYTES %, BAL LYMPHS %",bal,
+bal_macrophages_percent,%,BAL MACROPHAGES %,bal,
+bal_monocytes_percent,%,"BAL MONOCYTES %, BAL MONOS %",bal,
+bal_neutrophils_percent,%,"BAL NEUTROPHILS %, BAL NEUTS %",bal,
+bal_other_cells,cells/μl,"BAL OTHER CELLS, OTHER CELLS BF",bal,may also be reported as percentage; site-dependent
+bal_plasma_cells,cells/μl,"BAL PLASMA CELLS, PLASMA CELL BF",bal,may also be reported as percentage; site-dependent
+bal_rbc_count,cells/μl,"BAL RBC, BAL RED BLOOD CELL COUNT",bal,may also be reported as cells/mm³
+bal_toxic_granulation,(no units),BAL TOXIC GRANULATION,bal,qualitative result (present/absent or graded text)
+bal_wbc_count,cells/μl,"BAL WBC, BAL WHITE BLOOD CELL COUNT",bal,may also be reported as cells/mm³
+basophils_absolute,10^3/µl,"BASO#, BASOPHILS ABS, BASO ABSOLUTE",cbc,
 basophils_percent,%,"BASO%, BASOPHILS %, BASO PERCENT",cbc,
-basophils_absolute,10^3/µL,"BASO#, BASOPHILS ABS, BASO ABSOLUTE",cbc,
-bicarbonate,mmol/L,"CO2, HCO3, BICARB, CARBON DIOXIDE",bmp,bicarbonate from BMP (sometimes reported out as CO2) not from ABG/VBG
-bilirubin_total,mg/dL,"TBILI, TOTAL BILI, BILIRUBIN TOTAL",lft,
-bilirubin_conjugated,mg/dL,"DBILI, DIRECT BILI, CONJUGATED BILI",lft,
-bilirubin_unconjugated,mg/dL,"INDIRECT BILI, UNCONJUGATED BILI, IBILI",lft,
-bun,mg/dL,"BUN, UREA NITROGEN, BLOOD UREA",bmp,
-calcium_total,mg/dL,"CA, CALCIUM, TOTAL CALCIUM, SERUM CA",bmp,
-calcium_ionized,mg/dL,"IONIZED CA, ICA, FREE CALCIUM",misc,
-chloride,mmol/L,"CL, CHLORIDE, SERUM CHLORIDE",bmp,
-creatinine,mg/dL,"CR, CREAT, SERUM CREATININE",bmp,
-crp,mg/L,"CRP, C-REACTIVE PROTEIN, HS-CRP",misc,
+bicarbonate,mmol/l,"CO2, HCO3, BICARB, CARBON DIOXIDE",bmp,bicarbonate from BMP (sometimes reported out as CO2) not from ABG/VBG
+bilirubin_conjugated,mg/dl,"DBILI, DIRECT BILI, CONJUGATED BILI",lft,
+bilirubin_total,mg/dl,"TBILI, TOTAL BILI, BILIRUBIN TOTAL",lft,
+bilirubin_unconjugated,mg/dl,"INDIRECT BILI, UNCONJUGATED BILI, IBILI",lft,
+bnp,pg/ml,"BNP, B-TYPE NATRIURETIC PEPTIDE",misc,
+bun,mg/dl,"BUN, UREA NITROGEN, BLOOD UREA",bmp,
+calcium_ionized,mg/dl,"IONIZED CA, ICA, FREE CALCIUM",misc,
+calcium_total,mg/dl,"CA, CALCIUM, TOTAL CALCIUM, SERUM CA",bmp,
+chloride,mmol/l,"CL, CHLORIDE, SERUM CHLORIDE",bmp,
+ckmb,ng/ml,"CK-MB, CKMB, CREATINE KINASE MB",misc,
+creatinine,mg/dl,"CR, CREAT, SERUM CREATININE",bmp,
+crp,mg/l,"CRP, C-REACTIVE PROTEIN, HS-CRP",misc,
+cystatin_c,mg/l,"CYSTATIN C, SERUM CYSTATIN C, PLASMA CYSTATIN C",misc,"plasma source; age-stratified normal: 0.50-1.25 ped, 0.60-1.15 adult, 0.60-1.25 >=60 yrs"
+d_dimer,μg/ml feu,"D-DIMER, D DIMER, FIBRIN D-DIMER",coags,report in μg/mL FEU (fibrinogen-equivalent units); sites using ng/mL DDU or other units should convert
+eosinophils_absolute,10^3/µl,"EOS#, EOSINOPHILS ABS, EO ABSOLUTE",cbc,
 eosinophils_percent,%,"EOS%, EOSINOPHILS %, EO PERCENT",cbc,
-eosinophils_absolute,10^3/µL,"EOS#, EOSINOPHILS ABS, EO ABSOLUTE",cbc,
 esr,mm/hour,"ESR, SED RATE, SEDIMENTATION RATE",misc,
-ferritin,ng/mL,"FERRITIN, SERUM FERRITIN, FERR",misc,
-glucose_fingerstick,mg/dL,"POC GLUCOSE, FINGERSTICK GLUCOSE, ACCUCHECK, BEDSIDE GLUCOSE",misc,
-glucose_serum,mg/dL,"GLUCOSE, SERUM GLUCOSE, BLOOD GLUCOSE, GLU",bmp,
-hemoglobin,g/dL,"HGB, HB, HEMOGLOBIN",cbc,
-phosphate,mg/dL,"PHOS, PHOSPHORUS, PHOSPHATE, SERUM PHOS",misc,sometimes called 'phosphorus' in the EHR
+ferritin,ng/ml,"FERRITIN, SERUM FERRITIN, FERR",misc,
+fibrinogen,mg/dl,"FIBRINOGEN, FIB, FIBRINOGEN LEVEL",coags,
+glucose_fingerstick,mg/dl,"POC GLUCOSE, FINGERSTICK GLUCOSE, ACCUCHECK, BEDSIDE GLUCOSE",misc,
+glucose_serum,mg/dl,"GLUCOSE, SERUM GLUCOSE, BLOOD GLUCOSE, GLU",bmp,
+hematocrit,%,"HCT, HEMATOCRIT, HEMATOCRIT VALUE",cbc,
+hemoglobin,g/dl,"HGB, HB, HEMOGLOBIN",cbc,
 inr,(no units),"INR, INTERNATIONAL NORMALIZED RATIO",coags,
-lactate,mmol/L,"LACTATE, LACTIC ACID, LAC",misc,
-ldh,U/L,"LDH, LD, LACTATE DEHYDROGENASE",misc,
+interleukin_06,pg/ml,"IL-6, IL6, INTERLEUKIN-6",misc,
+lactate,mmol/l,"LACTATE, LACTIC ACID, LAC",misc,
+ldh,u/l,"LDH, LD, LACTATE DEHYDROGENASE",misc,
+lymphocytes_absolute,10^3/µl,"LYMPH#, LYMPHOCYTES ABS, LYMPH ABSOLUTE",misc,
 lymphocytes_percent,%,"LYMPH%, LYMPHOCYTES %, LYMPH PERCENT",cbc,
-lymphocytes_absolute,10^3/µL,"LYMPH#, LYMPHOCYTES ABS, LYMPH ABSOLUTE",misc,
-magnesium,mg/dL,"MG, MAGNESIUM, SERUM MG",misc,
+magnesium,mg/dl,"MG, MAGNESIUM, SERUM MG",misc,
+monocytes_absolute,10^3/µl,"MONO#, MONOCYTES ABS, MONO ABSOLUTE",cbc,
 monocytes_percent,%,"MONO%, MONOCYTES %, MONO PERCENT",cbc,
-monocytes_absolute,10^3/µL,"MONO#, MONOCYTES ABS, MONO ABSOLUTE",cbc,
+neutrophils_absolute,10^3/µl,"NEUT#, ANC, NEUTROPHILS ABS, PMN#",cbc,
 neutrophils_percent,%,"NEUT%, NEUTROPHILS %, NEUT PERCENT, PMN%",cbc,
-neutrophils_absolute,10^3/µL,"NEUT#, ANC, NEUTROPHILS ABS, PMN#",cbc,
-pco2_arterial,mmHg,"PACO2, ARTERIAL PCO2, ABG PCO2",blood_gas,
-po2_arterial,mmHg,"PAO2, ARTERIAL PO2, ABG PO2",blood_gas,
-pco2_venous,mmHg,"PVCO2, VENOUS PCO2, VBG PCO2",blood_gas,
+ngal,ng/ml,"NGAL, PLASMA NGAL, SERUM NGAL",misc,"plasma source; baseline ~50-150, often >150-200 ng/mL in AKI"
+pco2_arterial,mmhg,"PACO2, ARTERIAL PCO2, ABG PCO2",blood_gas,
+pco2_venous,mmhg,"PVCO2, VENOUS PCO2, VBG PCO2",blood_gas,
 ph_arterial,(no units),"ABG PH, ARTERIAL PH, BLOOD PH",blood_gas,
 ph_venous,(no units),"VBG PH, VENOUS PH",blood_gas,
-platelet_count,10^3/µL,"PLT, PLATELETS, PLATELET COUNT",cbc,
-potassium,mmol/L,"K, POTASSIUM, SERUM K",bmp,
-procalcitonin,ng/mL,"PCT, PROCALCITONIN, PRO-CALCITONIN",misc,
+phosphate,mg/dl,"PHOS, PHOSPHORUS, PHOSPHATE, SERUM PHOS",misc,sometimes called 'phosphorus' in the EHR
+platelet_count,10^3/µl,"PLT, PLATELETS, PLATELET COUNT",cbc,
+pleural_ada,u/l,"PLEURAL ADA, ADENOSINE DEAMINASE PLEURAL",pleural,
+pleural_albumin,g/dl,PLEURAL FLUID ALBUMIN,pleural,
+pleural_amylase,u/l,PLEURAL FLUID AMYLASE,pleural,
+pleural_bilirubin,mg/dl,PLEURAL BILIRUBIN,pleural,
+pleural_cholesterol,mg/dl,PLEURAL FLUID CHOLESTEROL,pleural,
+pleural_creatinine,mg/dl,PLEURAL CREATININE,pleural,used to evaluate urinothorax
+pleural_eosinophils_percent,%,"PLEURAL EOSINOPHILS %, PLEURAL EOS %",pleural,
+pleural_glucose,mg/dl,PLEURAL FLUID GLUCOSE,pleural,
+pleural_hematocrit_percent,%,"PLEURAL HCT %, PLEURAL HEMATOCRIT",pleural,
+pleural_ldh,u/l,"PLEURAL FLUID LDH, PLEURAL LDH",pleural,may also be reported as IU/L
+pleural_lipase,u/l,PLEURAL FLUID LIPASE,pleural,
+pleural_lymphocytes_percent,%,"PLEURAL LYMPHOCYTES %, PLEURAL LYMPHS %",pleural,
+pleural_macrophages_percent,%,PLEURAL MACROPHAGES %,pleural,
+pleural_mesothelial,%,PLEURAL MESOTHELIAL CELLS,pleural,count or percentage of mesothelial cells in pleural fluid
+pleural_monocytes_percent,%,"PLEURAL MONOCYTES %, PLEURAL MONOS %",pleural,
+pleural_neutrophils_percent,%,"PLEURAL NEUTROPHILS %, PLEURAL NEUTS %",pleural,
+pleural_probnp,pg/ml,"PLEURAL NT-PROBNP, PLEURAL PROBNP",pleural,
+pleural_protein,g/dl,"PLEURAL FLUID PROTEIN, PLEURAL PROTEIN",pleural,
+pleural_rbc,cells/μl,"PLEURAL FLUID RBC, PLEURAL RBC",pleural,may also be reported as cells/mm³
+pleural_triglycerides,mg/dl,PLEURAL FLUID TRIGLYCERIDES,pleural,
+pleural_wbc,cells/μl,"PLEURAL FLUID WBC, PLEURAL WBC",pleural,may also be reported as cells/mm³
+po2_arterial,mmhg,"PAO2, ARTERIAL PO2, ABG PO2",blood_gas,
+po2_mixed_venous,mmhg,"PO2 MIXED VENOUS, MIXED VENOUS PO2, SVO2 PO2",blood_gas,from mixed venous sample (typically PA catheter); distinct from peripheral venous PO2
+potassium,mmol/l,"K, POTASSIUM, SERUM K",bmp,
+procalcitonin,ng/ml,"PCT, PROCALCITONIN, PRO-CALCITONIN",misc,
 pt,sec,"PT, PROTIME, PROTHROMBIN TIME",coags,
 ptt,sec,"PTT, APTT, ACTIVATED PTT",coags,
 so2_arterial,%,"SAO2, ARTERIAL SAT, ABG O2 SAT",blood_gas,
-so2_mixed_venous,%,"SVO2, MIXED VENOUS SAT, SVMVO2",blood_gas,
 so2_central_venous,%,"SCVO2, CENTRAL VENOUS SAT",blood_gas,
-sodium,mmol/L,"NA, SODIUM, SERUM NA",bmp,
-total_protein,g/dL,"TP, TOTAL PROTEIN, SERUM PROTEIN",lft,
-troponin_i,ng/L,"TROP I, TROPONIN I, TNI",misc,
-troponin_t,ng/L,"TROP T, TROPONIN T, TNT",misc,
-wbc,10^3/µL,"WBC, WHITE BLOOD CELL, LEUKOCYTES",cbc,
-fibrinogen,mg/dL,"FIBRINOGEN, FIB, FIBRINOGEN LEVEL",coags,
-ckmb,ng/mL,"CK-MB, CKMB, CREATINE KINASE MB",misc,
-hematocrit,%,"HCT, HEMATOCRIT, HEMATOCRIT VALUE",cbc,
-triglycerides,mg/dL,"TRIG, TRIGS, TRIGLYCERIDES",misc,
-d_dimer,μg/mL FEU,"D-DIMER, D DIMER, FIBRIN D-DIMER",coags,"report in μg/mL FEU (fibrinogen-equivalent units); sites using ng/mL DDU or other units should convert"
-interleukin_06,pg/mL,"IL-6, IL6, INTERLEUKIN-6",misc,
-bnp,pg/mL,"BNP, B-TYPE NATRIURETIC PEPTIDE",misc,
-po2_mixed_venous,mmHg,"PO2 MIXED VENOUS, MIXED VENOUS PO2, SVO2 PO2",blood_gas,"from mixed venous sample (typically PA catheter); distinct from peripheral venous PO2"
-pleural_glucose,mg/dL,"PLEURAL FLUID GLUCOSE",pleural,
-pleural_protein,g/dL,"PLEURAL FLUID PROTEIN, PLEURAL PROTEIN",pleural,
-pleural_albumin,g/dL,"PLEURAL FLUID ALBUMIN",pleural,
-pleural_ldh,U/L,"PLEURAL FLUID LDH, PLEURAL LDH",pleural,"may also be reported as IU/L"
-pleural_amylase,U/L,"PLEURAL FLUID AMYLASE",pleural,
-pleural_lipase,U/L,"PLEURAL FLUID LIPASE",pleural,
-pleural_triglycerides,mg/dL,"PLEURAL FLUID TRIGLYCERIDES",pleural,
-pleural_cholesterol,mg/dL,"PLEURAL FLUID CHOLESTEROL",pleural,
-pleural_wbc,cells/μL,"PLEURAL FLUID WBC, PLEURAL WBC",pleural,"may also be reported as cells/mm³"
-pleural_rbc,cells/μL,"PLEURAL FLUID RBC, PLEURAL RBC",pleural,"may also be reported as cells/mm³"
-pleural_neutrophils_percent,%,"PLEURAL NEUTROPHILS %, PLEURAL NEUTS %",pleural,
-pleural_lymphocytes_percent,%,"PLEURAL LYMPHOCYTES %, PLEURAL LYMPHS %",pleural,
-pleural_eosinophils_percent,%,"PLEURAL EOSINOPHILS %, PLEURAL EOS %",pleural,
-pleural_monocytes_percent,%,"PLEURAL MONOCYTES %, PLEURAL MONOS %",pleural,
-pleural_macrophages_percent,%,"PLEURAL MACROPHAGES %",pleural,
-pleural_mesothelial,%,"PLEURAL MESOTHELIAL CELLS",pleural,"count or percentage of mesothelial cells in pleural fluid"
-pleural_hematocrit_percent,%,"PLEURAL HCT %, PLEURAL HEMATOCRIT",pleural,
-pleural_ada,U/L,"PLEURAL ADA, ADENOSINE DEAMINASE PLEURAL",pleural,
-pleural_creatinine,mg/dL,"PLEURAL CREATININE",pleural,"used to evaluate urinothorax"
-pleural_bilirubin,mg/dL,"PLEURAL BILIRUBIN",pleural,
-pleural_probnp,pg/mL,"PLEURAL NT-PROBNP, PLEURAL PROBNP",pleural,
-urine_protein,mg/dL,"URINE PROTEIN, UPROT",urine,
-urine_creatinine,mg/dL,"URINE CREATININE, UCR",urine,
-urine_protein_to_creatinine_ratio,mg/g creatinine,"UPCR, URINE PROTEIN/CREATININE RATIO",urine,
-urine_albumin,mg/dL,"URINE ALBUMIN, UALB, MICROALBUMIN",urine,
-urine_albumin_to_creatinine_ratio,mg/g creatinine,"UACR, URINE ALBUMIN/CREATININE RATIO",urine,
-bal_rbc_count,cells/μL,"BAL RBC, BAL RED BLOOD CELL COUNT",bal,"may also be reported as cells/mm³"
-bal_wbc_count,cells/μL,"BAL WBC, BAL WHITE BLOOD CELL COUNT",bal,"may also be reported as cells/mm³"
-bal_neutrophils_percent,%,"BAL NEUTROPHILS %, BAL NEUTS %",bal,
-bal_eosinophils_percent,%,"BAL EOSINOPHILS %, BAL EOS %",bal,
-bal_macrophages_percent,%,"BAL MACROPHAGES %",bal,
-bal_lymphocytes_percent,%,"BAL LYMPHOCYTES %, BAL LYMPHS %",bal,
-bal_monocytes_percent,%,"BAL MONOCYTES %, BAL MONOS %",bal,
-bal_amylase,U/L,"BAL AMYLASE",bal,
-bal_absolute_neutrophils,cells/μL,"BAL ABSOLUTE NEUTROPHILS, BAL ANC",bal,"may also be reported as cells/mm³"
-bal_absolute_lymphocytes,cells/μL,"BAL ABSOLUTE LYMPHOCYTES, BAL ABS LYMPHS",bal,"may also be reported as cells/mm³"
-bal_absolute_eosinophils,cells/μL,"BAL ABSOLUTE EOSINOPHILS, BAL ABS EOS",bal,"may also be reported as cells/mm³"
-bal_plasma_cells,cells/μL,"BAL PLASMA CELLS, PLASMA CELL BF",bal,"may also be reported as percentage; site-dependent"
-bal_other_cells,cells/μL,"BAL OTHER CELLS, OTHER CELLS BF",bal,"may also be reported as percentage; site-dependent"
-bal_toxic_granulation,(qualitative),"BAL TOXIC GRANULATION",bal,"qualitative result (present/absent or graded text)"
-urine_amphetamine,(positive/negative),"URINE AMPHETAMINE, URINE AMPH",urine,
-urine_barbiturate,(positive/negative),"URINE BARBITURATE, URINE BARB",urine,
-urine_benzodiazepine,(positive/negative),"URINE BENZODIAZEPINE, URINE BENZO",urine,
-urine_cocaine,(positive/negative),"URINE COCAINE",urine,benzoylecgonine metabolite
-urine_opiate,(positive/negative),"URINE OPIATE, URINE OPIATES",urine,"morphine, codeine, 6-MAM heroin metabolite; typically misses synthetics"
-urine_oxycodone,(positive/negative),"URINE OXYCODONE",urine,"oxycodone + oxymorphone; reported separately because the standard opiate assay misses it"
-urine_methadone,(positive/negative),"URINE METHADONE",urine,methadone + EDDP metabolite
-urine_fentanyl,(positive/negative),"URINE FENTANYL",urine,fentanyl + norfentanyl
-urine_ethanol,(positive/negative),"URINE ETHANOL, URINE ETOH",urine,
-urine_pcp,(positive/negative),"URINE PCP, URINE PHENCYCLIDINE",urine,
-urine_ngal,ng/mL,"URINE NGAL, URINE NEUTROPHIL GELATINASE-ASSOCIATED LIPOCALIN",urine,"AKI risk: <149 low, 150-300 moderate, >300 high"
-ngal,ng/mL,"NGAL, PLASMA NGAL, SERUM NGAL",misc,"plasma source; baseline ~50-150, often >150-200 ng/mL in AKI"
-cystatin_c,mg/L,"CYSTATIN C, SERUM CYSTATIN C, PLASMA CYSTATIN C",misc,"plasma source; age-stratified normal: 0.50-1.25 ped, 0.60-1.15 adult, 0.60-1.25 >=60 yrs"
-urine_timp_2,ng/mL,"URINE TIMP-2, TISSUE INHIBITOR OF METALLOPROTEINASES-2",urine,used in product with IGFBP7
-urine_igfbp7,ng/mL,"URINE IGFBP7, INSULIN-LIKE GROWTH FACTOR BINDING PROTEIN-7",urine,used in product with TIMP-2
-urine_timp_2_igfbp7,(ng/mL)²/1000,"URINE TIMP-2 X IGFBP7, NEPHROCHECK",urine,"<0.3 low, 0.3-2.0 moderate, >2.0 high AKI risk per KDIGO"
-urine_kim_1,ng/mL,"URINE KIM-1, KIDNEY INJURY MOLECULE-1",urine,
-urine_nag,U/L,"URINE NAG, N-ACETYL-BETA-D-GLUCOSAMINIDASE",urine,"may also be reported as U/g creatinine if normalized"
-
+so2_mixed_venous,%,"SVO2, MIXED VENOUS SAT, SVMVO2",blood_gas,
+sodium,mmol/l,"NA, SODIUM, SERUM NA",bmp,
+total_protein,g/dl,"TP, TOTAL PROTEIN, SERUM PROTEIN",lft,
+triglycerides,mg/dl,"TRIG, TRIGS, TRIGLYCERIDES",misc,
+troponin_i,ng/l,"TROP I, TROPONIN I, TNI",misc,
+troponin_t,ng/l,"TROP T, TROPONIN T, TNT",misc,
+urine_albumin,mg/dl,"URINE ALBUMIN, UALB, MICROALBUMIN",urine,
+urine_albumin_to_creatinine_ratio,mg/g,"UACR, URINE ALBUMIN/CREATININE RATIO",urine,
+urine_amphetamine,(no units),"URINE AMPHETAMINE, URINE AMPH",urine,
+urine_barbiturate,(no units),"URINE BARBITURATE, URINE BARB",urine,
+urine_benzodiazepine,(no units),"URINE BENZODIAZEPINE, URINE BENZO",urine,
+urine_cocaine,(no units),URINE COCAINE,urine,benzoylecgonine metabolite
+urine_creatinine,mg/dl,"URINE CREATININE, UCR",urine,
+urine_ethanol,(no units),"URINE ETHANOL, URINE ETOH",urine,
+urine_fentanyl,(no units),URINE FENTANYL,urine,fentanyl + norfentanyl
+urine_igfbp7,ng/ml,"URINE IGFBP7, INSULIN-LIKE GROWTH FACTOR BINDING PROTEIN-7",urine,used in product with TIMP-2
+urine_kim_1,ng/ml,"URINE KIM-1, KIDNEY INJURY MOLECULE-1",urine,
+urine_methadone,(no units),URINE METHADONE,urine,methadone + EDDP metabolite
+urine_nag,u/l,"URINE NAG, N-ACETYL-BETA-D-GLUCOSAMINIDASE",urine,may also be reported as U/g creatinine if normalized
+urine_ngal,ng/ml,"URINE NGAL, URINE NEUTROPHIL GELATINASE-ASSOCIATED LIPOCALIN",urine,"AKI risk: <149 low, 150-300 moderate, >300 high"
+urine_opiate,(no units),"URINE OPIATE, URINE OPIATES",urine,"morphine, codeine, 6-MAM heroin metabolite; typically misses synthetics"
+urine_oxycodone,(no units),URINE OXYCODONE,urine,oxycodone + oxymorphone; reported separately because the standard opiate assay misses it
+urine_pcp,(no units),"URINE PCP, URINE PHENCYCLIDINE",urine,
+urine_protein,mg/dl,"URINE PROTEIN, UPROT",urine,
+urine_protein_to_creatinine_ratio,mg/g,"UPCR, URINE PROTEIN/CREATININE RATIO",urine,
+urine_timp_2,ng/ml,"URINE TIMP-2, TISSUE INHIBITOR OF METALLOPROTEINASES-2",urine,used in product with IGFBP7
+urine_timp_2_igfbp7,(ng/ml)^2/1000,"URINE TIMP-2 X IGFBP7, NEPHROCHECK",urine,"<0.3 low, 0.3-2.0 moderate, >2.0 high AKI risk per KDIGO"
+wbc,10^3/µl,"WBC, WHITE BLOOD CELL, LEUKOCYTES",cbc,
