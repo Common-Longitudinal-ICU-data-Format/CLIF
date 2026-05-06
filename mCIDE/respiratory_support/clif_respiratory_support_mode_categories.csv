@@ -3,7 +3,7 @@ acvc,Assist Control Volume Control ventilation mode,"AC-VC, Volume Assist Contro
 pressure_control,Pressure Control ventilation mode,"PC, Pressure Control Ventilation"
 prvc,Pressure-Regulated Volume Control ventilation mode,"PRVC, AutoFlow"
 simv,Synchronized Intermittent Mandatory Ventilation,"SIMV-VC, SIMV-PC"
-pressure_support_or_cpap,Pressure Support or Continuous Positive Airway Pressure,"PS, CPAP Mode"
+ps_or_cpap,Pressure Support or Continuous Positive Airway Pressure,"PS, CPAP Mode"
 volume_support,Volume Support ventilation mode,"VS, Volume Support Mode"
 blow_by,Blow by oxygen delivery,"Blow-by O2, Blow by Oxygen"
 other,Other ventilation mode not specified above,"APRV, PAV+"
