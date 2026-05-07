@@ -1,0 +1,7 @@
+radiology_modality_category,description,radiology_modality_name_examples
+ct,Computed tomography,"CT, Computed Tomography, CAT Scan, CT CHEST W CONTRAST"
+mr,Magnetic resonance imaging,"MRI, MR, Magnetic Resonance, MRI BRAIN W/O CONTRAST"
+nm,Nuclear medicine (including PET),"Nuclear Medicine, NM, PET, PET/CT, Bone Scan"
+other,Other imaging modality not otherwise classified,"Fluoroscopy, Mammography, DEXA, Other Imaging"
+us,Ultrasound,"Ultrasound, US, Sonogram, US ABD COMPLETE"
+xr,Plain radiograph (X-ray),"X-ray, Plain Film, Radiograph, XR Chest 1 View"

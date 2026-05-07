@@ -1,0 +1,6 @@
+iv_contrast_category,description,iv_contrast_name_examples
+not_applicable,"Contrast not applicable for this modality (e.g., plain X-ray, ultrasound)","N/A, Plain X-ray, Ultrasound (no contrast applicable)"
+unknown,Contrast administration status not documented,"Unknown, Not Documented"
+with_and_without_contrast,Study performed both with and without IV contrast,"With and Without Contrast, W/ and W/O Contrast, Pre and Post Contrast"
+with_contrast,IV contrast administered,"With Contrast, W/ Contrast, W Contrast, IV Contrast"
+without_contrast,IV contrast not administered,"Without Contrast, W/O Contrast, WO Contrast, Non-contrast"

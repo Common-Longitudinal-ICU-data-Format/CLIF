@@ -1,0 +1,4 @@
+radiology_location_category,description,radiology_location_name_examples
+portable,Portable / bedside study,"Portable, Bedside, Mobile, Portable XR Bedside"
+radiology,Performed in the radiology department,"Radiology Department, Imaging Center, Main Radiology"
+unknown,Performance location not documented,"Unknown, Not Documented"
