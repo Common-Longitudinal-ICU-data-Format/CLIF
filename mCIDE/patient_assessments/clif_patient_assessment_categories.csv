@@ -20,6 +20,7 @@ ciwa,Score (Score range: 0-67),"CIWA-Ar, Clinical Institute Withdrawal Assessmen
 cows,Score (Score range: 0-48),"Clinical Opiate Withdrawal Scale, COWS Assessment, Opioid Withdrawal Score",withdrawal
 cpot_body,Component assessing body movements,"CPOT - Body Movements, Physical Movement Assessment, Body Motion Score",pain
 cpot_facial,Component assessing facial expressions,"CPOT - Facial Expression, Facial Grimacing Score, Facial Pain Indicators",pain
+cpot_intubated,"CPOT subcomponent specific to intubated/ventilated patients, scoring compliance with the ventilator (Numerical, 0-2)","CPOT - Compliance with Ventilator, CPOT Intubated, Ventilator Tolerance Score",pain
 cpot_muscle,Component assessing muscle tension,"CPOT - Muscle Tension, Body Rigidity Assessment, Muscular Tension Score",pain
 cpot_total,"Subcomponents: Facial expression, body movements, muscle tension, vocalization (Numerical/Text)","Critical-Care Pain Observation Tool, CPOT Total Score, ICU Pain Assessment",pain
 cpot_vocalization,Component assessing vocal pain responses,"CPOT - Vocalization, Verbal Pain Response, Intubated Patient Sounds",pain
@@ -42,9 +43,15 @@ icsdc_total,Overall ICSDC score (Numerical),"ICSDC Total Score, Delirium Checkli
 ims,Numeric score (Represents mobility level),"ICU Mobility Scale, IMS Score, Critical Care Mobility Level",mobility_or_activity
 minds,Score (Score range: 0-25),"Maternal Opioid and Neonatal Dependent Screening, MINDS Assessment, Neonatal Withdrawal Score",withdrawal
 morse_fall_scale,Total fall risk score (Score range: 0-125),"Morse Fall Risk Assessment, Fall Risk Score, Morse Scale Total",nursing_risk
+npi_l,"Neurological Pupillary Index (left), automated pupillometer measure (Score range: 0.0-5.0, dimensionless)","NPi Left, Neurologic Pupillary Index L, NeurOptics NPi L",neurological
+npi_r,"Neurological Pupillary Index (right), automated pupillometer measure (Score range: 0.0-5.0, dimensionless)","NPi Right, Neurologic Pupillary Index R, NeurOptics NPi R",neurological
 nrs,Numeric score (Score range: 0-10),"Numeric Rating Scale Pain, NRS Pain Score, 0-10 Pain Scale",pain
 nvps,"Subcomponents: Facial expression, activity, guarding, physiology, respiration (Numerical/Text)","Nonverbal Pain Scale, NVPS Assessment, Pain Scale Non-Communicative",pain
 painad,"Subcomponents: Breathing, vocalization, facial expression, body language, consolability (Numerical/Text)","Pain Assessment in Advanced Dementia, PAINAD Scale, Dementia Pain Tool",pain
+pupil_reactive_l,"Left pupil reactivity to light (Categorical: brisk, sluggish, non-reactive, or equivalent)","Pupil Reactive Left, L Pupil Reaction, Left Pupil Response",neurological
+pupil_reactive_r,"Right pupil reactivity to light (Categorical: brisk, sluggish, non-reactive, or equivalent)","Pupil Reactive Right, R Pupil Reaction, Right Pupil Response",neurological
+pupil_size_l,"Left pupil size in mm; may be from pupillometer or visual inspection (specify in assessment_name if relevant)","Pupil Size Left, Left Pupil Diameter, L Pupil mm",neurological
+pupil_size_r,"Right pupil size in mm; may be from pupillometer or visual inspection (specify in assessment_name if relevant)","Pupil Size Right, Right Pupil Diameter, R Pupil mm",neurological
 rass,Score (Score range: -5 to +4),"Richmond Agitation-Sedation Scale, RASS Score, Sedation Level Assessment",sedation_or_agitation
 sas,Score (Score range: 1-7),"Riker Sedation-Agitation Scale, SAS Score, Sedation Assessment Scale",sedation_or_agitation
 sat_delivery_pass_fail,"Indicates the outcome of the SAT trial (pass or fail), based on flowsheet data charted by the care team. This variable reflects the result of the trial, not whether it was attempted or initiated.","SAT Trial Result, Awakening Trial Outcome, SAT Pass/Fail Status",sat_delivery_pass_or_fail
@@ -69,11 +76,3 @@ sbt_vasopressor_use,"Evaluate whether the patient is on significant doses of vas
 tof,Number of twitches (Score range: 0-4),"Train-of-Four, TOF Stimulation, Neuromuscular Blockade Assessment",neurological
 vas,Numeric score (Score range: 0-100),"Visual Analog Scale Pain, VAS Pain Score, 0-100 Pain Rating",pain
 wat,Score (Score range: 0-10),"Withdrawal Assessment Tool, WAT-1 Pediatric, Pediatric Withdrawal Score",withdrawal
-cpot_intubated,"CPOT subcomponent specific to intubated/ventilated patients, scoring compliance with the ventilator (Numerical, 0-2)","CPOT - Compliance with Ventilator, CPOT Intubated, Ventilator Tolerance Score",pain
-pupil_size_l,"Left pupil size in mm; may be from pupillometer or visual inspection (specify in assessment_name if relevant)","Pupil Size Left, Left Pupil Diameter, L Pupil mm",neurological
-pupil_size_r,"Right pupil size in mm; may be from pupillometer or visual inspection (specify in assessment_name if relevant)","Pupil Size Right, Right Pupil Diameter, R Pupil mm",neurological
-pupil_reactive_l,"Left pupil reactivity to light (Categorical: brisk, sluggish, non-reactive, or equivalent)","Pupil Reactive Left, L Pupil Reaction, Left Pupil Response",neurological
-pupil_reactive_r,"Right pupil reactivity to light (Categorical: brisk, sluggish, non-reactive, or equivalent)","Pupil Reactive Right, R Pupil Reaction, Right Pupil Response",neurological
-npi_l,"Neurological Pupillary Index (left), automated pupillometer measure (Score range: 0.0-5.0, dimensionless)","NPi Left, Neurologic Pupillary Index L, NeurOptics NPi L",neurological
-npi_r,"Neurological Pupillary Index (right), automated pupillometer measure (Score range: 0.0-5.0, dimensionless)","NPi Right, Neurologic Pupillary Index R, NeurOptics NPi R",neurological
-
