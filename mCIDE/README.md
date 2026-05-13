@@ -71,6 +71,7 @@ Each subfolder contains mCIDE category files corresponding to the category varia
 
   - lab_category
   - lab_order_category
+  - lab_specimen_category
   </details>
 
   <details>
