@@ -1,0 +1,19 @@
+configuration_category,Description
+v_v,for mcs_category == ecmo; venovenous ecmo
+v_a,for mcs_category == ecmo; venoarterial ecmo
+v_av,for mcs_category == ecmo; va-v ecmo
+vv_a,for mcs_category == ecmo; vv-a ecmo
+v_pa_single,for mcs_category == ecmo or rvad
+v_pa_dual,for mcs_category == ecmo or rvad
+hybrid,for mcs_category == ecmo but none of the above
+cp,for mcs_category == lvad & mcs_device == impella
+2_5,for mcs_category == lvad & mcs_device == impella
+2_5_or_cp,for mcs_category == lvad & mcs_device == impella
+5,for mcs_category == lvad & mcs_device == impella
+5_5,for mcs_category == lvad & mcs_device == impella
+rp,for mcs_category == lvad & mcs_device == impella
+rp_flex,for mcs_category == lvad & mcs_device == impella
+heartware,for mcs_category == lvad
+heartmate2,for mcs_category == lvad
+heartmate3,for mcs_category == lvad
+central,for mcs_category == lvad or mcs_category == rvad

@@ -1,0 +1,12 @@
+setting_category,Description,Permissible Values
+rpm,Revolutions per minute (rpm),0-10000
+flow,Blood flow in L/min (L/min). Applies to all MCS except IABP,0-10
+sweep,Gas flow rate in L/min (L/min). Applies to ECMO only,0-25
+fdo2,Fraction of delivered oxygen (unitless). Applies to ECMO only,0–1
+p_ven,Drainage pressure (mmHg),0-500
+p_art,Return pressure (mmHg),0-500
+delta_pressure,Pressure measured across the oxygenator (mmHg),0-500
+frequency,"Reported as a ratio (1:1, 1:2), only report final number",0-4
+power,Power consumption of ventricular assist device (Watts),0-20
+pulsatility_index,"Pulsatility index, relative pulsatility of the ventricle (unitless)",0-20
+performance,"Impella ""P"" level (unitless)",0-9

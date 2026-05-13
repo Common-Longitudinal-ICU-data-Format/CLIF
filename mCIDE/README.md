@@ -26,12 +26,12 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   </details>
 
   <details>
-  <summary><code>ecmo_mcs/</code></summary>
+  <summary><code>mcs/</code></summary>
 
+  - support_category
   - device_category
-  - mcs_group
   - configuration_category
-  - control_parameter_category
+  - setting_category
   </details>
 
   <details>

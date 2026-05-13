@@ -1,0 +1,4 @@
+support_category,Type,Description
+ecmo,VARCHAR,Extracorporeal membrane oxygenation
+lvad,VARCHAR,Left ventricular assist device
+rvad,VARCHAR,Right ventricular assist device
