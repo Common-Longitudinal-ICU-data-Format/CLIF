@@ -216,7 +216,7 @@ enterobacter_aerogenes,,enterobacter aerogenes
 enterobacter_amnigenus,,enterobacter amnigenus
 enterobacter_cancerogenus,,enterobacter cancerogenus
 enterobacter_cloacae,,"10,000 - 49,000 cfu/ml enterobacter cloacae complex, <1,000 cfu/ml enterobacter cloacae complex"
-enterobacter_sp,Enterobacter organism identified to the genus level only; species not further specified.,"enterobacter species"
+enterobacter_sp,Enterobacter organism identified to the genus level only; species not further specified.,enterobacter species
 enterococcus_avium,,"few enterococcus avium, enterococcus avium/raffinosus"
 enterococcus_casseliflavus,,"50,000 - 99,000 cfu/ml enterococcus casseliflavus, enterococcus casseliflavus"
 enterococcus_durans,,"enterococcus durans, many enterococcus durans"
@@ -226,7 +226,7 @@ enterococcus_gallinarum,,"few enterococcus gallinarum, 1,000 - 10,000 cfu/ml ent
 enterococcus_hirae,,"enterococcus hirae, many enterococcus hirae"
 enterococcus_raffinosus,,"rare enterococcus raffinosus, few enterococcus raffinosus"
 enterococcus_saccharolyticus,,many peptostreptococcus asaccharolyticus
-enterococcus_sp,Enterococcus organism identified to the genus level only; species not further specified.,"vancomycin resistant enterococcus"
+enterococcus_sp,Enterococcus organism identified to the genus level only; species not further specified.,vancomycin resistant enterococcus
 epicoccum_sp,Epicoccum organism identified to the genus level only; species not further specified.,rare epicoccum
 erysipelothrix_rhusiopathiae,,erysipelothrix rhusiopathiae
 escherichia_coli,,"few escherichia coli, 1,000 - 10,000 cfu/ml multiple drug-resistant escherichia coli"
@@ -282,7 +282,7 @@ kocuria_sp,Kocuria organism identified to the genus level only; species not furt
 kodamaea_ohmeri,,kodamaea ohmeri
 lactobacillus_acidophilus,,lactobacillus acidophilus
 lactobacillus_fermentum,,lactobacillus fermentum
-lactobacillus_sp,Lactobacillus organism identified to the genus level only; species not further specified.,"many lactobacillus"
+lactobacillus_sp,Lactobacillus organism identified to the genus level only; species not further specified.,many lactobacillus
 lactococcus_sp,Lactococcus organism identified to the genus level only; species not further specified.,lactococcus species
 leclercia_adecarboxylata,,"rare leclercia adecarboxylata, 50,000 - 99,000 cfu/ml leclercia adecarboxylata"
 legionella_bozemanae,,legionella bozemanae
@@ -328,7 +328,7 @@ mycobacterium_marinum,,
 mycobacterium_mucogenicum,,"mycobacterium mucogenicum group, mycobacterium mucogenicum"
 mycobacterium_neoaurum,,mycobacterium neoaurum
 mycobacterium_paraffinicum,,mycobacterium paraffinicum
-mycobacterium_scrofulaceum,,"mycobacterium scrofulaceum"
+mycobacterium_scrofulaceum,,mycobacterium scrofulaceum
 mycobacterium_szulgai,,mycobacterium smegmatis
 mycobacterium_tuberculosis,,"mycobacterium tuberculosis complex, mycobacterium tuberculosis"
 mycobacterium_xenopi,,mycobacterium xenopi
@@ -346,7 +346,7 @@ nocardia_brasiliensis,,nocardia brasiliensis
 nocardia_cyriacigeorgica,,nocardia cyriacigeorgica
 nocardia_farcinica,,"nocardia farcinica, moderate nocardia farcinica"
 nocardia_nova,,
-nocardia_sp,Nocardia organism identified to the genus level only; species not further specified.,"nocardia species"
+nocardia_sp,Nocardia organism identified to the genus level only; species not further specified.,nocardia species
 nocardia_thailandica,,nocardia thailandica
 nocardia_veterana,,nocardia veterana
 nocardia_wallacei,,nocardia wallacei
@@ -399,7 +399,7 @@ propionibacterium_granulosum,,"cutibacterium granulosum (formerly propionibacter
 propionibacterium_sp,Propionibacterium organism identified to the genus level only; species not further specified.,propionibacterium species
 proteus_mirabilis,,"1,000 - 10,000 cfu/ml proteus mirabilis, proteus mirabilis"
 proteus_penneri,,"few proteus penneri, proteus penneri"
-proteus_sp,Proteus organism identified to the genus level only; species not further specified.,"culture overgrown with proteus"
+proteus_sp,Proteus organism identified to the genus level only; species not further specified.,culture overgrown with proteus
 proteus_vulgaris,,"1,000 - 10,000 cfu/ml proteus vulgaris, moderate proteus vulgaris"
 providencia_alcalifaciens,,
 providencia_rettgeri,,"many providencia rettgeri, 10,000 - 49,000 cfu/ml providencia rettgeri"
@@ -488,7 +488,7 @@ staphylococcus_warneri,,"staphylococcus warneri, isolated from broth only staphy
 staphylococcus_xylosus,,staphylococcus xylosus
 stenotrophomonas_maltophilia,,"50,000 - 99,000 cfu/ml stenotrophomonas maltophilia, moderate stenotrophomonas maltophilia"
 stenotrophomonas_rhizophila,,moderate stenotrophomonas rhizophila
-stenotrophomonas_sp,Stenotrophomonas organism identified to the genus level only; species not further specified.,"stenotrophomonas"
+stenotrophomonas_sp,Stenotrophomonas organism identified to the genus level only; species not further specified.,stenotrophomonas
 streptococcus_agalactiae,,streptococcus agalactiae
 streptococcus_alphahemolytic,,"many alpha-hemolytic streptococcus, few alpha-hemolytic streptococcus"
 streptococcus_anginosus,,"50,000 - 99,000 cfu/ml streptococcus anginosus, moderate streptococcus anginosus"
@@ -511,7 +511,7 @@ streptococcus_pseudoporcinus,,few streptococcus pseudoporcinus
 streptococcus_pyogenes,Common misspellings: streptcoccus_pyogenes.,streptococcus pyogenes
 streptococcus_salivarius,,"rare streptococcus salivarius group, streptococcus salivarius"
 streptococcus_sanguinis,,"streptococcus sanguinis, streptococcus sanguinus group"
-streptococcus_sp,Streptococcus organism identified to the genus level only; species not further specified.,"streptococcus species"
+streptococcus_sp,Streptococcus organism identified to the genus level only; species not further specified.,streptococcus species
 streptococcus_viridans,,"moderate streptococcus viridans, moderate streptococcus viridans group"
 streptomyces_griseus,,streptomyces griseus
 streptomyces_sp,Streptomyces organism identified to the genus level only; species not further specified.,streptomyces species
@@ -540,28 +540,3 @@ weissella_sp,Weissella organism identified to the genus level only; species not 
 xanthomonas_sp,Xanthomonas organism identified to the genus level only; species not further specified.,xanthomonas species
 yeast,,"rare yeast, yeast"
 zygomycete_sp,Zygomycete organism identified to the genus level only; species not further specified.,"few zygomycete, zygomycete species"
-chlamydia_pneumoniae,Atypical bacterium causing community-acquired pneumonia; typically detected by NAT/PCR.,"chlamydia pneumoniae, c. pneumoniae"
-mycoplasma_pneumoniae,Atypical bacterium causing walking pneumonia; typically detected by NAT/PCR.,"mycoplasma pneumoniae, m. pneumoniae"
-bordetella_pertussis,Causative agent of whooping cough; typically detected by NAT/PCR.,"bordetella pertussis, b. pertussis"
-bordetella_parapertussis,Pertussis-like illness less severe than B. pertussis; typically detected by NAT/PCR.,"bordetella parapertussis, b. parapertussis"
-pneumocystis_jirovecii,Opportunistic fungal pneumonia (PJP/PCP); typically detected by DFA or PCR rather than culture.,"pneumocystis jirovecii, pneumocystis carinii, pjp, pcp"
-adenovirus,DNA virus causing respiratory illness; detected by NAT/PCR or culture.,"adenovirus, adv"
-human_metapneumovirus,Pneumovirus causing acute respiratory illness; typically detected by NAT/PCR.,"human metapneumovirus, hmpv, metapneumovirus"
-human_rhinovirus_enterovirus,Combined NAT panel result for human rhinovirus and enterovirus (picornaviruses).,"human rhinovirus/enterovirus, rhinovirus/enterovirus, hrv/ev"
-influenza_a,Influenza A virus (when not further subtyped); detected by NAT/PCR or rapid antigen.,"influenza a, flu a, influenza a virus"
-influenza_a_h1,Seasonal H1 subtype of influenza A; detected by NAT/PCR.,"influenza a h1, influenza a h1 (seasonal), flu a h1"
-influenza_a_h1_2009,2009 pandemic H1N1 strain of influenza A; detected by NAT/PCR.,"influenza a h1-2009, h1n1 2009 pandemic, pH1N1"
-influenza_a_h3,Seasonal H3 subtype of influenza A; detected by NAT/PCR.,"influenza a h3, influenza a h3 (seasonal), flu a h3"
-influenza_b,Influenza B virus; detected by NAT/PCR or rapid antigen.,"influenza b, flu b, influenza-b respan21"
-parainfluenza_1,Human parainfluenza virus type 1; detected by NAT/PCR.,"parainfluenza 1, hpiv-1, para influ 1"
-parainfluenza_2,Human parainfluenza virus type 2; detected by NAT/PCR.,"parainfluenza 2, hpiv-2, para influ 2"
-parainfluenza_3,Human parainfluenza virus type 3; detected by NAT/PCR.,"parainfluenza 3, hpiv-3, para influ 3"
-parainfluenza_4,Human parainfluenza virus type 4; detected by NAT/PCR.,"parainfluenza 4, hpiv-4, parainfluenza virus 4"
-respiratory_syncytial_virus,Respiratory syncytial virus (RSV); detected by NAT/PCR or rapid antigen.,"respiratory syncytial virus, rsv, respiratory syncytial-virus respan22"
-coronavirus_229e,Endemic alphacoronavirus causing common cold; detected by NAT/PCR.,"coronavirus 229e, hcov-229e"
-coronavirus_hku1,Endemic betacoronavirus; detected by NAT/PCR.,"coronavirus hku1, hcov-hku1"
-coronavirus_nl63,Endemic alphacoronavirus; detected by NAT/PCR.,"coronavirus nl63, hcov-nl63"
-coronavirus_oc43,Endemic betacoronavirus; detected by NAT/PCR.,"coronavirus oc43, hcov-oc43"
-sars_cov_2,SARS-CoV-2; detected by NAT/PCR or rapid antigen.,"sars-cov-2, covid-19, covid_19"
-
-

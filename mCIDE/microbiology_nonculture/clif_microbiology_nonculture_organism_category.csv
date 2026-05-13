@@ -1,8 +1,25 @@
 organism_category,description,micro_order_name_examples,organism_group
-clostridium_difficile,"Bacterial pathogen causing gastrointestinal infection","C. DIFFICILE PCR, SCREENING",clostridium_difficile
-sars_cov2,"COVID-19","SARS-COV-2 (COVID-19), SARS-COV-2 (COVID-19) QUALITATIVE PCR (NAAT)",viral_other
-respiratory_syncytial_virus,"Respiratory virus causing infections","INFLUENZA & RSV PCR (NAAT), RESPIRATORY PANEL PCR (NAAT)",respiratory_syncytial_virus
-
-
-
-
+adenovirus,DNA virus causing respiratory illness; detected by NAT/PCR or culture.,"adenovirus, adv",adenovirus
+bordetella_parapertussis,Pertussis-like illness less severe than B. pertussis; typically detected by NAT/PCR.,"bordetella parapertussis, b. parapertussis",bacteria_other
+bordetella_pertussis,Causative agent of whooping cough; typically detected by NAT/PCR.,"bordetella pertussis, b. pertussis",bacteria_other
+chlamydia_pneumoniae,Atypical bacterium causing community-acquired pneumonia; typically detected by NAT/PCR.,"chlamydia pneumoniae, c. pneumoniae",chlamydia
+clostridium_difficile,Bacterial pathogen causing gastrointestinal infection,"C. DIFFICILE PCR, SCREENING",clostridium_difficile
+coronavirus_229e,Endemic alphacoronavirus causing common cold; detected by NAT/PCR.,"coronavirus 229e, hcov-229e",viral_other
+coronavirus_hku1,Endemic betacoronavirus; detected by NAT/PCR.,"coronavirus hku1, hcov-hku1",viral_other
+coronavirus_nl63,Endemic alphacoronavirus; detected by NAT/PCR.,"coronavirus nl63, hcov-nl63",viral_other
+coronavirus_oc43,Endemic betacoronavirus; detected by NAT/PCR.,"coronavirus oc43, hcov-oc43",viral_other
+human_metapneumovirus,Pneumovirus causing acute respiratory illness; typically detected by NAT/PCR.,"human metapneumovirus, hmpv, metapneumovirus",viral_other
+human_rhinovirus_enterovirus,Combined NAT panel result for human rhinovirus and enterovirus (picornaviruses).,"human rhinovirus/enterovirus, rhinovirus/enterovirus, hrv/ev",rhinovirus
+influenza_a,Influenza A virus (when not further subtyped); detected by NAT/PCR or rapid antigen.,"influenza a, flu a, influenza a virus",influenza
+influenza_a_h1,Seasonal H1 subtype of influenza A; detected by NAT/PCR.,"influenza a h1, influenza a h1 (seasonal), flu a h1",influenza
+influenza_a_h1_2009,2009 pandemic H1N1 strain of influenza A; detected by NAT/PCR.,"influenza a h1-2009, h1n1 2009 pandemic, pH1N1",influenza
+influenza_a_h3,Seasonal H3 subtype of influenza A; detected by NAT/PCR.,"influenza a h3, influenza a h3 (seasonal), flu a h3",influenza
+influenza_b,Influenza B virus; detected by NAT/PCR or rapid antigen.,"influenza b, flu b, influenza-b respan21",influenza
+mycoplasma_pneumoniae,Atypical bacterium causing walking pneumonia; typically detected by NAT/PCR.,"mycoplasma pneumoniae, m. pneumoniae",mycoplasma
+parainfluenza_1,Human parainfluenza virus type 1; detected by NAT/PCR.,"parainfluenza 1, hpiv-1, para influ 1",parainfluenza
+parainfluenza_2,Human parainfluenza virus type 2; detected by NAT/PCR.,"parainfluenza 2, hpiv-2, para influ 2",parainfluenza
+parainfluenza_3,Human parainfluenza virus type 3; detected by NAT/PCR.,"parainfluenza 3, hpiv-3, para influ 3",parainfluenza
+parainfluenza_4,Human parainfluenza virus type 4; detected by NAT/PCR.,"parainfluenza 4, hpiv-4, parainfluenza virus 4",parainfluenza
+pneumocystis_jirovecii,Opportunistic fungal pneumonia (PJP/PCP); typically detected by DFA or PCR rather than culture.,"pneumocystis jirovecii, pneumocystis carinii, pjp, pcp",pneumocystis
+respiratory_syncytial_virus,Respiratory virus causing infections,"INFLUENZA & RSV PCR (NAAT), RESPIRATORY PANEL PCR (NAAT)",respiratory_syncytial_virus
+sars_cov2,COVID-19,"SARS-COV-2 (COVID-19), SARS-COV-2 (COVID-19) QUALITATIVE PCR (NAAT)",viral_other
