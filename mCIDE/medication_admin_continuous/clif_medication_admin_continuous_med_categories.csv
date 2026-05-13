@@ -1,5 +1,6 @@
 med_category,med_dose_unit,volume_infusion_rate_units,description,med_name_examples,med_group
-albumin,ml,ml,Colloid fluid replacement for volume expansion and hypoalbuminemia. Note: 5% concentration delivered in mL while 25% in g; likely need separate albumin_5 / albumin_25 categories.,"ALBUMIN 5% 250 ML IV INFUSION, ALBUMIN 25% 50 ML IV INFUSION",fluids_electrolytes
+albumin_5,ml,ml,5% albumin colloid fluid replacement for volume expansion; delivered in mL.,ALBUMIN 5% 250 ML IV INFUSION,fluids_electrolytes
+albumin_25,g,g,25% albumin colloid for hypoalbuminemia and oncotic support; delivered in g.,ALBUMIN 25% 50 ML IV INFUSION,fluids_electrolytes
 albuterol,mg,mg,Beta-2 agonist bronchodilator for respiratory conditions,"ALBUTEROL 2.5 MG/3 ML NEBULIZER, ALBUTEROL 5 MG CONTINUOUS NEBULIZER",inhaled
 alprostadil,mcg,mcg/hr,Prostaglandin vasodilator for pulmonary hypertension and ductus arteriosus,"ALPROSTADIL 20 MCG/ML IV INFUSION, ALPROSTADIL 0.1 MCG/KG/MIN IV",pulmonary_vasodilators_iv
 aminocaproic_acid,g,g/hr,Antifibrinolytic agent to reduce bleeding,"AMINOCAPROIC ACID 5 GM/250 ML IV INFUSION, AMINOCAPROIC 100 MG/KG IV LOAD",others
