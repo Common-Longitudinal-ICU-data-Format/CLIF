@@ -1,0 +1,40 @@
+attribute_category,attribute_value_category,description
+code_status,Full Code,All resuscitative measures including CPR and intubation
+code_status,DNR,Do not resuscitate — no chest compressions
+code_status,DNI,Do not intubate — no endotracheal intubation
+code_status,DNR/DNI,Do not resuscitate or intubate
+code_status,Comfort Care,Comfort measures only — no life-prolonging interventions
+weight,kg,Weight recorded in kilograms
+bmi,Underweight,BMI less than 18.5
+bmi,Normal,BMI 18.5 to 24.9
+bmi,Overweight,BMI 25.0 to 29.9
+bmi,Obese,BMI 30.0 or greater
+pregnancy_status,Pregnant,Currently pregnant
+pregnancy_status,Not Pregnant,Not currently pregnant
+pregnancy_status,Unknown,Pregnancy status not documented or not applicable
+isolation_precautions,Contact,Contact isolation precautions
+isolation_precautions,Droplet,Droplet isolation precautions
+isolation_precautions,Airborne,Airborne isolation precautions
+isolation_precautions,Enhanced Contact,Enhanced barrier contact precautions (e.g. MDRO)
+isolation_precautions,None,No active isolation precautions
+functional_status,Independent,No assistance needed for activities of daily living
+functional_status,Partially Dependent,Requires some assistance with ADLs
+functional_status,Fully Dependent,Requires full assistance with ADLs
+functional_status,Unknown,Functional status not documented
+smoking_status,Current,Active tobacco use at time of admission
+smoking_status,Former,Previously used tobacco but quit
+smoking_status,Never,No history of tobacco use
+smoking_status,Unknown,Smoking status not documented
+alcohol_use,None,Denies alcohol use
+alcohol_use,Social,Occasional or moderate alcohol use
+alcohol_use,Heavy,Heavy or problematic alcohol use
+alcohol_use,Unknown,Alcohol use not documented
+substance_use,Active,Current non-alcohol substance use
+substance_use,History of,Past substance use no longer active
+substance_use,None,Denies substance use
+substance_use,Unknown,Substance use not documented
+insurance_payer_type,Medicare,Federal Medicare coverage
+insurance_payer_type,Medicaid,State Medicaid coverage
+insurance_payer_type,Commercial,Private or employer-sponsored insurance
+insurance_payer_type,Self-Pay,No insurance — patient is financially responsible
+insurance_payer_type,Other,VA benefits or other government programs

@@ -1,0 +1,11 @@
+attribute_category,description,attribute_name_examples,attribute_group
+code_status,Resuscitation preference documented in orders,"Full Code, DNR, DNI, DNR/DNI, Comfort Care",Clinical Core
+weight,Patient weight in kilograms,"Weight (kg), Admission Weight, Daily Weight",Clinical Core
+bmi,Body mass index category,"BMI, Body Mass Index",Clinical Core
+pregnancy_status,Pregnancy status if applicable,"Pregnant, Not Pregnant, Unknown",Clinical Core
+isolation_precautions,Active isolation orders,"Contact, Droplet, Airborne, None",Clinical Core
+functional_status,Baseline functional capacity at admission,"Independent, Partially Dependent, Fully Dependent",Clinical Core
+smoking_status,Tobacco use history,"Current Smoker, Former Smoker, Never Smoker",Social
+alcohol_use,Alcohol consumption pattern,"None, Social, Heavy, Unknown",Social
+substance_use,Non-alcohol substance use history,"Active, History of, None, Unknown",Social
+insurance_payer_type,Primary insurance category,"Medicare, Medicaid, Commercial, Self-Pay",Social
