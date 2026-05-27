@@ -1,0 +1,12 @@
+organism_group,description
+adenovirus,Adenovirus
+bacteria_other,Other Bacteria
+chlamydia,Chlamydia
+clostridium_difficile,Clostridium difficile
+influenza,Influenza (Flu)
+mycoplasma,Mycoplasma
+parainfluenza,Parainfluenza
+pneumocystis,Pneumocystis (PCP)
+respiratory_syncytial_virus,Respiratory Syncytial virus (RSV)
+rhinovirus,Rhinovirus (Common Cold)
+viral_other,Other Viral
