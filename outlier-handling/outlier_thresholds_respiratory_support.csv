@@ -9,7 +9,7 @@ flow_rate_set,-50,100
 peak_inspiratory_pressure_set,-50,100
 inspiratory_time_set,-1,50
 peep_set,0,30
-tidal_volume_obs,100,3000
+tidal_volume_obs,10,3000
 resp_rate_obs,0,200
 plateau_pressure_obs,0,100
 peak_inspiratory_pressure_obs,-50,100
