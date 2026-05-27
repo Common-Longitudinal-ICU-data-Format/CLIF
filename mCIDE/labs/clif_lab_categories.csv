@@ -103,6 +103,12 @@ pleural_protein,g/dl,"PLEURAL FLUID PROTEIN, PLEURAL PROTEIN",pleural_fluid_pane
 pleural_rbc,cells/μl,"PLEURAL FLUID RBC, PLEURAL RBC",pleural_fluid_panel,pleural,may also be reported as cells/mm³
 pleural_triglycerides,mg/dl,PLEURAL FLUID TRIGLYCERIDES,pleural_fluid_panel,pleural,
 pleural_wbc,cells/μl,"PLEURAL FLUID WBC, PLEURAL WBC",pleural_fluid_panel,pleural,may also be reported as cells/mm³
+poc_co2,mmol/l,"POC CO2, ISTAT TCO2, POC TCO2",poc,plasma_blood,point-of-care total CO2/bicarbonate
+poc_creatinine,mg/dl,"POC CREATININE, ISTAT CREAT, POC CREAT",poc,plasma_blood,point-of-care result
+poc_hematocrit,%,"POC HEMATOCRIT, ISTAT HCT, POC HCT",poc,plasma_blood,point-of-care result
+poc_lactate,mmol/l,"POC LACTATE, ISTAT LACTATE, POC LAC",poc,plasma_blood,point-of-care result
+poc_potassium,mmol/l,"POC POTASSIUM, ISTAT K, POC K",poc,plasma_blood,point-of-care result
+poc_sodium,mmol/l,"POC SODIUM, ISTAT NA, POC NA",poc,plasma_blood,point-of-care result
 free_t3,pg/ml,"FREE T3, FT3, FREE TRIIODOTHYRONINE",tft,plasma_blood,
 free_t4,ng/dl,"FREE T4, FT4, FREE THYROXINE",tft,plasma_blood,
 tsh,miu/l,"TSH, THYROID STIMULATING HORMONE, THYROTROPIN",tft,plasma_blood,
