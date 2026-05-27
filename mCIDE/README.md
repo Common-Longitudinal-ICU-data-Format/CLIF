@@ -152,6 +152,12 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   </details>
 
   <details>
+  <summary><code>transfusion/</code></summary>
+
+  - component_category
+  </details>
+
+  <details>
   <summary><code>vitals/</code></summary>
 
   - vital_category

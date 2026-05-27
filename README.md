@@ -60,7 +60,7 @@ Each CLIF table has an assigned clinician who serves as the primary point of con
 | provider                     | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
 | respiratory_support          | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
 | therapy_details              | William Parker, MD, PhD & Bhakti Patel, MD    | wparker@uchicago.edu; bpatel@bsd.uchicago.edu | 08wparker             |
-| transfusion                  |                                               |                                               |                       |
+| transfusion                  | André Amaral, MD                              |                                               | decopastorius         |
 | validated_diagnosis          |                                               |                                               |                       |
 | vitals                       | Catherine Gao, MD                             | catherine.gao@northwestern.edu                | cloverbunny           |
 
