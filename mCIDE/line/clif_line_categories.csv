@@ -1,0 +1,9 @@
+line_category,description,line_name_examples
+art_line,Arterial line for invasive blood pressure monitoring and arterial sampling,"ARTERIAL LINE, A-LINE, ART LINE"
+cordis,Large-bore central introducer sheath (Cordis/MAC introducer),"CORDIS, INTRODUCER, MAC INTRODUCER"
+cvc,Non-tunneled non-dialysis central venous catheter,"CVC, CENTRAL LINE, TRIPLE LUMEN CVC"
+dialysis_catheter,Hemodialysis or CRRT vascular catheter,"DIALYSIS CATHETER, HD CATHETER, VAS-CATH, MAHURKAR"
+midline,Peripherally inserted midline catheter (tip not in central circulation),"MIDLINE, MIDLINE CATHETER"
+picc,Peripherally inserted central catheter,"PICC, PICC LINE, PERIPHERALLY INSERTED CENTRAL CATHETER"
+piv,Peripheral intravenous catheter,"PIV, PERIPHERAL IV, IV CATHETER"
+swan_ganz,Pulmonary artery (Swan-Ganz) catheter,"SWAN-GANZ, PA CATHETER, SWAN"

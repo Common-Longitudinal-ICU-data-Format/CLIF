@@ -14,6 +14,12 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   </details>
 
   <details>
+  <summary><code>airway/</code></summary>
+
+  - airway_category
+  </details>
+
+  <details>
   <summary><code>code_status/</code></summary>
 
   - code_status_category
@@ -23,6 +29,12 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   <summary><code>crrt_therapy/</code></summary>
 
   - crrt_mode_category
+  </details>
+
+  <details>
+  <summary><code>drain/</code></summary>
+
+  - drain_category
   </details>
 
   <details>
@@ -72,6 +84,13 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   - lab_category
   - lab_order_category
   - lab_specimen_category
+  </details>
+
+  <details>
+  <summary><code>line/</code></summary>
+
+  - line_category
+  - line_site
   </details>
 
   <details>

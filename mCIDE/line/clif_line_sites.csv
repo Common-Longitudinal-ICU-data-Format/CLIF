@@ -1,0 +1,12 @@
+line_site,description,line_site_name_examples
+left_brachial,Left brachial vein or artery insertion site,"LEFT BRACHIAL, L BRACHIAL"
+left_femoral,Left femoral vein or artery insertion site,"LEFT FEMORAL, L FEMORAL"
+left_ij,Left internal jugular vein insertion site,"LEFT IJ, L IJ, LEFT INTERNAL JUGULAR"
+left_radial,Left radial artery insertion site,"LEFT RADIAL, L RADIAL"
+left_subclavian,Left subclavian vein or artery insertion site,"LEFT SUBCLAVIAN, L SC, L SUBCLAVIAN"
+other,Insertion site not otherwise specified,"OTHER, NOS"
+right_brachial,Right brachial vein or artery insertion site,"RIGHT BRACHIAL, R BRACHIAL"
+right_femoral,Right femoral vein or artery insertion site,"RIGHT FEMORAL, R FEMORAL"
+right_ij,Right internal jugular vein insertion site,"RIGHT IJ, R IJ, RIGHT INTERNAL JUGULAR"
+right_radial,Right radial artery insertion site,"RIGHT RADIAL, R RADIAL"
+right_subclavian,Right subclavian vein or artery insertion site,"RIGHT SUBCLAVIAN, R SC, R SUBCLAVIAN"

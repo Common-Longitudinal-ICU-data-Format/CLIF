@@ -31,11 +31,13 @@ Each CLIF table has an assigned clinician who serves as the primary point of con
 | Tables                       | Point of Contact                              | Email                                         | GitHub Username       |
 |------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------|
 | adt                          | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
+| airway                       | Pat Lyons, MD                                 | lyonspa@ohsu.edu                              | plyons                |
 | clinical_notes_facts         |                                               |                                               |                       |
 | clinical_notes_text          |                                               |                                               |                       |
 | clinical_trial               |                                               |                                               |                       |
 | code_status                  | Nathan Mesfin, MD                             | mesfin@umn.edu                                | mesfi005              |
 | crrt_therapy                 | William Parker, MD                            | wparker@uchicago.edu                          | 08wparker             |
+| drain                        | Pat Lyons, MD                                 | lyonspa@ohsu.edu                              | plyons                |
 | ecmo_mcs                     | Shan Guleria, MD                              | shan.guleria@uchicagomedicine.org             | shanguleria           |
 | hospital_diagnosis           |                                               |                                               |                       |
 | hospitalization              | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
@@ -44,6 +46,7 @@ Each CLIF table has an assigned clinician who serves as the primary point of con
 | invasive_hemodynamics        |                                               |                                               |                       |
 | key_icu_orders               |                                               |                                               |                       |
 | labs                         | Catherine Gao, MD                             | catherine.gao@northwestern.edu                | cloverbunny           |
+| line                         | Pat Lyons, MD                                 | lyonspa@ohsu.edu                              | plyons                |
 | medication_admin_continuous  | Chad Hochberg, MD                             | chochbe1@jh.edu                               | chochbe1              |
 | medication_admin_intermittent| Anna Barker, MD, PhD                          | baanna@med.umich.edu                          | baanna23              |
 | medication_orders            | Anna Barker, MD, PhD                          | baanna@med.umich.edu                          | baanna23              |

@@ -1,0 +1,11 @@
+drain_category,description,drain_name_examples
+chest_tube,Pleural chest tube (large- or small-bore),"CHEST TUBE, CT, PLEURAL DRAIN"
+dobhoff,Small-bore post-pyloric feeding tube (Dobhoff),"DOBHOFF, DOBBHOFF, DHT"
+eud,External urinary device (e.g. condom catheter or PureWick),"EUD, EXTERNAL URINARY, PUREWICK, CONDOM CATH"
+evd,External ventricular drain (ventriculostomy),"EVD, EXTERNAL VENTRICULAR DRAIN, VENTRICULOSTOMY"
+foley,Indwelling urinary (Foley) catheter,"FOLEY, FOLEY CATHETER, INDWELLING URINARY CATHETER"
+jp_drain,Jackson-Pratt closed-suction surgical drain,"JP DRAIN, JACKSON-PRATT, JP"
+ng_tube,Nasogastric tube,"NG, NG TUBE, NASOGASTRIC TUBE"
+og_tube,Orogastric tube,"OG, OG TUBE, OROGASTRIC TUBE"
+peg_tube,Percutaneous endoscopic gastrostomy tube,"PEG, PEG TUBE, GASTROSTOMY TUBE"
+pigtail,Small-bore pigtail catheter (e.g. pleural pigtail),"PIGTAIL, PIGTAIL CATHETER, PLEURAL PIGTAIL"
