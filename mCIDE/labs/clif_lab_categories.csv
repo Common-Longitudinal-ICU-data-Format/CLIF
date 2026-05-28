@@ -16,8 +16,8 @@ bal_macrophages_count,cells/μl,"BAL MACROPHAGES, MACROPHAGE BF",bal_panel,bal,r
 bal_monocytes_count,cells/μl,"BAL MONOCYTES, MONOCYTE BF, BAL MONOS",bal_panel,bal,reported as count per site BAL hematology body fluid panel; may also be reported as cells/mm³
 bal_neutrophils_absolute,cells/μl,"BAL ABSOLUTE NEUTROPHILS, BAL ANC",bal_panel,bal,may also be reported as cells/mm³
 bal_neutrophils_count,cells/μl,"BAL NEUTROPHILS, NEUTROPHILS BODY FLUID, BAL NEUTS",bal_panel,bal,reported as count per site BAL hematology body fluid panel; may also be reported as cells/mm³
-bal_other_cells,cells/μl,"BAL OTHER CELLS, OTHER CELLS BF",bal_panel,bal,may also be reported as percentage; site-dependent
-bal_plasma_cells,cells/μl,"BAL PLASMA CELLS, PLASMA CELL BF",bal_panel,bal,may also be reported as percentage; site-dependent
+bal_other_absolute,cells/μl,"BAL OTHER CELLS, OTHER CELLS BF",bal_panel,bal,may also be reported as percentage; site-dependent
+bal_plasma_absolute,cells/μl,"BAL PLASMA CELLS, PLASMA CELL BF",bal_panel,bal,may also be reported as percentage; site-dependent
 bal_rbc_count,cells/μl,"BAL RBC, BAL RED BLOOD CELL COUNT",bal_panel,bal,may also be reported as cells/mm³
 bal_toxic_granulation,(no units),BAL TOXIC GRANULATION,bal_panel,bal,qualitative result (present/absent or graded text)
 bal_wbc_count,cells/μl,"BAL WBC, BAL WHITE BLOOD CELL COUNT",bal_panel,bal,may also be reported as cells/mm³
@@ -73,7 +73,7 @@ bilirubin_conjugated,mg/dl,"DBILI, DIRECT BILI, CONJUGATED BILI",lft,plasma_bloo
 bilirubin_total,mg/dl,"TBILI, TOTAL BILI, BILIRUBIN TOTAL",lft,plasma_blood,
 bilirubin_unconjugated,mg/dl,"INDIRECT BILI, UNCONJUGATED BILI, IBILI",lft,plasma_blood,
 total_protein,g/dl,"TP, TOTAL PROTEIN, SERUM PROTEIN",lft,plasma_blood,
-triglycerides,mg/dl,"TRIG, TRIGS, TRIGLYCERIDES",lft,plasma_blood,
+triglycerides,mg/dl,"TRIG, TRIGS, TRIGLYCERIDES",misc,plasma_blood,
 calcium_ionized,mg/dl,"IONIZED CA, ICA, FREE CALCIUM",misc,plasma_blood,
 glucose_fingerstick,mg/dl,"POC GLUCOSE, FINGERSTICK GLUCOSE, ACCUCHECK, BEDSIDE GLUCOSE",misc,plasma_blood,
 lactate,mmol/l,"LACTATE, LACTIC ACID, LAC",misc,plasma_blood,
