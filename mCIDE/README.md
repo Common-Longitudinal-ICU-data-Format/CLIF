@@ -8,7 +8,7 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   <details>
   <summary><code>adt/</code></summary>
 
-  - hospital_type
+  - hospital_type_category
   - location_category
   - location_type
   </details>
@@ -17,6 +17,12 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   <summary><code>airway/</code></summary>
 
   - airway_category
+  </details>
+
+  <details>
+  <summary><code>clinical_notes_facts/</code></summary>
+
+  - note_type_category
   </details>
 
   <details>
@@ -69,13 +75,14 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   <details>
   <summary><code>invasive_hemodynamics/</code></summary>
 
-  - measure_category
+  - measurement_category
   </details>
 
   <details>
   <summary><code>key_icu_orders/</code></summary>
 
   - order_category
+  - order_status_category
   </details>
 
   <details>
@@ -128,6 +135,16 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   </details>
 
   <details>
+  <summary><code>microbiology_nonculture/</code></summary>
+
+  - fluid_category
+  - method_category
+  - organism_category
+  - organism_group
+  - result_category
+  </details>
+
+  <details>
   <summary><code>microbiology_susceptibility/</code></summary>
 
   - antimicrobial_category
@@ -161,6 +178,15 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   <summary><code>position/</code></summary>
 
   - position_category
+  </details>
+
+  <details>
+  <summary><code>radiology/</code></summary>
+
+  - iv_contrast_category
+  - radiology_location_category
+  - radiology_modality_category
+  - radiology_region_category
   </details>
 
   <details>
