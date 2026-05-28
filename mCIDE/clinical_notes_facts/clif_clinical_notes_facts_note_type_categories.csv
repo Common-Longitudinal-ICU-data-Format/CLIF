@@ -1,6 +1,6 @@
 note_type_category,description,note_type_examples
 h_and_p_note,Admission history and physical / admission note,"H&P, Admission Note, ED H&P"
-progress_note,Daily progress notes,"Progress Note, Daily Progress, ICU Progress Note"
+progress_note,Daily progress notes,"Significant Event, Daily Progress, Code Documentation"
 consult_note,Subspecialty consult notes,"Cardiology Consult, ID Consult, Nephrology Consult"
 procedure_note,Bedside or operative procedure notes,"Procedure Note, Operative Note, Bedside Procedure"
 discharge_summary,Hospital or ICU discharge summary,"Discharge Summary, ICU Transfer Summary"
@@ -11,3 +11,4 @@ pharmacy_note,Pharmacist notes,"Pharmacy Note, Clinical Pharmacy Consult"
 nursing_note,Nursing narrative notes,"Nursing Note, RN Shift Note"
 case_management_note,Case management / social work notes,"Case Management Note, Social Work Note"
 death_pronouncement,Death pronouncement note,"Death Pronouncement, Time of Death Note"
+patient_instructions,Patient and family education notes,"Education, Discharge Instructions, Patient Education"
