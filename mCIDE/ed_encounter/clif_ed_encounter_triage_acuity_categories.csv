@@ -1,0 +1,8 @@
+triage_acuity_category,description,triage_acuity_name_examples
+level_1,Highest acuity (resuscitation / immediate),"1, LEVEL 1, RESUSCITATION, IMMEDIATE"
+level_2,High acuity (emergent),"2, LEVEL 2, EMERGENT"
+level_3,Moderate acuity (urgent),"3, LEVEL 3, URGENT"
+level_4,Low acuity (less urgent),"4, LEVEL 4, LESS URGENT"
+level_5,Lowest acuity (non-urgent),"5, LEVEL 5, NON-URGENT"
+other,Acuity level not in standard 5-level scale,"OTHER, NOS"
+unknown,Acuity unknown or not documented,"UNKNOWN, NOT DOCUMENTED"

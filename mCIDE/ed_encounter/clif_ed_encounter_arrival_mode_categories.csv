@@ -1,0 +1,10 @@
+arrival_mode_category,description,arrival_mode_name_examples
+ems_air,Air ambulance or helicopter EMS,"EMS - AIR, AIR AMBULANCE, HELICOPTER, FLIGHT"
+ems_ground,Ground ambulance EMS,"EMS - GROUND AMBULANCE, AMBULANCE, EMS"
+law_enforcement,Brought by police or other law enforcement,"POLICE, LAW ENFORCEMENT, SHERIFF"
+other,Arrival mode not otherwise classified,"OTHER, NOS"
+private_vehicle,Personal or family vehicle,"POV, PRIVATE VEHICLE, CAR, FAMILY"
+transfer_ambulance,Inter-facility transfer arriving by ambulance,"INTERFACILITY TRANSFER, TRANSFER AMBULANCE, IFT"
+transfer_private_vehicle,Inter-facility transfer arriving by private vehicle,"TRANSFER PRIVATE VEHICLE, OUTSIDE HOSPITAL POV"
+unknown,Arrival mode unknown or not documented,"UNKNOWN, NOT DOCUMENTED"
+walk_in,Patient self-presented on foot,"WALK-IN, AMBULATORY, SELF"

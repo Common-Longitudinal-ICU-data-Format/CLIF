@@ -38,6 +38,7 @@ Each CLIF table has an assigned clinician who serves as the primary point of con
 | code_status                  | Nathan Mesfin, MD                             | mesfin@umn.edu                                | mesfi005              |
 | crrt_therapy                 | William Parker, MD                            | wparker@uchicago.edu                          | 08wparker             |
 | drain                        | Pat Lyons, MD                                 | lyonspa@ohsu.edu                              | plyons                |
+| ed_encounter                 | David Beiser, MD                              |                                               | beiser-lab            |
 | ecmo_mcs                     | Shan Guleria, MD                              | shan.guleria@uchicagomedicine.org             | shanguleria           |
 | hospital_diagnosis           |                                               |                                               |                       |
 | hospitalization              | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |

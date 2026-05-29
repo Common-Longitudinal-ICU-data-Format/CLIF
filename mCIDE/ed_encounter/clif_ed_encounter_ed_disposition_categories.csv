@@ -1,0 +1,9 @@
+ed_disposition_category,description,ed_disposition_name_examples
+admit,Admitted to inpatient status at the same hospital,"ADMIT, ADMITTED, ADMIT TO INPATIENT"
+ama,Left against medical advice,"AMA, LEFT AMA, AGAINST MEDICAL ADVICE"
+discharge,Discharged from ED to home or non-acute destination,"DISCHARGED, HOME, DISCHARGE TO HOME"
+expired,Patient expired in the emergency department,"EXPIRED, DECEASED IN ED, DIED IN ED"
+lwbs,Left without being seen or before treatment complete,"LWBS, LEFT WITHOUT BEING SEEN, ELOPED, LBTC, LEFT BEFORE TREATMENT COMPLETE"
+observation,Placed in observation status,"OBSERVATION, OBS, OBS STATUS"
+other,Disposition not otherwise classified,"OTHER, NOS"
+transfer,Transferred to another facility,"TRANSFERRED, TRANSFER TO ACUTE CARE, OUTSIDE HOSPITAL TRANSFER"

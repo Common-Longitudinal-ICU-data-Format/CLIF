@@ -44,6 +44,16 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   </details>
 
   <details>
+  <summary><code>ed_encounter/</code></summary>
+
+  - arrival_mode_category
+  - triage_system_category
+  - triage_acuity_category
+  - ed_disposition_category
+  - ed_destination_category
+  </details>
+
+  <details>
   <summary><code>mcs/</code></summary>
 
   - support_category

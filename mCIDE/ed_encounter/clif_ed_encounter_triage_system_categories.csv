@@ -1,0 +1,6 @@
+triage_system_category,description,triage_system_name_examples
+ctas,Canadian Triage and Acuity Scale,"CTAS, CTAS-2016, CANADIAN TRIAGE"
+esi,Emergency Severity Index (ESI),"ESI, EMERGENCY SEVERITY INDEX, ESI V4"
+other,Other named triage system,"MTS, MANCHESTER TRIAGE, AUSTRALASIAN TRIAGE SCALE"
+other_5_level,Other 5-level triage system not otherwise specified,"OTHER 5-LEVEL TRIAGE"
+unknown,Triage system unknown or not documented,"UNKNOWN, NOT DOCUMENTED"
