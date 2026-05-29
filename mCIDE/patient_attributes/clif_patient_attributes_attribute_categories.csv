@@ -1,0 +1,16 @@
+attribute_category,description,attribute_name_examples,attribute_group
+alcohol_use,Pattern of alcohol consumption,"ALCOHOL USE, ETOH USE, DRINKING HISTORY",substance_use_behavior
+employment_status,Current employment or work status,"EMPLOYMENT STATUS, JOB STATUS, OCCUPATION",sociodemographic
+financial_strain,Difficulty meeting basic financial needs,"FINANCIAL STRAIN, FINANCIAL HARDSHIP",health_related_social_needs
+food_insecurity,Reliable access to nutritious food,"FOOD INSECURITY, HUNGER VITAL SIGN",health_related_social_needs
+functional_status,Ability to perform activities of daily living,"FUNCTIONAL STATUS, ADL STATUS, IADL",functional
+housing_status,Housing stability,"HOUSING STATUS, HOUSING STABILITY, HOMELESSNESS",health_related_social_needs
+interpersonal_safety,Risk of interpersonal violence or abuse,"INTIMATE PARTNER VIOLENCE, IPV, SAFETY AT HOME",health_related_social_needs
+marital_status,Legal marital or partnership status,"MARITAL STATUS, MARRIED, RELATIONSHIP STATUS",sociodemographic
+organ_donor,Organ donation preference,"ORGAN DONOR, DONOR STATUS",care_preferences
+pregnancy_status,Current pregnancy or postpartum status,"PREGNANCY STATUS, PREGNANT, POSTPARTUM",reproductive
+smoking_status,Pattern of tobacco or nicotine smoking,"SMOKING STATUS, TOBACCO USE",substance_use_behavior
+social_isolation,Frequency of meaningful social contact,"SOCIAL ISOLATION, LONELINESS",health_related_social_needs
+substance_use,Use of non-alcohol non-tobacco substances,"SUBSTANCE USE, DRUG USE, ILLICIT DRUGS",substance_use_behavior
+transportation_barrier,Barriers to medical or daily transportation,"TRANSPORTATION BARRIER, RIDE BARRIER",health_related_social_needs
+utility_insecurity,Difficulty paying utility bills,"UTILITY INSECURITY, UTILITY SHUTOFF",health_related_social_needs

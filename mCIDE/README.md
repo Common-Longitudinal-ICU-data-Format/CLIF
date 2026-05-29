@@ -167,6 +167,14 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   </details>
 
   <details>
+  <summary><code>patient_attributes/</code></summary>
+
+  - attribute_category
+  - attribute_group
+  - attribute_value_category
+  </details>
+
+  <details>
   <summary><code>patient_procedures/</code></summary>
 
   - procedure_code_format

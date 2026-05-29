@@ -1,0 +1,7 @@
+attribute_group,description
+care_preferences,Patient preferences related to care decisions (e.g. organ donation)
+functional,Ability to perform daily activities
+health_related_social_needs,Health-related social drivers as captured by HRSN screening domains
+reproductive,Reproductive and pregnancy-related status
+sociodemographic,"Sociodemographic attributes (e.g. employment, marital status)"
+substance_use_behavior,"Patterns of substance use (alcohol, tobacco, other substances)"

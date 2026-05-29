@@ -56,6 +56,7 @@ Each CLIF table has an assigned clinician who serves as the primary point of con
 | output                       | Shan Guleria, MD                              | shan.guleria@uchicagomedicine.org             | shanguleria           |
 | patient                      | Pat Lyons, MD                                 | lyonspa@ohsu.edu                              | plyons                |
 | patient_assessments          | Snigdha Jain, MD                              | snigdha.jain@yale.edu                         | snigdhajainyale       |
+| patient_attributes           | Pat Lyons, MD                                 | lyonspa@ohsu.edu                              | plyons                |
 | patient_diagnosis            |                                               |                                               |                       |
 | patient_procedures           | J.C. Rojas, MD                                | juan_rojas@rush.edu                           | sajor2000             |
 | place_based_index            |                                               |                                               |                       |

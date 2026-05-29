@@ -1,0 +1,39 @@
+attribute_value_category,description,applicable_attribute_categories
+active,Currently using,substance_use
+connected,Maintains meaningful social contact,social_isolation
+current,Currently uses tobacco/nicotine,smoking_status
+disabled,Unable to work due to disability,employment_status
+divorced,Legally divorced,marital_status
+former,Previously used but quit,smoking_status
+full_time,Employed full-time,employment_status
+fully_dependent,Fully dependent for activities of daily living,functional_status
+heavy,Heavy alcohol use,alcohol_use
+history,History of use (not currently active),substance_use
+housed,Stably housed,housing_status
+independent,Independent for activities of daily living,functional_status
+insecure,"Insecure access (food or utility)","food_insecurity, utility_insecurity"
+isolated,Limited or no meaningful social contact,social_isolation
+married,Legally married or in equivalent partnership,marital_status
+never,Never used tobacco/nicotine,smoking_status
+no,Not an organ donor / declined,organ_donor
+none,"No use or no barrier present (alcohol, financial, substance, transportation)","alcohol_use, financial_strain, substance_use, transportation_barrier"
+not_pregnant,Not currently pregnant,pregnancy_status
+part_time,Employed part-time,employment_status
+partially_dependent,Partially dependent for activities of daily living,functional_status
+postpartum,Postpartum period,pregnancy_status
+pregnant,Currently pregnant,pregnancy_status
+present,Barrier or strain present (financial or transportation),"financial_strain, transportation_barrier"
+retired,Retired from work,employment_status
+safe,Safe in interpersonal relationships,interpersonal_safety
+secure,"Secure access (food or utility)","food_insecurity, utility_insecurity"
+separated,Legally or informally separated,marital_status
+single,Never married,marital_status
+social,Occasional/social alcohol use,alcohol_use
+student,Student (full-time or part-time student),employment_status
+undomiciled,Unhoused / homeless,housing_status
+unemployed,Not employed and seeking work,employment_status
+unknown,Status unknown or not assessed,all attribute_categories
+unsafe,Experiencing interpersonal violence or unsafe environment,interpersonal_safety
+unstable,Unstable housing (e.g. couch-surfing or imminent loss),housing_status
+widowed,Surviving spouse following partner's death,marital_status
+yes,Registered organ donor,organ_donor
