@@ -1,5 +1,6 @@
 lab_specimen_category,description
 bal,Bronchoalveolar lavage fluid obtained via bronchoscopy.
+peritoneal,Peritoneal (ascitic) fluid obtained from paracentesis or peritoneal catheter.
 plasma_blood,"Whole blood, plasma, or serum sample. Default for systemic labs."
 pleural,Pleural fluid obtained from thoracentesis or pleural catheter.
 urine,Urine sample.

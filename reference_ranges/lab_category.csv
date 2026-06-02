@@ -19,7 +19,7 @@ eosinophils_absolute,10^3/¬µL,0,0.5,cbc
 eosinophils_percent,%,0,4,cbc
 esr,mm/hour,0,20,misc
 ferritin,ng/mL,15,200,misc
-glucose_fingerstick,mg/dL,70,110,misc
+poc_glucose,mg/dL,70,110,poc
 glucose_serum,mg/dL,70,110,bmp
 hemoglobin,g/dL,12,18,cbc
 inr,(no units),0.9,1.1,coags

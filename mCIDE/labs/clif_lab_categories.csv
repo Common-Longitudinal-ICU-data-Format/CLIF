@@ -9,18 +9,18 @@ urine_timp_2,ng/ml,"URINE TIMP-2, TISSUE INHIBITOR OF METALLOPROTEINASES-2",aki_
 urine_timp_2_igfbp7,(ng/ml)^2/1000,"URINE TIMP-2 X IGFBP7, NEPHROCHECK",aki_biomarkers,urine,"<0.3 low, 0.3-2.0 moderate, >2.0 high AKI risk per KDIGO"
 bal_amylase,u/l,BAL AMYLASE,bal_panel,bal,
 bal_eosinophils_absolute,cells/μl,"BAL ABSOLUTE EOSINOPHILS, BAL ABS EOS",bal_panel,bal,may also be reported as cells/mm³
-bal_eosinophils_count,cells/μl,"BAL EOSINOPHILS, EOSINOPHILS BODY FLUID, BAL EOS",bal_panel,bal,reported as count per site BAL hematology body fluid panel; may also be reported as cells/mm³
+bal_eosinophils_percent,%,"BAL EOSINOPHILS %, BAL EOS %",bal_panel,bal,percentage of nucleated cells on BAL differential
 bal_lymphocytes_absolute,cells/μl,"BAL ABSOLUTE LYMPHOCYTES, BAL ABS LYMPHS",bal_panel,bal,may also be reported as cells/mm³
-bal_lymphocytes_count,cells/μl,"BAL LYMPHOCYTES, LYMPH BF, BAL LYMPHS",bal_panel,bal,reported as count per site BAL hematology body fluid panel; may also be reported as cells/mm³
-bal_macrophages_count,cells/μl,"BAL MACROPHAGES, MACROPHAGE BF",bal_panel,bal,reported as count per site BAL hematology body fluid panel; may also be reported as cells/mm³
-bal_monocytes_count,cells/μl,"BAL MONOCYTES, MONOCYTE BF, BAL MONOS",bal_panel,bal,reported as count per site BAL hematology body fluid panel; may also be reported as cells/mm³
+bal_lymphocytes_percent,%,"BAL LYMPHOCYTES %, BAL LYMPHS %",bal_panel,bal,percentage of nucleated cells on BAL differential
+bal_macrophages_percent,%,"BAL MACROPHAGES %, MACROPHAGE BF %",bal_panel,bal,percentage of nucleated cells on BAL differential
+bal_monocytes_percent,%,"BAL MONOCYTES %, BAL MONOS %",bal_panel,bal,percentage of nucleated cells on BAL differential
 bal_neutrophils_absolute,cells/μl,"BAL ABSOLUTE NEUTROPHILS, BAL ANC",bal_panel,bal,may also be reported as cells/mm³
-bal_neutrophils_count,cells/μl,"BAL NEUTROPHILS, NEUTROPHILS BODY FLUID, BAL NEUTS",bal_panel,bal,reported as count per site BAL hematology body fluid panel; may also be reported as cells/mm³
+bal_neutrophils_percent,%,"BAL NEUTROPHILS %, BAL NEUTS %",bal_panel,bal,percentage of nucleated cells on BAL differential
 bal_other_absolute,cells/μl,"BAL OTHER CELLS, OTHER CELLS BF",bal_panel,bal,may also be reported as percentage; site-dependent
 bal_plasma_absolute,cells/μl,"BAL PLASMA CELLS, PLASMA CELL BF",bal_panel,bal,may also be reported as percentage; site-dependent
-bal_rbc_count,cells/μl,"BAL RBC, BAL RED BLOOD CELL COUNT",bal_panel,bal,may also be reported as cells/mm³
+bal_rbc_absolute,cells/μl,"BAL RBC, BAL RED BLOOD CELL COUNT",bal_panel,bal,may also be reported as cells/mm³
 bal_toxic_granulation,(no units),BAL TOXIC GRANULATION,bal_panel,bal,qualitative result (present/absent or graded text)
-bal_wbc_count,cells/μl,"BAL WBC, BAL WHITE BLOOD CELL COUNT",bal_panel,bal,may also be reported as cells/mm³
+bal_wbc_absolute,cells/μl,"BAL WBC, BAL WHITE BLOOD CELL COUNT",bal_panel,bal,may also be reported as cells/mm³
 pco2_arterial,mmhg,"PACO2, ARTERIAL PCO2, ABG PCO2",blood_gas,plasma_blood,
 pco2_venous,mmhg,"PVCO2, VENOUS PCO2, VBG PCO2",blood_gas,plasma_blood,
 ph_arterial,(no units),"ABG PH, ARTERIAL PH, BLOOD PH",blood_gas,plasma_blood,
@@ -75,13 +75,33 @@ bilirubin_unconjugated,mg/dl,"INDIRECT BILI, UNCONJUGATED BILI, IBILI",lft,plasm
 total_protein,g/dl,"TP, TOTAL PROTEIN, SERUM PROTEIN",lft,plasma_blood,
 triglycerides,mg/dl,"TRIG, TRIGS, TRIGLYCERIDES",misc,plasma_blood,
 calcium_ionized,mg/dl,"IONIZED CA, ICA, FREE CALCIUM",misc,plasma_blood,
-glucose_fingerstick,mg/dl,"POC GLUCOSE, FINGERSTICK GLUCOSE, ACCUCHECK, BEDSIDE GLUCOSE",misc,plasma_blood,
 lactate,mmol/l,"LACTATE, LACTIC ACID, LAC",misc,plasma_blood,
 ldh,u/l,"LDH, LD, LACTATE DEHYDROGENASE",misc,plasma_blood,
 magnesium,mg/dl,"MG, MAGNESIUM, SERUM MG",misc,plasma_blood,
 phosphate,mg/dl,"PHOS, PHOSPHORUS, PHOSPHATE, SERUM PHOS",misc,plasma_blood,sometimes called 'phosphorus' in the EHR
 po2_mixed_venous,mmhg,"PO2 MIXED VENOUS, MIXED VENOUS PO2, SVO2 PO2",mixed_venous_blood_gas,plasma_blood,from mixed venous sample (typically PA catheter); distinct from peripheral venous PO2
 so2_mixed_venous,%,"SVO2, MIXED VENOUS SAT, SVMVO2",mixed_venous_blood_gas,plasma_blood,
+peritoneal_ada,u/l,"PERITONEAL ADA, ADENOSINE DEAMINASE PERITONEAL",peritoneal_fluid_panel,peritoneal,
+peritoneal_albumin,g/dl,"PERITONEAL FLUID ALBUMIN, ASCITES ALBUMIN",peritoneal_fluid_panel,peritoneal,used with serum albumin to calculate SAAG
+peritoneal_amylase,u/l,"PERITONEAL FLUID AMYLASE, ASCITES AMYLASE",peritoneal_fluid_panel,peritoneal,
+peritoneal_bilirubin,mg/dl,PERITONEAL BILIRUBIN,peritoneal_fluid_panel,peritoneal,
+peritoneal_cholesterol,mg/dl,PERITONEAL FLUID CHOLESTEROL,peritoneal_fluid_panel,peritoneal,
+peritoneal_creatinine,mg/dl,PERITONEAL CREATININE,peritoneal_fluid_panel,peritoneal,used to evaluate uroperitoneum
+peritoneal_eosinophils_percent,%,"PERITONEAL EOSINOPHILS %, ASCITES EOS %",peritoneal_fluid_panel,peritoneal,
+peritoneal_glucose,mg/dl,"PERITONEAL FLUID GLUCOSE, ASCITES GLUCOSE",peritoneal_fluid_panel,peritoneal,
+peritoneal_hematocrit_percent,%,"PERITONEAL HCT %, PERITONEAL HEMATOCRIT",peritoneal_fluid_panel,peritoneal,
+peritoneal_ldh,u/l,"PERITONEAL FLUID LDH, ASCITES LDH",peritoneal_fluid_panel,peritoneal,may also be reported as IU/L
+peritoneal_lipase,u/l,PERITONEAL FLUID LIPASE,peritoneal_fluid_panel,peritoneal,
+peritoneal_lymphocytes_percent,%,"PERITONEAL LYMPHOCYTES %, ASCITES LYMPHS %",peritoneal_fluid_panel,peritoneal,
+peritoneal_macrophages_percent,%,PERITONEAL MACROPHAGES %,peritoneal_fluid_panel,peritoneal,
+peritoneal_mesothelial,%,PERITONEAL MESOTHELIAL CELLS,peritoneal_fluid_panel,peritoneal,count or percentage of mesothelial cells in peritoneal fluid
+peritoneal_monocytes_percent,%,"PERITONEAL MONOCYTES %, ASCITES MONOS %",peritoneal_fluid_panel,peritoneal,
+peritoneal_neutrophils_percent,%,"PERITONEAL NEUTROPHILS %, ASCITES NEUTS %",peritoneal_fluid_panel,peritoneal,absolute PMN >=250 cells/μl suggests spontaneous bacterial peritonitis
+peritoneal_probnp,pg/ml,"PERITONEAL NT-PROBNP, PERITONEAL PROBNP",peritoneal_fluid_panel,peritoneal,
+peritoneal_protein,g/dl,"PERITONEAL FLUID PROTEIN, ASCITES PROTEIN",peritoneal_fluid_panel,peritoneal,
+peritoneal_rbc,cells/μl,"PERITONEAL FLUID RBC, ASCITES RBC",peritoneal_fluid_panel,peritoneal,may also be reported as cells/mm³
+peritoneal_triglycerides,mg/dl,PERITONEAL FLUID TRIGLYCERIDES,peritoneal_fluid_panel,peritoneal,
+peritoneal_wbc,cells/μl,"PERITONEAL FLUID WBC, ASCITES WBC",peritoneal_fluid_panel,peritoneal,may also be reported as cells/mm³
 pleural_ada,u/l,"PLEURAL ADA, ADENOSINE DEAMINASE PLEURAL",pleural_fluid_panel,pleural,
 pleural_albumin,g/dl,PLEURAL FLUID ALBUMIN,pleural_fluid_panel,pleural,
 pleural_amylase,u/l,PLEURAL FLUID AMYLASE,pleural_fluid_panel,pleural,
@@ -105,6 +125,7 @@ pleural_triglycerides,mg/dl,PLEURAL FLUID TRIGLYCERIDES,pleural_fluid_panel,pleu
 pleural_wbc,cells/μl,"PLEURAL FLUID WBC, PLEURAL WBC",pleural_fluid_panel,pleural,may also be reported as cells/mm³
 poc_co2,mmol/l,"POC CO2, ISTAT TCO2, POC TCO2",poc,plasma_blood,point-of-care total CO2/bicarbonate
 poc_creatinine,mg/dl,"POC CREATININE, ISTAT CREAT, POC CREAT",poc,plasma_blood,point-of-care result
+poc_glucose,mg/dl,"POC GLUCOSE, FINGERSTICK GLUCOSE, ACCUCHECK, BEDSIDE GLUCOSE",poc,plasma_blood,point-of-care/bedside glucose
 poc_hematocrit,%,"POC HEMATOCRIT, ISTAT HCT, POC HCT",poc,plasma_blood,point-of-care result
 poc_lactate,mmol/l,"POC LACTATE, ISTAT LACTATE, POC LAC",poc,plasma_blood,point-of-care result
 poc_potassium,mmol/l,"POC POTASSIUM, ISTAT K, POC K",poc,plasma_blood,point-of-care result
