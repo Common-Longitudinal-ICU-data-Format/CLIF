@@ -28,46 +28,49 @@ To develop a structured relational database, we initiated a comprehensive data c
 
 Each CLIF table has an assigned clinician who serves as the primary point of contact for any inquiries related to the schema or common data elements specific to that table.
 
-| Tables                       | Point of Contact                              | Email                                         | GitHub Username       |
-|------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------|
-| adt                          | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
-| airway                       | Pat Lyons, MD                                 | lyonspa@ohsu.edu                              | plyons                |
-| clinical_notes_facts         |                                               |                                               |                       |
-| clinical_notes_text          |                                               |                                               |                       |
-| clinical_trial               |                                               |                                               |                       |
-| code_status                  | Nathan Mesfin, MD                             | mesfin@umn.edu                                | mesfi005              |
-| crrt_therapy                 | William Parker, MD                            | wparker@uchicago.edu                          | 08wparker             |
-| drain                        | Pat Lyons, MD                                 | lyonspa@ohsu.edu                              | plyons                |
-| ed_encounter                 | David Beiser, MD                              |                                               | beiser-lab            |
-| ecmo_mcs                     | Shan Guleria, MD                              | shan.guleria@uchicagomedicine.org             | shanguleria           |
-| hospital_diagnosis           |                                               |                                               |                       |
-| hospitalization              | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
-| intake_output                |                                               |                                               |                       |
-| intermittent_dialysis        | Jay Koyner, MD                                | jkoyner@uchicago.edu                          |                       |
-| invasive_hemodynamics        |                                               |                                               |                       |
-| key_icu_orders               |                                               |                                               |                       |
-| labs                         | Catherine Gao, MD                             | catherine.gao@northwestern.edu                | cloverbunny           |
-| line                         | Pat Lyons, MD                                 | lyonspa@ohsu.edu                              | plyons                |
-| medication_admin_continuous  | Chad Hochberg, MD                             | chochbe1@jh.edu                               | chochbe1              |
-| medication_admin_intermittent| Anna Barker, MD, PhD                          | baanna@med.umich.edu                          | baanna23              |
-| medication_orders            | Anna Barker, MD, PhD                          | baanna@med.umich.edu                          | baanna23              |
-| microbiology_culture         | Kevin Buell, MBBS                             | kevin.buell@uchicagomedicine.org              | kevingbuell           |
-| microbiology_nonculture      | Kevin Buell, MBBS                             | kevin.buell@uchicagomedicine.org              | kevingbuell           |
-| microbiology_susceptibility  | Kevin Buell, MBBS                             | kevin.buell@uchicagomedicine.org              | kevingbuell           |
-| output                       | Shan Guleria, MD                              | shan.guleria@uchicagomedicine.org             | shanguleria           |
-| patient                      | Pat Lyons, MD                                 | lyonspa@ohsu.edu                              | plyons                |
-| patient_assessments          | Snigdha Jain, MD                              | snigdha.jain@yale.edu                         | snigdhajainyale       |
-| patient_attributes           | Pat Lyons, MD                                 | lyonspa@ohsu.edu                              | plyons                |
-| patient_diagnosis            |                                               |                                               |                       |
-| patient_procedures           | J.C. Rojas, MD                                | juan_rojas@rush.edu                           | sajor2000             |
-| place_based_index            |                                               |                                               |                       |
-| position                     | Chad Hochberg, MD                             | chochbe1@jh.edu                               | chochbe1              |
-| provider                     | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
-| respiratory_support          | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
-| therapy_details              | William Parker, MD, PhD & Bhakti Patel, MD    | wparker@uchicago.edu; bpatel@bsd.uchicago.edu | 08wparker             |
-| transfusion                  | André Amaral, MD                              |                                               | decopastorius         |
-| validated_diagnosis          |                                               |                                               |                       |
-| vitals                       | Catherine Gao, MD                             | catherine.gao@northwestern.edu                | cloverbunny           |
+| Tables                        | Point of Contact                            | Email                                                | GitHub Username        |
+|-------------------------------|---------------------------------------------|------------------------------------------------------|------------------------|
+| adt                           | Nicholas Ingraham, MD                       | ingra107@umn.edu                                     | ingra107               |
+| airway                        | Pat Lyons, MD                               | lyonspa@ohsu.edu                                     | plyons                 |
+| clinical_notes_facts          | Peter Graffy, PhD, MPH                      |                                                      |                        |
+| clinical_notes_text           | Peter Graffy, PhD, MPH                      |                                                      |                        |
+| clinical_trial                |                                             |                                                      |                        |
+| code_status                   | Nathan Mesfin, MD                           | mesfin@umn.edu                                       | mesfi005               |
+| crrt_therapy                  | William Parker, MD                          | wparker@uchicago.edu                                 | 08wparker              |
+| drain                         | Pat Lyons, MD                               | lyonspa@ohsu.edu                                     | plyons                 |
+| ed_encounter                  | David Beiser, MD                            |                                                      | beiser-lab             |
+| mcs                           | Maxwell Hockstein, MD & Shan Guleria, MD    | shan.guleria@uchicagomedicine.org                    | shanguleria            |
+| hospital_diagnosis            |                                             |                                                      |                        |
+| hospitalization               | Nicholas Ingraham, MD                       | ingra107@umn.edu                                     | ingra107               |
+| input                         | Shan Guleria, MD                            | shan.guleria@uchicagomedicine.org                    | shanguleria            |
+| intermittent_dialysis         | Jay Koyner, MD                              | jkoyner@uchicago.edu                                 |                        |
+| invasive_hemodynamics         | Max Hockstein, MD, MS                       |                                                      |                        |
+| key_icu_orders                | William Parker, MD, PhD & Bhakti Patel, MD  | wparker@uchicago.edu; bpatel@bsd.uchicago.edu        | 08wparker              |
+| labs                          | Catherine Gao, MD & William Parker, MD, PhD | catherine.gao@northwestern.edu; wparker@uchicago.edu | cloverbunny; 08wparker |
+| line                          | Pat Lyons, MD                               | lyonspa@ohsu.edu                                     | plyons                 |
+| medication_admin_continuous   | Chad Hochberg, MD                           | chochbe1@jh.edu                                      | chochbe1               |
+| medication_admin_intermittent | Anna Barker, MD, PhD                        | baanna@med.umich.edu                                 | baanna23               |
+| medication_orders             | Anna Barker, MD, PhD                        | baanna@med.umich.edu                                 | baanna23               |
+| microbiology_culture          | Kevin Buell, MBBS & Aartik Sarma, MD        | kevin.buell@uchicagomedicine.org                     | kevingbuell            |
+| microbiology_nonculture       | Kevin Buell, MBBS & Aartik Sarma, MD        | kevin.buell@uchicagomedicine.org                     | kevingbuell            |
+| microbiology_susceptibility   | Kevin Buell, MBBS & Aartik Sarma, MD        | kevin.buell@uchicagomedicine.org                     | kevingbuell            |
+| model_registry                | J.C. Rojas, MD                              | juan_rojas@rush.edu                                  | sajor2000              |
+| output                        | Shan Guleria, MD                            | shan.guleria@uchicagomedicine.org                    | shanguleria            |
+| patient                       | Pat Lyons, MD                               | lyonspa@ohsu.edu                                     | plyons                 |
+| patient_assessments           | Snigdha Jain, MD                            | snigdha.jain@yale.edu                                | snigdhajainyale        |
+| patient_attributes            | Pat Lyons, MD                               | lyonspa@ohsu.edu                                     | plyons                 |
+| patient_diagnosis             |                                             |                                                      |                        |
+| patient_procedures            | J.C. Rojas, MD                              | juan_rojas@rush.edu                                  | sajor2000              |
+| place_based_index             | Alexander Ortiz, MD                         |                                                      |                        |
+| position                      | Chad Hochberg, MD                           | chochbe1@jh.edu                                      | chochbe1               |
+| provider                      | Nicholas Ingraham, MD                       | ingra107@umn.edu                                     | ingra107               |
+| radiology                     | Aartik Sarma, MD                            |                                                      |                        |
+| respiratory_support           | Nicholas Ingraham, MD                       | ingra107@umn.edu                                     | ingra107               |
+| scores                        | J.C. Rojas, MD                              | juan_rojas@rush.edu                                  | sajor2000              |
+| therapy_details               | William Parker, MD, PhD & Bhakti Patel, MD  | wparker@uchicago.edu; bpatel@bsd.uchicago.edu        | 08wparker              |
+| transfusion                   | André Amaral, MD                            |                                                      | decopastorius          |
+| validated_diagnosis           |                                             |                                                      |                        |
+| vitals                        | Catherine Gao, MD                           | catherine.gao@northwestern.edu                       | cloverbunny            |
 
 ## Data Architecture 
 
@@ -79,7 +82,6 @@ For more information about our data architecture and tools, please visit our [we
 ## Current team members 
 
 Our team of clinicians, data scientists, and collaborators can be found on our [website](https://clif-icu.com/team).
-
 
 
 
