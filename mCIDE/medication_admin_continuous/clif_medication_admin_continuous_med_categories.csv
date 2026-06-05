@@ -66,7 +66,7 @@ propofol,mcg,mcg/kg/min,Sedative-hypnotic for anesthesia and sedation,"PROPOFOL 
 remifentanil,mcg,mcg/kg/min,Ultra-short acting opioid analgesic,"REMIFENTANIL 5 MG/100 ML IV INFUSION, REMIFENTANIL 0.05-2 MCG/KG/MIN IV",sedation
 rocuronium,mcg,mcg/kg/min,Neuromuscular blocking agent for paralysis,"ROCURONIUM 500 MG/100 ML IV INFUSION, ROCURONIUM 8-12 MCG/KG/MIN IV",paralytics
 ropivacaine,ml,ml/hr,Long-acting local anesthetic,"ROPIVACAINE 0.2% 200 ML EPIDURAL INFUSION, ROPIVACAINE 6-14 ML/HR EPIDURAL",others
-sodium_bicarbonate,meq,ml/hr,Alkalinizing agent,"SODIUM BICARBONATE 150 MEQ/1000 ML IV INFUSION, BICARB 50-100 MEQ/HR IV",fluids_electrolytes
+sodium_bicarbonate,ml/hr,ml/hr,Alkalinizing agent,"SODIUM BICARBONATE 150 MEQ/1000 ML IV INFUSION, BICARB 50-100 MEQ/HR IV",fluids_electrolytes
 sodium_chloride,ml,ml/hr,Isotonic saline for fluid replacement,"SODIUM CHLORIDE 0.9% 1000 ML IV MAINTENANCE, NORMAL SALINE 500 ML IV BOLUS",fluids_electrolytes
 tacrolimus,mcg,mcg/kg/day,Immunosuppressant for transplant and other indications,"TACROLIMUS 5 MG/250 ML IV INFUSION, TACROLIMUS 0.01-0.05 MG/KG/DAY IV",others
 terbutaline,mg,mg,Beta-2 agonist for bronchospasm,"TERBUTALINE 5 MG CONTINUOUS NEBULIZER, TERBUTALINE 10 MG NEBULIZER Q4H",inhaled
