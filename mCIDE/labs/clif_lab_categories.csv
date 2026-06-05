@@ -47,12 +47,14 @@ hematocrit_percent,%,"PERITONEAL HCT %, PERITONEAL HEMATOCRIT, PLEURAL HCT %, PL
 hemoglobin,g/dl,"HGB, HB, HEMOGLOBIN",cbc,plasma_blood,
 igfbp7,ng/ml,"URINE IGFBP7, INSULIN-LIKE GROWTH FACTOR BINDING PROTEIN-7",aki_biomarkers,urine,used in product with TIMP-2
 inr,(no units),"INR, INTERNATIONAL NORMALIZED RATIO",coags,plasma_blood,
-interleukin_01b,pg/ml,"IL-1B, IL-1 BETA, INTERLEUKIN-1 BETA",inflammatory,plasma_blood,autoinflammatory/IL-1 blockade (anakinra) context; usually a send-out assay
+interleukin_01,pg/ml,"IL-1, IL-1 BETA, IL-1B, INTERLEUKIN-1",inflammatory,plasma_blood,autoinflammatory/IL-1 blockade (anakinra) context; usually a send-out assay
 interleukin_02,pg/ml,"IL-2, IL2, INTERLEUKIN-2",inflammatory,plasma_blood,rarely measured directly; usually a send-out assay
 interleukin_02_receptor_soluble,u/ml,"SIL-2R, SOLUBLE IL-2 RECEPTOR, SCD25, SOLUBLE CD25",inflammatory,plasma_blood,soluble IL-2 receptor (sCD25); HLH/MAS diagnostic criterion; some labs report in pg/mL
+interleukin_05,pg/ml,"IL-5, IL5, INTERLEUKIN-5",inflammatory,plasma_blood,Th2 cytokine (eosinophilic disease); usually a send-out assay
 interleukin_06,pg/ml,"IL-6, IL6, INTERLEUKIN-6",inflammatory,plasma_blood,
 interleukin_08,pg/ml,"IL-8, IL8, INTERLEUKIN-8, CXCL8",inflammatory,plasma_blood,part of sepsis/cytokine panels; usually a send-out assay
 interleukin_10,pg/ml,"IL-10, IL10, INTERLEUKIN-10",inflammatory,plasma_blood,HLH/sepsis cytokine panels; usually a send-out assay
+interleukin_13,pg/ml,"IL-13, IL13, INTERLEUKIN-13",inflammatory,plasma_blood,Th2 cytokine; usually a send-out assay
 interleukin_18,pg/ml,"IL-18, IL18, INTERLEUKIN-18",inflammatory,plasma_blood,emerging MAS/HLH biomarker; usually a send-out assay
 kim_1,ng/ml,"URINE KIM-1, KIDNEY INJURY MOLECULE-1",aki_biomarkers,urine,
 lactate,mmol/l,"LACTATE, LACTIC ACID, LAC, POC LACTATE, ISTAT LACTATE, POC LAC","misc, poc",plasma_blood,point-of-care result
