@@ -12,7 +12,7 @@ CREATE TABLE adt (
   location_category VARCHAR COMMENT '{"description": "Maps location_name to a standardized list of ADT location categories", "permissible": "[ed, ward, stepdown, icu, procedural, l_and_d, hospice, psych, rehab, radiology, dialysis, other](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/adt/clif_adt_location_categories.csv)"}',
   location_type VARCHAR COMMENT '{"description": "Maps ICU type to a standardized list of ICU categories", "permissible": "[List of ICU categories in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/adt/clif_adt_location_type.csv)"}',
   room_id VARCHAR COMMENT '{"description": "Free-text identifier for the room the patient was assigned to during this ADT segment. Not standardized across sites.", "permissible": "No restriction"}',
-  bed_id VARCHAR COMMENT '{"description": "Free-text identifier for the bed the patient was assigned to during this ADT segment. Not standardized across sites.", "permissible": "No restriction"}',
+  bed_id VARCHAR COMMENT '{"description": "Free-text identifier for the bed the patient was assigned to during this ADT segment. Not standardized across sites. (Optional)", "permissible": "No restriction"}',
   FOREIGN KEY (hospitalization_id) REFERENCES hospitalization(hospitalization_id)
 );
 
@@ -126,9 +126,9 @@ CREATE TABLE labs (
   lab_value_numeric DOUBLE COMMENT '{"description": "Parse out numeric part of the lab_value variable (optional).", "permissible": "Numeric"}',
   reference_unit VARCHAR COMMENT '{"description": "Unit of measurement for that lab.", "permissible": "Permissible reference values for each lab_category listed [here](https://github.com/clif-consortium/CLIF/blob/3.0/mCIDE/labs/clif_lab_categories.csv)"}',
   lab_specimen_name VARCHAR COMMENT '{"description": "Original fluid or tissue name the lab was collected from as given in the source data", "permissible": "No restriction"}',
-  lab_specimen_category VARCHAR COMMENT '{"description": "Fluid or tissue the lab was collected from, analogous to the LOINC \"system\" component.", "permissible": "working CDE c(blood/plasma/serum, urine, csf, other)"}',
-  lab_loinc_code VARCHAR COMMENT '{"description": "[LOINC](https://loinc.org/get-started/loinc-term-basics/) code for the lab", "permissible": "No restrictions"}',
-  loinc_version VARCHAR COMMENT '{"description": "Version or release of the LOINC coding system used for lab_loinc_code, e.g. 1.0 or 1.1.", "permissible": "[LOINC version history](https://loinc.org/history/)"}'
+  lab_specimen_category VARCHAR COMMENT '{"description": "Fluid or tissue the lab was collected from, analogous to the LOINC \"system\" component.", "permissible": "[plasma_blood, pleural, peritoneal, urine, bal](https://github.com/clif-consortium/CLIF/blob/3.0/mCIDE/labs/clif_lab_categories.csv)"}',
+  lab_loinc_code VARCHAR COMMENT '{"description": "[LOINC](https://loinc.org/get-started/loinc-term-basics/) code for the lab (Optional)", "permissible": "No restrictions"}',
+  loinc_version VARCHAR COMMENT '{"description": "Version or release of the LOINC coding system used for lab_loinc_code, e.g. 1.0 or 1.1. (Optional)", "permissible": "[LOINC version history](https://loinc.org/history/)"}'
 );
 
 -- -----------------------------------------------------
@@ -137,6 +137,7 @@ CREATE TABLE labs (
 CREATE TABLE medication_admin_continuous (
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter", "permissible": "No restriction"}',
   med_order_id VARCHAR COMMENT '{"description": "Medication order ID. Foreign key to link this table to other medication tables", "permissible": "No restriction"}',
+  ordering_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the provider who ordered the medication. (Optional)", "permissible": "No restriction"}',
   administering_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the provider who administered the medication.", "permissible": "No restriction"}',
   admin_dttm DATETIME COMMENT '{"description": "Date and time when the medicine was administered. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
   med_name VARCHAR COMMENT '{"description": "Original med name string recorded in the raw data which often contains concentration e.g. NOREPInephrine 8 mg/250 mL", "permissible": "No restriction"}',
@@ -146,7 +147,7 @@ CREATE TABLE medication_admin_continuous (
   med_route_category VARCHAR COMMENT '{"description": "Maps med_route_name to a standardized list of medication delivery routes. Refer to notes.", "permissible": "[List of continuous route categories in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/medication_admin_continuous/clif_medication_admin_continuous_med_route_categories.csv)"}',
   med_dose FLOAT COMMENT '{"description": "Quantity of active drug delivered per unit time", "permissible": "Numeric"}',
   med_dose_unit VARCHAR COMMENT '{"description": "Unit of dose in the format [active ingredient quantity]/[time] (e.g., mcg/min, mg/hr, units/hr, mcg/kg/min). Units are not standardized across drugs, and can be weight-based (e.g., mcg/kg/min). Boluses should be mapped to med_admin_intermittent", "permissible": "No restriction"}',
-  rx_norm_code VARCHAR COMMENT '{"description": "RxNorm RXCUI code identifying the specific drug formulation (active ingredient, strength, dose form, and route) for this administration. Resolved from the combination of med_name, med_route_name, med_dose, and med_dose_unit.", "permissible": "[RxNorm RXCUI](https://www.nlm.nih.gov/research/umls/rxnorm/index.html)"}',
+  rx_norm_code VARCHAR COMMENT '{"description": "RxNorm RXCUI code identifying the specific drug formulation (active ingredient, strength, dose form, and route) for this administration. Resolved from the combination of med_name, med_route_name, med_dose, and med_dose_unit. (Optional)", "permissible": "[RxNorm RXCUI](https://www.nlm.nih.gov/research/umls/rxnorm/index.html)"}',
   volume_infusion_rate FLOAT COMMENT '{"description": "Absolute amount of volume administered over time, measured in [volume]/[time] (e.g., mL/hr). In contrast to med_dose which measures [quantity of drug]/[time] or [quantity of drug]/([time]*[body_weight])", "permissible": "Numeric"}',
   volume_infusion_rate_unit VARCHAR COMMENT '{"description": "Standardized unit of volume infusion rate per med_category in the format [volume]/[time] (e.g., mL/hr, mL/min).", "permissible": "[List of continuous medication categories with standardized volume_infusion_rate_unit in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/medication_admin_continuous/clif_medication_admin_continuous_med_categories.csv)"}',
   mar_action_name VARCHAR COMMENT '{"description": "MAR (medication administration record) action, e.g. stopped", "permissible": "No restriction"}',
@@ -207,6 +208,7 @@ CREATE TABLE microbiology_nonculture(
 CREATE TABLE patient_assessments (
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter", "permissible": "No restriction"}',
   administering_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the provider who administered or recorded the assessment.", "permissible": "No restriction"}',
+  documenting_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the provider who documented the assessment.", "permissible": "No restriction"}',
   recorded_dttm DATETIME COMMENT '{"description": "The exact date and time when the assessment was recorded, ensuring temporal accuracy. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
   assessment_name VARCHAR COMMENT '{"description": "Assessment Tool Name. The primary name of the assessment tool used (e.g., GCS, NRS, SAT Screen).", "permissible": "No restriction"}',
   assessment_category VARCHAR COMMENT '{"description": "Maps assessment_name to a standardized list of patient assessments", "permissible": "[List of permissible assessment categories in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/patient_assessments/clif_patient_assessment_categories.csv)"}',
@@ -231,7 +233,7 @@ CREATE TABLE patient (
   death_dttm DATETIME COMMENT '{"description": "Patient’s death date, including time. Can be sourced from hospital records, or external sources like state vital records registries", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
   language_name VARCHAR COMMENT '{"description": "Patient’s preferred language", "permissible": "Original string from the source data"}',
   language_category VARCHAR COMMENT '{"description": "Maps language_name to a standardized list of spoken languages", "permissible": "[List of language categories in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/patient/clif_patient_language_categories.csv)"}',
-  language_interpreter INT COMMENT '{"description": "Binary indicator for whether the patient requires a medical interpreter (1 = yes, 0 = no). Captures the patient-level interpreter need flag from the source EHR, independent of language_category.", "permissible": "0, 1"}'
+  language_interpreter INT COMMENT '{"description": "Binary indicator for whether the patient requires a medical interpreter (1 = yes, 0 = no). Captures the patient-level interpreter need flag from the source EHR, independent of language_category. (Optional)", "permissible": "0, 1"}'
 );
 
 -- -----------------------------------------------------
@@ -344,6 +346,7 @@ CREATE TABLE key_icu_orders (
 CREATE TABLE medication_admin_intermittent (
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter", "permissible": "No restriction"}',
   med_order_id VARCHAR COMMENT '{"description": "Medication order ID. Foreign key to link this table to other medication tables", "permissible": "No restriction"}',
+  ordering_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the provider who ordered the medication. (Optional)", "permissible": "No restriction"}',
   administering_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the provider who administered the medication.", "permissible": "No restriction"}',
   admin_dttm DATETIME COMMENT '{"description": "Date and time when the medicine was administered. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
   med_name VARCHAR COMMENT '{"description": "Original med name string recorded in the raw data which often contains concentration e.g. NOREPInephrine 8 mg/250 mL", "permissible": "No restriction"}',
@@ -353,7 +356,7 @@ CREATE TABLE medication_admin_intermittent (
   med_route_category VARCHAR COMMENT '{"description": "Maps med_route_name to a standardized list of medication delivery routes", "permissible": "[List of intermittent route categories in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/medication_admin_intermittent/clif_medication_admin_intermittent_med_route_categories.csv)"}',
   med_dose FLOAT COMMENT '{"description": "Quantity taken in dose", "permissible": "Numeric"}',
   med_dose_unit VARCHAR COMMENT '{"description": "Standardized unit of dose for the med_category. Raw doses should be converted into the category-specific unit.", "permissible": "[List of intermittent med_dose_units in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/medication_admin_intermittent/clif_medication_admin_intermittent_med_categories.csv)"}',
-  rx_norm_code VARCHAR COMMENT '{"description": "RxNorm RXCUI code identifying the specific drug formulation (active ingredient, strength, dose form, and route) for this administration. Resolved from the combination of med_name, med_route_name, med_dose, and med_dose_unit.", "permissible": "[RxNorm RXCUI](https://www.nlm.nih.gov/research/umls/rxnorm/index.html)"}',
+  rx_norm_code VARCHAR COMMENT '{"description": "RxNorm RXCUI code identifying the specific drug formulation (active ingredient, strength, dose form, and route) for this administration. Resolved from the combination of med_name, med_route_name, med_dose, and med_dose_unit. (Optional)", "permissible": "[RxNorm RXCUI](https://www.nlm.nih.gov/research/umls/rxnorm/index.html)"}',
   mar_action_name VARCHAR COMMENT '{"description": "MAR (medication administration record) action, e.g. stopped", "permissible": "No restriction"}',
   mar_action_category VARCHAR COMMENT '{"description": "Maps mar_action_name to a standardized list of MAR actions", "permissible": "[List of intermittent action categories in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/medication_admin_intermittent/clif_medication_admin_intermittent_action_categories.csv)"}',
   mar_action_group VARCHAR COMMENT '{"description": "Maps mar_action_category to whether the action means the medication was administered or not.", "permissible": "[administered, not_administered, other](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/medication_admin_intermittent/clif_medication_admin_intermittent_action_categories.csv)"}'
@@ -376,7 +379,7 @@ CREATE TABLE medication_orders (
   med_route_name VARCHAR COMMENT '{"description": "Route of administration for the medication", "permissible": "No restriction. Examples include Oral, Intravenous"}',
   med_dose DOUBLE COMMENT '{"description": "Dosage of the medication ordered", "permissible": "Numeric"}',
   med_dose_unit VARCHAR COMMENT '{"description": "Unit of measurement for the medication dosage", "permissible": "Examples include mg, mL, units"}',
-  rx_norm_code VARCHAR COMMENT '{"description": "RxNorm RXCUI code identifying the specific drug formulation (active ingredient, strength, dose form, and route) for this order. Resolved from the combination of med_name, med_route_name, med_dose, and med_dose_unit.", "permissible": "[RxNorm RXCUI](https://www.nlm.nih.gov/research/umls/rxnorm/index.html)"}',
+  rx_norm_code VARCHAR COMMENT '{"description": "RxNorm RXCUI code identifying the specific drug formulation (active ingredient, strength, dose form, and route) for this order. Resolved from the combination of med_name, med_route_name, med_dose, and med_dose_unit. (Optional)", "permissible": "[RxNorm RXCUI](https://www.nlm.nih.gov/research/umls/rxnorm/index.html)"}',
   med_frequency VARCHAR COMMENT '{"description": "Frequency with which the medication is administered, as per the order", "permissible": "Examples include Once Daily, Every 6 hours"}',
   prn BOOLEAN COMMENT '{"description": "Indicates whether the medication is to be given as needed (PRN)", "permissible": "0 = No, 1 = Yes"}'
 );
