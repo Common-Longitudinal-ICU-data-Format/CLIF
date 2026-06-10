@@ -7,21 +7,21 @@ pa_diastolic,Pulmonary Artery Diastolic Pressure (mmHg),Numeric values 0-200
 pa_mean,Pulmonary Artery mean pressure (mmHg),Numeric values less than pa_systolic and greater than pa_diastolic
 pcwp,Pulmonary Capillary Wedge Pressure (mmHg),Numeric values 0-100
 cco,Continuous Cardiac Output (L/min),Numeric values 0-30
-cardiac_output_thermodilution,Cardiac Output by Thermodilution (L/min),Numeric values 0-30
-cardiac_index,Cardiac Index (Liters/min/meter^2),Numeric values 0.1-10
-cardiac_output_fick,Cardiac Output by Fick Equation (Liters/min),Numeric values 0-30
-stroke_volume,Stroke Volume (mL),Numeric values 0-200
-ppv,Pulse Pressure Variance (mmHg),Numeric values 0-200
+co_thermodilution,Cardiac Output by Thermodilution (L/min),Numeric values 0-30
+co_index,Cardiac Index (Liters/min/meter^2),Numeric values 0.1-10
+co_fick,Cardiac Output by Fick Equation (Liters/min),Numeric values 0-30
+sv,Stroke Volume (mL),Numeric values 0-200
 svv,Stroke Volume Variance (mm/Hg),Numeric values 0-200
-svi,Stroke Volume Index (mL/m^2),Numeric values 0-200
+sv_index,Stroke Volume Index (mL/m^2),Numeric values 0-200
 svr,"Systemic Vascular Resistance, also known as Total Peripheral Resistance",Numeric values 100-10000
-svri,Systemic Vascular Resistance Index also known as Total Peripheral Resistance Index,Numeric values 100-10000
+svr_index,Systemic Vascular Resistance Index also known as Total Peripheral Resistance Index,Numeric values 100-10000
 evlw,Extravascular Lung Water (mL),Numeric values 0-1000
-evlwi,Extravascular Lung Water Index (mL/kg),Numeric values 0-1000
-ef,Global Ejection Fraction (%),Numeric values 0-100
-itbi,Intrathoracic Blood Volume Index (mL/meter^2),Numeric values 0-5000
+evlw_index,Extravascular Lung Water Index (mL/kg),Numeric values 0-1000
+gef,Global Ejection Fraction (%),Numeric values 0-100
+itbv_index,Intrathoracic Blood Volume Index (mL/meter^2),Numeric values 0-5000
 gedv,Global End-diastolic Volume (mL),Numeric values 0-5000
-lvswi,Left Ventricular Stroke Work Index (J/m^2),Numeric values 0-5000
+gedv_index,Global End-diastolic Volume Index (mL/meter^2),Numeric values 0-5000
+lvsw_index,Left Ventricular Stroke Work Index (J/m^2),Numeric values 0-5000
 tfcd0,Thoracic Fluid Content delta from baseline (%),Numeric values 0-100
 tfc,Thoracic Fluid Content (mL),Numeric values 0-100
 do2,Delivery of oxygen (mL/min/meter^2),Numeric values 100-10000
