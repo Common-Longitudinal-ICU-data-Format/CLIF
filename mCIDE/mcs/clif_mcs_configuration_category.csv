@@ -9,7 +9,7 @@ hybrid,for mcs_category == ecmo but none of the above
 cp,for mcs_category == lvad & mcs_device == impella
 2_5,for mcs_category == lvad & mcs_device == impella
 2_5_or_cp,for mcs_category == lvad & mcs_device == impella
-5,for mcs_category == lvad & mcs_device == impella
+5_0,for mcs_category == lvad & mcs_device == impella
 5_5,for mcs_category == lvad & mcs_device == impella
 rp,for mcs_category == lvad & mcs_device == impella
 rp_flex,for mcs_category == lvad & mcs_device == impella

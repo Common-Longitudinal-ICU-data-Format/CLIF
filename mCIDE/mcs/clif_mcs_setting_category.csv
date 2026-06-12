@@ -6,7 +6,7 @@ fdo2,Fraction of delivered oxygen (unitless). Applies to ECMO only,0–1
 p_ven,Drainage pressure (mmHg),0-500
 p_art,Return pressure (mmHg),0-500
 delta_pressure,Pressure measured across the oxygenator (mmHg),0-500
-frequency,"Reported as a ratio (1:1, 1:2), only report final number",0-4
 power,Power consumption of ventricular assist device (Watts),0-20
 pulsatility_index,"Pulsatility index, relative pulsatility of the ventricle (unitless)",0-20
 performance,"Impella ""P"" level (unitless)",0-9
+iabp_ratio,"Rate of counterpulsation relative to heart rate reported as 1:1, 1:2, 1:3. Applies to IABP only",0-4
