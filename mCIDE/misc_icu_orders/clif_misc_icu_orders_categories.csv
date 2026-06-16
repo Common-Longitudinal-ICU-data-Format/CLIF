@@ -1,0 +1,7 @@
+order_category,description,order_name_examples
+eeg,EEG / electroencephalogram order,"EEG, Electroencephalogram, Continuous EEG"
+restraints,Restraint order,"Restraints, Restraint Order"
+wound_care,Wound care order,"Wound Care, Wound Care Order"
+oob,Out of bed / mobility order,"Out of Bed, OOB, Activity Order"
+foley,Foley / urinary catheter order,"Foley, Foley Catheter, Urinary Catheter"
+extubation,Extubation order,"Extubation, Extubate"

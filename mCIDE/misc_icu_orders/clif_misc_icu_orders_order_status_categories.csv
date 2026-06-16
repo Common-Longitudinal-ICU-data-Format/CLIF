@@ -1,0 +1,5 @@
+order_status_category,description
+sent,Order has been placed and sent to the receiving service
+completed,Order has been completed
+resulted,Order results have been reported
+canceled,Order was canceled before completion

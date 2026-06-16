@@ -330,14 +330,27 @@ CREATE TABLE invasive_hemodynamics (
 );
 
 -- -----------------------------------------------------
--- Table: key_icu_orders
+-- Table: consult_orders
 -- -----------------------------------------------------
-CREATE TABLE key_icu_orders (
+CREATE TABLE consult_orders (
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter", "permissible": "No restriction"}',
   order_dttm DATETIME COMMENT '{"description": "Date and time when the order was placed. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
   order_name VARCHAR COMMENT '{"description": "Name of the specific order from source EHR data (e.g., PT Evaluation, Social Work Consult, Nutrition Consult).", "permissible": "No restriction"}',
-  order_category VARCHAR COMMENT '{"description": "Maps order_name to a standardized list of ICU consult/order categories (MIMIC-IV-aligned).", "permissible": "[pt, social_work, ot, nutrition, swallowing, respiratory, interpreter, skin_care, pain_services, addiction_nurse, speech, pastoral_services, palliative_care, psych_liaison_nurse, et_nurse, eeg, other](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/key_icu_orders/clif_key_icu_orders_categories.csv)"}',
-  order_status_category VARCHAR COMMENT '{"description": "Standardized status of the order.", "permissible": "[sent, completed, resulted, canceled](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/key_icu_orders/clif_key_icu_orders_order_status_categories.csv)"}'
+  order_category VARCHAR COMMENT '{"description": "Maps order_name to a standardized list of ICU consult categories.", "permissible": "[pt, ot, speech, swallowing, nutrition, respiratory, social_work, skin_care, ostomy_care, pain_services, addiction_sud, psychiatry, pastoral_services, palliative_care, interpreter](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/consult_orders/clif_consult_orders_categories.csv)"}',
+  order_status_name VARCHAR COMMENT '{"description": "Name of the order status from source EHR data (e.g., Sent, Completed, Canceled).", "permissible": "No restriction"}',
+  order_status_category VARCHAR COMMENT '{"description": "Maps order_status_name to a standardized status of the order.", "permissible": "[sent, completed, resulted, canceled](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/consult_orders/clif_consult_orders_order_status_categories.csv)"}'
+);
+
+-- -----------------------------------------------------
+-- Table: misc_icu_orders
+-- -----------------------------------------------------
+CREATE TABLE misc_icu_orders (
+  hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter", "permissible": "No restriction"}',
+  order_dttm DATETIME COMMENT '{"description": "Date and time when the order was placed. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
+  order_name VARCHAR COMMENT '{"description": "Name of the specific order from source EHR data (e.g., Continuous EEG, Restraint Order, Foley Catheter).", "permissible": "No restriction"}',
+  order_category VARCHAR COMMENT '{"description": "Maps order_name to a standardized list of miscellaneous ICU order categories.", "permissible": "[eeg, restraints, wound_care, oob, foley, extubation](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/misc_icu_orders/clif_misc_icu_orders_categories.csv)"}',
+  order_status_name VARCHAR COMMENT '{"description": "Name of the order status from source EHR data (e.g., Sent, Completed, Canceled).", "permissible": "No restriction"}',
+  order_status_category VARCHAR COMMENT '{"description": "Maps order_status_name to a standardized status of the order.", "permissible": "[sent, completed, resulted, canceled](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/misc_icu_orders/clif_misc_icu_orders_order_status_categories.csv)"}'
 );
 
 -- -----------------------------------------------------

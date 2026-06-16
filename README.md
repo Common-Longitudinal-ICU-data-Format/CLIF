@@ -36,6 +36,7 @@ Each CLIF table has an assigned clinician who serves as the primary point of con
 | clinical_notes_text           | Peter Graffy, PhD, MPH                      |                                                      |                        |
 | clinical_trial                |                                             |                                                      |                        |
 | code_status                   | Nathan Mesfin, MD                           | mesfin@umn.edu                                       | mesfi005               |
+| consult_orders                | William Parker, MD, PhD & Bhakti Patel, MD  | wparker@uchicago.edu; bpatel@bsd.uchicago.edu        | 08wparker              |
 | crrt_therapy                  | William Parker, MD                          | wparker@uchicago.edu                                 | 08wparker              |
 | drain                         | Pat Lyons, MD                               | lyonspa@ohsu.edu                                     | plyons                 |
 | ed_encounter                  | David Beiser, MD                            |                                                      | beiser-lab             |
@@ -45,7 +46,6 @@ Each CLIF table has an assigned clinician who serves as the primary point of con
 | input                         | Shan Guleria, MD                            | shan.guleria@uchicagomedicine.org                    | shanguleria            |
 | intermittent_dialysis         | Jay Koyner, MD                              | jkoyner@uchicago.edu                                 |                        |
 | invasive_hemodynamics         | Max Hockstein, MD, MS                       |                                                      |                        |
-| key_icu_orders                | William Parker, MD, PhD & Bhakti Patel, MD  | wparker@uchicago.edu; bpatel@bsd.uchicago.edu        | 08wparker              |
 | labs                          | Catherine Gao, MD & William Parker, MD, PhD | catherine.gao@northwestern.edu; wparker@uchicago.edu | cloverbunny; 08wparker |
 | line                          | Pat Lyons, MD                               | lyonspa@ohsu.edu                                     | plyons                 |
 | medication_admin_continuous   | Chad Hochberg, MD                           | chochbe1@jh.edu                                      | chochbe1               |
@@ -54,6 +54,7 @@ Each CLIF table has an assigned clinician who serves as the primary point of con
 | microbiology_culture          | Kevin Buell, MBBS & Aartik Sarma, MD        | kevin.buell@uchicagomedicine.org                     | kevingbuell            |
 | microbiology_nonculture       | Kevin Buell, MBBS & Aartik Sarma, MD        | kevin.buell@uchicagomedicine.org                     | kevingbuell            |
 | microbiology_susceptibility   | Kevin Buell, MBBS & Aartik Sarma, MD        | kevin.buell@uchicagomedicine.org                     | kevingbuell            |
+| misc_icu_orders               | William Parker, MD, PhD & Bhakti Patel, MD  | wparker@uchicago.edu; bpatel@bsd.uchicago.edu        | 08wparker              |
 | model_registry                | J.C. Rojas, MD                              | juan_rojas@rush.edu                                  | sajor2000              |
 | output                        | Shan Guleria, MD                            | shan.guleria@uchicagomedicine.org                    | shanguleria            |
 | patient                       | Pat Lyons, MD                               | lyonspa@ohsu.edu                                     | plyons                 |

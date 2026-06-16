@@ -89,7 +89,14 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   </details>
 
   <details>
-  <summary><code>key_icu_orders/</code></summary>
+  <summary><code>consult_orders/</code></summary>
+
+  - order_category
+  - order_status_category
+  </details>
+
+  <details>
+  <summary><code>misc_icu_orders/</code></summary>
 
   - order_category
   - order_status_category
