@@ -32,9 +32,9 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   </details>
 
   <details>
-  <summary><code>crrt_therapy/</code></summary>
+  <summary><code>renal_replacement_therapy/</code></summary>
 
-  - crrt_mode_category
+  - mode_category
   </details>
 
   <details>

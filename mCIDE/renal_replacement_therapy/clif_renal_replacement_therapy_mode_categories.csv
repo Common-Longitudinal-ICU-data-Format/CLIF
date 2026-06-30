@@ -1,0 +1,8 @@
+mode_category,description,mode_name_examples
+scuf,Slow Continuous Ultrafiltration,"scuf, SCUF, Slow Cont Ultrafiltration"
+cvvh,Continuous Veno-Venous Hemofiltration,"cvvh, CVVH, Cont VV Hemofiltration"
+cvvhd,Continuous Veno-Venous Hemodialysis,"cvvhd, CVVHD, Cont VV Hemodialysis"
+cvvhdf,Continuous Veno-Venous Hemodiafiltration,"cvvhdf, CVVHDF, Cont VV Hemodiafiltration"
+avvh,Accelerated Veno-Venous Hemofiltration also called ARRT or PIRRT,"PIRRT, AVVH, ARRT"
+ihd,Intermittent Hemodialysis,"ihd, IHD, Intermittent Hemodialysis, HD"
+iuf,Isolated Ultrafiltration,"iuf, IUF, Isolated Ultrafiltration"

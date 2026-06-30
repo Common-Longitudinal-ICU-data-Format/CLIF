@@ -37,14 +37,12 @@ Each CLIF table has an assigned clinician who serves as the primary point of con
 | clinical_trial                |                                             |                                                      |                        |
 | code_status                   | Nathan Mesfin, MD                           | mesfin@umn.edu                                       | mesfi005               |
 | consult_orders                | William Parker, MD, PhD & Bhakti Patel, MD  | wparker@uchicago.edu; bpatel@bsd.uchicago.edu        | 08wparker              |
-| crrt_therapy                  | William Parker, MD                          | wparker@uchicago.edu                                 | 08wparker              |
 | drain                         | Pat Lyons, MD                               | lyonspa@ohsu.edu                                     | plyons                 |
 | ed_encounter                  | David Beiser, MD                            |                                                      | beiser-lab             |
 | mcs                           | Maxwell Hockstein, MD & Shan Guleria, MD    | shan.guleria@uchicagomedicine.org                    | shanguleria            |
 | hospital_diagnosis            |                                             |                                                      |                        |
 | hospitalization               | Nicholas Ingraham, MD                       | ingra107@umn.edu                                     | ingra107               |
 | input                         | Shan Guleria, MD                            | shan.guleria@uchicagomedicine.org                    | shanguleria            |
-| intermittent_dialysis         | Jay Koyner, MD                              | jkoyner@uchicago.edu                                 |                        |
 | invasive_hemodynamics         | Max Hockstein, MD, MS                       |                                                      |                        |
 | labs                          | Catherine Gao, MD & William Parker, MD, PhD | catherine.gao@northwestern.edu; wparker@uchicago.edu | cloverbunny; 08wparker |
 | line                          | Pat Lyons, MD                               | lyonspa@ohsu.edu                                     | plyons                 |
@@ -66,6 +64,7 @@ Each CLIF table has an assigned clinician who serves as the primary point of con
 | position                      | Chad Hochberg, MD                           | chochbe1@jh.edu                                      | chochbe1               |
 | provider                      | Nicholas Ingraham, MD                       | ingra107@umn.edu                                     | ingra107               |
 | radiology                     | Aartik Sarma, MD                            |                                                      |                        |
+| renal_replacement_therapy     | Jay Koyner, MD & Shan Guleria, MD           | jkoyner@uchicago.edu; shan.guleria@uchicagomedicine.org | shanguleria         |
 | respiratory_support           | Nicholas Ingraham, MD                       | ingra107@umn.edu                                     | ingra107               |
 | scores                        | J.C. Rojas, MD                              | juan_rojas@rush.edu                                  | sajor2000              |
 | therapy_details               | William Parker, MD, PhD & Bhakti Patel, MD  | wparker@uchicago.edu; bpatel@bsd.uchicago.edu        | 08wparker              |

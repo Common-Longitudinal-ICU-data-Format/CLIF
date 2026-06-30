@@ -1,6 +1,0 @@
-﻿column,lower_limit,upper_limit
-blood_flow_rate,150,300
-pre_filter_replacement_fluid_rate,0,10000
-post_filter_replacement_fluid_rate,0,10000
-dialysate_flow_rate,0,10000
-ultrafilteration_out,0,500
