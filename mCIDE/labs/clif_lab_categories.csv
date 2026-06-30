@@ -70,6 +70,7 @@ methadone,(no units),URINE METHADONE,urine_toxicology,urine,methadone + EDDP met
 monocytes_absolute,10^3/µl,"MONO#, MONOCYTES ABS, MONO ABSOLUTE",cbc,plasma_blood,
 monocytes_percent,%,"BAL MONOCYTES %, BAL MONOS %, MONO%, MONOCYTES %, MONO PERCENT, PERITONEAL MONOCYTES %, ASCITES MONOS %, PLEURAL MONOCYTES %, PLEURAL MONOS %","bal_panel, cbc, peritoneal_fluid_panel, pleural_fluid_panel","bal, plasma_blood, peritoneal, pleural",percentage of nucleated cells on BAL differential
 nag,u/l,"URINE NAG, N-ACETYL-BETA-D-GLUCOSAMINIDASE",aki_biomarkers,urine,may also be reported as U/g creatinine if normalized
+neuron_specific_enolase,ng/ml,"NSE, NEURON-SPECIFIC ENOLASE, NEURON SPECIFIC ENOLASE",misc,plasma_blood,used for neuroprognostication after cardiac arrest/hypoxic-ischemic brain injury; also a neuroendocrine/small-cell tumor marker; usually a send-out assay (often PDF result); may also be reported as µg/L (equivalent to ng/mL)
 neutrophils_absolute,10^3/µl,"NEUT#, ANC, NEUTROPHILS ABS, PMN#",cbc,plasma_blood,
 neutrophils_absolute,cells/μl,"BAL ABSOLUTE NEUTROPHILS, BAL ANC",bal_panel,bal,may also be reported as cells/mm³
 neutrophils_percent,%,"BAL NEUTROPHILS %, BAL NEUTS %, NEUT%, NEUTROPHILS %, NEUT PERCENT, PMN%, PERITONEAL NEUTROPHILS %, ASCITES NEUTS %, PLEURAL NEUTROPHILS %, PLEURAL NEUTS %","bal_panel, cbc, peritoneal_fluid_panel, pleural_fluid_panel","bal, plasma_blood, peritoneal, pleural",percentage of nucleated cells on BAL differential; absolute PMN >=250 cells/μl suggests spontaneous bacterial peritonitis
