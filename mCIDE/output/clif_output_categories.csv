@@ -12,12 +12,15 @@ gi_output_other,Quantified upper GI output from a GI source not otherwise specif
 ileostomy,GI output from an ileostomy,,gi
 indwelling_urinary_catheter,Urine output obtained via indwelling catheter (e.g. Foley),,urine
 jejunostomy,GI output from a jejunostomy,,gi
+lumbar_csf_drain,Cerebrospinal fluid drained via lumbar catheter,,cns
 nephrostomy,Urine output obtained via nephrostomy tube,,urine
 orogastric_nasogastric_tube,GI output from a nasogastric or orogastric tube,,gi
 orogjejunal_nasojejunal_tube,GI output from a nasojejunal or orojejunal tube,,gi
 other,Any additional fluid output not captured by the above,,other
+other_cns_drain,CNS-related drainage not clearly ventricular or lumbar.,,cns
 other_procedure,Fluid removed in a single procedure without an indwelling drain,,procedure
 ostomy_gi_other,GI output from an ostomy connecting the GI tract to the skin but not accounted for in another category,,gi
+pd_output,Output from peritoneal dialysis,,renal_replacement_output
 paracentesis,Fluid removed from the peritoneum via paracentesis,,procedure
 pericardial_drain,Drain placed into the pericardial space,,drains
 peritoneal_drain,Drain placed into the peritoneal space to drain ascites (distinct from abscess or other drainage) or PD fluid,,drains
@@ -31,5 +34,6 @@ ultrafiltration,Net ultrafiltration from dialysis via ultrafiltration. Do not in
 urethral,Urine output flowing through urethra,,urine
 urostomy,Urine output obtained via urostomy,,urine
 urinary_other,Other urinary diversion (e.g. ureterostomy),,urine
+ventricular_csf_drain,Drainage of cerebrospinal fluid from the ventricular system (e.g external ventricular drain, ventriculostomy),,cns
 wound_drain,Drain connected to a wound (e.g. wound vac),,drains
 
