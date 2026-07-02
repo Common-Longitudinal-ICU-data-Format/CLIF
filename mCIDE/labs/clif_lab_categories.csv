@@ -90,7 +90,6 @@ platelet_count,10^3/µl,"PLT, PLATELETS, PLATELET COUNT",cbc,plasma_blood,
 po2_arterial,mmhg,"PAO2, ARTERIAL PO2, ABG PO2",blood_gas,plasma_blood,
 po2_mixed_venous,mmhg,"PO2 MIXED VENOUS, MIXED VENOUS PO2, SVO2 PO2",mixed_venous_blood_gas,plasma_blood,from mixed venous sample (typically PA catheter); distinct from peripheral venous PO2
 potassium,mmol/l,"K, POTASSIUM, SERUM K, POC POTASSIUM, ISTAT K, POC K","bmp, poc",plasma_blood,point-of-care result
-probnp,pg/ml,"PERITONEAL NT-PROBNP, PERITONEAL PROBNP, PLEURAL NT-PROBNP, PLEURAL PROBNP","peritoneal_fluid_panel, pleural_fluid_panel","peritoneal, pleural",
 procalcitonin,ng/ml,"PCT, PROCALCITONIN, PRO-CALCITONIN",inflammatory,plasma_blood,
 protein,g/dl,"PERITONEAL FLUID PROTEIN, ASCITES PROTEIN, PLEURAL FLUID PROTEIN, PLEURAL PROTEIN","peritoneal_fluid_panel, pleural_fluid_panel","peritoneal, pleural",
 protein,mg/dl,"URINE PROTEIN, UPROT",urine_chemistry,urine,
