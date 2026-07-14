@@ -27,7 +27,7 @@ muscle,Muscle (Excluding Cardiac),,
 nasopharynx_upperairway,Upper Airway and Nasopharynx,"Nasal cavity and nasopharynx, includes respiratory viral swabs obtained by nasal swab ",CULTURE NASAL
 oropharynx_tongue_oralcavity,"Tongue, Oral Cavity, and Oro-Pharynx",,CULTURE FUNGAL THROAT
 other_unspecified,Other Unspecified,Includes samples that do not categorise into any of the above. ,
-peritoneum,Peritoneum,Surgical specimens of the parietal or visceral peritoneum ,
+peritoneum,Peritoneum,"ascites fluid, Surgical specimens of the parietal or visceral peritoneum",
 pleural_cavity_fluid,"Pleural Cavity, Pleural Fluid",,
 prostate,Prostate,,
 respiratory_tract,Respiratory Tract Unspecified,"Respiratory samples (1) spontaneously exporated or exporated with non-invasive assistance by the patient, (2) collected by a healthcare worker from below the vocal cords and above the carina, or (3) collected from an unknown location. This includes regular expectorated sputum samples, sputum by induction, endotracheal tube aspirates, tracheostomy aspirates and tracheal samples. ","HP CULTURE & STAIN, RESPIRATORY"
