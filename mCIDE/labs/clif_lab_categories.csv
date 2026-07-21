@@ -40,8 +40,7 @@ ferritin,ng/ml,"FERRITIN, SERUM FERRITIN, FERR",inflammatory,plasma_blood,
 fibrinogen,mg/dl,"FIBRINOGEN, FIB, FIBRINOGEN LEVEL",coags,plasma_blood,
 free_t3,pg/ml,"FREE T3, FT3, FREE TRIIODOTHYRONINE",tft,plasma_blood,
 free_t4,ng/dl,"FREE T4, FT4, FREE THYROXINE",tft,plasma_blood,
-glucose,mg/dl,"PERITONEAL FLUID GLUCOSE, ASCITES GLUCOSE, PLEURAL FLUID GLUCOSE, POC GLUCOSE, FINGERSTICK GLUCOSE, ACCUCHECK, BEDSIDE GLUCOSE","peritoneal_fluid_panel, pleural_fluid_panel, poc","peritoneal, pleural, plasma_blood",point-of-care/bedside glucose
-glucose_serum,mg/dl,"GLUCOSE, SERUM GLUCOSE, BLOOD GLUCOSE, GLU",bmp,plasma_blood,
+glucose,mg/dl,"GLUCOSE, SERUM GLUCOSE, BLOOD GLUCOSE, GLU, POC GLUCOSE, FINGERSTICK GLUCOSE, ACCUCHECK, BEDSIDE GLUCOSE, PERITONEAL FLUID GLUCOSE, ASCITES GLUCOSE, PLEURAL FLUID GLUCOSE","bmp, peritoneal_fluid_panel, pleural_fluid_panel, poc","peritoneal, pleural, plasma_blood","serum/plasma, point-of-care, and body fluid glucose; use lab_specimen_category and lab_order_category to distinguish"
 hematocrit,%,"HCT, HEMATOCRIT, HEMATOCRIT VALUE, POC HEMATOCRIT, ISTAT HCT, POC HCT","cbc, poc",plasma_blood,point-of-care result
 hematocrit_percent,%,"PERITONEAL HCT %, PERITONEAL HEMATOCRIT, PLEURAL HCT %, PLEURAL HEMATOCRIT","peritoneal_fluid_panel, pleural_fluid_panel","peritoneal, pleural",
 hemoglobin,g/dl,"HGB, HB, HEMOGLOBIN",cbc,plasma_blood,
