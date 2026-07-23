@@ -53,7 +53,6 @@ nitroglycerin,mcg,mcg/min,Nitrate vasodilator for angina and hypertension,"NITRO
 nitroprusside,mcg,mcg/kg/min,Arterial vasodilator for hypertensive emergency,"NITROPRUSSIDE 50 MG/250 ML IV INFUSION, NITROPRUSSIDE 0.3-10 MCG/KG/MIN IV",cardiac
 norepinephrine,mcg,mcg/kg/min,Catecholamine for hemodynamic support,"NOREPINEPHRINE 16 MG/250 ML IV INFUSION, NOREPINEPHRINE 0.01-3 MCG/KG/MIN IV",vasoactives
 octreotide,mcg,mcg/hr,Somatostatin analog for GI bleeding,"OCTREOTIDE 1000 MCG/250 ML IV INFUSION, OCTREOTIDE 25-50 MCG/HR IV",gastrointestinal
-oxytocin,milli_units,milli_units/min,Hormone for labor induction and postpartum bleeding,"OXYTOCIN 30 UNITS/500 ML IV INFUSION, OXYTOCIN 1-20 MILLIUNITS/MIN IV",endocrine
 pantoprazole,mg,mg/hr,Proton pump inhibitor for acid suppression,"PANTOPRAZOLE 80 MG/100 ML IV INFUSION, PANTOPRAZOLE 8 MG/HR IV CONTINUOUS",gastrointestinal
 papaverine,mg,mg/hr,Smooth muscle relaxant vasodilator,"PAPAVERINE 300 MG/250 ML IV INFUSION, PAPAVERINE 30-60 MG/HR IV ARTERIAL",cardiac
 pentobarbital,mg,mg/kg/hr,Barbiturate for refractory intracranial hypertension,"PENTOBARBITAL 500 MG/250 ML IV INFUSION, PENTOBARBITAL 1-5 MG/KG/HR IV",sedation
