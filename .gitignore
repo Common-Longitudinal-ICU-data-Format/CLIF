@@ -1,5 +1,6 @@
 .DS_Store
 .github/
+.claude/
 
 # Ignore Parquet, excel, and R project files
 *.parquet
@@ -17,3 +18,9 @@
 # test files
 test.csv
 test_predictions.csv
+
+# generated Claude skill artifacts (rebuild with skills/build_skill.sh)
+# note: skills/mcide-mapper.zip is intentionally committed — sites download it directly
+skills/mcide-mapper/vocab/
+skills/mcide-mapper/reference/INDEX.md
+skills/mcide-mapper/VERSION
