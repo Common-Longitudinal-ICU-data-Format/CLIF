@@ -16,7 +16,9 @@ Re-download and re-upload the zip when the mCIDE vocabularies change — Claude 
 
 1. Open your workbook with the raw names (e.g., a `med_name` column, ideally with a dose-unit column alongside) and open the Claude for Excel sidebar.
 2. Ask naturally, for example:
-   > Map column B to mCIDE med_category for medication_admin_continuous, site = RUSH
+   > Map column B to mCIDE med_category for medication_admin_continuous
+
+   Adding `, site = <your short name>` is optional — it only fills the `site` column and the sheet name, which matter when mapping files are pooled across sites. Leave it out and Claude writes `SITE`, which you can find-and-replace later.
    If the skill doesn't trigger automatically, type `/` and pick **mcide-mapper**.
 3. Claude appends review columns (`<var>_category`, `mapping_confidence`, `needs_review`, `mapping_note`) and creates a `clif_vocab_...` mapping sheet.
 4. **Review before use in ETL**: filter `needs_review = TRUE`, have a clinician or data manager correct those rows, then export the mapping sheet.

@@ -29,7 +29,7 @@ This is the format CLIF sites exchange and feed into ETL (matches the consortium
   - `<var>_category` — the mapped mCIDE category (or `no_match`)
   - `<var>_name` — the site's raw EHR string, exactly as it appears in their data
   - `n` — frequency of that raw string (carried through from the user's count column if the sheet has one; otherwise counted during dedup; 1 only for a deduplicated list with no counts)
-  - `site` — the site short name (ask the user; e.g., RUSH, UCMC, JHU)
+  - `site` — the site short name if known, otherwise the literal `SITE`. This is a provenance label for pooling mapping files across the consortium; it never affects which category is chosen, so never hold up a mapping run waiting for it.
 - **Sort:** by `<var>_category` ascending, then `n` descending.
 - One row per unique raw value.
 
