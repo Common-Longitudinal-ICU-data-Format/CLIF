@@ -50,6 +50,18 @@ If a valid prior mapping contradicts what you would have chosen (including when 
 
 ## Prior entries absent from current data
 
-Raw names in the prior mapping that do not appear in the current extract are usually discontinued formulary items. Do not add them to the output. Report the count, and list them only if there are few (≤10) or the user asks.
+A prior name counts as absent only if it fails **both** the exact and the normalized comparison used in Step 3 — a prior entry differing from a current name by case or whitespace alone is a match, not a leftover. Genuinely absent names are usually discontinued formulary items. Never carry them into the canonical `clif_vocab` sheet — that sheet describes the current data.
 
-Before dismissing them, give each a quick sanity check against the vocab — a wrong mapping that happens to be dormant is invisible otherwise, and this file becomes the input to the next round, where the item may reappear and be reused silently. Call out any entry whose category is retired or clearly does not match its raw name (e.g., `DESMOPRESSIN 4 MCG/ML IV` mapped to `vasopressin` — a different drug), and recommend re-review rather than reuse if it returns.
+Instead, when a prior mapping was supplied and at least one of its names is absent from the current data, offer to write them to their own sheet, `prior_unmatched_<variable>` (CSV fallback: `prior_unmatched_<variable>_<site>.csv`). Ask the user first, per Step 5 — after the main outputs are written, defaulting to yes, and never in a non-interactive run. Columns:
+
+| Column | Contents |
+|---|---|
+| `<var>_name` | the raw name, exactly as it appears in the prior mapping |
+| `prior_<var>_category` | the category it was mapped to previously |
+| `category_still_valid` | `TRUE` if that category exists in the current vocab CSV, `FALSE` if it has been retired, `n/a` if the prior category was `no_match` (nothing was retired — it was never mapped) |
+| `prior_n` | the prior file's count, if it had one; otherwise blank |
+| `note` | why it is worth a look, blank if nothing stands out |
+
+Give each entry a quick sanity check against the vocab before writing it. A wrong mapping that happens to be dormant is invisible otherwise, and the prior file becomes the input to the next round, where the item may reappear and be reused silently. Put a note on any entry whose category is retired (`category_still_valid = FALSE`) or that clearly does not match its raw name — e.g., `DESMOPRESSIN 4 MCG/ML IV` mapped to `vasopressin`, a different drug — recommending re-review rather than reuse if it returns.
+
+In the report, give the count and point the user at the sheet; list individual entries in prose only if there are few (≤10) or the user asks. Say plainly that these are not errors by default — a name absent from one extract is usually just a discontinued or seasonal formulary item — but that the flagged ones deserve a look.

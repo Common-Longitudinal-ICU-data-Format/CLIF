@@ -43,7 +43,18 @@ Sites usually have mappings they made in an earlier round. Reusing them keeps ca
 
 ### Step 3 — Map each unique value
 
-- If Step 2b matched this value to a prior mapping, reuse that category — do not re-derive it. Skip to the next value. Only unmatched values are mapped from scratch here.
+Resolve each unique value through this cascade and **stop at the first layer that hits** — the early layers are lookups that cost nothing, and re-deriving a value that a lookup already settled is wasted effort and a source of inconsistency:
+
+1. **Exact match in the site's prior mapping** (Step 2b) → reuse, `prior_mapping`, `high`.
+2. **Normalized match in the prior mapping** (trim, collapse whitespace, case-insensitive) → reuse, `prior_mapping`, `high`.
+3. **Exact or normalized match to a category name or a listed `*_name_examples` value** in the vocab CSV → `new_mcide`, `high`. A raw name that is such a value plus only a strength, volume, route, or formulation suffix (`VASOPRESSIN 20 UNITS/100 ML IV`, `LACTATED RINGERS 1000 ML IV`) still belongs here — the drug identity matched exactly, so it is `high`, not layer 4. The exception is where the vocab splits on that very suffix (`albumin_5` vs `albumin_25`), which is a Step 4 disambiguation.
+4. **Clinical reasoning** — synonyms, brand→generic, formulation parsing. This is the only expensive layer; everything above is string comparison. → `new_mcide`, `medium` at best.
+5. **No defensible match** → `no_match`, `none`.
+
+**Layers 1 and 2 only hit if the prior category still exists in the current vocab CSV.** Check it before reusing. If it does not — the category was retired, renamed, or merged since the site last mapped — do not reuse it and do not stop: continue down the cascade from layer 3 to derive a current category, then mark the row `mapping_source = prior_mapping_retired`, `needs_review = TRUE`, with a note naming both the old and new category. A prior `no_match` likewise never hits layers 1–2; re-derive it from layer 3 (see `prior-mappings.md`).
+
+Report how many values resolved at each layer in Step 6. On a re-run against a good prior mapping, most values should settle in layers 1–2; if they aren't, the prior mapping is not being matched and something is wrong with the input.
+
 - A raw value may ONLY be assigned a category string that appears verbatim in the vocab CSV. NEVER invent, pluralize, re-case, abbreviate, or "improve" a category value.
 - Use the `description` and `*_name_examples` columns as matching evidence. Examples are sparse (≤3 per category) — treat them as anchors, not an exhaustive list; use clinical knowledge for synonyms and brand↔generic matches.
 - Assign a confidence level to every row:
@@ -62,7 +73,7 @@ Read `reference/disambiguation.md` before mapping **labs** or **medications** �
 - **Labs**: `lab_category` is NOT unique — the same analyte appears in multiple rows for different specimens (e.g., albumin serum vs urine). Use the workbook's specimen and result-unit columns together with the vocab file's `reference_unit` and `lab_specimen_category` columns to pick the correct row. If the sheet has no specimen or unit column, flag ALL specimen-ambiguous labs as `needs_review` and say so in the report.
 - **Medications**: the vocab lists the expected `med_dose_unit` (and `volume_infusion_rate_units` for continuous infusions). If the sheet has a dose-unit column, cross-check it; a mismatch sets `needs_review = TRUE` with an explanatory note, and whether it also downgrades confidence depends on which side is corroborated — see `disambiguation.md` rule 4.
 
-### Step 5 — Write results back to Excel (produce BOTH outputs)
+### Step 5 — Write results back to Excel (produce BOTH outputs, plus a third when a prior mapping was used)
 
 See `reference/output-format.md` for the full spec. In brief:
 
@@ -71,18 +82,30 @@ See `reference/output-format.md` for the full spec. In brief:
    `mapping_source` is `prior_mapping`, `prior_mapping_retired`, or `new_mcide`. Include this column only when the site supplied a prior mapping; otherwise omit it (everything would be `new_mcide`).
    `mapping_note` is a short justification for medium/low/no_match calls and for any flagged row; leave blank for unflagged high-confidence rows.
 2. **Canonical mapping sheet**: a new sheet named `clif_vocab_<table>_<variable>_<site>` with columns `<var>_category, <var>_name, n, site`, sorted by category then descending n. The `site` value is a provenance label that has no effect on the mapping — **never stop to ask for it.** Use it if the user stated one, or if you can read it from the workbook, its filename, or an existing `clif_vocab_*` sheet (say where you found it). Otherwise write `SITE` and tell the user in the report that they can find-and-replace it if they plan to share the file. Never guess a site name, and never offer the example names from this skill's documentation as candidates — they are illustrative, not a roster, and a site that accepts one mislabels its own data. Long table names need the fixed abbreviations in `output-format.md` to fit Excel's 31-character sheet-name limit.
+3. **Prior-mapping leftovers**, only when a prior mapping was supplied and at least one of its raw names is absent from the current data: a sheet named `prior_unmatched_<variable>` listing those names, the category they were mapped to, whether that category is still valid, and a note on any that look wrong. These never go into the canonical sheet — it describes the current data. See `prior-mappings.md` for the column spec.
+   **Ask before writing this one.** Once the mapping is done and you know the count, ask the user a single yes/no question — "N names in your prior mapping aren't in this extract. Write them to a `prior_unmatched_<variable>` sheet?" — noting how many are flagged as worth a look. Default to yes. Ask only when there is at least one such name, ask after the other two outputs are written so the answer never blocks the mapping itself, and in a non-interactive context write the sheet without asking.
 - Apply light formatting: bold header rows; highlight `needs_review = TRUE` rows with a yellow fill.
 - If working with plain CSVs instead of an Excel workbook, follow the CSV fallback section of `output-format.md`.
 
 ### Step 6 — Report
 
 Summarize for the user:
-- Counts by confidence level (high / medium / low / no_match)
-- When a prior mapping was used: how many rows were reused vs newly mapped, which prior categories were retired and what they became, any prior mapping you disagreed with (and what you would have chosen), and any prior entries that no longer appear in the current data
+- Counts by confidence level (high / medium / low / no_match), and how many values resolved at each layer of the Step 3 cascade
+- When a prior mapping was used: how many rows were reused vs newly mapped, which prior categories were retired and what they became, any prior mapping you disagreed with (and what you would have chosen), and how many prior entries no longer appear in the current data (pointing at the `prior_unmatched_*` sheet rather than listing them all)
 - The full list of `no_match` values
 - Every row flagged `needs_review = TRUE` that is not already covered by the `no_match` list, with the reason
 - Any systematic issues (e.g., "your lab sheet has no specimen column, so all specimen-ambiguous analytes were flagged"; "your list mixes infusions with PRN oral meds")
 - The mCIDE vocabulary version, quoted verbatim from the `VERSION` file, and a reminder to have a clinician or data manager review every flagged row before using the mapping in ETL.
+
+## Handling large lists
+
+Cost scales with the number of *unique* values needing layer-4 reasoning, not with sheet size.
+
+- **Deduplicate before anything else.** A year of administrations may be 200,000 rows and only ~400 distinct names. Never map row by row; map the distinct set and join the result back.
+- **Work in descending `n` order** so the highest-volume names — the ones that dominate the data and deserve the most review attention — are settled first and appear at the top of any review queue.
+- For more than ~300 unique values, work in batches of roughly 100 and write each batch's results before starting the next, so a long run leaves usable partial output rather than nothing.
+- Write results as whole ranges, not cell by cell.
+- Tell the user the split up front: "1,847 rows, 312 unique names, 268 matched your prior mapping, 44 need mapping." That number, not the row count, is the real size of the job.
 
 ## Handling large vocabularies
 

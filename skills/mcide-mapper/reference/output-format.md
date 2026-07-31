@@ -1,6 +1,8 @@
 # Output Format Specification
 
-Two outputs are always produced: review columns in the user's sheet, and a canonical mapping sheet.
+Two outputs are always produced: review columns in the user's sheet, and a canonical mapping sheet. A third, the prior-mapping leftovers sheet, is offered when it applies.
+
+Throughout these specs, `<var>` and `<variable>` both mean the category column with its `_category` suffix removed — `med_category` → `med`, `lab_category` → `lab`, `discharge_category` → `discharge`. This holds in column names and in every sheet or file name.
 
 ## 1. In-place review columns
 
@@ -66,6 +68,10 @@ Source column (`device_name`, with a count column) for site RUSH:
 | BIPAP MASK | | nippv | BIPAP MASK | 233 | RUSH |
 | RA | | room_air | RA | 98 | RUSH |
 | DEVICE NOT DOCUMENTED | | no_match | DEVICE NOT DOCUMENTED | 12 | RUSH |
+
+## 3. Prior-mapping leftovers (conditional)
+
+Written only when a prior mapping was supplied and at least one of its raw names is absent from the current data. Sheet `prior_unmatched_<variable>`; columns and rules in `prior-mappings.md`. These names never appear in the canonical sheet.
 
 ## CSV fallback
 
