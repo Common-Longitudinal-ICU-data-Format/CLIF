@@ -7,6 +7,7 @@ face_mask,Face Mask oxygen delivery,"Simple Face Mask, Non-Rebreather Mask"
 trach_collar,Tracheostomy collar,"Trach Collar with Aerosol,"
 t_piece,T-piece accessory connected to either an endotracheal tube or a tracheostomy tube,"T-Piece, T-Piece Circuit"
 nasal_cannula,Standard nasal cannula,"Low Flow Nasal Cannula, NC 1-6L"
+blow_by,Blow by oxygen delivery,"Blow-by O2, Blow by Oxygen"
 room_air,Breathing room air without supplemental oxygen,"RA, Room Air - No O2"
 other,Other respiratory support device not specified above,"Venturi Mask, Oxygen Tent"
 
