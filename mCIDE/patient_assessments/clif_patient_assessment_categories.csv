@@ -47,7 +47,9 @@ npi_l,"Neurological Pupillary Index (left), automated pupillometer measure (Scor
 npi_r,"Neurological Pupillary Index (right), automated pupillometer measure (Score range: 0.0-5.0, dimensionless)","NPi Right, Neurologic Pupillary Index R, NeurOptics NPi R",neurological
 nrs,Numeric score (Score range: 0-10),"Numeric Rating Scale Pain, NRS Pain Score, 0-10 Pain Scale",pain
 nvps,"Subcomponents: Facial expression, activity, guarding, physiology, respiration (Numerical/Text)","Nonverbal Pain Scale, NVPS Assessment, Pain Scale Non-Communicative",pain
+ot_discharge_recommend,"OT discharge recommendation for post-discharge OT care, sourced from structured flowsheet data. Sites that only capture this in notes can exclude it for now","TS RS OT DISCHARGE DISPOSITION, OT Discharge Recommendation",discharge_recommend
 painad,"Subcomponents: Breathing, vocalization, facial expression, body language, consolability (Numerical/Text)","Pain Assessment in Advanced Dementia, PAINAD Scale, Dementia Pain Tool",pain
+pt_discharge_recommend,"PT discharge recommendation for post-discharge PT care, sourced from structured flowsheet data. Sites that only capture this in notes can exclude it for now","TS RS PT DISCHARGE DISPOSITION, PT Discharge Recommendation",discharge_recommend
 pupil_reactive_l,"Left pupil reactivity to light (Categorical: brisk, sluggish, non-reactive, or equivalent)","Pupil Reactive Left, L Pupil Reaction, Left Pupil Response",neurological
 pupil_reactive_r,"Right pupil reactivity to light (Categorical: brisk, sluggish, non-reactive, or equivalent)","Pupil Reactive Right, R Pupil Reaction, Right Pupil Response",neurological
 pupil_size_l,"Left pupil size in mm; may be from pupillometer or visual inspection (specify in assessment_name if relevant)","Pupil Size Left, Left Pupil Diameter, L Pupil mm",neurological
