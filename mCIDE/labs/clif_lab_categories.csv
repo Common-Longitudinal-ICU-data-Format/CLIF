@@ -23,7 +23,7 @@ calcium_ionized,mg/dl,"IONIZED CA, ICA, FREE CALCIUM",misc,plasma_blood,
 calcium_total,mg/dl,"CA, CALCIUM, TOTAL CALCIUM, SERUM CA",bmp,plasma_blood,
 chloride,mmol/l,"CL, CHLORIDE, SERUM CHLORIDE",bmp,plasma_blood,
 cholesterol,mg/dl,"PERITONEAL FLUID CHOLESTEROL, PLEURAL FLUID CHOLESTEROL","peritoneal_fluid_panel, pleural_fluid_panel","peritoneal, pleural",
-ckmb,ng/ml,"CK-MB, CKMB, CREATINE KINASE MB",cardiac,plasma_blood,
+ckmb,ng/ml,"CK-MB, CKMB MASS CONCENTATION, CREATINE KINASE MB",cardiac,plasma_blood,
 co2,mmol/l,"POC CO2, ISTAT TCO2, POC TCO2",poc,plasma_blood,point-of-care total CO2/bicarbonate
 cocaine,(no units),URINE COCAINE,urine_toxicology,urine,benzoylecgonine metabolite
 creatinine,mg/dl,"CR, CREAT, SERUM CREATININE, PERITONEAL CREATININE, PLEURAL CREATININE, POC CREATININE, ISTAT CREAT, POC CREAT, URINE CREATININE, UCR","bmp, peritoneal_fluid_panel, pleural_fluid_panel, poc, urine_chemistry","plasma_blood, peritoneal, pleural, urine",used to evaluate uroperitoneum; used to evaluate urinothorax; point-of-care result
