@@ -43,7 +43,7 @@ free_t4,ng/dl,"FREE T4, FT4, FREE THYROXINE",tft,plasma_blood,
 glucose,mg/dl,"GLUCOSE, SERUM GLUCOSE, BLOOD GLUCOSE, GLU, POC GLUCOSE, FINGERSTICK GLUCOSE, ACCUCHECK, BEDSIDE GLUCOSE, PERITONEAL FLUID GLUCOSE, ASCITES GLUCOSE, PLEURAL FLUID GLUCOSE","bmp, peritoneal_fluid_panel, pleural_fluid_panel, poc","peritoneal, pleural, plasma_blood","serum/plasma, point-of-care, and body fluid glucose; use lab_specimen_category and lab_order_category to distinguish"
 hematocrit,%,"HCT, HEMATOCRIT, HEMATOCRIT VALUE, POC HEMATOCRIT, ISTAT HCT, POC HCT","cbc, poc",plasma_blood,point-of-care result
 hematocrit_percent,%,"PERITONEAL HCT %, PERITONEAL HEMATOCRIT, PLEURAL HCT %, PLEURAL HEMATOCRIT","peritoneal_fluid_panel, pleural_fluid_panel","peritoneal, pleural",
-hemoglobin,g/dl,"HGB, HB, HEMOGLOBIN",cbc,plasma_blood,
+hemoglobin,g/dl,"HGB, HB, HEMOGLOBIN",cbc,plasma_blood,do not map co-oximetry 'hemoglobin/saturation' results here
 igfbp7,ng/ml,"URINE IGFBP7, INSULIN-LIKE GROWTH FACTOR BINDING PROTEIN-7",aki_biomarkers,urine,used in product with TIMP-2
 inr,(no units),"INR, INTERNATIONAL NORMALIZED RATIO",coags,plasma_blood,
 interleukin_01,pg/ml,"IL-1, IL-1 BETA, IL-1B, INTERLEUKIN-1",inflammatory,plasma_blood,autoinflammatory/IL-1 blockade (anakinra) context; usually a send-out assay
