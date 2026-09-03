@@ -12,7 +12,7 @@ barbiturate,(no units),"URINE BARBITURATE, URINE BARB",urine_toxicology,urine,
 basophils_absolute,10^3/µl,"BASO#, BASOPHILS ABS, BASO ABSOLUTE",cbc,plasma_blood,
 basophils_percent,%,"BASO%, BASOPHILS %, BASO PERCENT",cbc,plasma_blood,
 benzodiazepine,(no units),"URINE BENZODIAZEPINE, URINE BENZO",urine_toxicology,urine,
-bicarbonate,mmol/l,"CO2, HCO3, BICARB, CARBON DIOXIDE",bmp,plasma_blood,bicarbonate from BMP (sometimes reported out as CO2) not from ABG/VBG
+bicarbonate,mmol/l,"CO2, HCO3, BICARB, CARBON DIOXIDE, POC CO2, ISTAT TCO2, POC TCO2","bmp, poc",plasma_blood,bicarbonate from BMP (sometimes reported out as CO2) not from ABG/VBG; point-of-care result
 bilirubin,mg/dl,"PERITONEAL BILIRUBIN, PLEURAL BILIRUBIN","peritoneal_fluid_panel, pleural_fluid_panel","peritoneal, pleural",
 bilirubin_conjugated,mg/dl,"DBILI, DIRECT BILI, CONJUGATED BILI",lft,plasma_blood,
 bilirubin_total,mg/dl,"TBILI, TOTAL BILI, BILIRUBIN TOTAL",lft,plasma_blood,
@@ -24,7 +24,6 @@ calcium_total,mg/dl,"CA, CALCIUM, TOTAL CALCIUM, SERUM CA",bmp,plasma_blood,
 chloride,mmol/l,"CL, CHLORIDE, SERUM CHLORIDE",bmp,plasma_blood,
 cholesterol,mg/dl,"PERITONEAL FLUID CHOLESTEROL, PLEURAL FLUID CHOLESTEROL","peritoneal_fluid_panel, pleural_fluid_panel","peritoneal, pleural",
 ckmb,ng/ml,"CK-MB, CKMB MASS CONCENTATION, CREATINE KINASE MB",cardiac,plasma_blood,
-co2,mmol/l,"POC CO2, ISTAT TCO2, POC TCO2",poc,plasma_blood,point-of-care total CO2/bicarbonate
 cocaine,(no units),URINE COCAINE,urine_toxicology,urine,benzoylecgonine metabolite
 creatinine,mg/dl,"CR, CREAT, SERUM CREATININE, PERITONEAL CREATININE, PLEURAL CREATININE, POC CREATININE, ISTAT CREAT, POC CREAT, URINE CREATININE, UCR","bmp, peritoneal_fluid_panel, pleural_fluid_panel, poc, urine_chemistry","plasma_blood, peritoneal, pleural, urine",used to evaluate uroperitoneum; used to evaluate urinothorax; point-of-care result
 crp,mg/l,"CRP, C-REACTIVE PROTEIN, HS-CRP",inflammatory,plasma_blood,
