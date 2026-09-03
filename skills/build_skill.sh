@@ -72,7 +72,7 @@ VOCAB = SKILL / "vocab"
 # (row counts, column names) is derived from the files themselves.
 QUIRKS = {
     "labs/clif_lab_categories.csv":
-        "lab_category NOT unique — disambiguate with reference_unit + lab_specimen_category (see disambiguation.md); no description column",
+        "lab_category NOT unique — disambiguate with reference_unit + lab_specimen_category (see disambiguation.md); lab_order_category and lab_specimen_category are slash-delimited when multi-valued (bmp/poc) — resolve to one value per row; no description column",
     "medication_admin_continuous/clif_medication_admin_continuous_med_categories.csv":
         "has med_dose_unit + volume_infusion_rate_units — cross-check units (see disambiguation.md)",
     "medication_admin_intermittent/clif_medication_admin_intermittent_med_categories.csv":

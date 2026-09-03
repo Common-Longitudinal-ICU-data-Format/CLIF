@@ -8,7 +8,7 @@ Rules for the two highest-risk vocabularies. Apply these on top of the general w
 
 | lab_category | reference_unit | lab_specimen_category |
 |---|---|---|
-| albumin | g/dl | plasma_blood, peritoneal, pleural |
+| albumin | g/dl | plasma_blood/peritoneal/pleural |
 | albumin | mg/dl | urine |
 
 Rules:
@@ -20,6 +20,7 @@ Rules:
 2. Pick the vocab row whose `lab_specimen_category` matches the identified specimen. The mapped value is still just `lab_category`, but record the resolved specimen in `mapping_note` (e.g., "resolved to urine albumin, mg/dl").
 3. If the analyte is specimen-ambiguous in the vocab AND no specimen evidence exists, still map the category but set `needs_review = TRUE` with note "specimen ambiguous — verify against source data". If the entire sheet lacks specimen/unit columns, say so explicitly in the final report.
 4. A unit that contradicts every vocab row for that analyte → downgrade confidence one level and flag.
+5. `lab_order_category` and `lab_specimen_category` cells are **slash-delimited** when the analyte is valid for more than one panel or specimen (`bmp/poc`, `plasma_blood/peritoneal/pleural`). The list is what the analyte *permits*, not what a given result *is* — resolve to exactly one value per row, never fan a raw name out across the list. Point-of-care is carried by `lab_order_category = poc`, not by a separate `lab_category`: a potassium off a BMP is `potassium` + `bmp`, a POC/iSTAT potassium is `potassium` + `poc`. Commas inside `lab_name_type_examples` and `notes` are not delimiters.
 
 ## Medications (continuous and intermittent med categories)
 
