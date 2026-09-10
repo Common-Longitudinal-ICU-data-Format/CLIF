@@ -58,7 +58,7 @@ papaverine,mg/hr,ml/hr,Smooth muscle relaxant vasodilator,"PAPAVERINE 300 MG/250
 pentobarbital,mg/kg/hr,ml/hr,Barbiturate for refractory intracranial hypertension,"PENTOBARBITAL 500 MG/250 ML IV INFUSION, PENTOBARBITAL 1-5 MG/KG/HR IV",sedation
 phentolamine,mg/min,ml/hr,Alpha blocker for extravasation and hypertension,"PHENTOLAMINE 10 MG/250 ML IV INFUSION, PHENTOLAMINE 0.1-2 MG/MIN IV",others
 phenylephrine,mcg/kg/min,ml/hr,Alpha-1 agonist vasopressor,"PHENYLEPHRINE 200 MG/250 ML IV INFUSION, PHENYLEPHRINE 0.5-3 MCG/KG/MIN IV",vasoactives
-pitocin,milli-units/min,ml/hr,Synthetic oxytocin for labor augmentation,"PITOCIN 20 UNITS/1000 ML IV INFUSION, PITOCIN 2-20 MILLIUNITS/MIN IV",others
+pitocin,mu/min,ml/hr,Synthetic oxytocin for labor augmentation,"PITOCIN 20 UNITS/1000 ML IV INFUSION, PITOCIN 2-20 MILLIUNITS/MIN IV",others
 plasma_lyte,ml/hr,ml/hr,Balanced crystalloid electrolyte solution,"PLASMA-LYTE A 1000 ML IV MAINTENANCE, PLASMA-LYTE 500 ML IV AT 150 ML/HR",fluids_electrolytes
 procainamide,mg/min,ml/hr,Antiarrhythmic for ventricular arrhythmias,"PROCAINAMIDE 2 GM/500 ML IV INFUSION, PROCAINAMIDE 1-6 MG/MIN IV",cardiac
 propofol,mcg/kg/min,ml/hr,Sedative-hypnotic for anesthesia and sedation,"PROPOFOL 1000 MG/100 ML IV INFUSION, PROPOFOL 5-50 MCG/KG/MIN IV",sedation
