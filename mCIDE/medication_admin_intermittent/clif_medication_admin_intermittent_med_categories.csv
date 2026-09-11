@@ -154,6 +154,7 @@ itraconazole,mg,Triazole antifungal for systemic mycoses,"ITRACONAZOLE 200 MG IV
 ivabradine,mg,If-channel (funny current) inhibitor; HFrEF adjunct for sinus rhythm rate control,"IVABRADINE 5 MG PO BID, CORLANOR 7.5 MG PO BID",other
 kanamycin,mg,Aminoglycoside antibiotic,"KANAMYCIN 15 MG/KG IM DAILY, KANAMYCIN 500 MG IM Q12H",cms_sepsis_qualifying_antibiotics
 ketamine,mg,Dissociative anesthetic for sedation and analgesia,"KETAMINE 100 MG IV PUSH, KETAMINE 1-2 MG/KG IV BOLUS",sedation
+labetalol,mg,Combined alpha and beta blocker for acute hypertension and blood pressure control,"LABETALOL 10-20 MG IV PUSH Q10MIN PRN, LABETALOL 200 MG PO BID",anti_hypertensive
 lefamulin,mg,Pleuromutilin antibiotic for pneumonia,"LEFAMULIN 150 MG IV Q12H, XENLETA 600 MG PO Q12H",cms_sepsis_qualifying_antibiotics
 levofloxacin,mg,Fluoroquinolone for respiratory and UTI,"LEVOFLOXACIN 750 MG IV DAILY, LEVOFLOXACIN 500 MG PO DAILY",cms_sepsis_qualifying_antibiotics
 lincomycin,mg,Lincosamide antibiotic,"LINCOMYCIN 600 MG IV Q8H, LINCOMYCIN 500 MG IM Q12H",cms_sepsis_qualifying_antibiotics
@@ -207,6 +208,7 @@ penicillin,mg,Beta-lactam antibiotic for streptococcal infections,"PENICILLIN G 
 peramivir,mg,Neuraminidase inhibitor for influenza,"PERAMIVIR 600 MG IV SINGLE DOSE, RAPIVAB 600 MG IV X1",cms_sepsis_qualifying_antibiotics
 perindopril,mg,ACE inhibitor for hypertension and stable CAD,"PERINDOPRIL 4 MG PO DAILY, ACEON 2-8 MG PO DAILY, COVERSYL",anti_hypertensive
 perindopril_amlodipine,mg,ACE inhibitor with calcium channel blocker for hypertension,"PERINDOPRIL-AMLODIPINE 3.5-2.5 MG PO DAILY, PRESTALIA 7-5 MG PO DAILY",anti_hypertensive
+phenobarbital,mg,Barbiturate anticonvulsant for status epilepticus and alcohol withdrawal,"PHENOBARBITAL 15-20 MG/KG IV LOAD, PHENOBARBITAL 130 MG IV Q30MIN PRN, PHENOBARBITAL 60 MG PO BID",other
 phosphate_repletion,mmol,Intermittent phosphate repletion,"POTASSIUM SODIUM PHOSPHATES PO (PHOS-NAK, PHOSPHA 250 NEUTRAL), SODIUM PHOSPHATE IV, POTASSIUM PHOSPHATE IV",other
 piperacillin_tazobactam,g,Extended-spectrum penicillin with beta-lactamase inhibitor,"PIPERACILLIN-TAZOBACTAM 4.5 GM IV Q6H, ZOSYN 3.375 GM IV Q8H",cms_sepsis_qualifying_antibiotics
 pivampicillin,mg,Prodrug of ampicillin,"PIVAMPICILLIN 500 MG PO Q12H, PIVAMPICILLIN 250 MG PO Q8H",cms_sepsis_qualifying_antibiotics
