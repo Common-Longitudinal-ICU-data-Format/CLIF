@@ -88,7 +88,7 @@ diphenhydramine,mg,Antihistamine for allergic reactions,"DIPHENHYDRAMINE 25 MG I
 doripenem,mg,Carbapenem antibiotic for severe infections,"DORIPENEM 500 MG IV Q8H, DORIPENEM 1 GM IV Q8H",cms_sepsis_qualifying_antibiotics
 dornase_alfa,mg,Intrapleural lytic medication,"DORNASE ALFA 2.5 MG INTRAPLEURAL, DORNASE ALFA 5 MG INTRAPLEURAL",other
 doxycycline,mg,Tetracycline antibiotic for various infections,"DOXYCYCLINE 100 MG IV Q12H, DOXYCYCLINE 100 MG PO Q12H",cms_sepsis_qualifying_antibiotics
-elratanamab,mg,BCMA-CD3 bispecific T-cell engager for multiple myeloma,"ELRATANAMAB 12-76 MG SUBQ STEP-UP DOSING, ELREXFIO SUBQ DOSING",other
+elranatamab,mg,BCMA-CD3 bispecific T-cell engager for multiple myeloma,"ELRANATAMAB 12-76 MG SUBQ STEP-UP DOSING, ELREXFIO SUBQ DOSING",other
 empagliflozin,mg,SGLT2 inhibitor; preferred SGLT-inhibitor HFrEF GDMT agent,"EMPAGLIFLOZIN 10 MG PO DAILY, JARDIANCE 10 MG PO DAILY",diabetes
 empagliflozin_linagliptin,mg,Empagliflozin with linagliptin; SGLT-inhibitor ingredient,"EMPAGLIFLOZIN-LINAGLIPTIN 10-5 MG PO DAILY, GLYXAMBI 25-5 MG PO DAILY",diabetes
 empagliflozin_metformin,mg,Empagliflozin with metformin; SGLT-inhibitor ingredient,"EMPAGLIFLOZIN-METFORMIN 5-500 MG PO BID, SYNJARDY 12.5-1000 MG PO BID",diabetes
