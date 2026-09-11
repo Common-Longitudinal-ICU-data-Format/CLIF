@@ -1,7 +1,7 @@
 lab_order_category,description,example labs
 aki_biomarkers,Acute kidney injury biomarkers (NGAL/KIM-1/TIMP-2·IGFBP7/cystatin C/NAG),"ngal, cystatin_c, timp_2_igfbp7, kim_1"
 bal_panel,Bronchoalveolar lavage cell counts and chemistries,"wbc_absolute, neutrophils_percent, amylase"
-blood_gas,Arterial or venous blood gas (mixed-venous split out to mixed_venous_blood_gas),"pCO2, pO2, pH, sO2"
+blood_gas,Arterial or venous blood gas (mixed-venous split out to mixed_venous_blood_gas),"pCO2, pO2, pH, sO2, bicarbonate"
 bmp,Basic Metabolic Panel,"sodium, potassium, chloride"
 cardiac,Cardiac biomarkers,"troponin_i, troponin_t, bnp, nt_pro_bnp, ckmb"
 cbc,Complete Blood Count (with differential),"WBC, hemoglobin, platelets"
