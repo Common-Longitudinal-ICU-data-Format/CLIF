@@ -89,6 +89,8 @@ phosphate,mg/dl,"PHOS, PHOSPHORUS, PHOSPHATE, SERUM PHOS",misc,plasma_blood,some
 plasma_absolute,cells/ul,"BAL PLASMA CELLS, PLASMA CELL BF",bal_panel,bal,may also be reported as percentage; site-dependent
 platelet_count,10^3/ul,"PLT, PLATELETS, PLATELET COUNT",cbc,plasma_blood,
 po2_arterial,mmhg,"PAO2, ARTERIAL PO2, ABG PO2",blood_gas,plasma_blood,
+po2_ecmo_post,mmhg,"POST-OXYGENATOR PO2, POST-MEMBRANE PO2, ECMO POST PO2",blood_gas,plasma_blood,"from the ECMO circuit after the oxygenator; reflects circuit oxygenation, not the patient's arterial PO2"
+po2_ecmo_pre,mmhg,"PRE-OXYGENATOR PO2, PRE-MEMBRANE PO2, ECMO PRE PO2",blood_gas,plasma_blood,from the ECMO circuit before the oxygenator; reflects venous blood draining from the patient
 po2_mixed_venous,mmhg,"PO2 MIXED VENOUS, MIXED VENOUS PO2, SVO2 PO2",mixed_venous_blood_gas,plasma_blood,from mixed venous sample (typically PA catheter); distinct from peripheral venous PO2
 potassium,mmol/l,"K, POTASSIUM, SERUM K, POC POTASSIUM, ISTAT K, POC K",bmp/poc,plasma_blood,point-of-care result
 procalcitonin,ng/ml,"PCT, PROCALCITONIN, PRO-CALCITONIN",inflammatory,plasma_blood,
