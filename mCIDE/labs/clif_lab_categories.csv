@@ -12,7 +12,10 @@ barbiturate,(no units),"URINE BARBITURATE, URINE BARB",urine_toxicology,urine,
 basophils_absolute,10^3/ul,"BASO#, BASOPHILS ABS, BASO ABSOLUTE",cbc,plasma_blood,
 basophils_percent,%,"BASO%, BASOPHILS %, BASO PERCENT",cbc,plasma_blood,
 benzodiazepine,(no units),"URINE BENZODIAZEPINE, URINE BENZO",urine_toxicology,urine,
-bicarbonate,mmol/l,"CO2, HCO3, BICARB, CARBON DIOXIDE, POC CO2, ISTAT TCO2, POC TCO2",bmp/poc,plasma_blood,bicarbonate from BMP (sometimes reported out as CO2) not from ABG/VBG; point-of-care result
+bicarbonate,mmol/l,"CO2, HCO3, BICARB, CARBON DIOXIDE, POC CO2",bmp/poc,plasma_blood,"
+- HCO3- is the only blood gas representation of bicarbonate, except bicarbonate from BMP (sometimes represented out as CO2)
+- pCO2 not to be mapped to bicarbonate, mapped to either pCO2_venous or pCO2_arterial
+- Do not map TCO2 (total CO2)"
 bilirubin,mg/dl,"PERITONEAL BILIRUBIN, PLEURAL BILIRUBIN",peritoneal_fluid_panel/pleural_fluid_panel,peritoneal/pleural,
 bilirubin_conjugated,mg/dl,"DBILI, DIRECT BILI, CONJUGATED BILI",lft,plasma_blood,
 bilirubin_total,mg/dl,"TBILI, TOTAL BILI, BILIRUBIN TOTAL",lft,plasma_blood,
