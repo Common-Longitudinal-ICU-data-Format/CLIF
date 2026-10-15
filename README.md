@@ -71,6 +71,10 @@ One of CLIF's key contributions is an open-source web application for converting
 For more information about our data architecture and tools, please visit our [website](https://clif-icu.com/about).
 
 
+## Outlier Handling and Reference Ranges
+
+Outlier handling and reference ranges are **not** part of the CLIF ETL specification. Sites should load raw values into CLIF tables as recorded in the source EHR without clipping, filtering, or flagging outliers. Outlier thresholds and reference ranges are applied downstream, either with the [clifpy](https://common-longitudinal-icu-data-format.github.io/clifpy/user-guide/outlier-handling/) Python package or at the project phase by individual analyses. The `outlier-handling` and `reference_ranges` directories previously in this repository have been removed for this reason.
+
 ## Current team members 
 
 Our team of clinicians, data scientists, and collaborators can be found on our [website](https://clif-icu.com/team).

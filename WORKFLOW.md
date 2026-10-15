@@ -59,7 +59,7 @@ This document outlines the standardized workflow for Extract, Transform, Load (E
 
 - **Validation**:
   - After ETL, validate the data against the approved schema to ensure all fields are correctly populated.
-  - Check for adherence to expected data types, formats, and value ranges. Refer to this [directory](https://github.com/clif-consortium/CLIF/tree/main/outlier-handling) for approved thresholds to handle outliers.
+  - Check for adherence to expected data types and formats. Outlier handling and reference ranges are not part of the ETL; they are applied downstream with [clifpy](https://common-longitudinal-icu-data-format.github.io/clifpy/user-guide/outlier-handling/) or at the project phase.
 
 - **Quality Control (QC)**:
   - Perform QC checks to identify inconsistencies, anomalies, or outliers.
