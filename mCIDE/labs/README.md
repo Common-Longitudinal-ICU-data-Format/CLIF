@@ -51,6 +51,13 @@ For fluid panels the analyte name stays bare in `lab_category` and the fluid is 
 
 Pick the panel and the specimen that actually produced the result; do not emit all three.
 
+### Blood specimens
+
+For mapping purposes, we use **plasma_blood** as a broad category encompassing whole blood,
+plasma, and serum, while recognizing that individual labs may be performed using different
+blood components. A site does not need to distinguish serum from plasma from whole blood in
+`lab_specimen_category` — all three map to `plasma_blood`.
+
 ## Reference units
 
 Every value loaded into `labs.lab_value` must already be converted to the analyte's CLIF
