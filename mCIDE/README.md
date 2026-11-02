@@ -121,6 +121,7 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   <summary><code>medication_admin_continuous/</code></summary>
 
   - med_category
+  - med_group
   - med_route_category
   - mar_action_category
   - mar_action_group
@@ -130,6 +131,7 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   <summary><code>medication_admin_intermittent/</code></summary>
 
   - med_category
+  - med_group
   - med_route_category
   - mar_action_category
   - mar_action_group
