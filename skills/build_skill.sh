@@ -74,9 +74,17 @@ QUIRKS = {
     "labs/clif_lab_categories.csv":
         "lab_category NOT unique — disambiguate with reference_unit + lab_specimen_category (see disambiguation.md); lab_order_category and lab_specimen_category are slash-delimited when multi-valued (bmp/poc) — resolve to one value per row; no description column",
     "medication_admin_continuous/clif_medication_admin_continuous_med_categories.csv":
-        "has med_dose_unit + volume_infusion_rate_units — cross-check units (see disambiguation.md)",
+        "has med_dose_unit + volume_infusion_rate_units — cross-check units (see disambiguation.md); "
+        "med_group column is a roll-up label, not a target; descriptions carry cross-table pointers "
+        "and combination-product rules",
     "medication_admin_intermittent/clif_medication_admin_intermittent_med_categories.csv":
-        "LARGE — read med_index.md first; has med_dose_unit — cross-check units (see disambiguation.md)",
+        "LARGE — read med_index.md first; has med_dose_unit — cross-check units (see disambiguation.md); "
+        "med_group column is a roll-up label, not a target; descriptions carry cross-table pointers "
+        "and combination-product rules",
+    "medication_admin_continuous/clif_medication_admin_continuous_med_route_categories.csv":
+        "same 20 routes as intermittent",
+    "medication_admin_intermittent/clif_medication_admin_intermittent_med_route_categories.csv":
+        "same 20 routes as continuous",
     "microbiology_culture/clif_microbiology_culture_organism_categories.csv":
         "LARGE — read organism_index.md first; many descriptions empty",
     "labs/clif_labs_order_categories.csv": "examples column is 'example labs'",
@@ -93,6 +101,10 @@ NOT_TARGETS = {
     "microbiology_nonculture/clif_microbiology_nonculture_organism_groups.csv": "group lookup aid",
     "patient_attributes/clif_patient_attributes_attribute_groups.csv": "group lookup aid",
     "input/clif_input_group.csv": "group lookup aid",
+    "medication_admin_continuous/clif_medication_med_group_categories.csv":
+        "group lookup aid; identical file in both medication folders",
+    "medication_admin_intermittent/clif_medication_med_group_categories.csv":
+        "group lookup aid; identical file in both medication folders",
 }
 
 sources = sorted(SRC.glob("*/*.csv"))
@@ -145,7 +157,7 @@ for r in records:
 (SKILL / "reference" / "INDEX.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 print("Generated reference/INDEX.md")
 
-def digest(rel, key_fn, title, intro):
+def digest(rel, key_fn, title, intro, group_desc=None):
     rec = next(r for r in records if r["rel"] == rel)
     idx = {h: i for i, h in enumerate(rec["header"])}
     groups = {}
@@ -153,9 +165,10 @@ def digest(rel, key_fn, title, intro):
         if not row or not row[0].strip():
             continue
         groups.setdefault(key_fn(row, idx), []).append(row[0].strip())
-    out = [f"# {title}", "", intro, ""]
+    out = [f"# {title}", "", intro.format(n=len(rec["rows"])), ""]
     for g in sorted(groups):
-        out.append(f"- **{g}**: {', '.join(groups[g])}")
+        desc = f" ({len(groups[g])}; {group_desc[g]})" if group_desc and g in group_desc else ""
+        out.append(f"- **{g}**{desc}: {', '.join(sorted(groups[g]))}")
     path = VOCAB / Path(rel).parent / (title.split()[0].lower() + "_index.md")
     path.write_text("\n".join(out) + "\n", encoding="utf-8")
     print(f"Generated {path.relative_to(SKILL)} ({len(groups)} groups)")
@@ -167,13 +180,31 @@ digest(
     "Shortlist the genera present in the user's data, then read only the matching "
     "rows of clif_microbiology_culture_organism_categories.csv.",
 )
+med_group_rec = next(r for r in records
+                     if r["rel"] == "medication_admin_intermittent/clif_medication_med_group_categories.csv")
+med_group_desc = {row[0].strip(): row[1].strip() for row in med_group_rec["rows"] if row and row[0].strip()}
 digest(
     "medication_admin_intermittent/clif_medication_admin_intermittent_med_categories.csv",
     lambda row, idx: row[idx["med_group"]].strip() or "(ungrouped)",
     "Med categories by group (intermittent)",
-    "Shortlist candidate groups for the user's meds, then confirm against "
-    "clif_medication_admin_intermittent_med_categories.csv.",
+    "{n} categories in clif_medication_admin_intermittent_med_categories.csv, listed by "
+    "`med_group` so you can shortlist the groups present in the user's data and then read "
+    "only the matching rows of the full CSV. `med_group` is a roll-up label carried on each "
+    "category row, not a mapping target.\n\n"
+    "Combination products: fixed-dose combos that have their own category (e.g., "
+    "piperacillin_tazobactam, sacubitril_valsartan) map to that single category. Every other "
+    "combination product (e.g., lisinopril-HCTZ, Synjardy, DuoNeb) maps to EACH component "
+    "category — see disambiguation.md rule 5.",
+    group_desc=med_group_desc,
 )
+# every med_group used on a category row must be defined in the group file
+for rel in ("medication_admin_continuous/clif_medication_admin_continuous_med_categories.csv",
+            "medication_admin_intermittent/clif_medication_admin_intermittent_med_categories.csv"):
+    rec = next(r for r in records if r["rel"] == rel)
+    gi = rec["header"].index("med_group")
+    unknown = sorted({row[gi].strip() for row in rec["rows"] if row} - set(med_group_desc))
+    if unknown:
+        sys.exit(f"BUILD FAILED: {rel} uses med_group values not in the group file: {unknown}")
 
 # --- sanity checks ---
 skill_md = (SKILL / "SKILL.md").read_text(encoding="utf-8")

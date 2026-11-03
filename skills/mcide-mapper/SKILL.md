@@ -71,7 +71,8 @@ Report how many values resolved at each layer in Step 6. On a re-run against a g
 Read `reference/disambiguation.md` before mapping **labs** or **medications** — it holds the operative rules, and where it is more specific than the summary below, it wins. Summary:
 
 - **Labs**: `lab_category` is NOT unique — the same analyte appears in multiple rows for different specimens (e.g., albumin serum vs urine). Use the workbook's specimen and result-unit columns together with the vocab file's `reference_unit` and `lab_specimen_category` columns to pick the correct row. If the sheet has no specimen or unit column, flag ALL specimen-ambiguous labs as `needs_review` and say so in the report.
-- **Medications**: the vocab lists the expected `med_dose_unit` (and `volume_infusion_rate_units` for continuous infusions). If the sheet has a dose-unit column, cross-check it; a mismatch sets `needs_review = TRUE` with an explanatory note, and whether it also downgrades confidence depends on which side is corroborated — see `disambiguation.md` rule 4.
+- **Medications**: the vocab lists the expected `med_dose_unit` (and `volume_infusion_rate_units` for continuous infusions). If the sheet has a dose-unit column, cross-check it; a mismatch sets `needs_review = TRUE` with an explanatory note, and whether it also downgrades confidence depends on which side is corroborated — see `disambiguation.md` rule 4. Category descriptions now carry explicit rules: cross-table pointers ("pushes map to medication_admin_intermittent …"), concentration splits (`sodium_chloride_3_pct`, `sodium_bicarbonate_150_meq`, `insulin_glargine`), and the combination-product rule — a combo with its own category maps to that one category; any other combo maps to **each** component, producing one `clif_vocab` row per component (rule 5).
+- **Retired medication categories**: the 2026-11 vocab retired or split 44 medication categories. When a prior mapping uses one, `reference/med-category-crosswalk.md` lists the current replacement(s) — use it before re-deriving from scratch.
 
 ### Step 5 — Write results back to Excel (produce BOTH outputs, plus a third when a prior mapping was used)
 
@@ -110,7 +111,8 @@ Cost scales with the number of *unique* values needing layer-4 reasoning, not wi
 ## Handling large vocabularies
 
 - **Organisms** (microbiology_culture, 541 categories): read `vocab/microbiology_culture/organism_index.md` first, shortlist the genera present in the user's data, then read only the matching rows of the full CSV. Read the full CSV only if the sheet has >100 unique organisms.
-- **Intermittent meds** (271 categories): read `vocab/medication_admin_intermittent/med_index.md` first to shortlist by medication group, then confirm against the full CSV.
+- **Intermittent meds** (417 categories): read `vocab/medication_admin_intermittent/med_index.md` first to shortlist by `med_group`, then confirm against the full CSV. Continuous meds (95 categories) are small enough to read whole.
+- `med_group` is a roll-up label on each medication category row (and in `clif_medication_med_group_categories.csv`). It is never a mapping target and never goes in the output; use it only to shortlist.
 
 ## Hard rules
 

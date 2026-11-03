@@ -33,7 +33,11 @@ This is the format CLIF sites exchange and feed into ETL (matches the consortium
   - `n` — frequency of that raw string (carried through from the user's count column if the sheet has one; otherwise counted during dedup; 1 only for a deduplicated list with no counts)
   - `site` — the site short name if known, otherwise the literal `SITE`. This is a provenance label for pooling mapping files across the consortium; it never affects which category is chosen, so never hold up a mapping run waiting for it.
 - **Sort:** by `<var>_category` ascending, then `n` descending.
-- One row per unique raw value.
+- One row per unique raw value — with one exception. A medication **combination product that the vocab says to split** (`disambiguation.md` rule 5) gets one row per component category, each with the same `<var>_name` and the same `n`. Do not divide `n` between the components. Downstream ETL joins on `<var>_name` and expects the duplicate.
+
+### Combination-product rows in the review columns
+
+The in-place `<var>_category` cell for a split combination holds the components joined with ` | ` (e.g., `lisinopril | hydrochlorothiazide`), `needs_review = TRUE`, and a note of the form "combination product: 2 clif_vocab rows (lisinopril, hydrochlorothiazide); site must assign per-component dose in ETL". This is the only case where that cell is not a single verbatim category. Combos with their own category (`piperacillin_tazobactam`) are ordinary single-category rows.
 
 ### Excel sheet-name length
 

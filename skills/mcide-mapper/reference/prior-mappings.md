@@ -33,7 +33,7 @@ Do not fuzzy-, substring-, or semantically match against prior mappings. "NOREPI
 
 ## Prior categories that are no longer valid
 
-Check every reused category against the current vocab CSV. If it is absent (retired, renamed, or merged — mCIDE evolves):
+Check every reused category against the current vocab CSV. If it is absent (retired, renamed, or merged — mCIDE evolves; for medication categories retired in the 2026-11 update, `med-category-crosswalk.md` names the replacement):
 
 - Remap the raw value from scratch per Step 3.
 - Set `mapping_source = prior_mapping_retired` and `needs_review = TRUE`.
