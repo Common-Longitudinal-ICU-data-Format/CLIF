@@ -540,7 +540,7 @@ CREATE TABLE validated_diagnosis (
 CREATE TABLE model_registry (
   model_id VARCHAR COMMENT '{"description": "Unique identifier for a scoring model. Site-assigned. Primary key referenced by scores.model_id.", "permissible": "No restriction"}',
   model_name VARCHAR COMMENT '{"description": "Raw model name as it appears in the source EHR system, e.g. \"IP Deterioration Index\".", "permissible": "No restriction"}',
-  model_category VARCHAR COMMENT '{"description": "Maps model_name to a standardized CLIF controlled vocabulary entry in vendor_modelname snake_case form (e.g., epic_deterioration_index, epic_mortality, rush_palliative_care). Official threshold tiers (where applicable) are documented as remarks in this mCIDE list rather than as columns.", "permissible": "WIP"}',
+  model_category VARCHAR COMMENT '{"description": "Maps model_name to a standardized CLIF controlled vocabulary entry in vendor_modelname snake_case form. See mCIDE/model_registry/clif_model_registry_model_categories.csv for definitions and example raw model names.", "permissible": "epic_deterioration_index, epic_sepsis_model, epic_fall_risk"}',
   model_version VARCHAR COMMENT '{"description": "Vendor- or site-assigned version string for the model deployment, e.g. \"0.0.2\".", "permissible": "No restriction"}',
   release_date DATE COMMENT '{"description": "Date the model version was first deployed at the site (optional / nullable).", "permissible": "Date format YYYY-MM-DD"}',
   is_live BOOLEAN COMMENT '{"description": "Whether this model version is currently firing live alerts to clinicians at the site (TRUE) or running silently / shadow-mode (FALSE). Sites should retain historical rows for retired versions and flag the active deployment.", "permissible": "TRUE or FALSE"}'
@@ -553,7 +553,7 @@ CREATE TABLE scores (
   model_id VARCHAR COMMENT '{"description": "Foreign key to model_registry.model_id identifying which scoring model produced this row.", "permissible": "No restriction"}',
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter.", "permissible": "No restriction"}',
   recorded_dttm DATETIME COMMENT '{"description": "Date and time the score was recorded. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
-  score_value DOUBLE COMMENT '{"description": "Numeric score value emitted by the model at recorded_dttm. Threshold-based alert categories (e.g., yellow/red) are not stored on this row -- consumers derive them per project from configuration or from mCIDE remarks on the model_category.", "permissible": "Numeric"}',
+  score_value DOUBLE COMMENT '{"description": "Numeric score value emitted by the model at recorded_dttm. Threshold-based alert categories (e.g., yellow/red) are not stored on this row -- consumers derive them per project from configuration.", "permissible": "Numeric"}',
   FOREIGN KEY (model_id) REFERENCES model_registry(model_id),
   FOREIGN KEY (hospitalization_id) REFERENCES hospitalization(hospitalization_id)
 );

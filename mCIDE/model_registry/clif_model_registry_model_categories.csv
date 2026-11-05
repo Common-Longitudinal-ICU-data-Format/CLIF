@@ -1,0 +1,4 @@
+model_category,description,model_name_examples
+epic_deterioration_index,Epic predictive model estimating risk of clinical deterioration.,"IP Deterioration Index, Epic Deterioration Index"
+epic_sepsis_model,Epic predictive model estimating sepsis risk.,"Epic Sepsis Model, Sepsis Model"
+epic_fall_risk,Epic predictive model estimating inpatient fall risk.,"Epic Fall Risk, Epic Fall Risk Model"

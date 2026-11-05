@@ -171,6 +171,14 @@ Each subfolder contains mCIDE category files corresponding to the category varia
   </details>
 
   <details>
+  <summary><code>model_registry/</code></summary>
+
+  - model_category
+
+  Raw model_name examples are illustrative; source labels may vary by site.
+  </details>
+
+  <details>
   <summary><code>patient/</code></summary>
 
   - race_category
