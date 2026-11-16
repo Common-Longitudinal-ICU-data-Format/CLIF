@@ -10,8 +10,11 @@ albumin_25,g,25% albumin colloid for hypoalbuminemia and oncotic support,"ALBUMI
 albumin_5,ml,5% albumin colloid for volume expansion,"ALBUMIN 5% 250 ML IV BOLUS, ALBUMIN 5% 500 ML IV",fluids_electrolytes
 albuterol,mg,"Short-acting beta-2 agonist (SABA), MDI or nebulized. Combination products map to each component category (e.g., DuoNeb, Combivent). Continuous nebulization maps to medication_admin_continuous","ALBUTEROL 2.5 MG NEBULIZER Q4H PRN, PROAIR HFA 2 PUFFS Q4H PRN, DUONEB 3 ML NEBULIZER Q6H",respiratory
 alefacept,mg,LFA-3/IgG1 fusion protein for plaque psoriasis (withdrawn from US market),"ALEFACEPT 15 MG IM WEEKLY, AMEVIVE 7.5 MG IV WEEKLY",immunosuppressant
+alprostadil,mcg,Prostaglandin vasodilator for pulmonary hypertension and ductus arteriosus,"ALPROSTADIL 0.05 MCG/KG IV BOLUS, ALPROSTADIL 10 MCG INTRACAVERNOSAL",pulmonary_vasodilator
 alteplase,mg,"Thrombolytic for acute ischemic stroke and PE, intrapleural fibrinolysis, and catheter clearance; catheter dwells map here with route catheter_dwell","ALTEPLASE 0.9 MG/KG IV, INTRAPLEURAL ALTEPLASE 10 MG, CATHFLO ACTIVASE 2 MG CATHETER DWELL",anticoagulation
 amikacin,mg,Aminoglycoside antibiotic for gram-negative infections,"AMIKACIN 1500 MG IV Q24H, AMIKACIN 15 MG/KG IV DAILY",cms_sepsis_qualifying_antibiotics
+aminocaproic_acid,g,Antifibrinolytic agent to reduce bleeding,"AMINOCAPROIC ACID 5 G IV LOAD, AMINOCAPROIC ACID 1 G PO Q6H",other
+aminophylline,mg,Bronchodilator and respiratory stimulant,"AMINOPHYLLINE 5 MG/KG IV LOAD, AMINOPHYLLINE 250 MG IV OVER 30 MIN",respiratory
 amiodarone,mg,"Antiarrhythmic. IV boluses (VT, ACLS) and PO ","AMIODARONE 150 MG IV OVER 10 MIN, AMIODARONE 300 MG IV PUSH, AMIODARONE 200 MG PO DAILY",antiarrhythmic
 amlodipine,mg,"Dihydropyridine calcium channel blocker for hypertension and angina. Combination products (e.g., amlodipine-olmesartan) map to each component category","AMLODIPINE 5 MG PO DAILY, NORVASC 10 MG PO DAILY",antihypertensive
 amoxicillin,mg,Beta-lactam antibiotic,"AMOXICILLIN 500 MG PO Q8H, AMOXICILLIN 875 MG PO Q12H",cms_sepsis_qualifying_antibiotics
@@ -21,9 +24,11 @@ ampicillin,g,Beta-lactam antibiotic for various bacterial infections,"AMPICILLIN
 ampicillin_sulbactam,g,Beta-lactam with beta-lactamase inhibitor. Combination product: map to this single category; do not split into components,"AMPICILLIN-SULBACTAM 3 GM IV Q6H, UNASYN 1.5 GM IV Q6H",cms_sepsis_qualifying_antibiotics
 anakinra,mg,Interleukin-1 receptor antagonist for inflammatory conditions,"ANAKINRA 100 MG SUBQ DAILY, ANAKINRA 2 MG/KG SUBQ Q12H",immunosuppressant
 andexanet_alfa,mg,Factor Xa inhibitor reversal agent,"ANDEXANET ALFA 400 MG IV BOLUS, ANDEXXA 800 MG IV BOLUS",other
+angiotensin_ii,mcg,Angiotensin II (Giapreza) vasopressor for refractory distributive shock,ANGIOTENSIN II IV BOLUS,vasoactive
 anidulafungin,mg,Echinocandin antifungal for candidiasis,"ANIDULAFUNGIN 200 MG IV LOAD THEN 100 MG IV DAILY, ERAXIS 100 MG IV Q24H",cms_sepsis_qualifying_antibiotics
 apixaban,mg,Direct oral factor Xa inhibitor anticoagulant,"APIXABAN 5 MG PO BID, ELIQUIS 2.5 MG PO BID",anticoagulation
 arformoterol,mcg,"Long-acting beta-2 agonist (LABA), nebulized","ARFORMOTEROL 15 MCG NEBULIZER BID, BROVANA 15 MCG NEB BID",respiratory
+argatroban,mcg,Direct thrombin inhibitor anticoagulant,"ARGATROBAN 350 MCG/KG IV BOLUS, ARGATROBAN 150 MCG/KG IV BOLUS",anticoagulation
 aspirin,mg,COX inhibitor antiplatelet and analgesic. Combination products map to each component category,"ASPIRIN 81 MG PO DAILY, ASPIRIN 325 MG PO X1",anticoagulation
 atenolol,mg,Beta-1 selective beta blocker for hypertension,"ATENOLOL 25 MG PO DAILY, TENORMIN 50 MG PO DAILY",antihypertensive
 atracurium,mg,Intermediate-acting neuromuscular blocking agent,"ATRACURIUM 50 MG IV BOLUS, ATRACURIUM 0.5 MG/KG IV PRN PARALYSIS",paralytic
@@ -44,6 +49,7 @@ benazepril,mg,"ACE inhibitor for hypertension. Combination products (e.g., benaz
 betamethasone,mg,Corticosteroid,"BETAMETHASONE 12 MG IM Q24H X2 DOSES, BETAMETHASONE 12 MG IM",steroid
 betrixaban,mg,Direct oral factor Xa inhibitor anticoagulant,"BETRIXABAN 160 MG PO X1 THEN 80 MG PO DAILY, BEVYXXA 80 MG PO DAILY",anticoagulation
 bisoprolol,mg,"Beta-1 selective beta blocker. Combination products (e.g., bisoprolol-HCTZ) map to each component category","BISOPROLOL 1.25 MG PO DAILY, ZEBETA 10 MG PO DAILY",antihypertensive
+bivalirudin,mg,Direct thrombin inhibitor for anticoagulation,"BIVALIRUDIN 0.75 MG/KG IV BOLUS, ANGIOMAX 0.5 MG/KG IV BOLUS",anticoagulation
 blinatumomab,mcg,CD19-CD3 bispecific T-cell engager for B-cell ALL,"BLINATUMOMAB 9-28 MCG/DAY IV CONTINUOUS INFUSION, BLINCYTO IV",antineoplastic
 brexucabtagene_autoleucel,cells,CAR T-cell therapy for mantle cell lymphoma,"BREXUCABTAGENE AUTOLEUCEL 2X10^6 CAR+ T CELLS IV, TECARTUS INFUSION",car_t
 budesonide,mcg,"Corticosteroid (multiple routes, be aware of dose changes). Combination products map to each component category (e.g., Symbicort, Breztri)","BUDESONIDE 0.5 MG NEBULIZER BID, PULMICORT 180 MCG INHALED BID, SYMBICORT 160-4.5 2 PUFFS BID",respiratory
@@ -55,6 +61,7 @@ calcium_chloride,g,Calcium repletion and hyperkalemia/ACLS,"CALCIUM CHLORIDE 1 G
 calcium_gluconate,g,Calcium repletion and hyperkalemia/transfusion ,"CALCIUM GLUCONATE 1 G IV, CALCIUM GLUCONATE 2 G IV OVER 1 HR",calcium_repletion
 canagliflozin,mg,"SGLT2 inhibitor. Combination products (e.g., canagliflozin-metformin) map to each component category","CANAGLIFLOZIN 100 MG PO DAILY, INVOKANA 300 MG PO DAILY",endocrine
 candesartan,mg,"Angiotensin receptor blocker. Combination products (e.g., candesartan-HCTZ) map to each component category","CANDESARTAN 16 MG PO DAILY, ATACAND 4-32 MG PO DAILY",antihypertensive
+cangrelor,mcg,Rapid acting antiplatelet agent for acute coronary syndrome or with recent percutaneous coronary intervention,"CANGRELOR 30 MCG/KG IV BOLUS, KENGREAL 30 MCG/KG IV BOLUS",anticoagulation
 captopril,mg,ACE inhibitor for hypertension and heart failure,"CAPTOPRIL 25 MG PO Q8H, CAPOTEN 12.5-50 MG PO TID",antihypertensive
 carvedilol,mg,"Nonselective beta blocker with alpha-1 blockade, immediate-release","CARVEDILOL 3.125 MG PO BID, COREG 25 MG PO BID",antihypertensive
 carvedilol_cr,mg,Carvedilol phosphate controlled-release,"CARVEDILOL CR 10 MG PO DAILY, COREG CR 80 MG PO DAILY",antihypertensive
@@ -100,6 +107,7 @@ cinoxacin,mg,Quinolone antibiotic,"CINOXACIN 500 MG PO Q12H, CINOXACIN 1 GM PO D
 ciprofloxacin,mg,Fluoroquinolone for various bacterial infections,"CIPROFLOXACIN 400 MG IV Q12H, CIPROFLOXACIN 500 MG PO Q12H",cms_sepsis_qualifying_antibiotics
 cisatracurium,mg,Non-depolarizing neuromuscular blocking agent,"CISATRACURIUM 20 MG IV BOLUS, CISATRACURIUM 0.15 MG/KG IV PRN",paralytic
 clarithromycin,mg,Macrolide antibiotic,"CLARITHROMYCIN 500 MG PO Q12H, CLARITHROMYCIN 500 MG IV Q12H",cms_sepsis_qualifying_antibiotics
+clevidipine,mg,Ultra-short acting calcium channel blocker,CLEVIDIPINE IV BOLUS,antihypertensive
 clindamycin,mg,Lincosamide antibiotic with antitoxin effects,"CLINDAMYCIN 900 MG IV Q8H, CLINDAMYCIN 600 MG IV Q6H",cms_sepsis_qualifying_antibiotics
 clonidine,mg,"Central alpha-2 agonist for hypertension, withdrawal, and sedation adjunct; oral and transdermal","CLONIDINE 0.1 MG PO BID, CATAPRES-TTS 0.1 MG/24HR PATCH",antihypertensive
 clopidogrel,mg,P2Y12 inhibitor antiplatelet,"CLOPIDOGREL 75 MG PO DAILY, PLAVIX 600 MG PO LOAD",anticoagulation
@@ -115,6 +123,7 @@ delafloxacin,mg,Fluoroquinolone for skin and bacterial infections,"DELAFLOXACIN 
 denosumab,mg,RANKL inhibitor monoclonal antibody for osteoporosis and skeletal-related events in malignancy,"DENOSUMAB 60 MG SUBQ Q6MONTHS, XGEVA 120 MG SUBQ Q4WEEKS",endocrine
 desmopressin,mcg,"Vasopressin analog (DDAVP) for diabetes insipidus and bleeding (uremic platelet dysfunction, von Willebrand)","DESMOPRESSIN 0.3 MCG/KG IV, DDAVP 2 MCG IV, DESMOPRESSIN 0.1 MG PO BID",endocrine
 dexamethasone,mg,Corticosteroid,"DEXAMETHASONE 10 MG IV Q6H, DEXAMETHASONE 4 MG IV Q6H",steroid
+dexmedetomidine,mcg,Alpha-2 agonist sedative,"DEXMEDETOMIDINE 1 MCG/KG IV LOAD OVER 10 MIN, DEXMEDETOMIDINE 0.5 MCG/KG IV BOLUS",sedation
 dextrose_10_lactated_ringers,ml,10% dextrose in lactated Ringer's,"D10 LR 1000 ML IV, DEXTROSE 10% IN LACTATED RINGERS",fluids_electrolytes
 dextrose_10_sodium_chloride_0_45_pct,ml,10% dextrose in 0.45% sodium chloride,"D10 1/2NS 1000 ML IV, DEXTROSE 10%-0.45% NACL",fluids_electrolytes
 dextrose_10_sodium_chloride_0_9_pct,ml,10% dextrose in 0.9% sodium chloride,"D10NS 1000 ML IV, DEXTROSE 10%-0.9% NACL",fluids_electrolytes
@@ -133,6 +142,8 @@ digoxin,mg,Cardiac glycoside; HFrEF adjunct for symptom/hospitalization reductio
 diltiazem,mg,Non-dihydropyridine calcium channel blocker,"DILTIAZEM 10 MG IV PUSH, DILTIAZEM 30 MG PO Q6H, CARDIZEM CD 120 MG PO DAILY",antiarrhythmic
 diphenhydramine,mg,Antihistamine for allergic reactions,"DIPHENHYDRAMINE 25 MG IV Q6H PRN, DIPHENHYDRAMINE 50 MG PO Q6H PRN",other
 dipyridamole,mg,"Phosphodiesterase-3 inhibitor antiplatelet and pharmacologic stress agent. Combination products (e.g., Aggrenox) map to each component category","DIPYRIDAMOLE 75 MG PO QID, DIPYRIDAMOLE 0.56 MG/KG IV STRESS TEST",anticoagulation
+dobutamine,mcg,Inotropic agent to increase cardiac contractility,DOBUTAMINE IV BOLUS,vasoactive
+dopamine,mg,Vasopressor and inotrope for hemodynamic support,DOPAMINE IV BOLUS,vasoactive
 doripenem,mg,Carbapenem antibiotic for severe infections,"DORIPENEM 500 MG IV Q8H, DORIPENEM 1 GM IV Q8H",cms_sepsis_qualifying_antibiotics
 dornase_alfa,mg,Recombinant human Dnase. Can be nebulized for airway clearance or intrapleural for pleural infection. Note the route via med_route_category.,"DORNASE ALFA 2.5 MG NEBULIZER DAILY, PULMOZYME 2.5 MG INHALED, DORNASE ALFA 5 MG INTRAPLEURAL",respiratory
 doxycycline,mg,Tetracycline antibiotic for various infections,"DOXYCYCLINE 100 MG IV Q12H, DOXYCYCLINE 100 MG PO Q12H",cms_sepsis_qualifying_antibiotics
@@ -146,6 +157,7 @@ enoxaparin,mg,Low molecular weight heparin anticoagulant for VTE prophylaxis and
 epcoritamab,mg,CD20-CD3 bispecific T-cell engager for B-cell lymphoma,"EPCORITAMAB 48 MG SUBQ WEEKLY, EPKINLY SUBQ DOSING",antineoplastic
 epinephrine,mg,"Catecholamine for hemodynamic support, cardiac arrest, and anaphylaxis. Can be nebulized as racemic epinephrine. Note dose and route. ","EPINEPHRINE 1 MG/10 ML IV PUSH (0.1 MG/ML, formerly 1:10,000), EPINEPHRINE 0.3 MG IM (1 MG/ML, formerly 1:1,000), ADRENALINE",vasoactive
 eplerenone,mg,Selective mineralocorticoid receptor antagonist,"EPLERENONE 25 MG PO DAILY, INSPRA 50 MG PO DAILY",diuretic
+epoprostenol,mcg,Prostacyclin for pulmonary arterial hypertension; IV or inhaled (route via med_route_category),EPOPROSTENOL IV BOLUS,pulmonary_vasodilator
 eprosartan,mg,Angiotensin receptor blocker for hypertension,"EPROSARTAN 600 MG PO DAILY, TEVETEN 400-800 MG PO DAILY",antihypertensive
 eptifibatide,mg,Glycoprotein IIb/IIIa inhibitor antiplatelet. Infusions map to medication_admin_continuous,"EPTIFIBATIDE 180 MCG/KG IV BOLUS, INTEGRILIN 180 MCG/KG IV BOLUS",anticoagulation
 eravacycline,mg,Fluorocycline antibiotic for complicated infections,"ERAVACYCLINE 1 MG/KG IV Q12H, XERAVA 1 MG/KG IV Q12H",cms_sepsis_qualifying_antibiotics
@@ -216,6 +228,7 @@ ioxaglate,ml,Iodinated contrast agent for angiography,"IOXAGLATE 100-150 ML IV/I
 ipratropium,mg,"Short-acting muscarinic antagonist (SAMA), MDI or nebulized. Combination products map to each component category (e.g., DuoNeb, Combivent)","IPRATROPIUM 0.5 MG NEBULIZER Q6H, ATROVENT HFA 2 PUFFS QID",respiratory
 irbesartan,mg,"Angiotensin receptor blocker. Combination products (e.g., irbesartan-HCTZ) map to each component category","IRBESARTAN 150 MG PO DAILY, AVAPRO 75-300 MG PO DAILY",antihypertensive
 isavuconazole,mg,"Triazole antifungal. ETL note: isavuconazonium sulfate (the prodrug) orders map here; 372 mg isavuconazonium sulfate = 200 mg isavuconazole, so the mapped dose depends on which the site records","ISAVUCONAZONIUM 372 MG IV Q8H X6 DOSES LOAD, CRESEMBA 372 MG PO DAILY, ISAVUCONAZOLE 200 MG IV DAILY",cms_sepsis_qualifying_antibiotics
+isoproterenol,mcg,Beta agonist to increase heart rate,"ISOPROTERENOL 20 MCG IV PUSH, ISOPROTERENOL 10 MCG IV BOLUS",vasoactive
 isosorbide_dinitrate,mg,"Nitrate vasodilator. Combination products (e.g., BiDil) map to each component category","ISOSORBIDE DINITRATE 20 MG PO TID, ISORDIL 40 MG PO TID",antihypertensive
 isosorbide_mononitrate,mg,Long-acting nitrate vasodilator for angina,"ISOSORBIDE MONONITRATE ER 30 MG PO DAILY, IMDUR 60 MG PO DAILY, ISMO 20 MG PO BID",antihypertensive
 itraconazole,mg,Triazole antifungal,"ITRACONAZOLE 200 MG IV Q12H X4 THEN DAILY, ITRACONAZOLE 200 MG PO Q12H",cms_sepsis_qualifying_antibiotics
@@ -237,6 +250,7 @@ linagliptin,mg,"DPP-4 inhibitor for type 2 diabetes. Combination products map to
 lincomycin,mg,Lincosamide antibiotic,"LINCOMYCIN 600 MG IV Q8H, LINCOMYCIN 500 MG IM Q12H",cms_sepsis_qualifying_antibiotics
 linezolid,mg,Oxazolidinone antibiotic,"LINEZOLID 600 MG IV Q12H, LINEZOLID 600 MG PO Q12H",cms_sepsis_qualifying_antibiotics
 linvoseltamab,mg,BCMA-CD3 bispecific T-cell engager for multiple myeloma,"LINVOSELTAMAB 5-200 MG IV STEP-UP DOSING, LYNOZYFIC IV INFUSION",antineoplastic
+liothyronine,mcg,Synthetic T3 thyroid hormone,"LIOTHYRONINE 10 MCG IV Q8H, CYTOMEL 25 MCG PO DAILY",endocrine
 lisinopril,mg,"ACE inhibitor. Combination products (e.g., lisinopril-HCTZ) map to each component category","LISINOPRIL 10 MG PO DAILY, PRINIVIL 5-40 MG PO DAILY, ZESTRIL",antihypertensive
 lisocabtagene_maraleucel,cells,CAR T-cell therapy for large B-cell lymphoma,"LISOCABTAGENE MARALEUCEL 50-110X10^6 CAR+ T CELLS IV, BREYANZI INFUSION",car_t
 lorazepam,mg,Benzodiazepine for anxiety and seizures,"LORAZEPAM 1 MG IV Q4H PRN ANXIETY, LORAZEPAM 2 MG IV PUSH",sedation
@@ -266,6 +280,7 @@ mezlocillin,g,Extended-spectrum penicillin,"MEZLOCILLIN 3 GM IV Q4H, MEZLOCILLIN
 micafungin,mg,Echinocandin antifungal for candidiasis,"MICAFUNGIN 100 MG IV DAILY, MICAFUNGIN 150 MG IV Q24H",cms_sepsis_qualifying_antibiotics
 miconazole,mg,Azole antifungal for oropharyngeal and cutaneous candidiasis,"MICONAZOLE 50 MG BUCCAL TABLET DAILY, MICONAZOLE 2% POWDER TOPICAL BID",cms_sepsis_qualifying_antibiotics
 midazolam,mg,Benzodiazepine for sedation,"MIDAZOLAM 2 MG IV Q2H PRN, MIDAZOLAM 5 MG IV PUSH",sedation
+milrinone,mcg,Phosphodiesterase inhibitor inotrope,MILRINONE 50 MCG/KG IV LOAD OVER 10 MIN,vasoactive
 minocycline,mg,Tetracycline for MRSA and other infections,"MINOCYCLINE 100 MG IV Q12H, MINOCYCLINE 100 MG PO Q12H",cms_sepsis_qualifying_antibiotics
 moexipril,mg,ACE inhibitor for hypertension,"MOEXIPRIL 7.5 MG PO DAILY, UNIVASC 7.5-30 MG PO DAILY",antihypertensive
 molnupiravir,mg,Oral nucleoside analog antiviral for COVID-19,"MOLNUPIRAVIR 800 MG PO Q12H X5 DAYS, LAGEVRIO 800 MG PO BID",cms_sepsis_qualifying_antibiotics
@@ -282,12 +297,15 @@ n_acetylcysteine,mg,Acetaminophen overdose antidote (IV/PO) and inhaled mucolyti
 nafcillin,g,Anti-staphylococcal penicillin for MSSA,"NAFCILLIN 2 GM IV Q4H, NAFCILLIN 1 GM IV Q4H",cms_sepsis_qualifying_antibiotics
 naloxone,mg,Opioid antagonist for reversal (intermittent dosing),"NALOXONE 0.4 MG IV/IM PRN OPIOID REVERSAL, NARCAN 0.4-2 MG IV PUSH",other
 neostigmine,mg,Acetylcholinesterase inhibitor,"NEOSTIGMINE, BLOXIVERZ",other
+nicardipine,mg,Calcium channel blocker for hypertension,"NICARDIPINE 20 MG PO TID, NICARDIPINE 0.5 MG IV PUSH",antihypertensive
 nifedipine_er,mg,"Dihydropyridine calcium channel blocker, oral extended-release, for hypertension","NIFEDIPINE ER 30 MG PO DAILY, PROCARDIA XL 60 MG PO DAILY",antihypertensive
 nifedipine_ir,mg,"Dihydropyridine calcium channel blocker, immediate-release (largely tocolysis or acute obstetric hypertension)","NIFEDIPINE 10 MG PO Q6H, NIFEDIPINE IR 10 MG PO X1",antihypertensive
 nimodipine,mg,Dihydropyridine calcium channel blocker for aneurysmal SAH vasospasm prophylaxis,"NIMODIPINE 60 MG PO Q4H, NIMODIPINE 30 MG PER NG TUBE Q2H",other
 nirmatrelvir_ritonavir,mg,Oral SARS-CoV-2 protease inhibitor boosted with ritonavir for COVID-19. Combination product: map to this single category; do not split into components,"NIRMATRELVIR-RITONAVIR 300-100 MG PO BID X5 DAYS, PAXLOVID 150-100 MG PO BID",cms_sepsis_qualifying_antibiotics
 nitrofurantoin,mg,Antibiotic,"NITROFURANTOIN 100 MG PO Q12H, NITROFURANTOIN MACRO 100 MG PO Q12H",cms_sepsis_qualifying_antibiotics
 nitroglycerin,mg,Nitrate vasodilator,"NITROGLYCERIN 0.4 MG SL Q5MIN PRN, NITROGLYCERIN 2% OINTMENT 1 INCH TOPICAL, NITROGLYCERIN 0.4 MG/HR PATCH",antihypertensive
+nitroprusside,mcg,Arterial vasodilator for hypertensive emergency,NITROPRUSSIDE IV BOLUS,antihypertensive
+norepinephrine,mcg,Catecholamine for hemodynamic support,"NOREPINEPHRINE 8 MCG IV PUSH, PUSH-DOSE NOREPINEPHRINE 4 MCG IV",vasoactive
 norfloxacin,mg,Fluoroquinolone antibiotic,"NORFLOXACIN 400 MG PO Q12H, NORFLOXACIN 400 MG PO Q12H X3 DAYS",cms_sepsis_qualifying_antibiotics
 nystatin,ml,Polyene antifungal for mucocutaneous candidiasis,"NYSTATIN 500000 UNITS PO QID SWISH/SWALLOW, NYSTATIN SUSPENSION 5 ML PO QID",cms_sepsis_qualifying_antibiotics
 octreotide,mcg,Somatostatin analog,"OCTREOTIDE 100 MCG SUBQ Q8H, OCTREOTIDE 50 MCG IV BOLUS, SANDOSTATIN 100 MCG SUBQ TID",gastrointestinal
@@ -303,12 +321,16 @@ oseltamivir,mg,Neuraminidase inhibitor for influenza,"OSELTAMIVIR 75 MG PO Q12H 
 oxacillin,g,Anti-staphylococcal penicillin,"OXACILLIN 2 GM IV Q4H, OXACILLIN 1 GM IV Q6H",cms_sepsis_qualifying_antibiotics
 oxycodone_er,mg,Opioid analgesic in extended-release oral form. Map immediate-release doses to oxycodone_ir,"OXYCODONE ER 10 MG PO Q12H, OXYCONTIN 20 MG PO Q12H",analgesia
 oxycodone_ir,mg,Opioid analgesic in immediate-release oral form. Map extended-release doses to oxycodone_er,"OXYCODONE 5 MG PO Q4H PRN PAIN, ROXICODONE 10 MG PO Q6H PRN",analgesia
+oxytocin,units,Oxytocin (Pitocin) for labor augmentation and postpartum hemorrhage,"OXYTOCIN 10 UNITS IM X1, PITOCIN 10 UNITS IM POSTPARTUM",other
 pantoprazole,mg,Proton pump inhibitor,"PANTOPRAZOLE 40 MG IV Q12H, PROTONIX 40 MG PO DAILY, PANTOPRAZOLE 80 MG IV BOLUS",gastrointestinal
+papaverine,mg,Smooth muscle relaxant vasodilator,"PAPAVERINE 30 MG INTRA-ARTERIAL, PAPAVERINE 60 MG IA BOLUS",other
 patiromer,g,Potassium binder for hyperkalemia,"PATIROMER 8.4 G PO DAILY, VELTASSA 8.4 G PO",fluids_electrolytes
 penicillin,mg,Beta-lactam antibiotic,"PENICILLIN G 4 MILLION UNITS IV Q4H, PENICILLIN VK 500 MG PO Q6H",cms_sepsis_qualifying_antibiotics
+pentobarbital,mg,Barbiturate for refractory intracranial hypertension,"PENTOBARBITAL 10 MG/KG IV LOAD, PENTOBARBITAL 100 MG IV BOLUS",sedation
 peramivir,mg,Neuraminidase inhibitor for influenza,"PERAMIVIR 600 MG IV SINGLE DOSE, RAPIVAB 600 MG IV X1",cms_sepsis_qualifying_antibiotics
 perindopril,mg,"ACE inhibitor. Combination products (e.g., perindopril-amlodipine) map to each component category","PERINDOPRIL 4 MG PO DAILY, ACEON 2-8 MG PO DAILY, COVERSYL",antihypertensive
 phenobarbital,mg,Barbiturate anticonvulsant for status epilepticus and alcohol withdrawal,"PHENOBARBITAL 15-20 MG/KG IV LOAD, PHENOBARBITAL 130 MG IV Q30MIN PRN, PHENOBARBITAL 60 MG PO BID",antiseizure
+phentolamine,mg,Alpha blocker for extravasation and hypertension,"PHENTOLAMINE 5 MG SUBQ INFILTRATION EXTRAVASATION, PHENTOLAMINE 5 MG IV PUSH",antihypertensive
 phenylephrine,mcg,"Alpha-1 agonist vasopressor, IV push doses. Infusions map to medication_admin_continuous","PHENYLEPHRINE 100 MCG IV PUSH, PHENYLEPHRINE 50-200 MCG IV Q2MIN PRN",vasoactive
 phenytoin,mg,Anticonvulsant for seizures and status epilepticus,"PHENYTOIN 100 MG IV Q8H, DILANTIN 300 MG PO DAILY",antiseizure
 phytonadione,mg,Vitamin K for warfarin reversal and vitamin K deficiency,"PHYTONADIONE 10 MG IV, VITAMIN K 5 MG PO DAILY, PHYTONADIONE 1 MG SUBQ",other
@@ -336,6 +358,7 @@ quinapril,mg,ACE inhibitor for hypertension and heart failure,"QUINAPRIL 20 MG P
 quinupristin_dalfopristin,mg,Streptogramin for resistant gram-positives. Combination product: map to this single category; do not split into components,"QUINUPRISTIN-DALFOPRISTIN 7.5 MG/KG IV Q8H, SYNERCID 7.5 MG/KG IV Q8H",cms_sepsis_qualifying_antibiotics
 ramipril,mg,"ACE inhibitor. Combination products (e.g., ramipril-amlodipine) map to each component category","RAMIPRIL 5 MG PO DAILY, ALTACE 2.5-10 MG PO DAILY",antihypertensive
 remdesivir,mg,Antiviral for COVID-19 and other RNA virus infections,"REMDESIVIR 200 MG IV LOAD THEN 100 MG IV DAILY, VEKLURY 100 MG IV",cms_sepsis_qualifying_antibiotics
+remifentanil,mcg,Ultra-short acting opioid analgesic,"REMIFENTANIL 1 MCG/KG IV BOLUS, REMIFENTANIL 50 MCG IV PUSH",analgesia
 revefenacin,mcg,"Long-acting muscarinic antagonist (LAMA), nebulized","REVEFENACIN 175 MCG NEBULIZER DAILY, YUPELRI 175 MCG NEB DAILY",respiratory
 rezafungin,mg,Echinocandin antifungal for candidiasis,"REZAFUNGIN 400 MG IV LOADING THEN 200 MG IV WEEKLY, REZZAYO 200 MG IV Q1WEEK",cms_sepsis_qualifying_antibiotics
 ribavirin,mg,Antiviral for RSV and hepatitis C,"RIBAVIRIN 1200 MG PO DIVIDED Q12H, RIBAVIRIN 6 GM AEROSOL Q12-18H",cms_sepsis_qualifying_antibiotics
@@ -351,7 +374,9 @@ salmeterol,mcg,"Long-acting beta-2 agonist (LABA). Combination products map to e
 saxagliptin,mg,"DPP-4 inhibitor for type 2 diabetes. Combination products map to each component category (e.g., Qtern)","SAXAGLIPTIN 5 MG PO DAILY, ONGLYZA 2.5 MG PO DAILY",endocrine
 siltuximab,mg,IL-6 monoclonal antibody for inflammatory conditions and cytokine release syndrome,"SILTUXIMAB 11 MG/KG IV Q3WEEKS, SYLVANT IV INFUSION",immunosuppressant
 sirolimus,mg,mTOR inhibitor immunosuppressant for transplant rejection prophylaxis,"SIROLIMUS 2 MG PO DAILY, RAPAMUNE 1 MG PO DAILY",immunosuppressant
+sodium_bicarbonate_150_meq,ml,"150 mEq/L sodium bicarbonate solution (standard bicarbonate drip) in any carrier, given as a bolus",SODIUM BICARBONATE 150 MEQ/1000 ML D5W 500 ML IV BOLUS,fluids_electrolytes
 sodium_bicarbonate_8_4_pct,meq,"8.4% sodium bicarbonate amps/pushes (1 mEq/mL) for hyperkalemia, cardiac arrest, and TCA overdose. Bicarbonate infusions map to medication_admin_continuous sodium_bicarbonate_150_meq or sodium_bicarbonate_other","SODIUM BICARBONATE 8.4% 50 MEQ IV PUSH, SODIUM BICARBONATE 50 MEQ/50 ML IV",fluids_electrolytes
+sodium_bicarbonate_other,ml,"Sodium bicarbonate solution at a concentration other than 150 mEq/L, any carrier, given as a bolus",SODIUM BICARBONATE 75 MEQ/1000 ML 250 ML IV BOLUS,fluids_electrolytes
 sodium_chloride_0_45_pct,ml,0.45% sodium chloride (1/2 NS),"SODIUM CHLORIDE 0.45% 1000 ML IV, 1/2 NS 500 ML IV",fluids_electrolytes
 sodium_chloride_0_9_pct,ml,0.9% sodium chloride (normal saline),"SODIUM CHLORIDE 0.9% 1000 ML IV BOLUS, NORMAL SALINE 500 ML IV BOLUS",fluids_electrolytes
 sodium_chloride_20_pct,ml,20% hypertonic sodium chloride for severe cerebral edema,"SODIUM CHLORIDE 20% 30 ML IV, 20% SALINE IV",fluids_electrolytes
@@ -369,6 +394,7 @@ sotagliflozin,mg,Dual SGLT1/2 inhibitor,"SOTAGLIFLOZIN 200 MG PO DAILY, INPEFA 4
 spironolactone,mg,"Mineralocorticoid receptor antagonist. Combination products (e.g., spironolactone-HCTZ) map to each component category","SPIRONOLACTONE 12.5 MG PO DAILY, ALDACTONE 25 MG PO DAILY",diuretic
 streptomycin,mg,Aminoglycoside for tuberculosis,"STREPTOMYCIN 1 GM IM DAILY, STREPTOMYCIN 15 MG/KG IM DAILY",cms_sepsis_qualifying_antibiotics
 succinylcholine,mg,Depolarizing neuromuscular blocking agent,"SUCCINYLCHOLINE 100 MG IV PUSH, SUCCINYLCHOLINE 1-2 MG/KG IV BOLUS",paralytic
+sufentanil,mcg,Potent opioid analgesic,"SUFENTANIL 10 MCG IV PUSH, SUFENTANIL 30 MCG SL, DSUVIA 30 MCG SL",analgesia
 sugammadex,mg,Reversal agent for rocuronium- or vecuronium-induced neuromuscular blockade,"SUGAMMADEX, BRIDION",other
 sulbactam_durlobactam,g,Beta-lactamase inhibitor combination. Combination product: map to this single category; do not split into components,"SULBACTAM-DURLOBACTAM 1 GM IV Q6H, XACDURO 2 GM IV Q6H",cms_sepsis_qualifying_antibiotics
 sulfadiazine,mg,Sulfonamide antibiotic for toxoplasmosis,"SULFADIAZINE 1500 MG PO Q6H, SULFADIAZINE 1 GM PO QID",cms_sepsis_qualifying_antibiotics
@@ -393,6 +419,7 @@ ticarcillin_clavulanate,g,Extended-spectrum penicillin with beta-lactamase inhib
 ticlopidine,mg,Thienopyridine antiplatelet (discontinued in US),"TICLOPIDINE 250 MG PO BID, TICLID 250 MG PO BID",anticoagulation
 tigecycline,mg,Glycylcycline for complicated infections,"TIGECYCLINE 100 MG IV LOAD THEN 50 MG IV Q12H, TYGACIL 50 MG IV Q12H",cms_sepsis_qualifying_antibiotics
 tiotropium,mcg,"Long-acting muscarinic antagonist (LAMA). Combination products map to each component category (e.g., Stiolto)","TIOTROPIUM 18 MCG INHALED DAILY, SPIRIVA RESPIMAT 2 PUFFS DAILY",respiratory
+tirofiban,mcg,Glycoprotein IIb/IIIa inhibitor antiplatelet,"TIROFIBAN 25 MCG/KG IV BOLUS, AGGRASTAT 25 MCG/KG IV BOLUS",anticoagulation
 tisagenlecleucel,cells,CAR T-cell therapy for ALL and lymphoma,"TISAGENLECLEUCEL 0.2-5X10^6 CAR+ T CELLS/KG IV, KYMRIAH INFUSION",car_t
 tobramycin,mg,Aminoglycoside for gram-negative infections,"TOBRAMYCIN 5 MG/KG IV DAILY, TOBRAMYCIN 7 MG/KG IV Q24H",cms_sepsis_qualifying_antibiotics
 tocilizumab,mg,IL-6 receptor antagonist,"TOCILIZUMAB 8 MG/KG IV SINGLE DOSE, ACTEMRA 400 MG IV X1",immunosuppressant
@@ -400,6 +427,7 @@ torsemide,mg,Loop diuretic for volume management in HF (oral),"TORSEMIDE 20 MG I
 tpn,ml,Total parenteral nutrition,"TPN 2000 ML IV, TPN STANDARD FORMULA 1500 ML IV",fluids_electrolytes
 trandolapril,mg,ACE inhibitor for hypertension and post-MI,"TRANDOLAPRIL 2 MG PO DAILY, MAVIK 1-4 MG PO DAILY",antihypertensive
 tranexamic_acid,mg,Antifibrinolytic for hemorrhage,"TRANEXAMIC ACID 1000 MG IV OVER 10 MIN, TXA 1 G IV, TRANEXAMIC ACID 1300 MG PO TID",other
+treprostinil,mcg,"Prostacyclin analog for pulmonary hypertension (inhaled, oral, or bolus)","TREPROSTINIL 18 MCG INHALED QID, TYVASO 3 BREATHS INHALED QID, ORENITRAM 0.25 MG PO BID",pulmonary_vasodilator
 triamterene,mg,"Potassium-sparing diuretic. Combination products map to each component category (e.g., Dyazide, Maxzide)","TRIAMTERENE 50 MG PO DAILY, DYRENIUM 100 MG PO BID",diuretic
 trimethoprim,mg,"Antifolate antibiotic, note distinction from combination drug trimethoprim_sulfamethoxazole","TRIMETHOPRIM 100 MG PO Q12H, TRIMETHOPRIM 200 MG PO DAILY",cms_sepsis_qualifying_antibiotics
 trimethoprim_sulfamethoxazole,mg,Antifolate-sulfonamide combination antibiotic. Combination product: map to this single category; do not split into components,"TRIMETHOPRIM-SULFAMETHOXAZOLE DS 2 TABS PO Q8H, BACTRIM DS 1 TAB PO BID",cms_sepsis_qualifying_antibiotics
@@ -409,10 +437,12 @@ valganciclovir,mg,Prodrug of ganciclovir for CMV,"VALGANCICLOVIR 900 MG PO Q12H,
 valproate,mg,Anticonvulsant for seizures and status epilepticus; map divalproex (Depakote) to valproate,"VALPROATE 1000 MG IV Q8H, VALPROIC ACID 500 MG IV Q6H, DIVALPROEX DR 500 MG PO BID, DEPAKOTE ER 1000 MG PO DAILY",antiseizure
 valsartan,mg,"Angiotensin receptor blocker for hypertension and heart failure. Combination products (e.g., valsartan-amlodipine) map to each component category","VALSARTAN 160 MG PO DAILY, DIOVAN 80-320 MG PO DAILY",antihypertensive
 vancomycin,mg,Glycopeptide for MRSA and C. difficile,"VANCOMYCIN 1500 MG IV Q12H, VANCOMYCIN 125 MG PO Q6H C DIFF",cms_sepsis_qualifying_antibiotics
+vasopressin,units,Antidiuretic hormone for septic shock and vasoplegia,"VASOPRESSIN 1 UNIT IV PUSH, VASOPRESSIN 40 UNITS IV CARDIAC ARREST",vasoactive
 vecuronium,mg,Non-depolarizing neuromuscular blocking agent,"VECURONIUM 10 MG IV BOLUS, VECURONIUM 0.1 MG/KG IV PUSH",paralytic
 vericiguat,mg,Soluble guanylate cyclase stimulator; HFrEF adjunct,"VERICIGUAT 2.5 MG PO DAILY, VERQUVO 10 MG PO DAILY",other
 vilanterol,mcg,Long-acting beta-2 agonist (LABA). Combination products map to each component category,"BREO ELLIPTA 100-25 1 PUFF DAILY, ANORO ELLIPTA 1 PUFF DAILY",respiratory
 voriconazole,mg,Triazole antifungal for aspergillosis,"VORICONAZOLE 6 MG/KG IV Q12H X2 THEN 4 MG/KG Q12H, VORICONAZOLE 200 MG PO Q12H",cms_sepsis_qualifying_antibiotics
 warfarin,mg,Vitamin K antagonist oral anticoagulant,"WARFARIN 5 MG PO DAILY, COUMADIN 2.5 MG PO DAILY",anticoagulation
 zanamivir,mg,Inhaled neuraminidase inhibitor for influenza,"ZANAMIVIR 10 MG INHALED BID X5 DAYS, RELENZA 10 MG INHALED BID",cms_sepsis_qualifying_antibiotics
+zidovudine,mg,Antiretroviral for HIV treatment and prevention,"ZIDOVUDINE 300 MG PO BID, ZIDOVUDINE 2 MG/KG IV LOAD",other
 zoledronic_acid,mg,IV bisphosphonate for hypercalcemia of malignancy and osteoporosis,"ZOLEDRONIC ACID 4 MG IV, ZOMETA 4 MG IV OVER 15 MIN, RECLAST 5 MG IV",endocrine

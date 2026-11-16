@@ -86,8 +86,10 @@ sodium_chloride_3_pct,ml/hr,ml/hr,3% hypertonic sodium chloride infusion for cer
 sodium_chloride_5_pct,ml/hr,ml/hr,5% hypertonic sodium chloride,"SODIUM CHLORIDE 5% 250 ML IV, 5% SALINE IV",fluids_electrolytes
 sodium_chloride_7_pct,ml/hr,ml/hr,7% hypertonic sodium chloride,"SODIUM CHLORIDE 7% 4 ML NEBULIZER BID, HYPERSAL 7% NEB",fluids_electrolytes
 sodium_chloride_other,ml/hr,ml/hr,"Other sodium chloride concentrations not listed (e.g., 7.5%)","SODIUM CHLORIDE 7.5% 250 ML IV, SODIUM CHLORIDE 1.5% IV",fluids_electrolytes
+sufentanil,mcg/kg/hr,ml/hr,Potent opioid analgesic,"SUFENTANIL 50 MCG/50 ML IV INFUSION, SUFENTANIL 0.1-0.5 MCG/KG/HR IV",analgesia
 tacrolimus,mcg/kg/day,ml/hr,Immunosuppressant for transplant and other indications,"TACROLIMUS 5 MG/250 ML IV INFUSION, TACROLIMUS 0.01-0.05 MG/KG/DAY IV",immunosuppressant
 terbutaline,mcg/kg/min,ml/hr,Beta-2 agonist infusion for status asthmaticus and tocolysis,"TERBUTALINE 5 MG/500 ML IV INFUSION, TERBUTALINE 2.5-10 MCG/MIN IV",respiratory
+tirofiban,mcg/kg/min,ml/hr,Glycoprotein IIb/IIIa inhibitor antiplatelet,"TIROFIBAN 12.5 MG/250 ML IV INFUSION, AGGRASTAT 0.15 MCG/KG/MIN IV",anticoagulation
 torsemide,mg/hr,ml/hr,Loop diuretic for fluid management,"TORSEMIDE 100 MG/250 ML IV INFUSION, TORSEMIDE 20 MG IV Q12H",diuretic
 tpn,ml/hr,ml/hr,Total parenteral nutrition,"TPN 2000 ML IV CONTINUOUS, TPN STANDARD FORMULA 1500 ML/DAY IV",fluids_electrolytes
 treprostinil,ng/kg/min,ml/hr,Prostacyclin analog for pulmonary hypertension,"TREPROSTINIL 20 MG/100 ML IV INFUSION, TREPROSTINIL 1-40 NG/KG/MIN IV",pulmonary_vasodilator
