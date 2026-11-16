@@ -9,3 +9,5 @@ neuro_icu,"Medical patients with neurological critical illness (stroke, seizure)
 neurosurgical_icu,"Surgical patients with neurological critical illness (SAH, SDH, etc)","NeuroSurgICU1, NSICU_A, BrainSurgICU2"
 mixed_neuro_icu,Medical and surgical patients with neurological critical illness,"MixedNeuroICU1, NeuroHybridICU_A, NeuroMixICU2"
 medical_icu,"Medical critical illness (predominantly respiratory failure, septic shock, GI hemorrhage, renal failure)","M001E, MICU1, MedICU_A"
+pediatric_medical_mixed_icu,"Pediatric ICU (PICU) caring for a mix of medical and surgical critically ill pediatric patients; included for adolescents and young adults (AYA) who may be admitted there","PICU1, PedsICU_A, PICU_Main"
+pediatric_cardiac_icu,"Pediatric ICU dedicated to cardiac conditions (e.g. congenital heart disease, post-cardiac surgery); included for adolescents and young adults (AYA) who may be admitted there","PCICU1, PedsCardiacICU_A, PCVICU"
