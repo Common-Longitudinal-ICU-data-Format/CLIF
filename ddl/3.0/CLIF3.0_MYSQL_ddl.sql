@@ -126,7 +126,7 @@ CREATE TABLE labs (
 CREATE TABLE medication_admin_continuous (
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter", "permissible": "No restriction"}',
   med_order_id VARCHAR COMMENT '{"description": "Medication order ID. Foreign key to link this table to other medication tables", "permissible": "No restriction"}',
-  administering_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the provider who administered the medication.", "permissible": "No restriction"}',
+  administering_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the provider who administered the medication. Within a dataset, the same provider must keep the same ID across all hospitalizations and the full date range.", "permissible": "No restriction"}',
   admin_dttm DATETIME COMMENT '{"description": "Date and time when the medicine was administered. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
   med_name VARCHAR COMMENT '{"description": "Original med name string recorded in the raw data which often contains concentration e.g. NOREPInephrine 8 mg/250 mL", "permissible": "No restriction"}',
   med_category VARCHAR COMMENT '{"description": "Maps med_name to a limited set of active ingredients for important ICU medications, e.g. norepinephrine", "permissible": "[List of continuous medication categories in CLIF](https://github.com/clif-consortium/CLIF/blob/3.0/mCIDE/medication_admin_continuous/clif_medication_admin_continuous_med_categories.csv) "}',
@@ -134,7 +134,7 @@ CREATE TABLE medication_admin_continuous (
   med_route_name VARCHAR COMMENT '{"description": "Medicine delivery route", "permissible": "e.g. IV, enteral"}',
   med_route_category VARCHAR COMMENT '{"description": "Maps med_route_name to a standardized list of medication delivery routes. Refer to notes.", "permissible": "[List of continuous route categories in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/medication_admin_continuous/clif_medication_admin_continuous_med_route_categories.csv)"}',
   med_dose FLOAT COMMENT '{"description": "Quantity of active drug delivered per unit time", "permissible": "Numeric"}',
-  med_dose_unit VARCHAR COMMENT '{"description": "Unit of dose in the format [active ingredient quantity]/[time] (e.g., mcg/min, mg/hr, units/hr, mcg/kg/min). Units are not standardized across drugs, and can be weight-based (e.g., mcg/kg/min). Boluses should be mapped to med_admin_intermittent", "permissible": "No restriction"}',
+  med_dose_unit VARCHAR COMMENT '{"description": "Standardized unit of dose for the med_category, in the format [active ingredient quantity]/[time] (e.g., mcg/min, mg/hr, units/hr, mcg/kg/min). Raw rates should be converted into the category-specific unit. The kg-adjusted or weight-naive alternative of that unit is also accepted (e.g., mcg/kg/min where the category lists mcg/min). Boluses should be mapped to med_admin_intermittent", "permissible": "[List of continuous med_dose_units in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/medication_admin_continuous/clif_medication_admin_continuous_med_categories.csv)"}',
   rx_norm_code VARCHAR COMMENT '{"description": "RxNorm RXCUI code identifying the specific drug formulation (active ingredient, strength, dose form, and route) for this administration. Resolved from the combination of med_name, med_route_name, med_dose, and med_dose_unit. (Optional)", "permissible": "[RxNorm RXCUI](https://www.nlm.nih.gov/research/umls/rxnorm/index.html)"}',
   volume_infusion_rate FLOAT COMMENT '{"description": "Absolute amount of volume administered over time, measured in [volume]/[time] (e.g., mL/hr). In contrast to med_dose which measures [quantity of drug]/[time] or [quantity of drug]/([time]*[body_weight])", "permissible": "Numeric"}',
   volume_infusion_rate_unit VARCHAR COMMENT '{"description": "Standardized unit of volume infusion rate per med_category in the format [volume]/[time] (e.g., mL/hr, mL/min).", "permissible": "[List of continuous medication categories with standardized volume_infusion_rate_unit in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/medication_admin_continuous/clif_medication_admin_continuous_med_categories.csv)"}',
@@ -196,7 +196,7 @@ CREATE TABLE microbiology_nonculture(
 -- -----------------------------------------------------
 CREATE TABLE patient_assessments (
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter", "permissible": "No restriction"}',
-  documenting_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the provider who documented the assessment.", "permissible": "No restriction"}',
+  documenting_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the provider who documented the assessment. Within a dataset, the same provider must keep the same ID across all hospitalizations and the full date range.", "permissible": "No restriction"}',
   recorded_dttm DATETIME COMMENT '{"description": "The exact date and time when the assessment was recorded, ensuring temporal accuracy. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
   assessment_name VARCHAR COMMENT '{"description": "Assessment Tool Name. The primary name of the assessment tool used (e.g., GCS, NRS, SAT Screen).", "permissible": "No restriction"}',
   assessment_category VARCHAR COMMENT '{"description": "Maps assessment_name to a standardized list of patient assessments", "permissible": "[List of permissible assessment categories in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/patient_assessments/clif_patient_assessment_categories.csv)"}',
@@ -231,7 +231,7 @@ CREATE TABLE position (
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter", "permissible": "No restriction"}',
   recorded_dttm DATETIME COMMENT '{"description": "Date and time when the vital is recorded. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00"}',
   position_name VARCHAR COMMENT '{"description": "Description of the position from the source data. This field is not used for analysis.", "permissible": "No restriction"}',
-  position_category VARCHAR COMMENT '{"description": "Maps position_name to either prone or not prone.", "permissible": "[prone, not_prone](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/postion/clif_position_categories.csv)"}'
+  position_category VARCHAR COMMENT '{"description": "Maps position_name to either prone or not prone.", "permissible": "[prone, not_prone](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/position/clif_position_categories.csv)"}'
 );
 
 
@@ -254,10 +254,11 @@ CREATE TABLE respiratory_support (
   resp_rate_set FLOAT COMMENT '{"description": "Respiratory rate set (in bpm)", "permissible": "No restriction, see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)"}',
   pressure_control_set FLOAT COMMENT '{"description": "Pressure control set (in cmH2O)", "permissible": "No restriction, see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)"}',
   pressure_support_set FLOAT COMMENT '{"description": "Pressure support set (in cmH2O)", "permissible": "No restriction, see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)"}',
-  flow_rate_set FLOAT COMMENT '{"description": "Flow rate of air delivered to patients on non-invasive devives (in lpm)", "permissible": "No restriction, see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)"}',
-  peak_inspiratory_pressure_set FLOAT COMMENT '{"description": "Peak inspiratory pressure set (in cmH2O). This is equivalent to inspiratory positive airway pressure (IPAP) in non-invasive ventilation modes, and is not used in invasive ventilation modes.", "permissible": "No restriction, see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)"}',
-  inspiratory_time_set FLOAT COMMENT '{"description": "Inspiratory time set (in seconds)", "permissible": "No restriction, see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)"}',
-  peep_set FLOAT COMMENT '{"description": "Positive-end-expiratory pressure set (in cmH2O)", "permissible": "No restriction, see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)"}',
+  flow_rate_set FLOAT COMMENT '{"description": "Flow rate of air delivered to patients on invasive devices (in lpm)", "permissible": "No restriction, see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)"}',
+  peak_inspiratory_pressure_set FLOAT COMMENT '{"description": "Peak inspiratory pressure set (in cmH2O). This is equivalent to inspiratory positive airway pressure (IPAP) in non-invasive ventilation modes and to P-high in APRV. It is not used in other invasive ventilation modes.", "permissible": "No restriction, see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)"}',
+  inspiratory_time_set FLOAT COMMENT '{"description": "Inspiratory time set (in seconds). For APRV this is T-high.", "permissible": "No restriction, see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)"}',
+  expiratory_time_set FLOAT COMMENT '{"description": "Expiratory time set (in seconds). For APRV this is T-low.", "permissible": "No restriction, see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)"}',
+  peep_set FLOAT COMMENT '{"description": "Positive-end-expiratory pressure set (in cmH2O). For APRV this is P-low.", "permissible": "No restriction, see [Expected _set values for each device_category and mode_category](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_respiratory_support.csv)"}',
   tidal_volume_obs FLOAT COMMENT '{"description": "Observed tidal volume (in mL)", "permissible": "No restriction"}',
   resp_rate_obs FLOAT COMMENT '{"description": "Observed respiratory rate (in bpm), as measured and recorded by the ventilator or non-invasive device. This value should not be pulled from the general vitals table, but should reflect measurements from the respiratory support device itself.", "permissible": "No restriction"}',
   plateau_pressure_obs FLOAT COMMENT '{"description": "Observed plateau pressure (in cmH2O)", "permissible": "No restriction"}',
@@ -350,7 +351,7 @@ CREATE TABLE misc_icu_orders (
 CREATE TABLE medication_admin_intermittent (
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter", "permissible": "No restriction"}',
   med_order_id VARCHAR COMMENT '{"description": "Medication order ID. Foreign key to link this table to other medication tables", "permissible": "No restriction"}',
-  administering_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the provider who administered the medication.", "permissible": "No restriction"}',
+  administering_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the provider who administered the medication. Within a dataset, the same provider must keep the same ID across all hospitalizations and the full date range.", "permissible": "No restriction"}',
   admin_dttm DATETIME COMMENT '{"description": "Date and time when the medicine was administered. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
   med_name VARCHAR COMMENT '{"description": "Original med name string recorded in the raw data which often contains concentration e.g. NOREPInephrine 8 mg/250 mL", "permissible": "No restriction"}',
   med_category VARCHAR COMMENT '{"description": "Maps med_name to a limited set of active ingredients for important ICU medications, e.g. norepinephrine", "permissible": "[List of medication categories in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/medication_admin_intermittent/clif_medication_admin_intermittent_med_categories.csv)"}',
@@ -371,7 +372,7 @@ CREATE TABLE medication_admin_intermittent (
 CREATE TABLE medication_orders (
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter", "permissible": "No restriction"}',
   med_order_id VARCHAR COMMENT '{"description": "Unique identifier for each medication order", "permissible": "No restriction"}',
-  ordering_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the provider who placed the medication order.", "permissible": "No restriction"}',
+  ordering_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the provider who placed the medication order. Within a dataset, the same provider must keep the same ID across all hospitalizations and the full date range.", "permissible": "No restriction"}',
   order_start_dttm DATETIME COMMENT '{"description": "Date and time when the medication order was initiated. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
   order_end_dttm DATETIME COMMENT '{"description": "Date and time when the medication order ended or was discontinued. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
   ordered_dttm DATETIME COMMENT '{"description": "Date and time when the medication was actually ordered. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
@@ -406,8 +407,8 @@ CREATE TABLE patient_diagnosis (
 -- -----------------------------------------------------
 CREATE TABLE patient_procedures (
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter", "permissible": "No restriction"}',
-  billing_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the billingprovider associated with the procedure.", "permissible": "No restriction"}',
-  performing_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the performing provider associated with the procedure.", "permissible": "No restriction"}',
+  billing_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the billingprovider associated with the procedure. Within a dataset, the same provider must keep the same ID across all hospitalizations and the full date range.", "permissible": "No restriction"}',
+  performing_provider_id VARCHAR COMMENT '{"description": "Uniquely identifies the performing provider associated with the procedure. Within a dataset, the same provider must keep the same ID across all hospitalizations and the full date range.", "permissible": "No restriction"}',
   procedure_code VARCHAR COMMENT '{"description": "Encoded procedure identifier.", "permissible": "Valid CPT, ICD-10-PCS OR HCPCS code"}',
   procedure_code_format VARCHAR COMMENT '{"description": "Code format used.", "permissible": "CPT, ICD10PCS, HCPCS"}',
   procedure_billed_dttm DATETIME COMMENT '{"description": "Date and time the procedure was billed (may differ from actual procedure time). All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}'
@@ -424,15 +425,22 @@ CREATE TABLE place_based_index (
 );
 
 -- -----------------------------------------------------
--- Table: provider
+-- Table: treatment_team
 -- -----------------------------------------------------
-CREATE TABLE provider (
+CREATE TABLE treatment_team (
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter", "permissible": "No restriction"}',
-  provider_id VARCHAR COMMENT '{"description": "Unique identifier for each provider. This represents individual healthcare providers", "permissible": "No restriction"}',
-  start_dttm DATETIME COMMENT '{"description": "Date and time when the provider’s care or involvement in the patient’s case began. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
-  stop_dttm DATETIME COMMENT '{"description": "Date and time when the provider’s care or involvement in the patient’s case ended. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
-  provider_role_name VARCHAR COMMENT '{"description": "The original string describing the role or specialty of the provider during the hospitalization", "permissible": "No restriction"}',
-  provider_role_category VARCHAR COMMENT '{"description": "Maps provider_role_name to list of standardized provider roles", "permissible": "Under development"}'
+  provider_id VARCHAR COMMENT '{"description": "Unique identifier for the team member. Links to provider_type.provider_id. Within a dataset, the same provider must keep the same ID across all hospitalizations and the full date range.", "permissible": "No restriction"}',
+  start_dttm DATETIME COMMENT '{"description": "Date and time the team member signed in to, or was assigned to, the patient’s care team. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
+  stop_dttm DATETIME COMMENT '{"description": "Date and time the team member signed out of, or was assigned off, the patient’s care team. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}'
+);
+
+-- -----------------------------------------------------
+-- Table: provider_type
+-- -----------------------------------------------------
+CREATE TABLE provider_type (
+  provider_id VARCHAR COMMENT '{"description": "Unique identifier for each provider. One row per provider. Within a dataset, the same provider must keep the same ID across all hospitalizations and the full date range.", "permissible": "No restriction"}',
+  provider_type_name VARCHAR COMMENT '{"description": "The original string describing the type of provider from the source EHR (e.g., Registered Nurse, Attending Physician)", "permissible": "No restriction"}',
+  provider_type_category VARCHAR COMMENT '{"description": "Maps provider_type_name to a list of standardized provider types", "permissible": "Under development"}'
 );
 
 -- -----------------------------------------------------
@@ -494,12 +502,12 @@ CREATE TABLE clinical_trial (
 -- -----------------------------------------------------
 CREATE TABLE clinical_notes_facts (
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter.", "permissible": "No restriction"}',
-  author_id VARCHAR COMMENT '{"description": "Unique identifier for the authoring provider.", "permissible": "No restriction"}',
+  author_id VARCHAR COMMENT '{"description": "Unique identifier for the authoring provider. Within a dataset, the same provider must keep the same ID across all hospitalizations and the full date range.", "permissible": "No restriction"}',
   note_id VARCHAR COMMENT '{"description": "Source note identifier from the EHR system.", "permissible": "No restriction"}',
   note_type VARCHAR COMMENT '{"description": "Note type code from the source data (e.g., Progress Note, Discharge Summary, H&P).", "permissible": "No restriction"}',
   note_type_category VARCHAR COMMENT '{"description": "Maps note_type to a standardized list of note type categories.", "permissible": "[h_and_p_note, progress_note, consult_note, procedure_note, discharge_summary, transfer_note, therapy_note, nutrition_note, pharmacy_note, nursing_note, case_management_note, death_pronouncement, patient_instructions](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/clinical_notes_facts/clif_clinical_notes_facts_note_type_categories.csv)"}',
   note_status VARCHAR COMMENT '{"description": "Status of the note at the time of this revision (e.g., signed, addendum, incomplete, co-signed).", "permissible": "No restriction"}',
-  cosigner_id VARCHAR COMMENT '{"description": "Unique identifier for the co-signing provider, if applicable (e.g., Attending co-signing a resident note).", "permissible": "No restriction"}',
+  cosigner_id VARCHAR COMMENT '{"description": "Unique identifier for the co-signing provider, if applicable (e.g., Attending co-signing a resident note). Within a dataset, the same provider must keep the same ID across all hospitalizations and the full date range.", "permissible": "No restriction"}',
   cosigner_specialty VARCHAR COMMENT '{"description": "Specialty of the co-signing provider, if applicable (e.g., Attending co-signing a resident note).", "permissible": "No restriction"}',
   note_author_specialty VARCHAR COMMENT '{"description": "Specialty of the note author (e.g., Critical Care, Infectious Diseases, Physical Therapy). Useful for distinguishing note provenance such as PT/OT notes from physician notes.", "permissible": "No restriction"}',
   revision_id VARCHAR COMMENT '{"description": "Unique revision identifier, rank-ordered per (hospitalization_id, note_id) by revision_dttm.", "permissible": "No restriction"}',
@@ -519,7 +527,7 @@ CREATE TABLE validated_diagnosis (
   diagnosis_end_dttm DATETIME COMMENT '{"description": "Date and time when the diagnosis was resolved or deemed no longer active (optional).", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
   validation_method VARCHAR COMMENT '{"description": "Method of clinician validation used for this label.", "permissible": "manual_chart_review, consensus_panel, automated_with_review"}',
   diagnosis_status VARCHAR COMMENT '{"description": "Final reviewer determination.", "permissible": "confirmed, ruled_out, uncertain"}',
-  reviewer_id VARCHAR COMMENT '{"description": "Anonymized ID of the clinician or reviewer responsible for this label.", "permissible": "No restriction"}',
+  reviewer_id VARCHAR COMMENT '{"description": "Anonymized ID of the clinician or reviewer responsible for this label. Within a dataset, the same provider must keep the same ID across all hospitalizations and the full date range.", "permissible": "No restriction"}',
   review_timestamp DATETIME COMMENT '{"description": "Time when the label was finalized or adjudicated.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}'
 );
 
@@ -529,7 +537,7 @@ CREATE TABLE validated_diagnosis (
 CREATE TABLE model_registry (
   model_id VARCHAR COMMENT '{"description": "Unique identifier for a scoring model. Site-assigned. Primary key referenced by scores.model_id.", "permissible": "No restriction"}',
   model_name VARCHAR COMMENT '{"description": "Raw model name as it appears in the source EHR system, e.g. \"IP Deterioration Index\".", "permissible": "No restriction"}',
-  model_category VARCHAR COMMENT '{"description": "Maps model_name to a standardized CLIF controlled vocabulary entry in vendor_modelname snake_case form. See mCIDE/model_registry/clif_model_registry_model_categories.csv for definitions and example raw model names.", "permissible": "epic_deterioration_index, epic_sepsis_model, epic_fall_risk"}',
+  model_category VARCHAR COMMENT '{"description": "Maps model_name to a standardized CLIF controlled vocabulary entry in vendor_modelname snake_case form (e.g., epic_deterioration_index, epic_sepsis_model, epic_fall_risk). Official threshold tiers (where applicable) are documented as remarks in this mCIDE list rather than as columns.", "permissible": "[epic_deterioration_index, epic_sepsis_model, epic_fall_risk](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/model_registry/clif_model_registry_model_categories.csv)"}',
   model_version VARCHAR COMMENT '{"description": "Vendor- or site-assigned version string for the model deployment, e.g. \"0.0.2\".", "permissible": "No restriction"}',
   release_date DATE COMMENT '{"description": "Date the model version was first deployed at the site (optional / nullable).", "permissible": "Date format YYYY-MM-DD"}',
   is_live BOOLEAN COMMENT '{"description": "Whether this model version is currently firing live alerts to clinicians at the site (TRUE) or running silently / shadow-mode (FALSE). Sites should retain historical rows for retired versions and flag the active deployment.", "permissible": "TRUE or FALSE"}'
@@ -542,26 +550,38 @@ CREATE TABLE scores (
   model_id VARCHAR COMMENT '{"description": "Foreign key to model_registry.model_id identifying which scoring model produced this row.", "permissible": "No restriction"}',
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter.", "permissible": "No restriction"}',
   recorded_dttm DATETIME COMMENT '{"description": "Date and time the score was recorded. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
-  score_value DOUBLE COMMENT '{"description": "Numeric score value emitted by the model at recorded_dttm. Threshold-based alert categories (e.g., yellow/red) are not stored on this row -- consumers derive them per project from configuration.", "permissible": "Numeric"}',
+  score_value DOUBLE COMMENT '{"description": "Numeric score value emitted by the model at recorded_dttm. Threshold-based alert categories (e.g., yellow/red) are not stored on this row -- consumers derive them per project from configuration or from mCIDE remarks on the model_category.", "permissible": "Numeric"}',
   FOREIGN KEY (model_id) REFERENCES model_registry(model_id),
   FOREIGN KEY (hospitalization_id) REFERENCES hospitalization(hospitalization_id)
 );
 
 -- -----------------------------------------------------
--- Table: radiology
+-- Table: chest_xray
 -- -----------------------------------------------------
-CREATE TABLE radiology (
-  patient_id VARCHAR COMMENT '{"description": "Unique identifier for each patient. Foreign key to patient.patient_id.", "permissible": "No restriction"}',
-  radiology_accession VARCHAR COMMENT '{"description": "Accession number for the radiology study. Unique per study within a site.", "permissible": "No restriction"}',
-  radiology_order_dttm DATETIME COMMENT '{"description": "Date and time the radiology study was ordered. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
-  radiology_capture_dttm DATETIME COMMENT '{"description": "Date and time the images were acquired. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
-  radiology_report_dttm DATETIME COMMENT '{"description": "Date and time the final radiology report was signed. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
-  radiology_order_name VARCHAR COMMENT '{"description": "Source-system exam name as ordered (e.g., CT CHEST W CONTRAST).", "permissible": "No restriction"}',
-  radiology_modality_category VARCHAR COMMENT '{"description": "Imaging modality. Maps source-system modality codes to a standardized list.", "permissible": "[List of radiology modality categories in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/radiology/clif_radiology_modality_categories.csv)"}',
-  radiology_region_category VARCHAR COMMENT '{"description": "Anatomic region imaged. Maps order-name fragments to a standardized list.", "permissible": "[List of radiology region categories in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/radiology/clif_radiology_region_categories.csv)"}',
-  iv_contrast_category VARCHAR COMMENT '{"description": "IV contrast administration status for the study.", "permissible": "[List of IV contrast categories in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/radiology/clif_radiology_iv_contrast_categories.csv)"}',
-  radiology_location_category VARCHAR COMMENT '{"description": "Where the study was performed (department vs portable/bedside).", "permissible": "[List of radiology location categories in CLIF](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/radiology/clif_radiology_location_categories.csv)"}',
-  radiology_report_text VARCHAR COMMENT '{"description": "Final radiology report narrative text.", "permissible": "No restriction"}',
+CREATE TABLE chest_xray (
+  patient_id VARCHAR COMMENT '{"description": "Unique identifier for each patient. Foreign key to patient.patient_id. Images are linked to the EHR at the patient level.", "permissible": "No restriction"}',
+  source_dicom_path VARCHAR COMMENT '{"description": "Site-local path to the original DICOM file for this image, after PHI removal. Used to re-read pixel data and the full header on demand.", "permissible": "No restriction"}',
+  processed_image_path VARCHAR COMMENT '{"description": "Site-local path to the processed image (JPEG) produced by the standardized CLIF preprocessing pipeline from source_dicom_path. Mirrors the DICOM folder structure.", "permissible": "No restriction"}',
+  accession VARCHAR COMMENT '{"description": "Accession number for the chest x-ray study. Unique per study within a site and repeated on every image row that belongs to the study.", "permissible": "No restriction"}',
+  order_dttm DATETIME COMMENT '{"description": "Date and time the chest x-ray study was ordered. Study-level, repeated on every image row. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
+  series_dttm DATETIME COMMENT '{"description": "Date and time the series this image belongs to started, from the DICOM Series Date (0008,0021) and Series Time (0008,0031). Series-level, repeated on every image row in the series. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
+  acquisition_dttm DATETIME COMMENT '{"description": "Date and time this image was acquired, from the DICOM Acquisition Date (0008,0022) and Acquisition Time (0008,0032). Per image. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
+  capture_dttm DATETIME COMMENT '{"description": "Date and time the study started, from the DICOM Study Date (0008,0020) and Study Time (0008,0030). Study-level, repeated on every image row. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
+  report_dttm DATETIME COMMENT '{"description": "Date and time the final radiology report was signed. Study-level, repeated on every image row. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
+  series_description VARCHAR COMMENT '{"description": "Raw DICOM Series Description (0008,103E) for the series this image belongs to (e.g., CHEST AP PORTABLE). Free text, not standardized for now.", "permissible": "No restriction"}',
+  image_type VARCHAR COMMENT '{"description": "Raw DICOM Image Type (0008,0008) for this image. A multi-valued field whose values include ORIGINAL or DERIVED and PRIMARY or SECONDARY (e.g., ORIGINAL and PRIMARY for a direct acquisition). Stored as recorded in the header, not standardized for now.", "permissible": "No restriction"}',
+  view_position VARCHAR COMMENT '{"description": "Raw DICOM View Position (0018,5101) for this image, the radiographic view relative to the patient (e.g., AP, PA, LL). Stored as recorded in the header, not standardized for now.", "permissible": "No restriction"}',
+  patient_orientation VARCHAR COMMENT '{"description": "Raw DICOM Patient Orientation (0020,0020) for this image, the patient direction of the image rows and columns (e.g., L and F, meaning rows run toward the patient left and columns toward the feet). Stored as recorded in the header, not standardized for now.", "permissible": "No restriction"}',
+  modality_name VARCHAR COMMENT '{"description": "Source modality value exactly as recorded in the DICOM Modality tag (0008,0060), e.g., DX or CR. Mapped to modality_category.", "permissible": "No restriction"}',
+  modality_category VARCHAR COMMENT '{"description": "Imaging modality. Maps modality_name to a standardized list. Always xr for this table, kept for consistency with a future general imaging table.", "permissible": "xr"}',
+  region_name VARCHAR COMMENT '{"description": "Source value for the anatomic region imaged, exactly as recorded at the site (e.g., the DICOM Body Part Examined tag (0018,0015), CHEST). Mapped to region_category.", "permissible": "No restriction"}',
+  region_category VARCHAR COMMENT '{"description": "Anatomic region imaged. Maps region_name to a standardized list. Always chest for this table, kept for consistency with a future general imaging table.", "permissible": "chest"}',
+  study_location_name VARCHAR COMMENT '{"description": "Source value for where the study was performed, exactly as recorded at the site (e.g., PORTABLE XR MICU). Mapped to study_location_category.", "permissible": "No restriction"}',
+  study_location_category VARCHAR COMMENT '{"description": "Where the study was performed. Maps study_location_name to a standardized list. Category values are not defined yet.", "permissible": "WIP"}',
+  requesting_type VARCHAR COMMENT '{"description": "Source value for the type of unit or service that requested the study, exactly as recorded at the site (e.g., EU, OR, ICU). Study-level, repeated on every image row. Not standardized for now.", "permissible": "No restriction"}',
+  manufacturer VARCHAR COMMENT '{"description": "Manufacturer of the equipment that acquired the image, from the DICOM Manufacturer tag (0008,0070).", "permissible": "No restriction"}',
+  model_name VARCHAR COMMENT '{"description": "Manufacturer model name of the equipment that acquired the image, from the DICOM Manufacturer Model Name tag (0008,1090).", "permissible": "No restriction"}',
+  report_text VARCHAR COMMENT '{"description": "Final radiology report narrative text. Study-level, repeated on every image row.", "permissible": "No restriction"}',
   FOREIGN KEY (patient_id) REFERENCES patient(patient_id)
 );
 
@@ -598,7 +618,8 @@ CREATE TABLE airway (
   airway_id VARCHAR COMMENT '{"description": "Per-event identifier for the airway placement. Together with hospitalization_id, forms the composite key. Maps to the Epic LDA ID where applicable.", "permissible": "No restriction"}',
   placed_dttm DATETIME COMMENT '{"description": "Date and time the airway was placed. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
   removed_dttm DATETIME COMMENT '{"description": "Date and time the airway was removed, NULL if still in place. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
-  airway_category VARCHAR COMMENT '{"description": "Standardized airway type.", "permissible": "[ett, trach, npa, opa, sga](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/airway/clif_airway_categories.csv)"}',
+  airway_name VARCHAR COMMENT '{"description": "Name of the airway device as recorded in the source EHR (e.g., ENDOTRACHEAL TUBE, LMA). This field is used to store the source value and is not used for analysis. Mapped to airway_category.", "permissible": "No restriction"}',
+  airway_category VARCHAR COMMENT '{"description": "Maps airway_name to a standardized list of airway types.", "permissible": "[ett, trach, npa, opa, sga](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/airway/clif_airway_categories.csv)"}',
   airway_size FLOAT COMMENT '{"description": "Size of the airway device (e.g., 6.0, 7.5).", "permissible": "Numeric"}',
   is_cuffed INT COMMENT '{"description": "Whether the airway is cuffed.", "permissible": "0, 1"}'
 );
