@@ -28,32 +28,21 @@ CREATE TABLE code_status(
 );
 
 -- -----------------------------------------------------
--- Table: crrt_therapy
+-- Table: renal_replacement_therapy
 -- -----------------------------------------------------
-CREATE TABLE crrt_therapy (
+CREATE TABLE renal_replacement_therapy (
   hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter", "permissible": "No restriction"}',
   device_id VARCHAR COMMENT '{"description": "Unique ID of the individual dialysis machine used (e.g., machine ACZ3RV91). Distinct from dialysis_machine_name, which stores the brand/model.", "permissible": "No restriction"}',
-  recorded_dttm DATETIME COMMENT '{"description": "Timestamp when CRRT parameters were recorded", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
-  crrt_mode_name VARCHAR COMMENT '{"description": "Name of CRRT mode (e.g., CVVHDF)", "permissible": "No restriction"}',
-  crrt_mode_category VARCHAR COMMENT '{"description": "Standardized CRRT mode categories", "permissible": "[scuf, cvvh, cvvhd, cvvhdf, avvh](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/crrt_therapy/clif_crrt_therapy_mode_categories.csv)"}',
   dialysis_machine_name VARCHAR COMMENT '{"description": "Brand name for the dialysis machine", "permissible": "No restriction"}',
-  blood_flow_rate FLOAT COMMENT '{"description": "Rate of blood flow through the CRRT circuit (mL/min)", "permissible": "[150-350](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_crrt_modes.csv)"}',
-  pre_filter_replacement_fluid_rate FLOAT COMMENT '{"description": "Rate of pre-filter replacement fluid infusion (mL/hr)", "permissible": "[0-10000](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_crrt_modes.csv)"}',
-  post_filter_replacement_fluid_rate FLOAT COMMENT '{"description": "Rate of post-filter replacement fluid infusion (mL/hr)", "permissible": "[0-10000](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_crrt_modes.csv)"}',
-  dialysate_flow_rate FLOAT COMMENT '{"description": "Flow rate of dialysate solution (mL/hr)", "permissible": "[0-10000](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_crrt_modes.csv)"}',
-  ultrafiltration_out FLOAT COMMENT '{"description": "Net ultrafiltration output (mL/hr)", "permissible": "[0-500](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/main/outlier-handling/outlier_thresholds_crrt_modes.csv)"}'
-);
-
--- -----------------------------------------------------
--- Table: intermittent_dialysis
--- -----------------------------------------------------
-CREATE TABLE intermittent_dialysis (
-  hospitalization_id VARCHAR COMMENT '{"description": "ID variable for each patient encounter", "permissible": "No restriction"}',
-  device_id VARCHAR COMMENT '{"description": "Unique ID of the individual physical device used.", "permissible": "No restriction"}',
-  recorded_dttm DATETIME COMMENT '{"description": "Timestamp of the recorded measurement during the dialysis session. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
-  blood_flow_rate FLOAT COMMENT '{"description": "Blood flow rate in mL/min. The first recorded value can indicate session start time.", "permissible": "Numeric values in mL/min"}',
-  dialysate_flow_rate FLOAT COMMENT '{"description": "Dialysate flow rate in mL/min.", "permissible": "Numeric values in mL/min"}',
-  net_ultrafiltration_out FLOAT COMMENT '{"description": "Net ultrafiltration output in mL.", "permissible": "Numeric values in mL"}',
+  recorded_dttm DATETIME COMMENT '{"description": "Timestamp when the RRT parameter was recorded", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
+  mode_name VARCHAR COMMENT '{"description": "Name of the RRT mode (e.g., CVVHDF, SLED, HD)", "permissible": "No restriction"}',
+  mode_category VARCHAR COMMENT '{"description": "Standardized RRT mode category: CRRT sub-modes plus intermittent HD", "permissible": "[scuf, cvvh, cvvhd, cvvhdf, avvh, ihd, iuf](https://github.com/Common-Longitudinal-ICU-data-Format/CLIF/blob/3.0/mCIDE/renal_replacement_therapy/clif_renal_replacement_therapy_mode_categories.csv)"}',
+  blood_flow_rate FLOAT COMMENT '{"description": "Rate of blood flow through the circuit. Canonical unit: mL/min (same in CRRT and IHD)", "permissible": "100-600"}',
+  pre_filter_replacement_fluid_rate FLOAT COMMENT '{"description": "Rate of pre-filter replacement fluid infusion (mL/hr). CRRT modes only, null for IHD", "permissible": "0-10000"}',
+  post_filter_replacement_fluid_rate FLOAT COMMENT '{"description": "Rate of post-filter replacement fluid infusion (mL/hr). CRRT modes only, null for IHD", "permissible": "0-10000"}',
+  dialysate_flow_rate FLOAT COMMENT '{"description": "Flow rate of dialysate solution. Canonical unit: mL/hr. IHD stored after converting mL/min x 60", "permissible": "0-70000"}',
+  potassium_bath INT COMMENT '{"description": "Potassium concentration of the dialysate bath (mEq/L)", "permissible": "0-4"}',
+  calcium_bath FLOAT COMMENT '{"description": "Calcium concentration of the dialysate bath (mEq/L)", "permissible": "0-4"}',
   FOREIGN KEY (hospitalization_id) REFERENCES hospitalization(hospitalization_id)
 );
 
