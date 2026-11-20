@@ -1,7 +1,7 @@
 output_category,description,output_category_examples,output_group
 biliary_drain,Drain placed into the biliary system (e.g. percutaneous cholecystostomy),,drains
 blood_loss,Documented direct venous/arterial blood loss from a surgery. This is distinct from GI bleeding or bleeding from a drain.,,blood_loss
-chest_tube_durable,"Includes longerm, durable pleural catheters (e.g. PleurX)",,drains
+chest_tube_durable,"Includes long-term, durable pleural catheters (e.g. PleurX)",,drains
 chest_tube_temporary,Small- or large-bore chest tube draining the pleural space. Does not include tunneled/indwelling catheters,,drains
 colostomy,GI output from a colostomy,,gi
 emesis,Quantified upper GI output directly from the patient's mouth,,gi
@@ -15,7 +15,7 @@ jejunostomy,GI output from a jejunostomy,,gi
 lumbar_csf_drain,Cerebrospinal fluid drained via lumbar catheter,,cns
 nephrostomy,Urine output obtained via nephrostomy tube,,urine
 orogastric_nasogastric_tube,GI output from a nasogastric or orogastric tube,,gi
-orogjejunal_nasojejunal_tube,GI output from a nasojejunal or orojejunal tube,,gi
+orojejunal_nasojejunal_tube,GI output from a nasojejunal or orojejunal tube,,gi
 other,Any additional fluid output not captured by the above,,other
 other_cns_drain,CNS-related drainage not clearly ventricular or lumbar,,cns
 other_procedure,Fluid removed in a single procedure without an indwelling drain,,procedure
@@ -28,7 +28,7 @@ procedural_drain_other,Drain placed into other body cavity (e.g. JP drain in a a
 rectal_tube,GI output from a fecal management system to quantify stool via a rectal tube,,gi
 respiratory,"Quantified respiratory system output (e.g. hemoptysis, epistaxis)",,respiratory
 stool,Quantified stool output directly from the patient,,gi
-suprapubic_catheter,Urine output obtained via surgically inplanted suprapubic catheter,,urine
+suprapubic_catheter,Urine output obtained via surgically implanted suprapubic catheter,,urine
 thoracentesis,Fluid removed from the pleural space via thoracentesis,,procedure
 ultrafiltration,Net ultrafiltration from dialysis via ultrafiltration. Do not include removal of replacement fluid in CVVH or CVVHDF as this should be accounted for already.,,ultrafiltration
 urethral,Urine output flowing through urethra,,urine

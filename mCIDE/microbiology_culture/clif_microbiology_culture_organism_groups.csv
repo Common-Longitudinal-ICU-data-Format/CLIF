@@ -1,5 +1,5 @@
 organism_group,description
-acinetobacter,"Acinetobacter (baumanii, calcoaceticus, lwoffi, other species)"
+acinetobacter,"Acinetobacter (baumannii, calcoaceticus, lwoffii, other species)"
 adenovirus,Adenovirus
 agrobacterium_radiobacter,Agrobacterium radiobacter
 alcaligenes_xylosoxidans,Alcaligenes xylosoxidans
@@ -11,9 +11,9 @@ aspergillus_fumigatus,Aspergillus Fumigatus
 aspergillus_niger,Aspergillus Niger
 bacillus,"Bacillus (cereus, other species)"
 bacteria_other,Other Bacteria
-bacteroides,"Bacteroides (gracillis, uniformis, vulgaris, other species)"
+bacteroides,"Bacteroides (gracilis, uniformis, vulgaris, other species)"
 borrelia,Borrelia (Lyme Disease)
-branhamelia_moraxella_catarrhalis,Branhamelia or Moraxella catarrhalis (other species)
+branhamelia_moraxella_catarrhalis,Branhamella or Moraxella catarrhalis (other species)
 campylobacter,Campylobacter (all species)
 candida_albicans,Candida Albicans
 candida_krusei,Candida Krusei
@@ -24,12 +24,12 @@ chlamydia,Chlamydia
 citrobacter,"Citrobacter (freundii, other species)"
 clostridium_difficile,Clostridium difficile
 clostridium_wo_difficile,Clostridium (all species except difficile)
-corynebacterium,Corynebacterium (all non-diptheria species)
+corynebacterium,Corynebacterium (all non-diphtheria species)
 coxiella,Coxiella
 cryptococcus,Cryptococcus Species
 cryptosporidium,Cryptosporidium
 cytomegalovirus,Cytomegalovirus (CMV)
-echinoco_ocalcyst,Echinoco ocalcyst
+echinoco_ocalcyst,Echinococcal cyst
 enterobacter,Enterobacter
 enterococcus,Enterococcus (all species)
 enterovirus,"Enterovirus (Coxsackie, Echo, Polio)"
@@ -67,7 +67,7 @@ methylobacterium,Methylobacterium
 micrococcus,Micrococcus (NOS)
 mucormycosis_zygomycetes_rhizopus,"Mucormycosis (Zygomycetes, Rhizopus)"
 mumps,Mumps
-mycobacteria_avium_bovium_haemophilum_intercelluare,"Mycobacteria (avium, bovium, haemophilum, intercellulare)"
+mycobacteria_avium_bovium_haemophilum_intercelluare,"Mycobacteria (avium, bovis, haemophilum, intracellulare)"
 mycobacterium_other,Other Mycobacterium
 mycoplasma,Mycoplasma
 neisseria,"Neisseria (gonorrhoea, meningitidis, other species)"
@@ -79,7 +79,7 @@ parainfluenza,Parainfluenza
 pharyngeal_respiratory_flora,Pharyngeal/Respiratory Flora
 pneumocystis,Pneumocystis (PCP)
 polyomavirus,Polyomavirus
-propionbacterium,"Propionbacterium (acnes, avidum, granulosum, other species)"
+propionbacterium,"Propionibacterium (acnes, avidum, granulosum, other species)"
 protozoal_other,Other Protozoal (parasite)
 pseudomonas_burkholderia_cepacia,Pseudomonas or Burkholderia cepacia
 pseudomonas_stenotrophomonas_xanthomonas_maltophilia,Pseudomonas or Stenotrophomonas or Xanthomonas maltophilia
@@ -96,7 +96,7 @@ shigella,Shigella
 staphylococcus_coag_neg,Staphylococcus (coag-)
 staphylococcus_coag_pos,Staphylococcus (coag +)
 staphylococcus_nos,Staphylococcus (NOS)
-stomatococcus_mucilaginosis,Stomatococcus mucilaginosis
+stomatococcus_mucilaginosis,Stomatococcus mucilaginosus
 streptococcus,Streptococcus (all species except Enterococcus)
 torulopsis_galbrata,Torulopsis Glabrata (a subspecies of Candida)
 toxoplasma,Toxoplasma

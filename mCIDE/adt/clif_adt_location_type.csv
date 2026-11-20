@@ -1,5 +1,5 @@
 location_type,description,location_name_examples
-general_icu,"No restrictions on patient type, ‘other’ Choose this if unsure about ICU type detailsDefault ICU label","ICU_1, ICU_Main, ICU_A"
+general_icu,"No restrictions on patient type, ‘other’. Choose this if unsure about ICU type details. Default ICU label","ICU_1, ICU_Main, ICU_A"
 cardiac_icu,"Critically ill patients with primary cardiac conditions (e.g. arrhythmias, heart failure, post-cardiac arrest)","CICU1, CardiacICU_A, CICU2"
 cardiothoracic_surgical_icu,"Post-cardiac surgical patients requiring intensive care (e.g. CABG, valve replacement), aka CTICU/CVICU/etc","CTICU_1, CVICU_Main, CVICU_1"
 mixed_cardiothoracic_icu,Patients with mixed medical and surgical cardiac conditions,"MixedCTICU1, CardioSurgICU_A, ICU0"

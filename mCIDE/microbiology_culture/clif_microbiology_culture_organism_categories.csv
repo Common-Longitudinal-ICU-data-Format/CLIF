@@ -1,6 +1,6 @@
 organism_category,description,organism_name_examples
 abiotrophia_defectiva,,abiotrophia defectiva
-achromobacter_sp,Achromobacter organism identified to the genus level only; species not further specified.,"few saccharomyces, few achromobacter"
+achromobacter_sp,Achromobacter organism identified to the genus level only; species not further specified.,few achromobacter
 achromobacter_xylosoxidans,,"many achromobacter xylosoxidans, few achromobacter xylosoxidans"
 acidaminococcus_sp,Acidaminococcus organism identified to the genus level only; species not further specified.,acidaminococcus
 acinetobacter_baumannii,Common misspellings: acinetobacter_baumanii.,
@@ -54,7 +54,7 @@ aspergillus_flavus,,"aspergillus flavus, moderate aspergillus flavus"
 aspergillus_fumigatus,,"aspergillus fumigatus, few aspergillus fumigatus"
 aspergillus_nidulans,,"aspergillus nidulans, few aspergillus nidulans"
 aspergillus_niger,,"aspergillus niger complex, few aspergillus niger complex"
-aspergillus_ochraceus,,"aspergillus ochraceus westerdijkiae, aspergillus ochraceous westerdijikiae"
+aspergillus_ochraceus,,aspergillus ochraceus westerdijkiae
 aspergillus_sp,Aspergillus organism identified to the genus level only; species not further specified.,"rare aspergillus, aspergillus species"
 aspergillus_sydowii,,"few aspergillus sydowii, rare aspergillus sydowii"
 aspergillus_terreus,,"few aspergillus terreus, rare aspergillus terreus"
@@ -111,7 +111,7 @@ candida_auris,,"moderate candida auris, 50,000 - 99,000 cfu/ml candida auris"
 candida_colliculosa,,"1,000 - 9,000 cfu/ml candida colliculosa, few candida colliculosa"
 candida_dubliniensis,,"candida dubliniensis, many candida dubliniensis"
 candida_famata,,candida famata
-candida_fermentati,,candida fermentat
+candida_fermentati,,candida fermentati
 candida_glabrata,,"'>100,000 cfu/ml candida glabrata, candida glabrata"
 candida_guilliermondii,,"moderate candida guilliermondii, few candida guilliermondii"
 candida_haemulonii,,rare candida haemulonii
@@ -193,7 +193,7 @@ curtobacterium_sp,Curtobacterium organism identified to the genus level only; sp
 curvularia_sp,Curvularia organism identified to the genus level only; species not further specified.,curvularia sp.
 cutibacterium_acnes,,"many cutibacterium acnes (formerly propionibacterium acnes), isolated from broth only cutibacterium acnes (formerly propionibacterium acnes)"
 cutibacterium_avidum,,"few cutibacterium avidum, moderate cutibacterium avidum"
-delftia_acidovorans,,delftia (comomonas) acidovorans
+delftia_acidovorans,,delftia (comamonas) acidovorans
 dematiaceous_sp,Dematiaceous organism identified to the genus level only; species not further specified.,dematiaceous fungus
 dermabacter_hominis,,"rare dermabacter hominis, dermabacter hominis"
 dermacoccus_nishinomiyaensis,,dermacoccus nishinomiyaensis
@@ -231,11 +231,11 @@ epicoccum_sp,Epicoccum organism identified to the genus level only; species not 
 erysipelothrix_rhusiopathiae,,erysipelothrix rhusiopathiae
 escherichia_coli,,"few escherichia coli, 1,000 - 10,000 cfu/ml multiple drug-resistant escherichia coli"
 escherichia_hermannii,,moderate escherichia hermannii
-escherichia_sp,Escherichia organism identified to the genus level only; species not further specified.,escherichia hermanii
+escherichia_sp,Escherichia organism identified to the genus level only; species not further specified.,escherichia hermannii
 eubacterium_callanderi,,eubacterium callanderi
 eubacterium_sp,Eubacterium organism identified to the genus level only; species not further specified.,"eubacterium species, eubacterium"
 ewingella_americana,,ewingella americana
-exiguobacterium_acetylicum,,"exiguibacterium acetylicum, exiguobacterium acetylicum"
+exiguobacterium_acetylicum,,exiguobacterium acetylicum
 exophiala_dermatitidis,,"exophiala dermatitidis., exophiala (wangiella) dermatitidis"
 facklamia_hominis,,facklamia hominis
 facklamia_sp,Facklamia organism identified to the genus level only; species not further specified.,"facklamia, facklamia species"
@@ -510,7 +510,7 @@ streptococcus_pneumoniae,,"streptococcus pneumoniae/ pseudopneumoniae, many stre
 streptococcus_pseudoporcinus,,few streptococcus pseudoporcinus
 streptococcus_pyogenes,Common misspellings: streptcoccus_pyogenes.,streptococcus pyogenes
 streptococcus_salivarius,,"rare streptococcus salivarius group, streptococcus salivarius"
-streptococcus_sanguinis,,"streptococcus sanguinis, streptococcus sanguinus group"
+streptococcus_sanguinis,,"streptococcus sanguinis, streptococcus sanguinis group"
 streptococcus_sp,Streptococcus organism identified to the genus level only; species not further specified.,streptococcus species
 streptococcus_viridans,,"moderate streptococcus viridans, moderate streptococcus viridans group"
 streptomyces_griseus,,streptomyces griseus
