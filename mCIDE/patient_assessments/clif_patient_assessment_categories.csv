@@ -3,6 +3,7 @@ am_pac,Total mobility score (Numerical),"Activity Measure for Post-Acute Care, A
 ams,Numeric score (Indicates activity/mobility status),"Activity Mobility Scale, Acute Mobility Score, AMS-ICU",mobility_or_activity
 apgar,Overall APGAR score (Score range: 0-10),"APGAR Score 1-minute, APGAR Score 5-minute, Newborn APGAR Assessment",neurological
 avpu,"Responsiveness level (Categorical: Alert, Voice, Pain, Unresponsive)","AVPU Scale, Neurological Quick Check, Level of Consciousness AVPU",neurological
+bmat,Mobility level (Numerical: 1-4),"Bedside Mobility Assessment Tool, BMAT Level, Banner Mobility Assessment Tool",mobility_or_activity
 bps,"Subcomponents: Facial expression, upper limbs, compliance with ventilation (Numerical/Text)","Behavioral Pain Scale, BPS-NI (Non-Intubated), Critical Care Pain Assessment",pain
 braden_activity,Component assessing patient's degree of physical activity,"Braden Scale - Activity, Physical Activity Level, Activity Mobility Component",nursing_risk
 braden_friction,Component assessing friction and shear risk,"Braden Scale - Friction/Shear, Skin Friction Assessment, Movement Friction Risk",nursing_risk
