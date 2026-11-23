@@ -292,14 +292,14 @@ morphine_ir,mg,"Opioid analgesic, oral immediate-release. Map parenteral doses (
 mosunetuzumab,mg,CD20-CD3 bispecific T-cell engager for follicular lymphoma,"MOSUNETUZUMAB 1-60 MG IV STEP-UP DOSING, LUNSUMIO IV INFUSION",antineoplastic
 moxifloxacin,mg,Fluoroquinolone antibiotic,"MOXIFLOXACIN 400 MG IV DAILY, MOXIFLOXACIN 400 MG PO DAILY",cms_sepsis_qualifying_antibiotics
 mycophenolate_mofetil,mg,Antimetabolite immunosuppressant (mofetil). Map delayed-release mycophenolic acid to mycophenolate_sodium,"MYCOPHENOLATE MOFETIL 1000 MG PO BID, CELLCEPT 1000 MG IV BID",immunosuppressant
-mycophenolate_sodium,mg,Antimetabolite immunosuppressant (delayed-release mycophenolic acid). Map mycophenolate mofetil to mycophenolate_mofetil,"MYCOPHENOLIC ACID DR 720 MG PO BID, MYFORTIC 360 MG PO BID",immunosuppressant
+mycophenolate_sodium,mg,Antimetabolite immunosuppressant (delayed-release mycophenolic acid). Map mycophenolate mofetil to mycophenolate_mofetil. ETL note: mycophenolic acid and mycophenolate sodium are the same drug; orders named mycophenolic acid map here,"MYCOPHENOLIC ACID DR 720 MG PO BID, MYFORTIC 360 MG PO BID",immunosuppressant
 n_acetylcysteine,mg,Acetaminophen overdose antidote (IV/PO) and inhaled mucolytic. Route via med_route_category,"ACETYLCYSTEINE 150 MG/KG IV LOAD, ACETADOTE IV, ACETYLCYSTEINE 20% 4 ML NEBULIZER",other
 nafcillin,g,Anti-staphylococcal penicillin for MSSA,"NAFCILLIN 2 GM IV Q4H, NAFCILLIN 1 GM IV Q4H",cms_sepsis_qualifying_antibiotics
 naloxone,mg,Opioid antagonist for reversal (intermittent dosing),"NALOXONE 0.4 MG IV/IM PRN OPIOID REVERSAL, NARCAN 0.4-2 MG IV PUSH",other
 neostigmine,mg,Acetylcholinesterase inhibitor,"NEOSTIGMINE, BLOXIVERZ",other
 nicardipine,mg,Calcium channel blocker for hypertension,"NICARDIPINE 20 MG PO TID, NICARDIPINE 0.5 MG IV PUSH",antihypertensive
 nifedipine_er,mg,"Dihydropyridine calcium channel blocker, oral extended-release, for hypertension","NIFEDIPINE ER 30 MG PO DAILY, PROCARDIA XL 60 MG PO DAILY",antihypertensive
-nifedipine_ir,mg,"Dihydropyridine calcium channel blocker, immediate-release (largely tocolysis or acute obstetric hypertension)","NIFEDIPINE 10 MG PO Q6H, NIFEDIPINE IR 10 MG PO X1",antihypertensive
+nifedipine_ir,mg,"Dihydropyridine calcium channel blocker, immediate-release (largely tocolysis or acute obstetric hypertension). ETL note: any nifedipine formulation other than extended-release maps here, including topical","NIFEDIPINE 10 MG PO Q6H, NIFEDIPINE IR 10 MG PO X1",antihypertensive
 nimodipine,mg,Dihydropyridine calcium channel blocker for aneurysmal SAH vasospasm prophylaxis,"NIMODIPINE 60 MG PO Q4H, NIMODIPINE 30 MG PER NG TUBE Q2H",other
 nirmatrelvir_ritonavir,mg,Oral SARS-CoV-2 protease inhibitor boosted with ritonavir for COVID-19. Combination product: map to this single category; do not split into components,"NIRMATRELVIR-RITONAVIR 300-100 MG PO BID X5 DAYS, PAXLOVID 150-100 MG PO BID",cms_sepsis_qualifying_antibiotics
 nitrofurantoin,mg,Antibiotic,"NITROFURANTOIN 100 MG PO Q12H, NITROFURANTOIN MACRO 100 MG PO Q12H",cms_sepsis_qualifying_antibiotics
