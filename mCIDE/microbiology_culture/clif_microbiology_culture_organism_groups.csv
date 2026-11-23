@@ -13,7 +13,7 @@ bacillus,"Bacillus (cereus, other species)"
 bacteria_other,Other Bacteria
 bacteroides,"Bacteroides (gracilis, uniformis, vulgaris, other species)"
 borrelia,Borrelia (Lyme Disease)
-branhamelia_moraxella_catarrhalis,Branhamella or Moraxella catarrhalis (other species)
+branhamella_moraxella_catarrhalis,Branhamella or Moraxella catarrhalis (other species)
 campylobacter,Campylobacter (all species)
 candida_albicans,Candida Albicans
 candida_krusei,Candida Krusei
@@ -29,7 +29,7 @@ coxiella,Coxiella
 cryptococcus,Cryptococcus Species
 cryptosporidium,Cryptosporidium
 cytomegalovirus,Cytomegalovirus (CMV)
-echinoco_ocalcyst,Echinococcal cyst
+echinococcal_cyst,Echinococcal cyst
 enterobacter,Enterobacter
 enterococcus,Enterococcus (all species)
 enterovirus,"Enterovirus (Coxsackie, Echo, Polio)"
@@ -79,7 +79,7 @@ parainfluenza,Parainfluenza
 pharyngeal_respiratory_flora,Pharyngeal/Respiratory Flora
 pneumocystis,Pneumocystis (PCP)
 polyomavirus,Polyomavirus
-propionbacterium,"Propionibacterium (acnes, avidum, granulosum, other species)"
+propionibacterium,"Propionibacterium (acnes, avidum, granulosum, other species)"
 protozoal_other,Other Protozoal (parasite)
 pseudomonas_burkholderia_cepacia,Pseudomonas or Burkholderia cepacia
 pseudomonas_stenotrophomonas_xanthomonas_maltophilia,Pseudomonas or Stenotrophomonas or Xanthomonas maltophilia
@@ -98,7 +98,7 @@ staphylococcus_coag_pos,Staphylococcus (coag +)
 staphylococcus_nos,Staphylococcus (NOS)
 stomatococcus_mucilaginosis,Stomatococcus mucilaginosus
 streptococcus,Streptococcus (all species except Enterococcus)
-torulopsis_galbrata,Torulopsis Glabrata (a subspecies of Candida)
+torulopsis_glabrata,Torulopsis Glabrata (a subspecies of Candida)
 toxoplasma,Toxoplasma
 treponema,Treponema (syphilis)
 trichomonas,Trichomonas (either vaginal or gingivitis)
