@@ -28,41 +28,7 @@ To develop a structured relational database, we initiated a comprehensive data c
 
 Each CLIF table has an assigned clinician who serves as the primary point of contact for any inquiries related to the schema or common data elements specific to that table.
 
-| Tables                       | Point of Contact                              | Email                                         | GitHub Username       |
-|------------------------------|-----------------------------------------------|-----------------------------------------------|-----------------------|
-| adt                          | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
-| clinical_notes_facts         |                                               |                                               |                       |
-| clinical_notes_text          |                                               |                                               |                       |
-| clinical_trial               |                                               |                                               |                       |
-| code_status                  | Nathan Mesfin, MD                             | mesfin@umn.edu                                | mesfi005              |
-| crrt_therapy                 | William Parker, MD                            | wparker@uchicago.edu                          | 08wparker             |
-| ecmo_mcs                     | Shan Guleria, MD                              | shan.guleria@uchicagomedicine.org             | shanguleria           |
-| hospital_diagnosis           |                                               |                                               |                       |
-| hospitalization              | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
-| input                        | Shan Guleria, MD                              | shan.guleria@uchicagomedicine.org             | shanguleria           |
-| intermittent_dialysis        | Jay Koyner, MD                                | jkoyner@uchicago.edu                          |                       |
-| invasive_hemodynamics        |                                               |                                               |                       |
-| key_icu_orders               |                                               |                                               |                       |
-| labs                         | Catherine Gao, MD                             | catherine.gao@northwestern.edu                | cloverbunny           |
-| medication_admin_continuous  | Chad Hochberg, MD                             | chochbe1@jh.edu                               | chochbe1              |
-| medication_admin_intermittent| Anna Barker, MD, PhD                          | baanna@med.umich.edu                          | baanna23              |
-| medication_orders            | Anna Barker, MD, PhD                          | baanna@med.umich.edu                          | baanna23              |
-| microbiology_culture         | Kevin Buell, MBBS                             | kevin.buell@uchicagomedicine.org              | kevingbuell           |
-| microbiology_nonculture      | Kevin Buell, MBBS                             | kevin.buell@uchicagomedicine.org              | kevingbuell           |
-| microbiology_susceptibility  | Kevin Buell, MBBS                             | kevin.buell@uchicagomedicine.org              | kevingbuell           |
-| output                       | Shan Guleria, MD                              | shan.guleria@uchicagomedicine.org             | shanguleria           |
-| patient                      | Pat Lyons, MD                                 | lyonspa@ohsu.edu                              | plyons                |
-| patient_assessments          | Snigdha Jain, MD                              | snigdha.jain@yale.edu                         | snigdhajainyale       |
-| patient_diagnosis            |                                               |                                               |                       |
-| patient_procedures           | J.C. Rojas, MD                                | juan_rojas@rush.edu                           | sajor2000             |
-| place_based_index            |                                               |                                               |                       |
-| position                     | Chad Hochberg, MD                             | chochbe1@jh.edu                               | chochbe1              |
-| provider                     | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
-| respiratory_support          | Nicholas Ingraham, MD                         | ingra107@umn.edu                              | ingra107              |
-| therapy_details              | William Parker, MD, PhD & Bhakti Patel, MD    | wparker@uchicago.edu; bpatel@bsd.uchicago.edu | 08wparker             |
-| transfusion                  |                                               |                                               |                       |
-| validated_diagnosis          |                                               |                                               |                       |
-| vitals                       | Catherine Gao, MD                             | catherine.gao@northwestern.edu                | cloverbunny           |
+The current POC assignments are listed on the [CLIF website](https://clif-icu.com/data-dictionary#table-poc).
 
 ## Data Architecture 
 
