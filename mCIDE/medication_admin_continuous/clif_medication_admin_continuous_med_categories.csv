@@ -47,7 +47,7 @@ milrinone,Phosphodiesterase inhibitor inotrope,"MILRINONE 40 MG/200 ML IV INFUSI
 morphine,Opiate analgesic,"MORPHINE 100 MG/100 ML IV INFUSION, MORPHINE 1-5 MG/HR IV PCA",sedation
 naloxone,Opioid antagonist for reversal,"NALOXONE 0.4 MG/100 ML IV INFUSION, NALOXONE 0.25-2 MCG/KG/HR IV",others
 nicardipine,Calcium channel blocker for hypertension,"NICARDIPINE 25 MG/250 ML IV INFUSION, NICARDIPINE 5-15 MG/HR IV",cardiac
-nitric_oxide,Inhaled pulmonary vasodilator,"NITRIC OXIDE 20 PPM INHALED CONTINUOUS, NITRIC OXIDE 5-40 PPM VENTILATOR", pulmonary vasodilators (inhaled)
+nitric_oxide,Inhaled pulmonary vasodilator,"NITRIC OXIDE 20 PPM INHALED CONTINUOUS, NITRIC OXIDE 5-40 PPM VENTILATOR",pulmonary vasodilators (inhaled)
 nitroglycerin,Nitrate vasodilator for angina and hypertension,"NITROGLYCERIN 50 MG/250 ML IV INFUSION, NITROGLYCERIN 5-200 MCG/MIN IV",cardiac
 nitroprusside,Arterial vasodilator for hypertensive emergency,"NITROPRUSSIDE 50 MG/250 ML IV INFUSION, NITROPRUSSIDE 0.3-10 MCG/KG/MIN IV",cardiac
 norepinephrine,Catecholamine for hemodynamic support,"NOREPINEPHRINE 16 MG/250 ML IV INFUSION, NOREPINEPHRINE 0.01-3 MCG/KG/MIN IV",vasoactives
