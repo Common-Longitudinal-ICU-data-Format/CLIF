@@ -513,7 +513,7 @@ CREATE TABLE clinical_notes_facts (
   revision_id VARCHAR COMMENT '{"description": "Unique revision identifier, rank-ordered per (hospitalization_id, note_id) by revision_dttm.", "permissible": "No restriction"}',
   creation_dttm DATETIME COMMENT '{"description": "Date and time when the note was first created. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
   revision_dttm DATETIME COMMENT '{"description": "Timestamp of this specific revision. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
-  service_date DATE COMMENT '{"description": "Date of service associated with this note. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}',
+  service_date DATE COMMENT '{"description": "Date of service associated with this note. All datetime variables must be timezone-aware and set to UTC.", "permissible": "Datetime format should be YYYY-MM-DD HH:MM:SS+00:00 (UTC)"}'
 );
 
 -- -----------------------------------------------------
