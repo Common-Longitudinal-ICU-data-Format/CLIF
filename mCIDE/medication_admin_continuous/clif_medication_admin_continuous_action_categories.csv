@@ -1,4 +1,3 @@
-
 mar_action_category,description,mar_action_name_examples,mar_action_group
 dose_change,dose change for a continuous medication,"rate change, fv rate/dose change, rate/dose change w/ dual sign, rate change (transfusion), anesthesia volume adjustment, Partial Dose","administered"
 going,ongoing administration of a continuous medication (e.g. a bag change),"ed/periop/clinic infusing on admission/transfer, new syringe/cartridge, continue to inpatient floor, loading dose from bag, portable ambulatory infusion, next bag, patch in place, refill pump, new bag, Stop/Start, Bag Stopped/New Bag Started, Continue from Previous","administered"
