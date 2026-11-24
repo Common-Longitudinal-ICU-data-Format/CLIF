@@ -12,7 +12,7 @@ azithromycin,antibiotic,Azithromycin; Zithromax; Z-Pak; AZM
 aztreonam,antibiotic,Aztreonam; Azactam; Cayston; ATM
 baloxavir_marboxil,antiviral,Baloxavir; Xofluza; BAL
 bedaquiline,antibiotic,Bedaquiline; Sirturo; BDQ
-beta_lactams,antibiotic,Beta-lactam; Œ≤-lactam; Penicillins; Cephalosporins
+beta_lactams,antibiotic,Beta-lactam; β-lactam; Penicillins; Cephalosporins
 capreomycin,antibiotic,Capreomycin; Capastat; CAP
 caspofungin,antifungal,Caspofungin; Cancidas; CAS
 cefaclor,antibiotic,Cefaclor; Ceclor; CEC

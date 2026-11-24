@@ -3,4 +3,3 @@ given,administration of an intermittent medication,"given, given by other, push,
 not_given,documentation of not giving an ordered intermittent medication,"Missed, Refused, Canceled Entry","not_administered"
 bolus,intermittent administration of a medication that can be administered continuously. Can represent a 'bolus from the bag' on top of a continuous infusion,"bolus from bag","administered"
 other,"unable to map, should be very rare","","other"
-
